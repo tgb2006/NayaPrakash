@@ -17,8 +17,9 @@ class TestSankshiptOrchestrator(unittest.TestCase):
 
     def test_khanda_intro_prompt_generation(self):
         prompt = self.orchestrator.get_prompt_for_khanda_intro(1)
-        self.assertIn("ખંડ પરિચય આલેખ નિર્દેશ", prompt)
-        self.assertIn("૬૦૦ થી ૮૦૦ શબ્દો", prompt)
+        self.assertIn("ખંડ પરિચય", prompt)
+        self.assertIn("૯૦૦ થી ૧૧૫૦ શબ્દો", prompt)
+        self.assertIn("શ્વેતામ્બર", prompt)
         self.assertIn("नैगम नय", prompt)
 
 if __name__ == "__main__":
