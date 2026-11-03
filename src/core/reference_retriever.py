@@ -7,6 +7,8 @@ from pathlib import Path
 from typing import List, Dict, Any, Optional
 
 BOOK_DESCRIPTIONS = {
+    "1_2_3_4_5_decoded_full.txt": "नयचक्रप्रकाश / नयप्रकाश (मूल आधार ग्रंथ - 1_2_3_4_5_merged.pdf)",
+    "203_Nayas_List_From_Book.md": "203 नयों की प्रामाणिक सूची एवं लक्षण (नयप्रकाश आधार)",
     "Aalappaddhati_Acharya_Devasena.txt": "आलापपद्धति (आचार्य देवसेन) - नय एवं प्रमाण मूल लक्षण",
     "Nayavimshika_Acharya_Abhayshekharsuri.txt": "नयविंशिका (आचार्य अभयशेखरसूरिजी) - सप्त नय गंभीर विवेचन",
     "Panchadhyayi_Nayachakra_Original.txt": "पंचाध्यायी नयचक्र (पांडे राजमल्लजी) - निश्चय व व्यवहार नय",
@@ -103,7 +105,8 @@ class ReferenceRetriever:
         keywords: List[str],
         max_snippets: int = 4,
         book_filter: Optional[str] = None,
-        snippet_radius: int = 350
+        snippet_radius: int = 350,
+        exclude_filenames: Optional[List[str]] = None
     ) -> List[Dict[str, Any]]:
         """Searches across all reference files for keyword occurrences and returns contextual snippets."""
         if not keywords:
@@ -123,6 +126,8 @@ class ReferenceRetriever:
 
         # High priority classical books to search first
         priority_files = [
+            "1_2_3_4_5_decoded_full.txt",
+            "203_Nayas_List_From_Book.md",
             "Aalappaddhati_Acharya_Devasena.txt",
             "Nayavimshika_Acharya_Abhayshekharsuri.txt",
             "Panchadhyayi_Nayachakra_Original.txt",
@@ -141,6 +146,9 @@ class ReferenceRetriever:
         combined_pattern = re.compile("|".join(escaped_kws), re.IGNORECASE)
 
         for f in sorted_files:
+            if exclude_filenames and f.name in exclude_filenames:
+                continue
+
             if book_filter and book_filter.lower() not in f.name.lower():
                 continue
 
@@ -188,9 +196,29 @@ class ReferenceRetriever:
 
     def get_references_for_naya(self, naya_id: int, naya_name: str, khanda_id: int) -> List[Dict[str, Any]]:
         """Intelligently derives search terms based on Naya ID and name, then fetches relevant shastric text."""
-        terms = [naya_name]
+        results = []
 
-        # Extract core words
+        # 1. Primary: Extract exact entry from main reference book 1_2_3_4_5_merged.pdf
+        main_file = self.ref_dir / "1_2_3_4_5_decoded_full.txt"
+        if main_file.exists():
+            content = self.load_file_text(main_file)
+            pages = content.split("=== PAGE ")
+            list_text = "\n".join(pages[31:]) if len(pages) > 31 else content
+            pat = re.compile(rf"(?:^|\n)\s*0?{naya_id}\s*[\.\-]\s*([^\n]+(?:\n\s*[^\n\d=][^\n]+)*)", re.MULTILINE)
+            m_list = list(pat.finditer(list_text))
+            if m_list:
+                best = max(m_list, key=lambda m: len(m.group(1)))
+                snippet_text = re.sub(r"\s+", " ", best.group(1)).strip()
+                results.append({
+                    "book": "नयचक्रप्रकाश (मुख्य आधार ग्रंथ - 1_2_3_4_5_merged.pdf)",
+                    "filename": "1_2_3_4_5_merged.pdf",
+                    "score": 1000,
+                    "snippet": snippet_text,
+                    "match_term": f"नय {naya_id}"
+                })
+
+        # 2. Secondary: Search other classical references (Aalappaddhati, Nayavimshika, Panchadhyayi, etc.)
+        terms = [naya_name]
         cleaned_name = re.sub(r"नैगम|संग्रह|व्यवहार|ऋजुसूत्र|शब्द|समभिरूढ़|एवंभूत|नय", "", naya_name).strip()
         parts = [p.strip() for p in re.split(r"[\s\-_]+", cleaned_name) if len(p.strip()) > 2]
         terms.extend(parts)
@@ -208,8 +236,22 @@ class ReferenceRetriever:
         k_terms = khanda_terms_map.get(khanda_id, [])
         query_terms = list(dict.fromkeys(terms + k_terms))
 
-        snippets = self.search(keywords=query_terms, max_snippets=4)
-        return snippets
+        secondary_snippets = self.search(
+            keywords=query_terms,
+            max_snippets=3,
+            book_filter=None,
+            exclude_filenames=[
+                "1_2_3_4_5_decoded_full.txt",
+                "203_Nayas_List_From_Book.md",
+                "decoded_203_nayas_clean.txt",
+                "decoded_203_nayas_raw.txt",
+                "bharati_mapping.json"
+            ]
+        )
+        for s in secondary_snippets:
+            results.append(s)
+
+        return results[:4]
 
     def format_reference_context_for_prompt(self, naya_id: int, naya_name: str, khanda_id: int) -> str:
         """Formats classical reference excerpts into a markdown section to inject into generation prompts."""

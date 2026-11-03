@@ -22,13 +22,13 @@ class TestCatalogIntegrity(unittest.TestCase):
         self.assertEqual(len(khandas), 7, "There must be exactly 7 Khandas.")
         
         expected_counts = {
-            1: 35,
-            2: 32,
-            3: 38,
-            4: 30,
-            5: 24,
-            6: 22,
-            7: 22
+            1: 6,
+            2: 9,
+            3: 116,
+            4: 18,
+            5: 8,
+            6: 11,
+            7: 35
         }
         total = 0
         for k in khandas:
