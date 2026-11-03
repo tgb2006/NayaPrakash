@@ -138,11 +138,16 @@ def cmd_register(args):
 
 def cmd_compile(args):
     compiler = BookCompiler()
-    print("\nपुस्तक संकलन प्रारंभ हो रहा है...")
-    master_path = compiler.compile_full_book()
-    print(f"✅ संपूर्ण ग्रंथ सफलतापूर्वक संकलित: {master_path}")
-    toc_path = compiler.generate_toc()
-    print(f"✅ विषय-सूची (TOC) अद्यतित: {toc_path}\n")
+    print("\nपुस्तक संकलन प्रारंभ हो रहा है (দ্বিभाषी संकलन / Bilingual Compilation)...")
+    master_path_hi = compiler.compile_full_book(lang="hi")
+    print(f"✅ संपूर्ण ग्रंथ (हिन्दी) संकलित: {master_path_hi}")
+    toc_path_hi = compiler.generate_toc(lang="hi")
+    print(f"✅ विषय-सूची (हिन्दी) अद्यतित: {toc_path_hi}")
+
+    master_path_gu = compiler.compile_full_book(lang="gu")
+    print(f"✅ સંપૂર્ણ ગ્રંથ (ગુજરાતી) સંકલિત: {master_path_gu}")
+    toc_path_gu = compiler.generate_toc(lang="gu")
+    print(f"✅ વિષય-સૂચિ (ગુજરાતી) અદ્યતન: {toc_path_gu}\n")
 
 def cmd_examples(args):
     reg = RegistryManager()
