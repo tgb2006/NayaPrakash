@@ -79,12 +79,12 @@ class ChapterValidator:
                 errors.append(f"अनिवार्य अनुभाग {sec_num} अनुपस्थित है।")
 
         # Word count checks
-        # Section 3: Min 450 words
+        # Section 3: Target ~1000 words (Min 450 words)
         sec_3_words = parsed.get(3, ("", "", 0))[2]
         sec_3_pass = sec_3_words >= 450
         word_reports["तार्किक विवेचन (सेक्शन 3)"] = SectionWordReport(
             section_name="तार्किक विवेचन",
-            expected_range="न्यूनतम 450 शब्द (लक्ष्य 500)",
+            expected_range="लगभग 1000 शब्द (न्यूनतम 450)",
             actual_words=sec_3_words,
             passed=sec_3_pass
         )
