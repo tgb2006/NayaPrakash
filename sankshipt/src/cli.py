@@ -16,7 +16,7 @@ def cmd_status(args):
     summary = reg.get_dashboard_summary()
 
     print("\n" + "=" * 68)
-    print(" 📖  નય પ્રકાશ (સંક્ષિપ્ત ૨-પેજ આવૃત્તિ) — પ્રગતિ સ્થિતિ (STATUS)")
+    print(" 📖  રસપાન — નયનું જ્ઞાન નિર્વાણનું પાન (સંક્ષિપ્ત ૨-પેજ આવૃત્તિ) — STATUS")
     print("=" * 68)
     print(f"  • કુલ નય (અધ્યાય):          {summary['total_nayas']}")
     print(f"  • પૂર્ણ અધ્યાય (Completed):   {summary['completed']}")
@@ -187,7 +187,7 @@ def cmd_search_refs(args):
     print()
 
 def main():
-    parser = argparse.ArgumentParser(description="નય પ્રકાશ સંક્ષિપ્ત ૨-પેજ A5 આવૃત્તિ CLI")
+    parser = argparse.ArgumentParser(description="રસપાન: નયનું જ્ઞાન નિર્વાણનું પાન (સંક્ષિપ્ત ૨-પેજ A5 આવૃત્તિ CLI)")
     subparsers = parser.add_subparsers(dest="command", help="ઉપલબ્ધ કમાન્ડ્સ")
 
     p_status = subparsers.add_parser("status", help="પ્રગતિ સ્થિતિ ડેશબોર્ડ")

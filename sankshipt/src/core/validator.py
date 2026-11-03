@@ -7,12 +7,10 @@ from src.models.review import ValidationReport, SectionWordReport
 
 SECTION_PATTERNS = [
     (1, r"^#{1,3}\s*(?:૧[\.\s\)]+|)(?:નય\s*વિવેચન|વિવેચન)(?:[:\s]|$)"),
-    (2, r"^#{1,3}\s*(?:૨[\.\s\)]+|)(?:વ્યવહારિક\s+જીવનમાં\s+(?:વિનિયોગ|ઉપયોગ)|જીવન-વ્યવહાર)(?:[:\s]|$)"),
-    (3, r"^(?:#{1,3}\s*(?:૩[\.\s\)]+|)(?:કાવ્યાત્મક\s+બોધસૂત્ર|બોધ-સૂત્ર|બોધસૂત્ર)(?:[:\s]|$)|>\s*(?:🌟\s*)?\*\*(?:કાવ્યાત્મક\s+)?બોધસૂત્ર\*\*)"),
-    (4, r"^#{1,3}\s*(?:૪[\.\s\)]+|)(?:સાધના-સંકેત|સાધના\s+સંકેત)(?:[:\s]|$)"),
-    (5, r"^#{1,3}\s*(?:૫[\.\s\)]+|)(?:પ્રસંગ|કથા)(?:[:\s]|$)"),
-    (6, r"^#{1,3}\s*(?:૬[\.\s\)]+|)(?:એકાંત\s+દર્શન|એકાંત)(?:[:\s]|$)"),
-    (7, r"^#{1,3}\s*(?:૭[\.\s\)]+|)(?:અનેકાંત\s+દર્શન|અનેકાંત)(?:[:\s]|$)"),
+    (2, r"^(?:#{1,3}\s*(?:૨[\.\s\)]+|)(?:કાવ્યાત્મક\s+બોધસૂત્ર|બોધ-સૂત્ર|બોધસૂત્ર)(?:[:\s]|$)|>\s*(?:🌟\s*)?\*\*(?:કાવ્યાત્મક\s+)?બોધસૂત્ર\*\*)"),
+    (3, r"^#{1,3}\s*(?:૩[\.\s\)]+|)(?:પ્રસંગ|કથા)(?:[:\s]|$)"),
+    (4, r"^#{1,3}\s*(?:૪[\.\s\)]+|)(?:એકાંત\s+દર્શન|એકાંત)(?:[:\s]|$)"),
+    (5, r"^#{1,3}\s*(?:૫[\.\s\)]+|)(?:અનેકાંત\s+દર્શન|અનેકાંત)(?:[:\s]|$)"),
 ]
 
 PROHIBITED_ETHICAL_PATTERNS = [
@@ -70,13 +68,11 @@ class ChapterValidator:
 
         # 1. Required section presence
         section_names = {
-            1: "નય વિવેચન (ડાબું પાનું - ૪૫%)",
-            2: "વ્યવહારિક જીવનમાં વિનિયોગ (ડાબું પાનું - ૪૫%)",
-            3: "કાવ્યાત્મક બોધસૂત્ર (ડાબું પાનું - કાવ્ય)",
-            4: "સાધના-સંકેત (ડાબું પાનું - ૧ લાઈન)",
-            5: "પ્રસંગ: પિપાસા અને પાન (જમણું પાનું - ૫૦-૬૦%)",
-            6: "એકાંત દર્શન (જમણું પાનું - ૨૦%)",
-            7: "અનેકાંત દર્શન (જમણું પાનું - ૨૦%)"
+            1: "નય વિવેચન (ડાબું પાનું - આબાલગોપાલ સુબોધ વિવેચન)",
+            2: "કાવ્યાત્મક બોધસૂત્ર (ડાબું પાનું - સ્વરૂપ + સાધના ૨ લીટી)",
+            3: "પ્રસંગ: પિપાસા અને પાન (જમણું પાનું - ૫૦-૬૦%)",
+            4: "એકાંત દર્શન (જમણું પાનું - ૨૦%)",
+            5: "અનેકાંત દર્શન (જમણું પાનું - ૨૦%)"
         }
 
         for sec_num, name in section_names.items():
@@ -85,49 +81,49 @@ class ChapterValidator:
                 errors.append(f"અનિવાર્ય વિભાગ ગેરહાજર છે: {name}")
 
         # Check sub-phases of Prasang: પિપાસા and પાન
-        if 5 in parsed:
-            prasang_body = parsed[5][1]
+        if 3 in parsed:
+            prasang_body = parsed[3][1]
             if not re.search(r"###\s*પિપાસા", prasang_body, re.IGNORECASE):
                 warnings.append("પ્રસંગમાં '### પિપાસા' પેટા-વિભાગ સ્પષ્ટ હોવો આવશ્યક છે.")
             if not re.search(r"###\s*પાન", prasang_body, re.IGNORECASE):
                 warnings.append("પ્રસંગમાં '### પાન' પેટા-વિભાગ સ્પષ્ટ હોવો આવશ્યક છે.")
 
-        # 2. Left Page words (Sections 1-4 combined: target ~240-330 words)
-        left_words = sum(parsed.get(i, ("", "", 0))[2] for i in [1, 2, 3, 4])
+        # 2. Left Page words (Sections 1-2 combined: target ~240-300 words)
+        left_words = sum(parsed.get(i, ("", "", 0))[2] for i in [1, 2])
         left_pass = (left_words >= 200 and left_words <= 360)
-        word_reports["ડાબું પાનું (વિવેચન, વ્યવહાર, કાવ્ય, સંકેત)"] = SectionWordReport(
+        word_reports["ડાબું પાનું (સંપૂર્ણ વિવેચન & કાવ્યાત્મક બોધસૂત્ર)"] = SectionWordReport(
             section_name="ડાબું પાનું",
-            expected_range="૨૪૦ થી ૩૩૦ શબ્દો (A5 પાનું ૧)",
+            expected_range="૨૩૦ થી ૩૨૦ શબ્દો (A5 પાનું ૧)",
             actual_words=left_words,
             passed=left_pass
         )
         if not left_pass and 1 in parsed:
             if left_words < 200:
-                warnings.append(f"ડાબા પાના પર માત્ર {left_words} શબ્દો છે (લક્ષ્ય ૨૪૦-૩૩૦).")
+                warnings.append(f"ડાબા પાના પર માત્ર {left_words} શબ્દો છે (લક્ષ્ય ૨૩૦-૩૨૦).")
             elif left_words > 360:
                 errors.append(f"ડાબા પાના પર {left_words} શબ્દો છે, જે A5 સાઇઝના ૧ પાનાની ક્ષમતા કરતાં વધારે છે (મહત્તમ ૩૫૦).")
 
-        # 3. Right Page words (Sections 5, 6, 7 combined: target ~250-350 words)
-        right_words = sum(parsed.get(i, ("", "", 0))[2] for i in [5, 6, 7])
-        right_pass = (right_words >= 220 and right_words <= 380)
+        # 3. Right Page words (Sections 3, 4, 5 combined: target ~250-320 words)
+        right_words = sum(parsed.get(i, ("", "", 0))[2] for i in [3, 4, 5])
+        right_pass = (right_words >= 220 and right_words <= 370)
         word_reports["જમણું પાનું (પ્રસંગ, એકાંત, અનેકાંત)"] = SectionWordReport(
             section_name="જમણું પાનું",
-            expected_range="૨૫૦ થી ૩૪૦ શબ્દો (A5 પાનું ૨)",
+            expected_range="૨૪૦ થી ૩૩૦ શબ્દો (A5 પાનું ૨)",
             actual_words=right_words,
             passed=right_pass
         )
-        if not right_pass and 5 in parsed:
+        if not right_pass and 3 in parsed:
             if right_words < 220:
-                warnings.append(f"જમણા પાના પર માત્ર {right_words} શબ્દો છે (લક્ષ્ય ૨૫૦-૩૪૦ શબ્દો).")
-            elif right_words > 380:
-                errors.append(f"જમણા પાના પર {right_words} શબ્દો છે, જે A5 સાઇઝના ૧ પાનામાં સમાઈ શકે નહીં (મહત્તમ ૩૬૦).")
+                warnings.append(f"જમણા પાના પર માત્ર {right_words} શબ્દો છે (લક્ષ્ય ૨૪૦-૩૩૦ શબ્દો).")
+            elif right_words > 370:
+                errors.append(f"જમણા પાના પર {right_words} શબ્દો છે, જે A5 સાઇઝના ૧ પાનામાં સમાઈ શકે નહીં (મહત્તમ ૩૫૦).")
 
-        # 4. Total Chapter Words (Target 500-660 words)
-        total_pass = (total_words >= 460 and total_words <= 700)
+        # 4. Total Chapter Words (Target 500-650 words)
+        total_pass = (total_words >= 460 and total_words <= 680)
         if total_words < 460:
             errors.append(f"પ્રકરણનું કુલ લખાણ {total_words} શબ્દોનું છે (ન્યૂનતમ ૪૬૦ શબ્દો અનિવાર્ય).")
-        elif total_words > 700:
-            errors.append(f"પ્રકરણનું કુલ લખાણ {total_words} શબ્દો છે, જે ૨ પાનાની મહત્તમ મર્યાદા (૬૭૦ શબ્દો) કરતાં વધારે છે.")
+        elif total_words > 680:
+            errors.append(f"પ્રકરણનું કુલ લખાણ {total_words} શબ્દો છે, જે ૨ પાનાની મહત્તમ મર્યાદા (૬૬૦ શબ્દો) કરતાં વધારે છે.")
 
         # 5. Ethical checks
         ahimsa_passed = True
@@ -156,13 +152,12 @@ class ChapterValidator:
         )
 
     def extract_novella(self, content: str) -> Optional[Dict[str, str]]:
-        """Extracts the story (Prasang: Pipasa & Paan) from Section 5 of chapter content."""
+        """Extracts the story (Prasang: Pipasa & Paan) from Section 3 of chapter content."""
         parsed = self.parse_sections(content)
-        if 5 not in parsed:
+        if 3 not in parsed:
             return None
 
-        title, body, word_count = parsed[5]
-        # Clean title from header
+        title, body, word_count = parsed[3]
         clean_title = re.sub(r"^#{1,3}\s*(?:પ્રસંગ\s*[:\-\.]*\s*)?", "", title).strip()
         if not clean_title:
             clean_title = "અધ્યાય પ્રસંગ (પિપાસા-પાન)"

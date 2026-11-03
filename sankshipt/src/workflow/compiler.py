@@ -16,10 +16,13 @@ class BookCompiler:
 
     def generate_toc(self) -> str:
         khandas = self.loader.get_khandas()
+        book_cfg = self.loader.get_book_config().get("book", {})
+        title = book_cfg.get("title", "રસપાન")
+        subtitle = book_cfg.get("subtitle", "નયનું જ્ઞાન નિર્વાણનું પાન")
         toc_lines = [
-            "# નય પ્રકાશ: વિષય-સૂચિ (સંક્ષિપ્ત ૨-પેજ A5 આવૃત્તિ)",
+            f"# {title}: વિષય-સૂચિ (સંક્ષિપ્ત ૨-પેજ A5 આવૃત્તિ)",
             "",
-            "> **સપ્ત મૂળ નયોના આલોકમાં ૨૦૩ નયોનું દર્શન, વ્યવહાર, સાધના અને નવલિકા સભર ૨-પેજ સંસ્કરણ**",
+            f"> **{subtitle}**",
             "",
             "---",
             ""
@@ -63,9 +66,12 @@ class BookCompiler:
 
     def compile_full_book(self) -> str:
         khandas = self.loader.get_khandas()
+        book_cfg = self.loader.get_book_config().get("book", {})
+        title = book_cfg.get("title", "રસપાન")
+        subtitle = book_cfg.get("subtitle", "નયનું જ્ઞાન નિર્વાણનું પાન")
         book_lines = [
-            "# નય પ્રકાશ: જૈન દર્શનના ૨૦૩ નયોનું સમગ્ર અનુશીલન",
-            "### સપ્ત મૂળ નયોના આલોકમાં ૨૦૩ નયોનું દર્શન, વ્યવહાર, સાધના અને નવલિકા સભર ૨-પેજ A5 સંસ્કરણ",
+            f"# {title}",
+            f"### {subtitle}",
             "",
             "---",
             "",
