@@ -1,0 +1,1864 @@
+{
+  "total_nayas": 203,
+  "completed_count": 3,
+  "pending_count": 200,
+  "khanda_progress": {
+    "1": {
+      "total": 35,
+      "completed": 3
+    },
+    "2": {
+      "total": 32,
+      "completed": 0
+    },
+    "3": {
+      "total": 38,
+      "completed": 0
+    },
+    "4": {
+      "total": 30,
+      "completed": 0
+    },
+    "5": {
+      "total": 24,
+      "completed": 0
+    },
+    "6": {
+      "total": 22,
+      "completed": 0
+    },
+    "7": {
+      "total": 22,
+      "completed": 0
+    }
+  },
+  "chapters_state": {
+    "1": {
+      "id": 1,
+      "name_hindi": "संकल्पग्राही नैगम नय",
+      "khanda_id": 1,
+      "status": "completed",
+      "file_path": "output\\khanda_1_naigam\\chapter_001_sankalpa_grahi_naigam_naya.md",
+      "word_count": 2593,
+      "validation_passed": true
+    },
+    "2": {
+      "id": 2,
+      "name_hindi": "सामान्य-विशेषोभयग्राही नैगम नय",
+      "khanda_id": 1,
+      "status": "completed",
+      "file_path": "output\\khanda_1_naigam\\chapter_002_samanya_vishesha_ubhayagrahi_naigam_naya.md",
+      "word_count": 2395,
+      "validation_passed": true
+    },
+    "3": {
+      "id": 3,
+      "name_hindi": "अनिष्पन्नकार्य नैगम नय",
+      "khanda_id": 1,
+      "status": "completed",
+      "file_path": "output\\khanda_1_naigam\\chapter_003_anispanna_karya_naigam_naya.md",
+      "word_count": 2484,
+      "validation_passed": true
+    },
+    "4": {
+      "id": 4,
+      "name_hindi": "देशग्राही नैगम नय",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "5": {
+      "id": 5,
+      "name_hindi": "सर्वग्राही नैगम नय",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "6": {
+      "id": 6,
+      "name_hindi": "अनागत-पर्यायग्राही नैगम नय",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "7": {
+      "id": 7,
+      "name_hindi": "भूत-पर्यायग्राही नैगम नय",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "8": {
+      "id": 8,
+      "name_hindi": "सामान्यमुख्य-विशेषगौण नैगम नय",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "9": {
+      "id": 9,
+      "name_hindi": "विशेषमुख्य-सामान्यगौण नैगम नय",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "10": {
+      "id": 10,
+      "name_hindi": "द्रव्य-नैगम नय",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "11": {
+      "id": 11,
+      "name_hindi": "पर्याय-नैगम नय",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "12": {
+      "id": 12,
+      "name_hindi": "शुद्ध-नैगम नय",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "13": {
+      "id": 13,
+      "name_hindi": "अशुद्ध-नैगम नय",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "14": {
+      "id": 14,
+      "name_hindi": "एकत्व-विषयक नैगम नय",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "15": {
+      "id": 15,
+      "name_hindi": "नानात्व-विषयक नैगम नय",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "16": {
+      "id": 16,
+      "name_hindi": "साधन-साध्य नैगम नय",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "17": {
+      "id": 17,
+      "name_hindi": "कारण-कार्य नैगम नय",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "18": {
+      "id": 18,
+      "name_hindi": "निमित्त-उपादान समन्वयी नैगम नय",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "19": {
+      "id": 19,
+      "name_hindi": "व्यावहारिक-संकल्प नैगम नय",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "20": {
+      "id": 20,
+      "name_hindi": "पारमार्थिक-संकल्प नैगम नय",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "21": {
+      "id": 21,
+      "name_hindi": "वर्तमानोन्मुख अनागत नैगम नय",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "22": {
+      "id": 22,
+      "name_hindi": "वर्तमानोन्मुख भूत नैगम नय",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "23": {
+      "id": 23,
+      "name_hindi": "एकांश-ग्राही नैगम नय",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "24": {
+      "id": 24,
+      "name_hindi": "सर्वांश-ग्राही नैगम नय",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "25": {
+      "id": 25,
+      "name_hindi": "सत्ता-नैगम नय",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "26": {
+      "id": 26,
+      "name_hindi": "द्रव्यत्व-नैगम नय",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "27": {
+      "id": 27,
+      "name_hindi": "गुण-नैगम नय",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "28": {
+      "id": 28,
+      "name_hindi": "अर्थक्रियाकारी नैगम नय",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "29": {
+      "id": 29,
+      "name_hindi": "मानसिक-संकल्प नैगम नय",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "30": {
+      "id": 30,
+      "name_hindi": "वाचिक-संकल्प नैगम नय",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "31": {
+      "id": 31,
+      "name_hindi": "कायिक-संकल्प नैगम नय",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "32": {
+      "id": 32,
+      "name_hindi": "उपाधि-युक्त नैगम नय",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "33": {
+      "id": 33,
+      "name_hindi": "निरुपाधि नैगम नय",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "34": {
+      "id": 34,
+      "name_hindi": "साध्य-संमुखी नैगम नय",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "35": {
+      "id": 35,
+      "name_hindi": "मोक्ष-संकल्प नैगम नय",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "36": {
+      "id": 36,
+      "name_hindi": "पर-संग्रह नय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "37": {
+      "id": 37,
+      "name_hindi": "अपर-संग्रह नय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "38": {
+      "id": 38,
+      "name_hindi": "शुद्ध-संग्रह नय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "39": {
+      "id": 39,
+      "name_hindi": "अशुद्ध-संग्रह नय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "40": {
+      "id": 40,
+      "name_hindi": "महासत्ता-संग्रह नय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "41": {
+      "id": 41,
+      "name_hindi": "अवान्तरसत्ता-संग्रह नय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "42": {
+      "id": 42,
+      "name_hindi": "षड्द्रव्य-संग्रह नय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "43": {
+      "id": 43,
+      "name_hindi": "जीवद्रव्य-संग्रह नय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "44": {
+      "id": 44,
+      "name_hindi": "अजीवद्रव्य-संग्रह नय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "45": {
+      "id": 45,
+      "name_hindi": "पुद्गलद्रव्य-संग्रह नय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "46": {
+      "id": 46,
+      "name_hindi": "धर्मद्रव्य-संग्रह नय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "47": {
+      "id": 47,
+      "name_hindi": "अधर्मद्रव्य-संग्रह नय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "48": {
+      "id": 48,
+      "name_hindi": "आकाशद्रव्य-संग्रह नय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "49": {
+      "id": 49,
+      "name_hindi": "कालद्रव्य-संग्रह नय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "50": {
+      "id": 50,
+      "name_hindi": "अभेद-द्रव्य संग्रह नय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "51": {
+      "id": 51,
+      "name_hindi": "सामान्य-गुण संग्रह नय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "52": {
+      "id": 52,
+      "name_hindi": "अस्तित्व-संग्रह नय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "53": {
+      "id": 53,
+      "name_hindi": "वस्तुत्व-संग्रह नय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "54": {
+      "id": 54,
+      "name_hindi": "द्रव्यत्व-संग्रह नय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "55": {
+      "id": 55,
+      "name_hindi": "प्रमेयत्व-संग्रह नय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "56": {
+      "id": 56,
+      "name_hindi": "अगुरुलघुत्व-संग्रह नय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "57": {
+      "id": 57,
+      "name_hindi": "प्रदेशवत्त्व-संग्रह नय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "58": {
+      "id": 58,
+      "name_hindi": "चेतन-संग्रह नय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "59": {
+      "id": 59,
+      "name_hindi": "अचेतन-संग्रह नय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "60": {
+      "id": 60,
+      "name_hindi": "मूर्त-संग्रह नय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "61": {
+      "id": 61,
+      "name_hindi": "अमूर्त-संग्रह नय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "62": {
+      "id": 62,
+      "name_hindi": "भव्य-संग्रह नय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "63": {
+      "id": 63,
+      "name_hindi": "संसारी-संग्रह नय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "64": {
+      "id": 64,
+      "name_hindi": "सिद्ध-संग्रह नय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "65": {
+      "id": 65,
+      "name_hindi": "अनंतानंत-संग्रह नय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "66": {
+      "id": 66,
+      "name_hindi": "एकात्म-साधक संग्रह नय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "67": {
+      "id": 67,
+      "name_hindi": "परम-अद्वैतविशुद्ध संग्रह नय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "68": {
+      "id": 68,
+      "name_hindi": "सद्भूत-व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "69": {
+      "id": 69,
+      "name_hindi": "असद्भूत-व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "70": {
+      "id": 70,
+      "name_hindi": "उपचरित-सद्भूत व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "71": {
+      "id": 71,
+      "name_hindi": "अनुपचरित-सद्भूत व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "72": {
+      "id": 72,
+      "name_hindi": "उपचरित-असद्भूत व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "73": {
+      "id": 73,
+      "name_hindi": "अनुपचरित-असद्भूत व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "74": {
+      "id": 74,
+      "name_hindi": "द्रव्य-भेद व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "75": {
+      "id": 75,
+      "name_hindi": "गुण-गुणी-भेद व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "76": {
+      "id": 76,
+      "name_hindi": "पर्याय-पर्यायी-भेद व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "77": {
+      "id": 77,
+      "name_hindi": "जीव-भेद व्यवहार नय (त्रस-स्थावर)",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "78": {
+      "id": 78,
+      "name_hindi": "गति-भेद व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "79": {
+      "id": 79,
+      "name_hindi": "इन्द्रिय-भेद व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "80": {
+      "id": 80,
+      "name_hindi": "काय-भेद व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "81": {
+      "id": 81,
+      "name_hindi": "योग-भेद व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "82": {
+      "id": 82,
+      "name_hindi": "वेद-भेद व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "83": {
+      "id": 83,
+      "name_hindi": "कषाय-भेद व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "84": {
+      "id": 84,
+      "name_hindi": "ज्ञान-भेद व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "85": {
+      "id": 85,
+      "name_hindi": "संयम-भेद व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "86": {
+      "id": 86,
+      "name_hindi": "दर्शन-भेद व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "87": {
+      "id": 87,
+      "name_hindi": "लेश्या-भेद व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "88": {
+      "id": 88,
+      "name_hindi": "भव्यत्व-अभव्यत्व व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "89": {
+      "id": 89,
+      "name_hindi": "सम्यक्त्व-भेद व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "90": {
+      "id": 90,
+      "name_hindi": "संज्ञी-असंज्ञी व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "91": {
+      "id": 91,
+      "name_hindi": "आहारक-अनाहारक व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "92": {
+      "id": 92,
+      "name_hindi": "गुणस्थान-भेद व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "93": {
+      "id": 93,
+      "name_hindi": "मार्गणा-भेद व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "94": {
+      "id": 94,
+      "name_hindi": "कर्म-प्रकृति-भेद व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "95": {
+      "id": 95,
+      "name_hindi": "शरीर-आत्म-एकत्व व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "96": {
+      "id": 96,
+      "name_hindi": "बाह्य-परिग्रह व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "97": {
+      "id": 97,
+      "name_hindi": "गुरु-शिष्य-सम्बन्ध व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "98": {
+      "id": 98,
+      "name_hindi": "देव-शास्त्र-गुरु व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "99": {
+      "id": 99,
+      "name_hindi": "साध्य-साधन-भेद व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "100": {
+      "id": 100,
+      "name_hindi": "व्रत-नियम-संयम व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "101": {
+      "id": 101,
+      "name_hindi": "पूजा-भक्ति-अनुष्ठान व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "102": {
+      "id": 102,
+      "name_hindi": "लोक-प्रवृत्ति-साधक व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "103": {
+      "id": 103,
+      "name_hindi": "भेदाभ्यास-साधक व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "104": {
+      "id": 104,
+      "name_hindi": "रत्नत्रय-भेद व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "105": {
+      "id": 105,
+      "name_hindi": "मोक्षमार्ग-प्रवर्तक व्यवहार नय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "106": {
+      "id": 106,
+      "name_hindi": "सूक्ष्म-ऋजुसूत्र नय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "107": {
+      "id": 107,
+      "name_hindi": "स्थूल-ऋजुसूत्र नय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "108": {
+      "id": 108,
+      "name_hindi": "वर्तमान-क्षणग्राही ऋजुसूत्र नय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "109": {
+      "id": 109,
+      "name_hindi": "भाव-ऋजुसूत्र नय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "110": {
+      "id": 110,
+      "name_hindi": "द्रव्य-ऋजुसूत्र नय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "111": {
+      "id": 111,
+      "name_hindi": "अतीत-अनागत-उपेक्षकारी ऋजुसूत्र नय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "112": {
+      "id": 112,
+      "name_hindi": "एक-समयवर्ती ऋजुसूत्र नय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "113": {
+      "id": 113,
+      "name_hindi": "अवस्थान्तर-ऋजुसूत्र नय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "114": {
+      "id": 114,
+      "name_hindi": "परिणामी-क्षण ऋजुसूत्र नय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "115": {
+      "id": 115,
+      "name_hindi": "उत्पाद-व्ययग्राही ऋजुसूत्र नय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "116": {
+      "id": 116,
+      "name_hindi": "कर्मोदयी-वर्तमान ऋजुसूत्र नय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "117": {
+      "id": 117,
+      "name_hindi": "उपशम-वर्तमान ऋजुसूत्र नय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "118": {
+      "id": 118,
+      "name_hindi": "क्षायिक-वर्तमान ऋजुसूत्र नय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "119": {
+      "id": 119,
+      "name_hindi": "क्षायोपशमिक-वर्तमान ऋजुसूत्र नय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "120": {
+      "id": 120,
+      "name_hindi": "पारिणामिक-वर्तमान ऋजुसूत्र नय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "121": {
+      "id": 121,
+      "name_hindi": "मनोयोग-वर्तमान ऋजुसूत्र नय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "122": {
+      "id": 122,
+      "name_hindi": "वचनयोग-वर्तमान ऋजुसूत्र नय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "123": {
+      "id": 123,
+      "name_hindi": "काययोग-वर्तमान ऋजुसूत्र नय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "124": {
+      "id": 124,
+      "name_hindi": "संवेग-क्षण ऋजुसूत्र नय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "125": {
+      "id": 125,
+      "name_hindi": "ध्यान-क्षण ऋजुसूत्र नय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "126": {
+      "id": 126,
+      "name_hindi": "क्षणिक-संवेदना ऋजुसूत्र नय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "127": {
+      "id": 127,
+      "name_hindi": "वर्तमान-गुणस्थान ऋजुसूत्र नय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "128": {
+      "id": 128,
+      "name_hindi": "विभाव-पर्यायग्राही ऋजुसूत्र नय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "129": {
+      "id": 129,
+      "name_hindi": "स्वभाव-पर्यायग्राही ऋजुसूत्र नय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "130": {
+      "id": 130,
+      "name_hindi": "कालदोष-निवारक ऋजुसूत्र नय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "131": {
+      "id": 131,
+      "name_hindi": "चिन्ता-विमुक्ति ऋजुसूत्र नय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "132": {
+      "id": 132,
+      "name_hindi": "यथार्थ-दर्शी ऋजुसूत्र नय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "133": {
+      "id": 133,
+      "name_hindi": "वर्तमान-सजगता ऋजुसूत्र नय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "134": {
+      "id": 134,
+      "name_hindi": "क्षण-संयम ऋजुसूत्र नय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "135": {
+      "id": 135,
+      "name_hindi": "परम-ऋजुसूत्र साध्य नय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "136": {
+      "id": 136,
+      "name_hindi": "कालभेद-शब्दनय",
+      "khanda_id": 5,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "137": {
+      "id": 137,
+      "name_hindi": "कारकभेद-शब्दनय",
+      "khanda_id": 5,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "138": {
+      "id": 138,
+      "name_hindi": "लिंगभेद-शब्दनय",
+      "khanda_id": 5,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "139": {
+      "id": 139,
+      "name_hindi": "संख्याभेद-शब्दनय",
+      "khanda_id": 5,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "140": {
+      "id": 140,
+      "name_hindi": "पुरुषभेद-शब्दनय",
+      "khanda_id": 5,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "141": {
+      "id": 141,
+      "name_hindi": "उपसर्गभेद-शब्दनय",
+      "khanda_id": 5,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "142": {
+      "id": 142,
+      "name_hindi": "प्रत्ययभेद-शब्दनय",
+      "khanda_id": 5,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "143": {
+      "id": 143,
+      "name_hindi": "वचनभेद-शब्दनय",
+      "khanda_id": 5,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "144": {
+      "id": 144,
+      "name_hindi": "समासभेद-शब्दनय",
+      "khanda_id": 5,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "145": {
+      "id": 145,
+      "name_hindi": "नाम-शब्दनय",
+      "khanda_id": 5,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "146": {
+      "id": 146,
+      "name_hindi": "आख्यात-शब्दनय",
+      "khanda_id": 5,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "147": {
+      "id": 147,
+      "name_hindi": "निपात-शब्दनय",
+      "khanda_id": 5,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "148": {
+      "id": 148,
+      "name_hindi": "आगम-संज्ञा शब्दनय",
+      "khanda_id": 5,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "149": {
+      "id": 149,
+      "name_hindi": "लोक-संज्ञा शब्दनय",
+      "khanda_id": 5,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "150": {
+      "id": 150,
+      "name_hindi": "वाचक-वाच्य-सम्बन्ध शब्दनय",
+      "khanda_id": 5,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "151": {
+      "id": 151,
+      "name_hindi": "लक्षण-शब्दनय",
+      "khanda_id": 5,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "152": {
+      "id": 152,
+      "name_hindi": "व्यंजना-शब्दनय",
+      "khanda_id": 5,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "153": {
+      "id": 153,
+      "name_hindi": "तात्पर्य-शब्दनय",
+      "khanda_id": 5,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "154": {
+      "id": 154,
+      "name_hindi": "व्याकरण-शुद्धि शब्दनय",
+      "khanda_id": 5,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "155": {
+      "id": 155,
+      "name_hindi": "पद-विभाजन शब्दनय",
+      "khanda_id": 5,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "156": {
+      "id": 156,
+      "name_hindi": "वाक्य-समन्वय शब्दनय",
+      "khanda_id": 5,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "157": {
+      "id": 157,
+      "name_hindi": "शब्द-संस्कार शब्दनय",
+      "khanda_id": 5,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "158": {
+      "id": 158,
+      "name_hindi": "आगमिक-ध्वनि शब्दनय",
+      "khanda_id": 5,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "159": {
+      "id": 159,
+      "name_hindi": "ओंकार-नाद शब्दनय",
+      "khanda_id": 5,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "160": {
+      "id": 160,
+      "name_hindi": "पर्यायवाची-भेद समभिरूढ़ नय",
+      "khanda_id": 6,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "161": {
+      "id": 161,
+      "name_hindi": "धातु-व्युत्पत्ति समभिरूढ़ नय",
+      "khanda_id": 6,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "162": {
+      "id": 162,
+      "name_hindi": "रूढ़ि-निरसन समभिरूढ़ नय",
+      "khanda_id": 6,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "163": {
+      "id": 163,
+      "name_hindi": "यौगिक-अर्थ समभिरूढ़ नय",
+      "khanda_id": 6,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "164": {
+      "id": 164,
+      "name_hindi": "इन्द्र-शक्र-पुरन्दर भेद समभिरूढ़ नय",
+      "khanda_id": 6,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "165": {
+      "id": 165,
+      "name_hindi": "आत्म-जीव-चेतन भेद समभिरूढ़ नय",
+      "khanda_id": 6,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "166": {
+      "id": 166,
+      "name_hindi": "ज्ञान-दर्शन-बोध भेद समभिरूढ़ नय",
+      "khanda_id": 6,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "167": {
+      "id": 167,
+      "name_hindi": "धर्म-पुण्य-सत्कर्म भेद समभिरूढ़ नय",
+      "khanda_id": 6,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "168": {
+      "id": 168,
+      "name_hindi": "मोक्ष-मुक्ति-निर्वाण भेद समभिरूढ़ नय",
+      "khanda_id": 6,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "169": {
+      "id": 169,
+      "name_hindi": "तीर्थंकर-जिन-अरिहंत भेद समभिरूढ़ नय",
+      "khanda_id": 6,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "170": {
+      "id": 170,
+      "name_hindi": "सिद्ध-मुक्त-अशरीरी भेद समभिरूढ़ नय",
+      "khanda_id": 6,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "171": {
+      "id": 171,
+      "name_hindi": "मुनि-साधु-अनगार भेद समभिरूढ़ नय",
+      "khanda_id": 6,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "172": {
+      "id": 172,
+      "name_hindi": "उपाश्रय-स्थानक-वसति भेद समभिरूढ़ नय",
+      "khanda_id": 6,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "173": {
+      "id": 173,
+      "name_hindi": "क्रिया-निमित्तक समभिरूढ़ नय",
+      "khanda_id": 6,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "174": {
+      "id": 174,
+      "name_hindi": "गुण-निमित्तक समभिरूढ़ नय",
+      "khanda_id": 6,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "175": {
+      "id": 175,
+      "name_hindi": "स्वभाव-निमित्तक समभिरूढ़ नय",
+      "khanda_id": 6,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "176": {
+      "id": 176,
+      "name_hindi": "सूक्ष्म-अर्थ-विभाजक समभिरूढ़ नय",
+      "khanda_id": 6,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "177": {
+      "id": 177,
+      "name_hindi": "शब्दार्थ-संशुद्धि समभिरूढ़ नय",
+      "khanda_id": 6,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "178": {
+      "id": 178,
+      "name_hindi": "अर्थ-गंभीरता समभिरूढ़ नय",
+      "khanda_id": 6,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "179": {
+      "id": 179,
+      "name_hindi": "भाव-प्रदीपक समभिरूढ़ नय",
+      "khanda_id": 6,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "180": {
+      "id": 180,
+      "name_hindi": "विवेक-सूक्ष्मता समभिरूढ़ नय",
+      "khanda_id": 6,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "181": {
+      "id": 181,
+      "name_hindi": "परमार्थ-व्युत्पत्ति समभिरूढ़ नय",
+      "khanda_id": 6,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "182": {
+      "id": 182,
+      "name_hindi": "क्रिया-परिणत एवंभूत नय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "183": {
+      "id": 183,
+      "name_hindi": "साक्षात्-चेष्टाग्राही एवंभूत नय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "184": {
+      "id": 184,
+      "name_hindi": "तात्कालिक-भाव एवंभूत नय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "185": {
+      "id": 185,
+      "name_hindi": "पूजाकाल-पूजक एवंभूत नय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "186": {
+      "id": 186,
+      "name_hindi": "श्रवणकाल-श्रोता एवंभूत नय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "187": {
+      "id": 187,
+      "name_hindi": "अध्ययनकाल-पाठक एवंभूत नय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "188": {
+      "id": 188,
+      "name_hindi": "ध्यानस्थ-ध्याता एवंभूत नय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "189": {
+      "id": 189,
+      "name_hindi": "गमनकाल-गामी एवंभूत नय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "190": {
+      "id": 190,
+      "name_hindi": "शासनकाल-शासक एवंभूत नय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "191": {
+      "id": 191,
+      "name_hindi": "उपदेशकाल-उपदेशक एवंभूत नय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "192": {
+      "id": 192,
+      "name_hindi": "दानकाल-दाता एवंभूत नय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "193": {
+      "id": 193,
+      "name_hindi": "त्यागकाल-त्यागी एवंभूत नय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "194": {
+      "id": 194,
+      "name_hindi": "संयमकाल-संयमी एवंभूत नय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "195": {
+      "id": 195,
+      "name_hindi": "समभावकाल-समताधारी एवंभूत नय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "196": {
+      "id": 196,
+      "name_hindi": "भेदज्ञानकाल-भेदज्ञानी एवंभूत नय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "197": {
+      "id": 197,
+      "name_hindi": "शुद्धोपयोगकाल-श्रमण एवंभूत नय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "198": {
+      "id": 198,
+      "name_hindi": "अरिहंत-दशा एवंभूत नय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "199": {
+      "id": 199,
+      "name_hindi": "सिद्ध-अवस्था एवंभूत नय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "200": {
+      "id": 200,
+      "name_hindi": "केवलज्ञानकाल-सर्वज्ञ एवंभूत नय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "201": {
+      "id": 201,
+      "name_hindi": "परम-यथार्थ एवंभूत नय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "202": {
+      "id": 202,
+      "name_hindi": "अनिर्वचनीय-क्रिया एवंभूत नय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "203": {
+      "id": 203,
+      "name_hindi": "मोक्ष-प्राप्त परम एवंभूत नय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    }
+  }
+}

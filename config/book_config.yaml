@@ -1,0 +1,62 @@
+book:
+  title: "नय प्रकाश: जैन दर्शन के 203 नयों का समग्र अनुशीलन"
+  subtitle: "सप्त मूल नयों के आलोक में 203 नयों का तार्किक, दार्शनिक, व्यावहारिक एवं साधनाकीय महाग्रंथ"
+  language: "hi"
+  total_khandas: 7
+  total_chapters: 203
+
+framework:
+  primary_divisions:
+    - name: "द्रव्यार्थिक नय"
+      type: "Dravyarthika"
+      khandas: [1, 2, 3]
+    - name: "पर्यायार्थिक नय"
+      type: "Paryayarthika"
+      khandas: [4, 5, 6, 7]
+
+  tri_aspects:
+    - name: "ज्ञाननय"
+      scope: "संकल्प मात्रग्राही (नैगम)"
+      khandas: [1]
+    - name: "अर्थनय"
+      scope: "पदार्थग्राही (संग्रह, व्यवहार, ऋजुसूत्र)"
+      khandas: [2, 3, 4]
+    - name: "शब्दनय"
+      scope: "शब्द-व्युत्पत्ति-क्रियाग्राही (शब्द, समभिरूढ़, एवंभूत)"
+      khandas: [5, 6, 7]
+
+chapter_spec:
+  sections_count: 10
+  sections:
+    1: "नय"
+    2: "सामान्य अर्थ एवं शब्दार्थ"
+    3: "तार्किक विवेचन"
+    4: "3 उदाहरण"
+    5: "व्यवहारिक समज"
+    6: "दार्शनिक समज़"
+    7: "सैद्धांतिक समज़"
+    8: "साधनाकिय समज़"
+    9: "डीप डाईव"
+    10: "मंझिलगामी रूख"
+
+  word_count_targets:
+    section_3_target: 500
+    section_3_min: 450
+    section_9_min: 300
+    section_9_max: 550
+    section_10_target: 200
+    section_10_min: 180
+    chapter_total_min: 1800
+    chapter_total_target: 2200
+
+guidelines:
+  examples:
+    count_per_chapter: 3
+    uniqueness: "strictly_global_across_all_203_chapters"
+    priority: "modern_and_life_relevant"
+    ethical_filter: "strict_jain_ahimsa_compliance"
+    prohibited_themes:
+      - "glorification of butchery / slaughterhouses / meat trade"
+      - "hunting / violence towards living beings"
+      - "deceptive / fraudulent business practices portrayed positively"
+      - "intoxication / gambling / immoral conduct portrayed as ideal"
