@@ -6,11 +6,11 @@ from typing import Dict, List, Tuple, Optional, Any
 from src.models.review import ValidationReport, SectionWordReport
 
 SECTION_PATTERNS = [
-    (1, r"^#{1,3}\s*(?:૧[\.\s\)]+|)(?:નય\s*વિવેચન|વિવેચન)(?:[:\s]|$)"),
-    (2, r"^(?:#{1,3}\s*(?:૨[\.\s\)]+|)(?:કાવ્યાત્મક\s+બોધસૂત્ર|બોધ-સૂત્ર|બોધસૂત્ર)(?:[:\s]|$)|>\s*(?:🌟\s*)?\*\*(?:કાવ્યાત્મક\s+)?બોધસૂત્ર\*\*)"),
-    (3, r"^#{1,3}\s*(?:૩[\.\s\)]+|)(?:પ્રસંગ|કથા)(?:[:\s]|$)"),
-    (4, r"^#{1,3}\s*(?:૪[\.\s\)]+|)(?:એકાંત\s+દર્શન|એકાંત)(?:[:\s]|$)"),
-    (5, r"^#{1,3}\s*(?:૫[\.\s\)]+|)(?:અનેકાંત\s+દર્શન|અનેકાંત)(?:[:\s]|$)"),
+    (1, r"^#{1,3}\s*\*{0,2}(?:૧[\.\s\)]+|)(?:નય\s*વિવેચન|વિવેચન)\*{0,2}(?:[:\s]|$)"),
+    (2, r"^(?:#{1,3}\s*\*{0,2}(?:૨[\.\s\)]+|)(?:કાવ્યાત્મક\s+બોધસૂત્ર|બોધ-સૂત્ર|બોધસૂત્ર)\*{0,2}(?:[:\s]|$)|>\s*(?:🌟\s*)?\*\*(?:કાવ્યાત્મક\s+)?બોધસૂત્ર\*\*)"),
+    (3, r"^#{1,3}\s*\*{0,2}(?:૩[\.\s\)]+|)(?:પ્રસંગ|કથા)\*{0,2}(?:[:\s]|$)"),
+    (4, r"^#{1,3}\s*\*{0,2}(?:૪[\.\s\)]+|)(?:એકાંત\s+દર્શન|એકાંત)\*{0,2}(?:[:\s]|$)"),
+    (5, r"^#{1,3}\s*\*{0,2}(?:૫[\.\s\)]+|)(?:અનેકાંત\s+દર્શન|અનેકાંત)\*{0,2}(?:[:\s]|$)"),
 ]
 
 PROHIBITED_ETHICAL_PATTERNS = [
@@ -83,9 +83,9 @@ class ChapterValidator:
         # Check sub-phases of Prasang: પિપાસા and પાન
         if 3 in parsed:
             prasang_body = parsed[3][1]
-            if not re.search(r"###\s*પિપાસા", prasang_body, re.IGNORECASE):
+            if not re.search(r"###\s*\*{0,2}પિપાસા", prasang_body, re.IGNORECASE):
                 warnings.append("પ્રસંગમાં '### પિપાસા' પેટા-વિભાગ સ્પષ્ટ હોવો આવશ્યક છે.")
-            if not re.search(r"###\s*પાન", prasang_body, re.IGNORECASE):
+            if not re.search(r"###\s*\*{0,2}પાન", prasang_body, re.IGNORECASE):
                 warnings.append("પ્રસંગમાં '### પાન' પેટા-વિભાગ સ્પષ્ટ હોવો આવશ્યક છે.")
 
         # 2. Left Page words (Sections 1-2 combined: target ~240-300 words)
