@@ -1,0 +1,62 @@
+book:
+  title: "નય પ્રકાશ: જૈન દર્શનના ૨૦૩ નયોનું સમગ્ર અનુશીલન (સંક્ષિપ્ત ૨-પેજ આવૃત્તિ)"
+  subtitle: "સપ્ત મૂળ નયોના આલોકમાં ૨૦૩ નયોનું દર્શન, વ્યવહાર, સાધના અને નવલિકા સભર ૨-પેજ સંસ્કરણ"
+  edition_type: "sankshipt_2page_a5"
+  language: "gu"
+  total_khandas: 7
+  total_chapters: 203
+  page_spread: "A5_two_facing_pages"
+
+framework:
+  primary_divisions:
+    - name: "દ્રવ્યાર્થિક નય"
+      type: "Dravyarthika"
+      khandas: [1, 2, 3]
+    - name: "પર્યાયાર્થિક નય"
+      type: "Paryayarthika"
+      khandas: [4, 5, 6, 7]
+
+  tri_aspects:
+    - name: "જ્ઞાનનય"
+      scope: "સંકલ્પ માત્રગ્રાહી (નૈગમ)"
+      khandas: [1]
+    - name: "અર્થનય"
+      scope: "પદાર્થગ્રાહી (સંગ્રહ, વ્યવહાર, ઋજુસૂત્ર)"
+      khandas: [2, 3, 4]
+    - name: "શબ્દનય"
+      scope: "શબ્દ-વ્યુત્પત્તિ-ક્રિયાગ્રાહી (શબ્દ, સમભિરૂઢ, એવંભૂત)"
+      khandas: [5, 6, 7]
+
+chapter_spec:
+  format: "two_page_spread"
+  left_page:
+    sections:
+      1: "સૂત્રાર્થ અને જોવાનો અભિગમ"
+      2: "વ્યવહારિક જીવનમાં વિનિયોગ"
+      3: "સાધના-મર્મ"
+      4: "બોધ-સૂત્ર"
+    word_count_target: 300
+    word_count_min: 250
+    word_count_max: 330
+  right_page:
+    section: "નવલિકા"
+    word_count_target: 340
+    word_count_min: 280
+    word_count_max: 370
+
+  word_count_targets:
+    chapter_total_min: 500
+    chapter_total_target: 600
+    chapter_total_max: 680
+
+guidelines:
+  examples:
+    count_per_chapter: 1
+    style: "osho_spiritual_novella"
+    uniqueness: "strictly_global_across_all_203_chapters"
+    ethical_filter: "strict_jain_ahimsa_compliance"
+    prohibited_themes:
+      - "glorification of butchery / slaughterhouses / meat trade"
+      - "hunting / violence towards living beings"
+      - "deceptive / fraudulent business practices portrayed positively"
+      - "intoxication / gambling / immoral conduct portrayed as ideal"

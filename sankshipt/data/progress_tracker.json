@@ -1,0 +1,1864 @@
+{
+  "total_nayas": 203,
+  "completed_count": 1,
+  "pending_count": 202,
+  "khanda_progress": {
+    "1": {
+      "total": 6,
+      "completed": 1
+    },
+    "2": {
+      "total": 9,
+      "completed": 0
+    },
+    "3": {
+      "total": 116,
+      "completed": 0
+    },
+    "4": {
+      "total": 18,
+      "completed": 0
+    },
+    "5": {
+      "total": 8,
+      "completed": 0
+    },
+    "6": {
+      "total": 11,
+      "completed": 0
+    },
+    "7": {
+      "total": 35,
+      "completed": 0
+    }
+  },
+  "chapters_state": {
+    "1": {
+      "id": 1,
+      "name_hindi": "भूतनैगम नय",
+      "khanda_id": 1,
+      "status": "completed",
+      "file_path": "output\\khanda_1_naigam\\chapter_001_bhuta_naigam_naya_gu.md",
+      "word_count": 543,
+      "validation_passed": true
+    },
+    "2": {
+      "id": 2,
+      "name_hindi": "भाविनैगमनय",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "3": {
+      "id": 3,
+      "name_hindi": "वर्तमान नैगमनय",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "4": {
+      "id": 4,
+      "name_hindi": "परसंग्रहनामक द्रव्यार्थिकनय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "5": {
+      "id": 5,
+      "name_hindi": "अपरसंग्रहनामक द्रव्यार्थिकनय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "6": {
+      "id": 6,
+      "name_hindi": "परमशुद्ध अपरसंग्रहनामक द्रव्यार्थिकनय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "7": {
+      "id": 7,
+      "name_hindi": "शुद्ध अपरसंग्रहनामक द्रव्यार्थिकनय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "8": {
+      "id": 8,
+      "name_hindi": "अशुद्ध अपरसंग्रहनयनामक द्रव्यार्थिकनय",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "9": {
+      "id": 9,
+      "name_hindi": "परसंग्रहभेदक व्यवहारनयनामक द्रव्यार्थिकनय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "10": {
+      "id": 10,
+      "name_hindi": "अपरसंग्रहभेदक व्यवहारनयनामक द्रव्यार्थिकनय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "11": {
+      "id": 11,
+      "name_hindi": "अन्तिम अपरसंग्रहभेदक व्यवहारनयनामक द्रव्यार्थिकनय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "12": {
+      "id": 12,
+      "name_hindi": "परमशुद्ध अपरसंग्रहभेदक व्यवहारनयनामक द्रव्यार्थिकनय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "13": {
+      "id": 13,
+      "name_hindi": "शुद्ध अपरसंग्रहभेदक व्यवहारनयनामक द्रव्यार्थिकनय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "14": {
+      "id": 14,
+      "name_hindi": "अशुद्ध अपरसंग्रहभेदक व्यवहारनयनामक द्रव्यार्थिकनय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "15": {
+      "id": 15,
+      "name_hindi": "परमशुद्ध अभेदविषयी अन्तिम व्यवहारनयनामक द्रव्यार्थिकनय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "16": {
+      "id": 16,
+      "name_hindi": "परमशुद्ध भेदविषयी अन्तिम व्यवहारनयनामक द्रव्यार्थिकनय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "17": {
+      "id": 17,
+      "name_hindi": "शुुद्ध अभेदविषयी अन्तिम व्यवहारनयनामक द्रव्यार्थिकनय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "18": {
+      "id": 18,
+      "name_hindi": "शुद्धभेदविषयी अन्तिम व्यवहारनयनामक द्रव्यार्थिकनय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "19": {
+      "id": 19,
+      "name_hindi": "अव्यक्तU अशुद्ध अन्तिम व्यवहारनयनामक द्रव्यार्थिकनय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "20": {
+      "id": 20,
+      "name_hindi": "व्यक्तU अशुद्ध अन्तिम व्यवहारनयनामक द्रव्यार्थिकनय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "21": {
+      "id": 21,
+      "name_hindi": "उपाधिनिरपेक्ष शुद्ध द्रव्यार्थिकनय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "22": {
+      "id": 22,
+      "name_hindi": "उत्पादव्ययगौणसत्ताग्राहक शुद्धद्रव्यार्थिकनय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "23": {
+      "id": 23,
+      "name_hindi": "भेदकल्पनानिरपेक्ष शुद्धद्रव्यार्थिकनय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "24": {
+      "id": 24,
+      "name_hindi": "उपाधिसापेक्ष अशुद्धद्रव्यार्थिकनय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "25": {
+      "id": 25,
+      "name_hindi": "उत्पादव्ययसापेक्ष अशुद्धद्रव्यार्थिकनय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "26": {
+      "id": 26,
+      "name_hindi": "भेदकल्पनासापेक्ष अशुद्धद्रव्यार्थिकनय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "27": {
+      "id": 27,
+      "name_hindi": "अन्वय द्रव्यार्थिकनय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "28": {
+      "id": 28,
+      "name_hindi": "स्वद्रव्यादिग्राहक द्रव्यार्थिकनय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "29": {
+      "id": 29,
+      "name_hindi": "परद्रव्यार्थिकग्राहक द्रव्यार्थिकनय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "30": {
+      "id": 30,
+      "name_hindi": "परमभावग्राहक द्रव्यार्थिकनय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "31": {
+      "id": 31,
+      "name_hindi": "अशुद्धस्थूल ऋजुसूत्रनयनामक पर्यायार्थिकनय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "32": {
+      "id": 32,
+      "name_hindi": "शुद्धस्थूल ऋजुसूत्रनयनामक पर्यायार्थिकनय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "33": {
+      "id": 33,
+      "name_hindi": "अशुद्धसूक्ष्म ऋजुसूत्रनयनामक पर्यायार्थिकनय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "34": {
+      "id": 34,
+      "name_hindi": "शुद्धसूक्ष्म ऋजुसूत्रनयनामक पर्यायार्थिकनय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "35": {
+      "id": 35,
+      "name_hindi": "अनादिनित्य पर्यायर्थिकनय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "36": {
+      "id": 36,
+      "name_hindi": "सादिनित्य पर्यायार्थिकनय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "37": {
+      "id": 37,
+      "name_hindi": "सत्तागौणोत्पादव्यग्राहक नित्यअशुद्धपर्यायर्थिकनय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "38": {
+      "id": 38,
+      "name_hindi": "सत्तासापेक्ष नित्य अशुद्धपर्यायार्थिकनय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "39": {
+      "id": 39,
+      "name_hindi": "उपाधिनिरपेक्ष नित्य शुद्धपर्यायार्थिकनय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "40": {
+      "id": 40,
+      "name_hindi": "उपाधिसापेक्ष नित्य अशुद्धपर्यायार्थिकनय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "41": {
+      "id": 41,
+      "name_hindi": "शब्दनय",
+      "khanda_id": 5,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "42": {
+      "id": 42,
+      "name_hindi": "समभिरूढ़नय",
+      "khanda_id": 6,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "43": {
+      "id": 43,
+      "name_hindi": "एवंभूतनय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "44": {
+      "id": 44,
+      "name_hindi": "अखंड परमशुद्धनिश्चयनय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "45": {
+      "id": 45,
+      "name_hindi": "शक्तिUबोधक परमशुद्धनिश्चयनय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "46": {
+      "id": 46,
+      "name_hindi": "शुद्धनिश्चयनय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "47": {
+      "id": 47,
+      "name_hindi": "अशुद्ध निश्चयनय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "48": {
+      "id": 48,
+      "name_hindi": "विवक्षिातैकदेशशुद्धनिश्चयनय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "49": {
+      "id": 49,
+      "name_hindi": "शुद्धनय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "50": {
+      "id": 50,
+      "name_hindi": "परमशुद्धभेदविषयी व्यवहारनय या भेदकल्पनासापेक्ष अशुद्ध द्रव्यार्थिकनय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "51": {
+      "id": 51,
+      "name_hindi": "शुद्धभेदविषयी द्रव्यार्थिकनय या शुद्धसूक्ष्म ऋजुसूत्रनय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "52": {
+      "id": 52,
+      "name_hindi": "अशुद्धपर्यायविषयी व्यवहारनय या अशुद्धसूक्ष्म ऋजुसूत्रनय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "53": {
+      "id": 53,
+      "name_hindi": "उपाधिसापेक्ष अशुद्ध द्रव्यार्थिकनय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "54": {
+      "id": 54,
+      "name_hindi": "उत्पादव्ययसापेक्ष अशुद्ध द्रव्यार्थिकनय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "55": {
+      "id": 55,
+      "name_hindi": "अशुद्धस्थूल ऋजुसूत्रनय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "56": {
+      "id": 56,
+      "name_hindi": "शुद्धसूक्ष्म ऋजुसूत्रनय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "57": {
+      "id": 57,
+      "name_hindi": "अनादिनित्य पर्यायार्थिकनय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "58": {
+      "id": 58,
+      "name_hindi": "सादिनित्य पर्यायार्थिकनय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "59": {
+      "id": 59,
+      "name_hindi": "सत्तागौणोत्पादव्ययग्राहक नित्याशुद्ध पर्यायार्थिकनय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "60": {
+      "id": 60,
+      "name_hindi": "सत्तासापेक्ष नित्यशुद्धपर्यायार्थिकनय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "61": {
+      "id": 61,
+      "name_hindi": "उपाधिसापेक्ष नित्यशुद्धपर्यायार्थिकनय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "62": {
+      "id": 62,
+      "name_hindi": "भूतनैगम प्रतिपादक व्यवहार",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "63": {
+      "id": 63,
+      "name_hindi": "भाविनैगमप्रतिपादक व्यवहार",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "64": {
+      "id": 64,
+      "name_hindi": "वर्तमाननैगमप्रतिपादक व्यवहार",
+      "khanda_id": 1,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "65": {
+      "id": 65,
+      "name_hindi": "परसंग्रह द्रव्यार्थिक प्रतिपादक व्यवहार",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "66": {
+      "id": 66,
+      "name_hindi": "अपरसंग्रह द्रव्यार्थिक प्रतिपादक व्यवहार",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "67": {
+      "id": 67,
+      "name_hindi": "अपरसंग्रहभेदकव्यवहारनय द्रव्यार्थिकप्रतिपादक व्यवहार",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "68": {
+      "id": 68,
+      "name_hindi": "अपरसंग्रहभेदकव्यवहारनय द्रव्यार्थिकप्रतिपादक व्यवहार",
+      "khanda_id": 2,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "69": {
+      "id": 69,
+      "name_hindi": "अखंड़ परमशुद्ध सदìभूतव्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "70": {
+      "id": 70,
+      "name_hindi": "सगुण परमशुद्धसदìभूत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "71": {
+      "id": 71,
+      "name_hindi": "अभेद शुद्ध सदìभूत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "72": {
+      "id": 72,
+      "name_hindi": "सभेद शुद्धसदìभूत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "73": {
+      "id": 73,
+      "name_hindi": "कारककारकिभेदक सदìभूतव्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "74": {
+      "id": 74,
+      "name_hindi": "अनुपचरित अशुद्धसदìभूत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "75": {
+      "id": 75,
+      "name_hindi": "उपचरित अशुद्धसदìभूत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "76": {
+      "id": 76,
+      "name_hindi": "उपाधिसापेक्ष अशुद्ध द्रव्यार्थिकप्रतिपादक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "77": {
+      "id": 77,
+      "name_hindi": "उपचरित उपाधितापेक्षा अशुद्ध द्रव्यार्थिकप्रतिपादक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "78": {
+      "id": 78,
+      "name_hindi": "उपाधिनिरपेक्ष शुद्धद्रव्यार्थिक प्रतिपादक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "79": {
+      "id": 79,
+      "name_hindi": "उत्पादव्ययगाणसत्ताग्रहक शुद्धद्रव्यार्थिक प्रतिपादक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "80": {
+      "id": 80,
+      "name_hindi": "भेदकल्पना-निरपेक्ष शुद्धद्रव्यार्थिक प्रतिपादक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "81": {
+      "id": 81,
+      "name_hindi": "उत्पादव्ययसापेक्ष अशुद्ध द्रव्यार्थिक प्रतिपादक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "82": {
+      "id": 82,
+      "name_hindi": "भेदकल्पनासापेक्ष अशुद्धद्रव्यार्थिक प्रतिपादक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "83": {
+      "id": 83,
+      "name_hindi": "अन्वयद्रव्यार्थिक प्रतिपादक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "84": {
+      "id": 84,
+      "name_hindi": "स्वद्रव्यादिकग्राहक द्रव्यार्थिक प्रतिपादक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "85": {
+      "id": 85,
+      "name_hindi": "परद्रव्यादिग्राहक द्रव्यार्थिक प्रतिपादक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "86": {
+      "id": 86,
+      "name_hindi": "परमभावग्राहक द्रव्यार्थिक प्रतिपादक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "87": {
+      "id": 87,
+      "name_hindi": "अशुद्धस्थूल ऋजुसूत्र प्रतिपादक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "88": {
+      "id": 88,
+      "name_hindi": "शुद्धस्थूल सूक्ष्म ऋजुसूत्र प्रतिपादक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "89": {
+      "id": 89,
+      "name_hindi": "अशुद्धसूक्ष्म ऋजुसूत्र प्रतिपादक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "90": {
+      "id": 90,
+      "name_hindi": "शुद्ध सूक्ष्म ऋजुसूत्र प्रतिपादक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "91": {
+      "id": 91,
+      "name_hindi": "अनादिनित्यपर्यायर्थिक प्रतिपादक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "92": {
+      "id": 92,
+      "name_hindi": "सादिनित्यपर्यायार्थिक प्रतिपादक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "93": {
+      "id": 93,
+      "name_hindi": "सत्तागौणौत्पादव्ययग्राहक अशुद्धपर्यायर्थिक प्रतिपादक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "94": {
+      "id": 94,
+      "name_hindi": "सत्तासापेक्ष नित्य अशुद्धपर्यायर्थिक प्रतिपादक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "95": {
+      "id": 95,
+      "name_hindi": "उपाधिसापेक्ष नित्य अशुद्धपर्यायार्थिक प्रतिपादक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "96": {
+      "id": 96,
+      "name_hindi": "उपाधिसापेक्ष नित्य अशुद्धपर्यायार्थिक प्रतिपादक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "97": {
+      "id": 97,
+      "name_hindi": "स्वाजात्यसदìभूत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "98": {
+      "id": 98,
+      "name_hindi": "विजात्यसदìभूत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "99": {
+      "id": 99,
+      "name_hindi": "स्वजातिविजात्यसदìभूत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "100": {
+      "id": 100,
+      "name_hindi": "शब्दनयपर्यायार्थिक प्रतिपादक व्यवहार",
+      "khanda_id": 5,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "101": {
+      "id": 101,
+      "name_hindi": "समभिरूढ़नयपर्यायार्थिक प्रतिपादक व्यवहार",
+      "khanda_id": 6,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "102": {
+      "id": 102,
+      "name_hindi": "एवंभूतनयपर्यायर्थिक प्रतिपादक व्यवहार",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "103": {
+      "id": 103,
+      "name_hindi": "उपाधिज उपचरितस्वभावव्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "104": {
+      "id": 104,
+      "name_hindi": "उपाधिज उपचरित प्रतिफलनव्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "105": {
+      "id": 105,
+      "name_hindi": "स्वाभाविक उपचरितस्वभावव्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "106": {
+      "id": 106,
+      "name_hindi": "द्रव्ये द्रव्योपचारक",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "107": {
+      "id": 107,
+      "name_hindi": "एकजातिपर्याये अन्यजातिपर्यायोपचारक असद्भूत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "108": {
+      "id": 108,
+      "name_hindi": "स्वजातिपर्याये स्वजातिपर्यायोपचारक असद्भूत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "109": {
+      "id": 109,
+      "name_hindi": "एकजातिगुणे अन्यजातिगुणोपचारक असद्भूत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "110": {
+      "id": 110,
+      "name_hindi": "स्वजातिगुणे स्वजातिगुणोपचारक असद्भूत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "111": {
+      "id": 111,
+      "name_hindi": "एकजातिद्रव्ये अन्यजातिगुणोपचारक असद्भूत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "112": {
+      "id": 112,
+      "name_hindi": "स्वजातिद्रव्ये स्वजातिगुणोपचारक असद्भूत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "113": {
+      "id": 113,
+      "name_hindi": "एकजातिद्रव्ये अन्यजातिपर्यायोपचारक असद्भूत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "114": {
+      "id": 114,
+      "name_hindi": "स्वजातिद्रव्ये स्वजातिपर्यायोपचारक असद्भूत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "115": {
+      "id": 115,
+      "name_hindi": "एकजातिगुणे अन्यजातिद्रव्योपचारक असद्भूत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "116": {
+      "id": 116,
+      "name_hindi": "स्वजातिगुणे अन्यजातिद्रव्योपचारक असद्भूत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "117": {
+      "id": 117,
+      "name_hindi": "एकजातिगुणे अन्यजातिपर्यायोपचारक असद्भूत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "118": {
+      "id": 118,
+      "name_hindi": "स्वजातिगुणे स्वजातिपर्यायोपचारक असद्भूत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "119": {
+      "id": 119,
+      "name_hindi": "एकजातिपर्याये अन्यजातिपर्यायोपचारक असद्भूत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "120": {
+      "id": 120,
+      "name_hindi": "स्वजातिपर्याये स्वजातिपर्यायोपचारक असद्भूत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "121": {
+      "id": 121,
+      "name_hindi": "एकजातिपर्याये अन्यजातिद्रव्योपचारक असद्भूत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "122": {
+      "id": 122,
+      "name_hindi": "स्वजातिपर्याये स्वजातिगुणोपचारक असदìभत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "123": {
+      "id": 123,
+      "name_hindi": "संश्लिष्ट स्वजात्युपचरित असद्भूत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "124": {
+      "id": 124,
+      "name_hindi": "असंश्लिष्ट स्वजात्युपचरित असद्भूत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "125": {
+      "id": 125,
+      "name_hindi": "संश्लिष्ट विजात्युपचरित असद्भूत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "126": {
+      "id": 126,
+      "name_hindi": "असंश्लिष्ट विजात्युपचरित असद्भूत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "127": {
+      "id": 127,
+      "name_hindi": "संश्लिष्ट स्वजातिविजात्युपचरित असद्भूत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "128": {
+      "id": 128,
+      "name_hindi": "असंश्लिष्ट स्वजातिविजात्युपचरित असद्भूत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "129": {
+      "id": 129,
+      "name_hindi": "परकर्तृत्व अनुपचरित असद्भूत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "130": {
+      "id": 130,
+      "name_hindi": "परकर्मत्व असद्भूत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "131": {
+      "id": 131,
+      "name_hindi": "परकरणत्व असद्भूत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "132": {
+      "id": 132,
+      "name_hindi": "परसंप्रदानत्व असद्भूत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "133": {
+      "id": 133,
+      "name_hindi": "परपादनत्व असद्भूत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "134": {
+      "id": 134,
+      "name_hindi": "पराधिकरणत्व असद्भूत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "135": {
+      "id": 135,
+      "name_hindi": "परस्वामित्व असद्भूत व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "136": {
+      "id": 136,
+      "name_hindi": "स्वजातिकारण्ो स्वजातिकार्योपचारक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "137": {
+      "id": 137,
+      "name_hindi": "एकजातिकारण्ो स्वजातिकार्योपचारक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "138": {
+      "id": 138,
+      "name_hindi": "स्वजातिकारण्ो अन्यजातिकारणोपचारक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "139": {
+      "id": 139,
+      "name_hindi": "एकजातिकार्ये अन्यजातिकारणोपचारक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "140": {
+      "id": 140,
+      "name_hindi": "एकजात्यËपे अन्यजातिपूर्णोपचारक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "141": {
+      "id": 141,
+      "name_hindi": "स्वजात्यËपे स्वजातिपूर्णोपचारक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "142": {
+      "id": 142,
+      "name_hindi": "एकजात्याधारे अन्यजात्याधेयोपचारक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "143": {
+      "id": 143,
+      "name_hindi": "स्वजात्यधारे स्वजात्याधेयोपचारक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "144": {
+      "id": 144,
+      "name_hindi": "एकजात्याधेये अन्यजात्याधारोपचारक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "145": {
+      "id": 145,
+      "name_hindi": "स्वजात्याधेये स्वजात्याधारोपचारक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "146": {
+      "id": 146,
+      "name_hindi": "तmति तदुपचारक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "147": {
+      "id": 147,
+      "name_hindi": "अतीसामीप्तये तœवोपचारक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "148": {
+      "id": 148,
+      "name_hindi": "भाविनी भूतोपचारक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "149": {
+      "id": 149,
+      "name_hindi": "तत्सदृशकारण्ो तदुपचारक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "150": {
+      "id": 150,
+      "name_hindi": "सदृश एकत्वोपचारक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "151": {
+      "id": 151,
+      "name_hindi": "आŸाये आŸायी-उपचारक व्यवहार",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "152": {
+      "id": 152,
+      "name_hindi": "द्रव्यनय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "153": {
+      "id": 153,
+      "name_hindi": "पर्यायनय",
+      "khanda_id": 4,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "154": {
+      "id": 154,
+      "name_hindi": "अस्तित्वनय",
+      "khanda_id": 5,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "155": {
+      "id": 155,
+      "name_hindi": "नास्तित्वनय",
+      "khanda_id": 5,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "156": {
+      "id": 156,
+      "name_hindi": "अस्तित्वनास्तित्वनय",
+      "khanda_id": 5,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "157": {
+      "id": 157,
+      "name_hindi": "अवक्तUव्यनय",
+      "khanda_id": 5,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "158": {
+      "id": 158,
+      "name_hindi": "अस्तित्वावक्तUव्यनय",
+      "khanda_id": 5,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "159": {
+      "id": 159,
+      "name_hindi": "नास्तित्वत्वावक्तUव्यनय",
+      "khanda_id": 5,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "160": {
+      "id": 160,
+      "name_hindi": "अस्तित्वनास्तित्वावक्तUव्यनय",
+      "khanda_id": 6,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "161": {
+      "id": 161,
+      "name_hindi": "विकËपनय",
+      "khanda_id": 6,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "162": {
+      "id": 162,
+      "name_hindi": "अविकËपनय",
+      "khanda_id": 6,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "163": {
+      "id": 163,
+      "name_hindi": "नामनय",
+      "khanda_id": 6,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "164": {
+      "id": 164,
+      "name_hindi": "स्थापनानय",
+      "khanda_id": 6,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "165": {
+      "id": 165,
+      "name_hindi": "द्रव्यनय",
+      "khanda_id": 6,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "166": {
+      "id": 166,
+      "name_hindi": "भावनय",
+      "khanda_id": 6,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "167": {
+      "id": 167,
+      "name_hindi": "सामान्यनय",
+      "khanda_id": 6,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "168": {
+      "id": 168,
+      "name_hindi": "वि¯ेशनय",
+      "khanda_id": 6,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "169": {
+      "id": 169,
+      "name_hindi": "नित्यनय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "170": {
+      "id": 170,
+      "name_hindi": "अनित्यनय",
+      "khanda_id": 3,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "171": {
+      "id": 171,
+      "name_hindi": "सर्वगतनय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "172": {
+      "id": 172,
+      "name_hindi": "असर्वगतनय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "173": {
+      "id": 173,
+      "name_hindi": "शून्यनय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "174": {
+      "id": 174,
+      "name_hindi": "अशून्ययन",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "175": {
+      "id": 175,
+      "name_hindi": "ज्ञानज्ञोयाmैतनय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "176": {
+      "id": 176,
+      "name_hindi": "ज्ञानज्ञोयmैतनय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "177": {
+      "id": 177,
+      "name_hindi": "नियतिनय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "178": {
+      "id": 178,
+      "name_hindi": "अनियतिनय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "179": {
+      "id": 179,
+      "name_hindi": "स्वभावनय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "180": {
+      "id": 180,
+      "name_hindi": "अस्वभावनय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "181": {
+      "id": 181,
+      "name_hindi": "कालनय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "182": {
+      "id": 182,
+      "name_hindi": "अकालनय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "183": {
+      "id": 183,
+      "name_hindi": "पुरु¯कारनय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "184": {
+      "id": 184,
+      "name_hindi": "देवनय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "185": {
+      "id": 185,
+      "name_hindi": "ईEरनय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "186": {
+      "id": 186,
+      "name_hindi": "अनिEरनय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "187": {
+      "id": 187,
+      "name_hindi": "गुणिनय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "188": {
+      "id": 188,
+      "name_hindi": "अगुणिनय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "189": {
+      "id": 189,
+      "name_hindi": "कर्तृनय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "190": {
+      "id": 190,
+      "name_hindi": "अकर्तृनय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "191": {
+      "id": 191,
+      "name_hindi": "भोक्तानय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "192": {
+      "id": 192,
+      "name_hindi": "अभोक्तानय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "193": {
+      "id": 193,
+      "name_hindi": "क्रियानय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "194": {
+      "id": 194,
+      "name_hindi": "ज्ञाननय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "195": {
+      "id": 195,
+      "name_hindi": "व्यवहारनय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "196": {
+      "id": 196,
+      "name_hindi": "निश्चयनय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "197": {
+      "id": 197,
+      "name_hindi": "अशुद्धनय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "198": {
+      "id": 198,
+      "name_hindi": "शुद्धनय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "199": {
+      "id": 199,
+      "name_hindi": "ऊर्ध्वतासामान्यनय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "200": {
+      "id": 200,
+      "name_hindi": "ऊर्ध्वताविशेषनय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "201": {
+      "id": 201,
+      "name_hindi": "निमित्तत्वनिमित्तदृष्टि",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "202": {
+      "id": 202,
+      "name_hindi": "सादृश्यनय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    },
+    "203": {
+      "id": 203,
+      "name_hindi": "वैलक्षण्यनय",
+      "khanda_id": 7,
+      "status": "pending",
+      "file_path": null,
+      "word_count": 0,
+      "validation_passed": false
+    }
+  }
+}
