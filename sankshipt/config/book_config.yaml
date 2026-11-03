@@ -1,6 +1,6 @@
 book:
   title: "નય પ્રકાશ: જૈન દર્શનના ૨૦૩ નયોનું સમગ્ર અનુશીલન (સંક્ષિપ્ત ૨-પેજ આવૃત્તિ)"
-  subtitle: "સપ્ત મૂળ નયોના આલોકમાં ૨૦૩ નયોનું દર્શન, વ્યવહાર, સાધના અને નવલિકા સભર ૨-પેજ સંસ્કરણ"
+  subtitle: "સપ્ત મૂળ નયોના આલોકમાં ૨૦૩ નયોનું વિવેચન, વ્યવહાર, કાવ્ય, પ્રસંગ (પિપાસા-પાન) અને વિવેક (એકાંત-અનેકાંત) સભર ૨-પેજ સંસ્કરણ"
   edition_type: "sankshipt_2page_a5"
   language: "gu"
   total_khandas: 7
@@ -30,29 +30,34 @@ framework:
 chapter_spec:
   format: "two_page_spread"
   left_page:
+    name: "પ્રથમ પૃષ્ઠ (સૈદ્ધાંતિક અને વ્યવહારિક સ્પષ્ટતા)"
     sections:
-      1: "સૂત્રાર્થ અને જોવાનો અભિગમ"
-      2: "વ્યવહારિક જીવનમાં વિનિયોગ"
-      3: "સાધના-મર્મ"
-      4: "બોધ-સૂત્ર"
-    word_count_target: 300
-    word_count_min: 250
+      1: "નય વિવેચન (૪૫% ભાગ: વ્યાખ્યા, સમજૂતી અને રોચક ઉદાહરણ)"
+      2: "વ્યવહારિક જીવનમાં વિનિયોગ (૪૫% ભાગ: વ્યવહારમાં ઉપયોગ, ગુણ વિકાસ અને ઉકેલ)"
+      3: "કાવ્યાત્મક બોધસૂત્ર (હૃદયસ્થ થઈ જાય તેવો કાવ્યાત્મક દોહરો/છંદ)"
+      4: "સાધના-સંકેત (પરમ વિશ્રામ તરફ સરકવા માટે એક જ લાઈન)"
+    word_count_target: 290
+    word_count_min: 240
     word_count_max: 330
   right_page:
-    section: "નવલિકા"
-    word_count_target: 340
-    word_count_min: 280
-    word_count_max: 370
+    name: "દ્વિતીય પૃષ્ઠ (પ્રસંગ અને વિવેક-દર્શન)"
+    sections:
+      5: "પ્રસંગ: પિપાસા અને પાન (૫૦-૬૦% ભાગ: પિપાસામાં મૂંઝવણ/વલયો, પાનમાં નય-દ્રષ્ટિથી સમાધાન/વિશ્રામ)"
+      6: "એકાંત દર્શન (૨૦% ભાગ: જડતા/કદાગ્રહ/જીદ બને ત્યારે થતી હાનિ અને સંકુચિતતા)"
+      7: "અનેકાંત દર્શન (૨૦% ભાગ: યાત્રા/સમન્વય/મંઝિલગામી બનતાં પ્રગટતું અદ્ભુત સૌંદર્ય)"
+    word_count_target: 300
+    word_count_min: 250
+    word_count_max: 340
 
   word_count_targets:
     chapter_total_min: 500
-    chapter_total_target: 600
-    chapter_total_max: 680
+    chapter_total_target: 590
+    chapter_total_max: 670
 
 guidelines:
   examples:
     count_per_chapter: 1
-    style: "osho_spiritual_novella"
+    style: "pipasa_paan_story"
     uniqueness: "strictly_global_across_all_203_chapters"
     ethical_filter: "strict_jain_ahimsa_compliance"
     prohibited_themes:
