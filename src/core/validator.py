@@ -154,8 +154,12 @@ class ChapterValidator:
         sec_4_body = parsed[4][1]
         examples = []
 
-        # Split by sub-headings or bullet markers
-        ex_blocks = re.split(r"(?:###?\s*(?:उदाहरण|दृष्टांत|प्रसंग)\s*[:\-\d\.]+|^\s*(?:उदाहरण|प्रसंग)\s*[१२३123][:\-\.]|\b(?:प्रथम|द्वितीय|तृतीय)\s*उदाहरण\b)", sec_4_body, flags=re.MULTILINE)
+        # Split by sub-headings or bullet markers (Hindi and Gujarati support)
+        ex_blocks = re.split(
+            r"(?:###?\s*(?:ઉદાહરણ|દૃષ્ટાંત|પ્રસંગ|उदाहरण|दृष्टांत|प्रसंग)\s*[:\-\d\.૧૨૩]+|^\s*(?:ઉદાહરણ|દૃષ્ટાંત|પ્રસંગ|उदाहरण|प्रसंग)\s*[૧૨૩123][:\-\.]|\b(?:પ્રથમ|દ્વિતીય|તૃતીય|प्रथम|द्वितीय|तृतीय)\s*(?:ઉદાહરણ|उदाहरण)\b)",
+            sec_4_body,
+            flags=re.MULTILINE
+        )
         
         for idx, block in enumerate(ex_blocks):
             b_clean = block.strip()

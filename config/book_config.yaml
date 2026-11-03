@@ -1,53 +1,57 @@
 book:
-  title: "नय प्रकाश: जैन दर्शन के 203 नयों का समग्र अनुशीलन"
-  subtitle: "सप्त मूल नयों के आलोक में 203 नयों का तार्किक, दार्शनिक, व्यावहारिक एवं साधनाकीय महाग्रंथ"
-  language: "hi"
+  title: "નય પ્રકાશ: જૈન દર્શનના ૨૦૩ નયોનું સમગ્ર અનુશીલન"
+  subtitle: "સપ્ત મૂળ નયોના આલોકમાં ૨૦૩ નયોનો તાર્કિક, દાર્શનિક, વ્યવહારિક તેમજ સાધનાકીય મહાગ્રંથ"
+  language: "gu"
   total_khandas: 7
   total_chapters: 203
 
 framework:
   primary_divisions:
-    - name: "द्रव्यार्थिक नय"
+    - name: "દ્રવ્યાર્થિક નય"
       type: "Dravyarthika"
       khandas: [1, 2, 3]
-    - name: "पर्यायार्थिक नय"
+    - name: "પર્યાયાર્થિક નય"
       type: "Paryayarthika"
       khandas: [4, 5, 6, 7]
 
   tri_aspects:
-    - name: "ज्ञाननय"
-      scope: "संकल्प मात्रग्राही (नैगम)"
+    - name: "જ્ઞાનનય"
+      scope: "સંકલ્પ માત્રગ્રાહી (નૈગમ)"
       khandas: [1]
-    - name: "अर्थनय"
-      scope: "पदार्थग्राही (संग्रह, व्यवहार, ऋजुसूत्र)"
+    - name: "અર્થનય"
+      scope: "પદાર્થગ્રાહી (સંગ્રહ, વ્યવહાર, ઋજુસૂત્ર)"
       khandas: [2, 3, 4]
-    - name: "शब्दनय"
-      scope: "शब्द-व्युत्पत्ति-क्रियाग्राही (शब्द, समभिरूढ़, एवंभूत)"
+    - name: "શબ્દનય"
+      scope: "શબ્દ-વ્યુત્પત્તિ-ક્રિયાગ્રાહી (શબ્દ, સમભિરૂઢ, એવંભૂત)"
       khandas: [5, 6, 7]
 
 chapter_spec:
   sections_count: 10
   sections:
-    1: "नय"
-    2: "सामान्य अर्थ एवं शब्दार्थ"
-    3: "तार्किक विवेचन"
-    4: "3 उदाहरण"
-    5: "व्यवहारिक समज"
-    6: "दार्शनिक समज़"
-    7: "सैद्धांतिक समज़"
-    8: "साधनाकिय समज़"
-    9: "डीप डाईव"
-    10: "मंझिलगामी रूख"
+    1: "નય"
+    2: "સામાન્ય અર્થ અને શબ્દાર્થ"
+    3: "તાર્કિક વિવેચન"
+    4: "ઉદાહરણ"
+    5: "વ્યવહારિક સમજ"
+    6: "દાર્શનિક સમજ"
+    7: "સૈદ્ધાંતિક સમજ"
+    8: "સાધનાકીય સમજ"
+    9: "ડીપ ડાઈવ"
+    10: "મંઝિલગામી વલણ"
 
   word_count_targets:
-    section_3_target: 500
+    section_3_target: 1000
     section_3_min: 450
-    section_9_min: 300
-    section_9_max: 550
+    section_5_target: 300
+    section_5_min: 250
+    section_6_min: 250
+    section_6_max: 300
+    section_9_min: 350
+    section_9_max: 600
     section_10_target: 200
     section_10_min: 180
-    chapter_total_min: 1800
-    chapter_total_target: 2200
+    chapter_total_min: 2500
+    chapter_total_target: 3500
 
 guidelines:
   examples:

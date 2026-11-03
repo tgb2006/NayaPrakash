@@ -14,7 +14,7 @@ class BookCompiler:
         self.loader = CatalogLoader(self.base_dir)
         self.validator = ChapterValidator()
 
-    def generate_toc(self, lang: str = "hi") -> str:
+    def generate_toc(self, lang: str = "gu") -> str:
         khandas = self.loader.get_khandas()
         is_gu = (lang == "gu")
 
@@ -87,10 +87,13 @@ class BookCompiler:
         toc_path = self.compiled_dir / toc_filename
         with open(toc_path, "w", encoding="utf-8") as f:
             f.write(toc_content)
+        if is_gu:
+            with open(self.compiled_dir / "NayaPrakash_TOC.md", "w", encoding="utf-8") as f:
+                f.write(toc_content)
 
         return str(toc_path)
 
-    def compile_full_book(self, lang: str = "hi") -> str:
+    def compile_full_book(self, lang: str = "gu") -> str:
         khandas = self.loader.get_khandas()
         is_gu = (lang == "gu")
 
@@ -179,6 +182,9 @@ class BookCompiler:
         master_book_path = self.compiled_dir / master_filename
         with open(master_book_path, "w", encoding="utf-8") as f:
             f.write("\n".join(book_lines))
+        if is_gu:
+            with open(self.compiled_dir / "NayaPrakash_Complete_Book.md", "w", encoding="utf-8") as f:
+                f.write("\n".join(book_lines))
 
         # Regenerate TOC as well
         self.generate_toc(lang=lang)
