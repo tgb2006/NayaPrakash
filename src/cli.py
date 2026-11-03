@@ -72,14 +72,19 @@ def cmd_catalog(args):
 
 def cmd_prompt(args):
     orch = WorkflowOrchestrator()
+    lang = getattr(args, "lang", "gu") or "gu"
     if args.khanda_intro:
         prompt = orch.get_prompt_for_khanda_intro(int(args.khanda_intro))
         print(prompt)
     elif args.id:
-        prompt = orch.get_prompt_for_chapter(int(args.id))
+        sec = getattr(args, "section", None)
+        if sec:
+            prompt = orch.get_prompt_for_section(int(args.id), int(sec), lang=lang)
+        else:
+            prompt = orch.get_prompt_for_chapter(int(args.id))
         print(prompt)
     else:
-        print("कृपया --id <नय_आईडी> अथवा --khanda-intro <खंड_आईडी> निर्दिष्ट करें।")
+        print("કૃપા કરીને --id <નય_આઈડી> અથવા --khanda-intro <ખંડ_આઈડી> નિર્દિષ્ટ કરો.")
 
 def cmd_validate(args):
     file_path = Path(args.file)
@@ -201,9 +206,11 @@ def main():
     cat_parser = subparsers.add_parser("catalog", help="203 नयों की कैटलॉग सूची")
     cat_parser.add_argument("--khanda", type=int, help="विशिष्ट खंड के नय देखें (1-7)")
 
-    prompt_parser = subparsers.add_parser("prompt", help="अध्याय या खंड परिचय का लेखन प्रॉम्ट उत्पन्न करें")
-    prompt_parser.add_argument("--id", type=int, help="नय आईडी (1-203)")
-    prompt_parser.add_argument("--khanda-intro", type=int, help="खंड परिचय आईडी (1-7)")
+    prompt_parser = subparsers.add_parser("prompt", help="અધ્યાય, સેક્શન અથવા ખંડ પરિચયનો પ્રોમ્પ્ટ જનરેટ કરો")
+    prompt_parser.add_argument("--id", type=int, help="નય આઈડી (1-203)")
+    prompt_parser.add_argument("--section", type=int, choices=range(1, 11), help="વિશિષ્ટ સેક્શન નંબર (1-10)")
+    prompt_parser.add_argument("--lang", choices=["gu", "hi"], default="gu", help="ભાષા પસંદ કરો: gu (ગુજરાતી) અથવા hi (હિન્દી)")
+    prompt_parser.add_argument("--khanda-intro", type=int, help="ખંડ પરિચય આઈડી (1-7)")
 
     val_parser = subparsers.add_parser("validate", help="अध्याय फ़ाइल का सत्यापन करें")
     val_parser.add_argument("--file", required=True, help="मार्कडाउन फ़ाइल का पथ")

@@ -17,6 +17,122 @@ class WorkflowOrchestrator:
         self.compiler = BookCompiler(self.base_dir)
         self.retriever = ReferenceRetriever(self.base_dir / "references")
         self.prompts_dir = self.base_dir / "prompts"
+        self.sections_prompts_dir = self.prompts_dir / "sections"
+
+    SECTION_FILES = {
+        1: "01_naya.md",
+        2: "02_samanya_arth.md",
+        3: "03_tarkik_vivechan.md",
+        4: "04_udaharan.md",
+        5: "05_vyavaharik_samaj.md",
+        6: "06_darshanik_samaj.md",
+        7: "07_saiddhantik_samaj.md",
+        8: "08_sadhanakiya_samaj.md",
+        9: "09_deep_dive.md",
+        10: "10_manzilgami_valan.md",
+    }
+
+    SECTION_TITLES = {
+        1: ("નય", "नय"),
+        2: ("સામાન્ય અર્થ અને શબ્દાર્થ", "सामान्य अर्थ एवं शब्दार्थ"),
+        3: ("તાર્કિક વિવેચન", "तार्किक विवेचन"),
+        4: ("ઉદાહરણ", "उदाहरण"),
+        5: ("વ્યવહારિક સમજ", "व्यवहारिक समझ"),
+        6: ("દાર્શનિક સમજ", "दार्शनिक समझ"),
+        7: ("સૈદ્ધાંતિક સમજ", "सैद्धांतिक समझ"),
+        8: ("સાધનાકીય સમજ", "साधनाकीय समझ"),
+        9: ("ડીપ ડાઈવ", "डीप डाइव"),
+        10: ("મંઝિલગામી વલણ", "मंजिलगामी रुख"),
+    }
+
+    def get_prompt_for_section(self, naya_id: int, section_num: int, previous_context: str = "", lang: str = "gu") -> str:
+        """Generate a focused prompt for a specific section with required context and guidelines."""
+        if section_num not in self.SECTION_FILES:
+            raise ValueError(f"અમાન્ય સેક્શન નંબર: {section_num} (૧ થી ૧૦ હોવો જોઈએ)")
+
+        naya = self.loader.get_naya_by_id(naya_id)
+        if not naya:
+            raise ValueError(f"નય આઈડી {naya_id} કેટેલોગમાં મળ્યો નથી.")
+
+        khanda = self.loader.get_khanda_by_id(naya.khanda_id)
+        if not khanda:
+            raise ValueError(f"ખંડ આઈડી {naya.khanda_id} મળ્યો નથી.")
+
+        section_file = self.sections_prompts_dir / self.SECTION_FILES[section_num]
+        base_instructions = section_file.read_text(encoding="utf-8") if section_file.exists() else ""
+
+        target_lang = "ગુજરાતી (સાહિત્યિક અને કુદરતી પ્રવાહી શૈલી)" if lang == "gu" else "हिन्दी (प्रौढ़ एवं शास्त्रीय शैली)"
+        title_gu, title_hi = self.SECTION_TITLES[section_num]
+        target_heading = f"## {title_gu}" if lang == "gu" else f"## {title_hi}"
+
+        context_blocks = []
+        if previous_context:
+            context_blocks.append(f"""
+----------------------------------------------------------------------
+પૂર્વવર્તી સેક્શન્સનો સાર અને સાતત્ય (PREVIOUS CONTEXT FOR CONTINUITY):
+{previous_context}
+----------------------------------------------------------------------""")
+
+        if section_num == 4:
+            used_examples_context = self.registry.get_used_themes_context(max_recent=30)
+            context_blocks.append(f"""
+----------------------------------------------------------------------
+પુનરાવર્તન નિવારણ (EXAMPLES DEDUPLICATION GUARD):
+નીચે પૂર્વે વપરાયેલા ઉદાહરણોની સૂચિ છે. આ તમામથી તદ્દન અલગ, મૌલિક ૩ ઉદાહરણો લખવાના છે:
+{used_examples_context}
+----------------------------------------------------------------------""")
+
+        if section_num in [2, 3, 6, 7]:
+            reference_context = self.retriever.format_reference_context_for_prompt(
+                naya.id, naya.name_hindi, naya.khanda_id
+            )
+            context_blocks.append(f"""
+----------------------------------------------------------------------
+સંદર્ભ ગ્રંથાલયમાંથી શાસ્ત્રીય સામગ્રી (SCRIPTURAL EXCERPTS):
+{reference_context}
+----------------------------------------------------------------------""")
+
+        extra_context = "\n".join(context_blocks)
+
+        prompt = f"""
+{base_instructions}
+
+======================================================================
+આ સેક્શન માટે વિશિષ્ટ વિગતો (ASSIGNMENT FOR SECTION {section_num}):
+======================================================================
+- **લક્ષ્ય ભાષા**: {target_lang}
+- **સેક્શન હેડિંગ**: `{target_heading}` (કોઈ નંબર કે ક્રમાંક વગર)
+- **નય ક્રમાંક**: {naya.id}
+- **નયનું નામ**: {naya.name_hindi} / {naya.name_sanskrit}
+- **ખંડ**: {khanda.name_hindi} (ખંડ {khanda.id})
+- **મૂળ નય**: {khanda.root_naya} ({khanda.sanskrit_name})
+- **મુખ્ય શ્રેણી**: {naya.category} ({khanda.primary_division})
+- **ત્રિવિધ વિભાગ**: {naya.aspect} ({khanda.tri_aspect})
+- **પ્રાથમિક વ્યાખ્યા/લક્ષણ**: {naya.definition_brief}
+{extra_context}
+
+કૃપા કરીને આ સેક્શનનું સંપૂર્ણ લખાણ ઉપર્યુક્ત માર્ગદર્શિકા મુજબ જ લખો.
+"""
+        return prompt.strip()
+
+    def assemble_chapter(self, naya_id: int, sections: Dict[int, str], lang: str = "gu") -> str:
+        """Assemble all 10 individual sections into a unified chapter markdown text."""
+        naya = self.loader.get_naya_by_id(naya_id)
+        if not naya:
+            raise ValueError(f"નય {naya_id} મળ્યો નથી")
+
+        title_prefix = f"# અધ્યાય {naya.id:03d}: {naya.name_hindi}" if lang == "gu" else f"# अध्याय {naya.id:03d}: {naya.name_hindi}"
+        
+        parts = [title_prefix]
+        for sec_num in range(1, 11):
+            sec_content = sections.get(sec_num, "").strip()
+            if not sec_content:
+                title_gu, title_hi = self.SECTION_TITLES[sec_num]
+                title = title_gu if lang == "gu" else title_hi
+                sec_content = f"## {title}\n\n[વિષયવસ્તુ અપ્રાપ્ય]"
+            parts.append(sec_content)
+
+        return "\n\n---\n\n".join(parts) + "\n"
 
     def get_prompt_for_chapter(self, naya_id: int) -> str:
         naya = self.loader.get_naya_by_id(naya_id)
