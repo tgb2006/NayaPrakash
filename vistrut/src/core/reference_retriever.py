@@ -4,7 +4,7 @@ import re
 import zipfile
 import xml.etree.ElementTree as ET
 from pathlib import Path
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Any, Optional, Union
 
 BOOK_DESCRIPTIONS = {
     "1_2_3_4_5_decoded_full.txt": "नयचक्रप्रकाश / नयप्रकाश (मूल आधार ग्रंथ - 1_2_3_4_5_merged.pdf)",
@@ -194,7 +194,7 @@ class ReferenceRetriever:
         results.sort(key=lambda x: x["score"], reverse=True)
         return results[:max_snippets]
 
-    def get_references_for_naya(self, naya_id: int, naya_name: str, khanda_id: int) -> List[Dict[str, Any]]:
+    def get_references_for_naya(self, naya_id: Union[int, float, str], naya_name: str, khanda_id: int) -> List[Dict[str, Any]]:
         """Intelligently derives search terms based on Naya ID and name, then fetches relevant shastric text."""
         results = []
 
@@ -204,7 +204,7 @@ class ReferenceRetriever:
             content = self.load_file_text(main_file)
             pages = content.split("=== PAGE ")
             list_text = "\n".join(pages[31:]) if len(pages) > 31 else content
-            pat = re.compile(rf"(?:^|\n)\s*0?{naya_id}\s*[\.\-]\s*([^\n]+(?:\n\s*[^\n\d=][^\n]+)*)", re.MULTILINE)
+            pat = re.compile(rf"(?:^|\n)\s*0?{re.escape(str(naya_id))}\s*[\.\-]\s*([^\n]+(?:\n\s*[^\n\d=][^\n]+)*)", re.MULTILINE)
             m_list = list(pat.finditer(list_text))
             if m_list:
                 best = max(m_list, key=lambda m: len(m.group(1)))
@@ -253,7 +253,7 @@ class ReferenceRetriever:
 
         return results[:4]
 
-    def format_reference_context_for_prompt(self, naya_id: int, naya_name: str, khanda_id: int) -> str:
+    def format_reference_context_for_prompt(self, naya_id: Union[int, float, str], naya_name: str, khanda_id: int) -> str:
         """Formats classical reference excerpts into a markdown section to inject into generation prompts."""
         snippets = self.get_references_for_naya(naya_id, naya_name, khanda_id)
         if not snippets:

@@ -1,10 +1,10 @@
 """Naya Prakash Book Core Models."""
 
-from typing import List, Optional, Dict, Any
+from typing import List, Optional, Dict, Any, Union
 from pydantic import BaseModel, Field
 
 class NayaCatalogItem(BaseModel):
-    id: int
+    id: Union[int, float, str]
     khanda_id: int
     khanda_name: str
     name_hindi: str
@@ -23,14 +23,14 @@ class KhandaDefinition(BaseModel):
     primary_division: str
     tri_aspect: str
     chapters_count: int
-    range: List[int]
+    range: List[Union[int, float, str]]
     core_sutra: str
     agamic_definition: str
     philosophical_essence: str
 
 class ExampleItem(BaseModel):
     id: int
-    chapter_id: int
+    chapter_id: Union[int, float, str]
     naya_name: str
     example_number: int
     title: str
@@ -45,7 +45,7 @@ class ChapterSection(BaseModel):
     word_count: int = 0
 
 class ChapterMetadata(BaseModel):
-    id: int
+    id: Union[int, float, str]
     naya_name_hindi: str
     khanda_id: int
     file_path: Optional[str] = None

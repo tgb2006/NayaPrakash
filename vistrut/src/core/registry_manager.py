@@ -2,7 +2,7 @@
 
 import json
 from pathlib import Path
-from typing import List, Optional, Dict, Any
+from typing import List, Optional, Dict, Any, Union
 from src.models.naya import ExampleItem
 
 class RegistryManager:
@@ -32,12 +32,12 @@ class RegistryManager:
         data = self.load_examples()
         return [ExampleItem(**item) for item in data.get("examples", [])]
 
-    def add_examples_for_chapter(self, chapter_id: int, naya_name: str, examples: List[Dict[str, Any]]) -> None:
+    def add_examples_for_chapter(self, chapter_id: Union[int, float, str], naya_name: str, examples: List[Dict[str, Any]]) -> None:
         data = self.load_examples()
         current_examples = data.get("examples", [])
         
         # Remove any existing examples for this chapter if re-drafting
-        current_examples = [e for e in current_examples if e.get("chapter_id") != chapter_id]
+        current_examples = [e for e in current_examples if str(e.get("chapter_id")) != str(chapter_id)]
 
         start_id = len(current_examples) + 1
         for idx, ex in enumerate(examples, start=1):
@@ -113,7 +113,7 @@ class RegistryManager:
 
     def update_chapter_status(
         self,
-        chapter_id: int,
+        chapter_id: Union[int, float, str],
         status: str,
         file_path: Optional[str] = None,
         word_count: int = 0,

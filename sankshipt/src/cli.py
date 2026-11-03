@@ -11,6 +11,13 @@ from src.core.reference_retriever import ReferenceRetriever
 from src.workflow.compiler import BookCompiler
 from src.workflow.orchestrator import WorkflowOrchestrator
 
+def format_id(nid: Any) -> str:
+    try:
+        val = int(str(nid))
+        return f"{val:03d}"
+    except ValueError:
+        return str(nid)
+
 def cmd_status(args):
     reg = RegistryManager()
     summary = reg.get_dashboard_summary()
@@ -63,10 +70,11 @@ def cmd_catalog(args):
         print(f"\n--- ખંડ {khanda_id} ના નયોની સૂચિ (કુલ {len(nayas)}) ---")
     else:
         nayas = loader.get_all_nayas()
-        print(f"\n--- સંપૂર્ણ ૨૦૩ નય સૂચિ ---")
+        print(f"\n--- સંપૂર્ણ ૨૨૫ નય સૂચિ (૨૦૩ મુખ્ય + ૨૨ પેટા-નય) ---")
 
     for n in nayas:
-        print(f"[{n.id:03d}] {n.name_hindi:<36} | {n.category} ({n.aspect})")
+        nid_str = format_id(n.id)
+        print(f"[{nid_str}] {n.name_hindi:<36} | {n.category} ({n.aspect})")
         print(f"      લક્ષણ: {n.definition_brief}")
     print()
 
@@ -76,7 +84,11 @@ def cmd_prompt(args):
         prompt = orch.get_prompt_for_khanda_intro(int(args.khanda_intro))
         print(prompt)
     elif args.id:
-        prompt = orch.get_prompt_for_chapter(int(args.id))
+        try:
+            nid = int(args.id)
+        except ValueError:
+            nid = str(args.id)
+        prompt = orch.get_prompt_for_chapter(nid)
         print(prompt)
     else:
         print("કૃપા કરીને --id <નય_આઈડી> અથવા --khanda-intro <ખંડ_આઈડી> નિર્દિષ્ટ કરો.")
@@ -122,7 +134,10 @@ def cmd_validate(args):
 
 def cmd_register(args):
     file_path = Path(args.file)
-    naya_id = int(args.id)
+    try:
+        naya_id = int(args.id)
+    except ValueError:
+        naya_id = str(args.id)
     orch = WorkflowOrchestrator()
     result = orch.process_and_register_chapter(file_path, naya_id)
 
@@ -149,7 +164,8 @@ def cmd_examples(args):
     examples = reg.get_all_examples()
     print(f"\n--- નોંધાયેલ નવલિકાઓની સૂચિ (કુલ {len(examples)} નવલિકાઓ) ---")
     for ex in examples:
-        print(f"[{ex.id:03d}] [નય {ex.chapter_id:03d}: {ex.naya_name}] {ex.title}")
+        cid_str = format_id(ex.chapter_id)
+        print(f"[{ex.id:03d}] [નય {cid_str}: {ex.naya_name}] {ex.title}")
     print()
 
 def cmd_refs_list(args):
@@ -196,12 +212,12 @@ def main():
     p_khandas = subparsers.add_parser("khandas", help="૭ ખંડોની બ્લુપ્રિન્ટ")
     p_khandas.set_defaults(func=cmd_khandas)
 
-    p_cat = subparsers.add_parser("catalog", help="૨૦૩ નયોની કેટેલોગ સૂચિ")
+    p_cat = subparsers.add_parser("catalog", help="૨૨૫ નયોની કેટેલોગ સૂચિ (૨૦૩ મુખ્ય + ૨૨ પેટા-નય)")
     p_cat.add_argument("--khanda", type=int, help="કોઈ વિશિષ્ટ ખંડ આઈડી")
     p_cat.set_defaults(func=cmd_catalog)
 
     p_prompt = subparsers.add_parser("prompt", help="અધ્યાય લેખન પ્રોમ્પ્ટ મેળવો")
-    p_prompt.add_argument("--id", type=int, help="નય આઈડી (૧ થી ૨૦૩)")
+    p_prompt.add_argument("--id", type=str, help="નય આઈડી (દા.ત. 1, 105, 105.1)")
     p_prompt.add_argument("--khanda-intro", type=int, help="ખંડ પરિચય આઈડી (૧ થી ૭)")
     p_prompt.set_defaults(func=cmd_prompt)
 
@@ -211,7 +227,7 @@ def main():
 
     p_reg = subparsers.add_parser("register", help="અધ્યાયને ચકાસીને રજિસ્ટર કરો")
     p_reg.add_argument("--file", required=True, help="અધ્યાય ફાઇલનો પાથ")
-    p_reg.add_argument("--id", type=int, required=True, help="નય આઈડી")
+    p_reg.add_argument("--id", type=str, required=True, help="નય આઈડી (દા.ત. 1, 105, 105.1)")
     p_reg.set_defaults(func=cmd_register)
 
     p_compile = subparsers.add_parser("compile", help="સંપૂર્ણ સંક્ષિપ્ત મહાગ્રંથ કમ્પાઇલ કરો")

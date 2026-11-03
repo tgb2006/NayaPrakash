@@ -5,6 +5,13 @@ from typing import List, Dict, Any, Optional
 from src.core.catalog_loader import CatalogLoader
 from src.core.validator import ChapterValidator
 
+def format_id(nid: Any) -> str:
+    try:
+        val = int(str(nid))
+        return f"{val:03d}"
+    except ValueError:
+        return str(nid)
+
 class BookCompiler:
     def __init__(self, base_dir: Optional[Path] = None):
         self.base_dir = base_dir or Path(__file__).resolve().parent.parent.parent
@@ -65,10 +72,11 @@ class BookCompiler:
             # Sub-nayas in this khanda
             nayas = self.loader.get_nayas_by_khanda(k.id)
             for n in nayas:
+                nid_str = format_id(n.id)
                 if is_gu:
-                    matching_files = list(khanda_folder.glob(f"chapter_{n.id:03d}_*_gu.md"))
+                    matching_files = list(khanda_folder.glob(f"chapter_{nid_str}_*_gu.md"))
                 else:
-                    matching_files = [f for f in khanda_folder.glob(f"chapter_{n.id:03d}_*.md") if not f.name.endswith("_gu.md")]
+                    matching_files = [f for f in khanda_folder.glob(f"chapter_{nid_str}_*.md") if not f.name.endswith("_gu.md")]
 
                 word_label = "શબ્દો" if is_gu else "शब्द"
                 naya_prefix = "નય" if is_gu else "नय"
@@ -77,9 +85,9 @@ class BookCompiler:
                     f = matching_files[0]
                     content = f.read_text(encoding="utf-8")
                     words = self.validator.count_words(content)
-                    toc_lines.append(f"  - [x] **{naya_prefix} {n.id:03d}**: [{n.name_hindi}]({k.slug}/{f.name}) `({words} {word_label})`")
+                    toc_lines.append(f"  - [x] **{naya_prefix} {nid_str}**: [{n.name_hindi}]({k.slug}/{f.name}) `({words} {word_label})`")
                 else:
-                    toc_lines.append(f"  - [ ] **{naya_prefix} {n.id:03d}**: {n.name_hindi} — *{n.definition_brief}*")
+                    toc_lines.append(f"  - [ ] **{naya_prefix} {nid_str}**: {n.name_hindi} — *{n.definition_brief}*")
             toc_lines.append("")
 
         toc_content = "\n".join(toc_lines)
@@ -163,10 +171,11 @@ class BookCompiler:
 
             nayas = self.loader.get_nayas_by_khanda(k.id)
             for n in nayas:
+                nid_str = format_id(n.id)
                 if is_gu:
-                    matching_files = list(khanda_folder.glob(f"chapter_{n.id:03d}_*_gu.md"))
+                    matching_files = list(khanda_folder.glob(f"chapter_{nid_str}_*_gu.md"))
                 else:
-                    matching_files = [f for f in khanda_folder.glob(f"chapter_{n.id:03d}_*.md") if not f.name.endswith("_gu.md")]
+                    matching_files = [f for f in khanda_folder.glob(f"chapter_{nid_str}_*.md") if not f.name.endswith("_gu.md")]
 
                 if matching_files:
                     ch_file = matching_files[0]

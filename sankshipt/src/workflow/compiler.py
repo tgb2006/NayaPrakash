@@ -5,6 +5,13 @@ from typing import List, Dict, Any, Optional
 from src.core.catalog_loader import CatalogLoader
 from src.core.validator import ChapterValidator
 
+def format_id(nid: Any) -> str:
+    try:
+        val = int(str(nid))
+        return f"{val:03d}"
+    except ValueError:
+        return str(nid)
+
 class BookCompiler:
     def __init__(self, base_dir: Optional[Path] = None):
         self.base_dir = base_dir or Path(__file__).resolve().parent.parent.parent
@@ -45,16 +52,17 @@ class BookCompiler:
 
             nayas = self.loader.get_nayas_by_khanda(k.id)
             for n in nayas:
-                matching_files = list(khanda_folder.glob(f"chapter_{n.id:03d}_*.md"))
+                nid_str = format_id(n.id)
+                matching_files = list(khanda_folder.glob(f"chapter_{nid_str}_*.md"))
                 if matching_files:
                     f = matching_files[0]
                     content = f.read_text(encoding="utf-8")
                     words = self.validator.count_words(content)
                     novella_info = self.validator.extract_novella(content)
                     story_title = f" — *નવલિકા: {novella_info['title']}*" if novella_info else ""
-                    toc_lines.append(f"  - [x] **નય {n.id:03d}**: [{n.name_hindi}]({k.slug}/{f.name}){story_title} `({words} શબ્દો / ૨ પાના)`")
+                    toc_lines.append(f"  - [x] **નય {nid_str}**: [{n.name_hindi}]({k.slug}/{f.name}){story_title} `({words} શબ્દો / ૨ પાના)`")
                 else:
-                    toc_lines.append(f"  - [ ] **નય {n.id:03d}**: {n.name_hindi} — *{n.definition_brief}*")
+                    toc_lines.append(f"  - [ ] **નય {nid_str}**: {n.name_hindi} — *{n.definition_brief}*")
             toc_lines.append("")
 
         toc_content = "\n".join(toc_lines)
@@ -109,16 +117,17 @@ class BookCompiler:
 
             nayas = self.loader.get_nayas_by_khanda(k.id)
             for n in nayas:
-                matching_files = list(khanda_folder.glob(f"chapter_{n.id:03d}_*.md"))
+                nid_str = format_id(n.id)
+                matching_files = list(khanda_folder.glob(f"chapter_{nid_str}_*.md"))
                 if matching_files:
                     ch_file = matching_files[0]
                     ch_text = ch_file.read_text(encoding="utf-8")
                     total_words_compiled += self.validator.count_words(ch_text)
                     total_chapters_included += 1
 
-                    book_lines.append(f"\n\n<!-- START 2-PAGE SPREAD: NAYA {n.id} -->\n")
+                    book_lines.append(f"\n\n<!-- START 2-PAGE SPREAD: NAYA {nid_str} -->\n")
                     book_lines.append(ch_text)
-                    book_lines.append(f"\n<!-- END 2-PAGE SPREAD: NAYA {n.id} -->\n\n---\n")
+                    book_lines.append(f"\n<!-- END 2-PAGE SPREAD: NAYA {nid_str} -->\n\n---\n")
 
         master_filename = "NayaPrakash_Sankshipt_Book.md"
         master_book_path = self.compiled_dir / master_filename

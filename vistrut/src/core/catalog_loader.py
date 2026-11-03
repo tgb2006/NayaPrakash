@@ -2,7 +2,7 @@
 
 import json
 from pathlib import Path
-from typing import List, Optional, Dict, Any
+from typing import List, Optional, Dict, Any, Union
 import yaml
 
 from src.models.naya import NayaCatalogItem, KhandaDefinition
@@ -44,9 +44,10 @@ class CatalogLoader:
             self._nayas = [NayaCatalogItem(**item) for item in data.get("nayas", [])]
         return self._nayas
 
-    def get_naya_by_id(self, naya_id: int) -> Optional[NayaCatalogItem]:
+    def get_naya_by_id(self, naya_id: Union[int, float, str]) -> Optional[NayaCatalogItem]:
+        target = str(naya_id)
         for n in self.get_all_nayas():
-            if n.id == naya_id:
+            if str(n.id) == target:
                 return n
         return None
 

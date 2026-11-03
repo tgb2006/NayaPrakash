@@ -1,5 +1,5 @@
 {
-  "total_nayas": 203,
+  "total_nayas": 225,
   "nayas": [
     {
       "id": 1,
@@ -266,6 +266,28 @@
       "status": "pending"
     },
     {
+      "id": "24.1",
+      "khanda_id": 3,
+      "khanda_name": "तृतीय खंड: व्यवहार नय",
+      "name_hindi": "उपाध्यभावापेक्ष शुद्धद्रव्यार्थिकनय",
+      "name_sanskrit": "Upadhyabhavapeksha Shuddha Dravyarthika Naya",
+      "category": "द्रव्यार्थिक नय",
+      "aspect": "अर्थनय",
+      "definition_brief": "जैसे कर्मोपाधिके अभावका निमित्त पाकर कर्मत्वका दूर होना निरखना",
+      "status": "pending"
+    },
+    {
+      "id": "24.2",
+      "khanda_id": 3,
+      "khanda_name": "तृतीय खंड: व्यवहार नय",
+      "name_hindi": "शुद्धभावनिरपेक्ष शुद्धद्रव्यार्थिकनय",
+      "name_sanskrit": "Shuddhabhavanirapeksha Shuddha Dravyarthika Naya",
+      "category": "द्रव्यार्थिक नय",
+      "aspect": "अर्थनय",
+      "definition_brief": "जैसे आत्माके शुद्धपरिणामका निमित्त पाकर कर्मत्वका दूर होना निरखना",
+      "status": "pending"
+    },
+    {
       "id": 25,
       "khanda_id": 3,
       "khanda_name": "तृतीय खंड: व्यवहार नय",
@@ -329,6 +351,17 @@
       "category": "द्रव्यार्थिक नय",
       "aspect": "अर्थनय",
       "definition_brief": "जैसे सहज अखंड़ ज्ञानस्वरूप आत्माका परिचय",
+      "status": "pending"
+    },
+    {
+      "id": "30.1",
+      "khanda_id": 3,
+      "khanda_name": "तृतीय खंड: व्यवहार नय",
+      "name_hindi": "शुद्धपारिणामिक परमभावग्राहक शुद्धद्रव्यार्थिकनय",
+      "name_sanskrit": "Shuddhaparinamika Paramabhavagrahaka Shuddha Dravyarthika Naya",
+      "category": "द्रव्यार्थिक नय",
+      "aspect": "अर्थनय",
+      "definition_brief": "जैसे बद्धाबद्ध आदि नयविकल्परूप जीव नहीं होता आदि परिचय",
       "status": "pending"
     },
     {
@@ -508,6 +541,28 @@
       "status": "pending"
     },
     {
+      "id": "46.1",
+      "khanda_id": 3,
+      "khanda_name": "तृतीय खंड: व्यवहार नय",
+      "name_hindi": "सभेद शुद्धनिश्चयनय",
+      "name_sanskrit": "Sabheda Shuddha Nishchaya Naya",
+      "category": "द्रव्यार्थिक नय",
+      "aspect": "अर्थनय",
+      "definition_brief": "जैसे जीवके केवलज्ञान है, केवलदर्शन है, अनन्तसुख है आदि परिचय",
+      "status": "pending"
+    },
+    {
+      "id": "46.2",
+      "khanda_id": 3,
+      "khanda_name": "तृतीय खंड: व्यवहार नय",
+      "name_hindi": "अपूर्णशुद्धनिश्चयनय",
+      "name_sanskrit": "Apurna Shuddha Nishchaya Naya",
+      "category": "द्रव्यार्थिक नय",
+      "aspect": "अर्थनय",
+      "definition_brief": "जैसे स्वपरभेदविज्ञानी के एकत्वविभक्त आत्माकी ख्याति होनेसे ज्ञानमय भावका परिचय",
+      "status": "pending"
+    },
+    {
       "id": 47,
       "khanda_id": 3,
       "khanda_name": "तृतीय खंड: व्यवहार नय",
@@ -516,6 +571,17 @@
       "category": "द्रव्यार्थिक नय",
       "aspect": "अर्थनय",
       "definition_brief": "जैसे जीव रागी है आदि अशुद्धपर्यायमय द्रव्यका परिचय",
+      "status": "pending"
+    },
+    {
+      "id": "47.1",
+      "khanda_id": 3,
+      "khanda_name": "तृतीय खंड: व्यवहार नय",
+      "name_hindi": "सभेद अशुद्धनिश्चयनय",
+      "name_sanskrit": "Sabheda Ashuddha Nishchaya Naya",
+      "category": "द्रव्यार्थिक नय",
+      "aspect": "अर्थनय",
+      "definition_brief": "जैसे जीवके क्रोध है, मान है, लोभ है आदि भेदसहित अशुद्ध पर्यायका परिचय",
       "status": "pending"
     },
     {
@@ -538,6 +604,28 @@
       "category": "द्रव्यार्थिक नय",
       "aspect": "अर्थनय",
       "definition_brief": "जैसे नयविकËपसे अतिRUान्त अखंड़ अन्तस्तœवका, अभेद दर्शन",
+      "status": "pending"
+    },
+    {
+      "id": "49.1",
+      "khanda_id": 3,
+      "khanda_name": "तृतीय खंड: व्यवहार नय",
+      "name_hindi": "प्रतिषेधक शुद्धनय",
+      "name_sanskrit": "Pratishedhaka Shuddha Naya",
+      "category": "द्रव्यार्थिक नय",
+      "aspect": "अर्थनय",
+      "definition_brief": "जैसे जीव पुद्गलकर्मका, गात्रादिका अकर्ता है आदि परिचय",
+      "status": "pending"
+    },
+    {
+      "id": "49.2",
+      "khanda_id": 3,
+      "khanda_name": "तृतीय खंड: व्यवहार नय",
+      "name_hindi": "उपादानदृष्टि शुद्धनय",
+      "name_sanskrit": "Upadanadrishti Shuddha Naya",
+      "category": "द्रव्यार्थिक नय",
+      "aspect": "अर्थनय",
+      "definition_brief": "जैसे जीवकी योग्यतानुसार उसका परिणमन उसी जीवमें निरखना",
       "status": "pending"
     },
     {
@@ -582,6 +670,17 @@
       "category": "द्रव्यार्थिक नय",
       "aspect": "अर्थनय",
       "definition_brief": "जैसे कर्मोदयविपाकके सान्निाझ्यमें जीव विकाररुप परिणमता है",
+      "status": "pending"
+    },
+    {
+      "id": "53.1",
+      "khanda_id": 3,
+      "khanda_name": "तृतीय खंड: व्यवहार नय",
+      "name_hindi": "निमित्तदृष्टि व्यवहारनय",
+      "name_sanskrit": "Nimittadrishti Vyavahara Naya",
+      "category": "द्रव्यार्थिक नय",
+      "aspect": "अर्थनय",
+      "definition_brief": "जैसे चक्रके आधार पर दण्ड द्वारा भ्रमण होकर जल-मिश्रण दशामें कुम्हारके हस्तव्यापारके निमित्तसे मिट्टीका घड़ा बनना आदि परिचय",
       "status": "pending"
     },
     {
@@ -728,6 +827,39 @@
       "status": "pending"
     },
     {
+      "id": "66.1",
+      "khanda_id": 2,
+      "khanda_name": "द्वितीय खंड: संग्रह नय",
+      "name_hindi": "परमशुद्ध अपरसंग्रह द्रव्यार्थिक प्रतिपादक व्यवहार",
+      "name_sanskrit": "Paramashuddha Apara Sangraha Dravyarthika Pratipadaka Vyavahara",
+      "category": "द्रव्यार्थिक नय",
+      "aspect": "अर्थनय",
+      "definition_brief": "जैसे ब्रह्मा कहकर सर्व जीवोंमें कारणसमयसारका कथन",
+      "status": "pending"
+    },
+    {
+      "id": "66.2",
+      "khanda_id": 2,
+      "khanda_name": "द्वितीय खंड: संग्रह नय",
+      "name_hindi": "शुद्ध अपरसंग्रह द्रव्यार्थिक प्रतिपादक व्यवहार",
+      "name_sanskrit": "Shuddha Apara Sangraha Dravyarthika Pratipadaka Vyavahara",
+      "category": "द्रव्यार्थिक नय",
+      "aspect": "अर्थनय",
+      "definition_brief": "जैसे मुक्त-जीव कहकर समस्त कर्ममुक्त सिद्ध भगवन्तोंका प्रतिपादन",
+      "status": "pending"
+    },
+    {
+      "id": "66.3",
+      "khanda_id": 2,
+      "khanda_name": "द्वितीय खंड: संग्रह नय",
+      "name_hindi": "अशुद्ध अपरसंग्रह द्रव्यार्थिक प्रतिपादक व्यवहार",
+      "name_sanskrit": "Ashuddha Apara Sangraha Dravyarthika Pratipadaka Vyavahara",
+      "category": "द्रव्यार्थिक नय",
+      "aspect": "अर्थनय",
+      "definition_brief": "जैसे संसारी जीव कहकर समस्त संसारी जीवोंका प्रतिपादन",
+      "status": "pending"
+    },
+    {
       "id": 67,
       "khanda_id": 2,
       "khanda_name": "द्वितीय खंड: संग्रह नय",
@@ -750,6 +882,28 @@
       "status": "pending"
     },
     {
+      "id": "68.1",
+      "khanda_id": 2,
+      "khanda_name": "द्वितीय खंड: संग्रह नय",
+      "name_hindi": "अन्तिम अपरसंग्रहभेदक व्यवहारनय द्रव्यार्थिक प्रतिपादक व्यवहार",
+      "name_sanskrit": "Antima Apara Sangrahabhedaka Vyavahara Dravyarthika Pratipadaka Vyavahara",
+      "category": "द्रव्यार्थिक नय",
+      "aspect": "अर्थनय",
+      "definition_brief": "जैसे द्वयणुक स्कंधको भेद कर एक अणुका प्रतिपादन",
+      "status": "pending"
+    },
+    {
+      "id": "68.2",
+      "khanda_id": 2,
+      "khanda_name": "द्वितीय खंड: संग्रह नय",
+      "name_hindi": "अन्तिम अखंड व्यवहारनय द्रव्यार्थिक प्रतिपादक व्यवहार",
+      "name_sanskrit": "Antima Akhanda Vyavahara Dravyarthika Pratipadaka Vyavahara",
+      "category": "द्रव्यार्थिक नय",
+      "aspect": "अर्थनय",
+      "definition_brief": "जैसे एक अणु, एक जीव आदि अखंड सत्का प्रतिपादन",
+      "status": "pending"
+    },
+    {
       "id": 69,
       "khanda_id": 3,
       "khanda_name": "तृतीय खंड: व्यवहार नय",
@@ -761,6 +915,17 @@
       "status": "pending"
     },
     {
+      "id": "69.1",
+      "khanda_id": 3,
+      "khanda_name": "तृतीय खंड: व्यवहार नय",
+      "name_hindi": "गुणगुणिभेदक परमशुद्ध सद्भूत व्यवहार",
+      "name_sanskrit": "Gunagunibhedaka Paramashuddha Sadbhuta Vyavahara",
+      "category": "द्रव्यार्थिक नय",
+      "aspect": "अर्थनय",
+      "definition_brief": "जैसे आत्माका स्वरूप सहज चैतन्यस्वरूप है आदि प्रतिपादन",
+      "status": "pending"
+    },
+    {
       "id": 70,
       "khanda_id": 3,
       "khanda_name": "तृतीय खंड: व्यवहार नय",
@@ -769,6 +934,17 @@
       "category": "द्रव्यार्थिक नय",
       "aspect": "अर्थनय",
       "definition_brief": "जैसे आत्माके सहज ज्ञानादि अनन्टचतुष्टय का प्रतिपादन",
+      "status": "pending"
+    },
+    {
+      "id": "70.1",
+      "khanda_id": 3,
+      "khanda_name": "तृतीय खंड: व्यवहार नय",
+      "name_hindi": "प्रतिषेधक शुद्धनय प्रतिपादक व्यवहार",
+      "name_sanskrit": "Pratishedhaka Shuddhanaya Pratipadaka Vyavahara",
+      "category": "द्रव्यार्थिक नय",
+      "aspect": "अर्थनय",
+      "definition_brief": "जैसे जीव पुद्गलकर्मका अकर्ता है आदि प्रतिपादन",
       "status": "pending"
     },
     {
@@ -802,6 +978,17 @@
       "category": "द्रव्यार्थिक नय",
       "aspect": "अर्थनय",
       "definition_brief": "जैसे- आत्मा आत्माको जानता है, आत्माके द्वारा जानता है आदि एक ही पदार्थमें कर्ताकर्म करण आदिका कथन",
+      "status": "pending"
+    },
+    {
+      "id": "73.1",
+      "khanda_id": 3,
+      "khanda_name": "तृतीय खंड: व्यवहार नय",
+      "name_hindi": "कारककारकिभेदक अशुद्ध सद्भूत व्यवहार",
+      "name_sanskrit": "Karakakarikibhedaka Ashuddha Sadbhuta Vyavahara",
+      "category": "द्रव्यार्थिक नय",
+      "aspect": "अर्थनय",
+      "definition_brief": "जैसे जीव विभावोंका कर्ता जीव है आदि कथन",
       "status": "pending"
     },
     {
@@ -1157,6 +1344,17 @@
       "status": "pending"
     },
     {
+      "id": "105.1",
+      "khanda_id": 3,
+      "khanda_name": "तृतीय खंड: व्यवहार नय",
+      "name_hindi": "अपरिपूर्ण उपचरित स्वभावव्यवहार",
+      "name_sanskrit": "Aparipurna Upacharita Svabhavavyavahara",
+      "category": "द्रव्यार्थिक नय",
+      "aspect": "अर्थनय",
+      "definition_brief": "जैसे जीव घट पट आदि पर पदार्थका ज्ञाता है आदि कथन",
+      "status": "pending"
+    },
+    {
       "id": 106,
       "khanda_id": 3,
       "khanda_name": "तृतीय खंड: व्यवहार नय",
@@ -1165,6 +1363,17 @@
       "category": "द्रव्यार्थिक नय",
       "aspect": "अर्थनय",
       "definition_brief": "एकजातिद्रश्ये अन्यजातिद्रव्योचारक) असद्भूत व्यवहार (जैसे शरीर को जीव कहना",
+      "status": "pending"
+    },
+    {
+      "id": "106.1",
+      "khanda_id": 3,
+      "khanda_name": "तृतीय खंड: व्यवहार नय",
+      "name_hindi": "स्वजातिद्रव्ये स्वजातिद्रव्योपचारक असद्भूत व्यवहार",
+      "name_sanskrit": "Svajatidravye Svajatidravyopacharaka Asadbhuta Vyavahara",
+      "category": "द्रव्यार्थिक नय",
+      "aspect": "अर्थनय",
+      "definition_brief": "जैसे शरीर मिट्टी है आदि कथन",
       "status": "pending"
     },
     {
@@ -1418,6 +1627,39 @@
       "category": "द्रव्यार्थिक नय",
       "aspect": "अर्थनय",
       "definition_brief": "जैसे पुद्गलकर्मने जीवको रागी कर दिया आदि कथन) 42 ===",
+      "status": "pending"
+    },
+    {
+      "id": "129.1",
+      "khanda_id": 3,
+      "khanda_name": "तृतीय खंड: व्यवहार नय",
+      "name_hindi": "परभोक्तृत्व अनुपचरित असद्भूत व्यवहार",
+      "name_sanskrit": "Parabhoktritva Anupacharita Asadbhuta Vyavahara",
+      "category": "द्रव्यार्थिक नय",
+      "aspect": "अर्थनय",
+      "definition_brief": "जैसे जीव पुद्गल कर्मको भोगता है आदि कथन",
+      "status": "pending"
+    },
+    {
+      "id": "129.2",
+      "khanda_id": 3,
+      "khanda_name": "तृतीय खंड: व्यवहार नय",
+      "name_hindi": "परकर्तृत्व उपचरित असद्भूत व्यवहार",
+      "name_sanskrit": "Parakartritva Upacharita Asadbhuta Vyavahara",
+      "category": "द्रव्यार्थिक नय",
+      "aspect": "अर्थनय",
+      "definition_brief": "जैसे जीव घट आदिका कर्ता है इत्यादि कथन",
+      "status": "pending"
+    },
+    {
+      "id": "129.3",
+      "khanda_id": 3,
+      "khanda_name": "तृतीय खंड: व्यवहार नय",
+      "name_hindi": "परभोक्तृत्व उपचरित असद्भूत व्यवहार",
+      "name_sanskrit": "Parabhoktritva Upacharita Asadbhuta Vyavahara",
+      "category": "द्रव्यार्थिक नय",
+      "aspect": "अर्थनय",
+      "definition_brief": "जैसे जीव घट पट आदिका भोक्ता है इत्यादि कथन",
       "status": "pending"
     },
     {

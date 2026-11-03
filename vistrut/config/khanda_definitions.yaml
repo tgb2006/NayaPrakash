@@ -19,7 +19,7 @@ khandas:
     sanskrit_name: "Sangraha Naya"
     primary_division: "द्रव्यार्थिक नय"
     tri_aspect: "अर्थनय"
-    chapters_count: 9
+    chapters_count: 14
     range: [4, 8] # Includes 4, 5, 6, 7, 8, 65, 66, आदि
     core_sutra: "स्वजात्यविरोधेनैक्यमुपानयन् संग्रहः"
     agamic_definition: "जो अपनी जाति के अविरोध से संपूर्ण भेदों को एक सामान्य में संगृहीत कर एकता स्थापित करता है, वह संग्रह नय कहलाता है।"
@@ -32,7 +32,7 @@ khandas:
     sanskrit_name: "Vyavahara Naya"
     primary_division: "द्रव्यार्थिक नय"
     tri_aspect: "अर्थनय"
-    chapters_count: 116
+    chapters_count: 133
     range: [9, 30] # Includes 9 to 30, 44 to 54, 67 to 99, 103 to 152
     core_sutra: "संग्रहगृहीतानामर्थानां विधिपूर्वकमवहरणं व्यवहारः"
     agamic_definition: "संग्रह नय द्वारा संगृहीत अभेद पदार्थों का विधिपूर्वक भेद, विभाजन व वर्गीकरण करने वाला नय व्यवहार नय कहलाता है।"

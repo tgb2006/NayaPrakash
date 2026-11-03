@@ -1,12 +1,19 @@
 """Workflow Orchestrator for Sankshipt 2-Page A5 Edition."""
 
 from pathlib import Path
-from typing import Dict, Any, Optional, List
+from typing import Dict, Any, Optional, List, Union
 from src.core.catalog_loader import CatalogLoader
 from src.core.registry_manager import RegistryManager
 from src.core.validator import ChapterValidator
 from src.core.reference_retriever import ReferenceRetriever
 from src.workflow.compiler import BookCompiler
+
+def format_id(nid: Any) -> str:
+    try:
+        val = int(str(nid))
+        return f"{val:03d}"
+    except ValueError:
+        return str(nid)
 
 class WorkflowOrchestrator:
     def __init__(self, base_dir: Optional[Path] = None):
@@ -18,7 +25,7 @@ class WorkflowOrchestrator:
         self.retriever = ReferenceRetriever(self.base_dir / "references")
         self.prompts_dir = self.base_dir / "prompts"
 
-    def get_prompt_for_chapter(self, naya_id: int) -> str:
+    def get_prompt_for_chapter(self, naya_id: Union[int, float, str]) -> str:
         naya = self.loader.get_naya_by_id(naya_id)
         if not naya:
             raise ValueError(f"નય આઈડી {naya_id} કેટેલોગમાં મળ્યો નથી.")
@@ -34,6 +41,7 @@ class WorkflowOrchestrator:
         reference_context = self.retriever.format_reference_context_for_prompt(
             naya.id, naya.name_hindi, naya.khanda_id
         )
+        nid_str = format_id(naya.id)
 
         prompt = f"""
 {base_instructions}
@@ -66,7 +74,7 @@ class WorkflowOrchestrator:
 ----------------------------------------------------------------------
 અનિવાર્ય લે-આઉટ નિર્દેશ (STRICT 2-PAGE SPREAD FORMAT):
 - પ્રથમ પૃષ્ઠ (ડાબું પાનું - PAGE 1: સંપૂર્ણ નય વિવેચન & કાવ્યાત્મક બોધસૂત્ર):
-  1. # {naya.id:03d}. {naya.name_hindi}
+  1. # {nid_str}. {naya.name_hindi}
   2. ## નય વિવેચન (આબાલગોપાલ સુબોધ શૈલી, સુંદર વિભાજન પૂર્વક રોચક સમજૂતી, અતિ-સરળ ઉદાહરણો: ~૨૪૦-૨૭૦ શબ્દો)
   3. ## કાવ્યાત્મક બોધસૂત્ર (નયનું સ્વરૂપ અને સાધના સંકેત બંને વણી લેતી કેવળ ૨ પંક્તિનો ગેય દોહરો: ~૨૦-૨૫ શબ્દો)
   (ડાબા પાનાનું કુલ લખાણ: ૨૬૦ થી ૩૦૦ શબ્દો)
@@ -147,7 +155,7 @@ class WorkflowOrchestrator:
 """
         return prompt.strip()
 
-    def process_and_register_chapter(self, file_path: Path, naya_id: int) -> Dict[str, Any]:
+    def process_and_register_chapter(self, file_path: Path, naya_id: Union[int, float, str]) -> Dict[str, Any]:
         if not file_path.exists():
             return {"success": False, "error": f"ફાઇલ મળી નથી: {file_path}"}
 
