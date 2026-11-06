@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K05_C005_chapter_156_astitva_nastitvanaya_katha_r01_press.png",
+  "sha256": "d07e504cd449a7c3b546dcae342b220a684fd1ec65c9f0a4954ce84ea7837a4b",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.1811778067758929,
+  "white_fraction": 0.8188221932241071,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

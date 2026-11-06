@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K03_C022_chapter_028_svadravyadigrahaka_dravyarthika_naya_katha_r01_press.png",
+  "sha256": "0bf25008711f33c0e1ebf6f9a76c227276fef86c79a948963245c1ab50097f9f",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.16726570667643445,
+  "white_fraction": 0.8327342933235655,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

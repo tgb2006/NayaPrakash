@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K03_C055_chapter_078_upadhinirapeksha_shuddhadravyarthikapratipadaka_vyavahara_katha_r01_press.png",
+  "sha256": "ed2427a2427c71ee7b1d5c4f6a9493a9ed4937bc92c7d26d556ff75f413d3606",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.14991898333625858,
+  "white_fraction": 0.8500810166637415,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

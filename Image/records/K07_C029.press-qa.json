@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K07_C029_chapter_197_ashuddhanaya_katha_r01_press.png",
+  "sha256": "e79011acbcb76c73d53deeecc5f7c654e5a580cc04d481b4fe14537756852b1d",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.21171358510819605,
+  "white_fraction": 0.788286414891804,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

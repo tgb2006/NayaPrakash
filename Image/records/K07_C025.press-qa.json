@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K07_C025_chapter_193_kriyanaya_katha_r01_press.png",
+  "sha256": "15ea772084ecebc395fe2451ff59713a3877ad9b12f3709c5bab6a223660b8a2",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.21767091717985698,
+  "white_fraction": 0.782329082820143,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K03_C080_chapter_105_1_aparipurna_upacharita_svabhavavyavahara_katha_r01_press.png",
+  "sha256": "73734afdc986e35e4a289b23e78f03fbc1f37a2b13fd4adf47df9f6e12314abc",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.1335293249798412,
+  "white_fraction": 0.8664706750201587,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

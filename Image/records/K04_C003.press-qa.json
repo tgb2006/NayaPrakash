@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K04_C003_chapter_033_ashuddhasukshma_rjusutranayamaka_paryayarthikanaya_katha_r01_press.png",
+  "sha256": "946867d8b5a5067a2522b0b0bb251913aafb7203207f827631cddf3f06885bba",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.14612379142724144,
+  "white_fraction": 0.8538762085727586,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

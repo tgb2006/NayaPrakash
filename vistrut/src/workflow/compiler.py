@@ -44,6 +44,20 @@ class BookCompiler:
                 ""
             ]
 
+        # General Chapters (સામાન્ય પ્રવેશ પ્રકરણો - પૂર્વભૂમિકા)
+        samanya_dir = self.output_dir / "samanya_prakaran"
+        if samanya_dir.exists():
+            general_title = "પૂર્વભૂમિકા: ૫ સામાન્ય પ્રવેશ પ્રકરણો" if is_gu else "पूर्वभूमिका: 5 सामान्य प्रवेश प्रकरण"
+            toc_lines.append(f"## {general_title}")
+            gen_files = sorted(samanya_dir.glob("prakaran_*_gu.md")) if is_gu else sorted(samanya_dir.glob("prakaran_*.md"))
+            for gf in gen_files:
+                gf_content = gf.read_text(encoding="utf-8")
+                words = self.validator.count_words(gf_content)
+                first_line = gf_content.strip().split("\n")[0].replace("#", "").strip()
+                word_label = "શબ્દો" if is_gu else "शब्द"
+                toc_lines.append(f"  - 📖 **[{first_line}](samanya_prakaran/{gf.name})** `({words} {word_label})`")
+            toc_lines.append("")
+
         for k in khandas:
             khanda_title = k.name_hindi
             if is_gu:
@@ -148,6 +162,19 @@ class BookCompiler:
 
         total_words_compiled = 0
         total_chapters_included = 0
+
+        # General Chapters (સામાન્ય પ્રવેશ પ્રકરણો - પૂર્વભૂમિકા)
+        samanya_dir = self.output_dir / "samanya_prakaran"
+        if samanya_dir.exists():
+            general_section_title = "પૂર્વભૂમિકા: ૫ સામાન્ય પ્રવેશ પ્રકરણો" if is_gu else "पूर्वभूमिका: 5 सामान्य प्रवेश प्रकरण"
+            book_lines.append(f"\n\n# {general_section_title}\n\n---\n")
+            gen_files = sorted(samanya_dir.glob("prakaran_*_gu.md")) if is_gu else sorted(samanya_dir.glob("prakaran_*.md"))
+            for gf in gen_files:
+                gf_text = gf.read_text(encoding="utf-8")
+                total_words_compiled += self.validator.count_words(gf_text)
+                total_chapters_included += 1
+                book_lines.append(gf_text)
+                book_lines.append("\n\n---\n")
 
         for k in khandas:
             khanda_heading = k.name_hindi

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K03_C087_chapter_111_ekajatidravye_anyajatigunopacharaka_asadbhuta_vyavahara_katha_r01_press.png",
+  "sha256": "834dfb6e5b999bbd2987271cd5bf532f89e39935559d3389d95a8c8033f11547",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.16672453571219625,
+  "white_fraction": 0.8332754642878037,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

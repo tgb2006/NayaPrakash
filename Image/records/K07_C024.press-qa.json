@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K07_C024_chapter_192_abhoktanaya_katha_r01_press.png",
+  "sha256": "28ca083aeeca8c6b7603e52096a118e6acab824ea0ab3c6d7d2611aa98b3ab49",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.15139941342409236,
+  "white_fraction": 0.8486005865759076,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

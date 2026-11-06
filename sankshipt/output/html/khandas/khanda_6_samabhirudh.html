@@ -1,0 +1,2914 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+  <meta charset="utf-8">
+  <title>khanda_6_samabhirudh — નય-ચક્ષુ (Khanda Volume)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+
+    @font-face {
+      font-family: 'Anek Gujarati';
+      font-style: normal;
+      font-weight: 400;
+      src: url('../../../pilot_chapter_001/assets/fonts/AnekGujarati-Regular.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: 'Anek Gujarati';
+      font-style: normal;
+      font-weight: 600;
+      src: url('../../../pilot_chapter_001/assets/fonts/AnekGujarati-SemiBold.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: 'Anek Gujarati';
+      font-style: normal;
+      font-weight: 700;
+      src: url('../../../pilot_chapter_001/assets/fonts/AnekGujarati-Bold.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: 'Anek Gujarati';
+      font-style: normal;
+      font-weight: 800;
+      src: url('../../../pilot_chapter_001/assets/fonts/AnekGujarati-ExtraBold.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: 'Noto Sans Gujarati';
+      font-style: normal;
+      font-weight: 400;
+      src: url('../../../pilot_chapter_001/assets/fonts/NotoSansGujarati-Regular.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: 'Noto Sans Gujarati';
+      font-style: normal;
+      font-weight: 700;
+      src: url('../../../pilot_chapter_001/assets/fonts/NotoSansGujarati-Bold.ttf') format('truetype');
+    }
+
+    @page {
+      size: 6.5in 9.5in;
+      margin: 0;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: #e9eaec;
+      font-family: 'Noto Sans Gujarati', sans-serif;
+      color: #1a1a1a;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .spread-container {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      padding: 24px 16px;
+      margin: 0 auto;
+    }
+
+    .page {
+      width: 6.5in;
+      height: 9.5in;
+      background: #ffffff;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+    }
+
+    @media print {
+      body {
+        background: none;
+      }
+      .spread-container {
+        padding: 0;
+        gap: 0;
+        display: block;
+      }
+      .page {
+        box-shadow: none;
+        page-break-after: always;
+        break-after: page;
+        float: none;
+      }
+    }
+
+    .page-even {
+      padding: 11.5mm 14mm 11.5mm 12.5mm;
+    }
+
+    .page-odd {
+      padding: 11.5mm 12.5mm 11.5mm 14mm;
+    }
+
+    .page-canvas {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+    }
+
+    /* Footers */
+    .running-footer {
+      margin-top: auto;
+      padding-top: 4.5pt;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 0.6pt solid #cfcfcf;
+      font-size: 9.2pt;
+      color: #555555;
+      position: relative;
+      z-index: 10;
+    }
+
+    .running-footer .page-num {
+      font-family: 'Noto Sans Gujarati', sans-serif;
+      font-weight: 700;
+      color: #111111;
+      font-size: 11.0pt;
+    }
+
+    .running-footer .footer-label {
+      display: flex;
+      align-items: center;
+      gap: 5pt;
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 500;
+    }
+
+    .running-footer .footer-book {
+      font-weight: 700;
+      color: #222222;
+    }
+
+    .running-footer .footer-sep {
+      color: #888888;
+    }
+
+    /* Chapter Masthead */
+    .chapter-masthead {
+      margin-bottom: 3.5pt;
+    }
+
+    .kicker-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2.5pt;
+    }
+
+    .khanda-pill {
+      background: #111111;
+      color: #ffffff;
+      padding: 2.2pt 6.5pt;
+      border-radius: 2pt;
+      font-size: 8.8pt;
+      font-weight: 700;
+      letter-spacing: 0.2pt;
+      display: inline-flex;
+      align-items: center;
+      gap: 4pt;
+    }
+
+    .khanda-pill-sub {
+      color: #b0b0b0;
+      font-weight: 500;
+      font-size: 8.2pt;
+      border-left: 0.6pt solid #555555;
+      padding-left: 4pt;
+    }
+
+    .category-tag {
+      font-size: 8.8pt;
+      color: #333333;
+      font-weight: 600;
+      border: 0.6pt solid #b0b0b0;
+      padding: 1.8pt 5.5pt;
+      border-radius: 2pt;
+      background: #f7f7f7;
+    }
+
+    .chapter-title-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      gap: 8pt;
+      margin-top: 1.5pt;
+      margin-bottom: 2pt;
+    }
+
+    .chapter-main-title {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 800;
+      font-size: 19.0pt;
+      line-height: 1.15;
+      color: #000000;
+      letter-spacing: -0.3pt;
+      margin: 0;
+      flex: 1;
+    }
+
+    .chapter-main-title.title-long {
+      font-size: 14.8pt;
+      line-height: 1.16;
+    }
+
+    .chapter-sub-meta-right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      text-align: right;
+      gap: 1.5pt;
+      flex-shrink: 0;
+      max-width: 50%;
+    }
+
+    .gu-general-term {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 700;
+      font-size: 11.2pt;
+      color: #111111;
+      line-height: 1.18;
+    }
+
+    .en-concept {
+      font-family: 'Cinzel', serif;
+      font-size: 8.0pt;
+      font-weight: 600;
+      color: #666666;
+      font-style: italic;
+      line-height: 1.18;
+      letter-spacing: 0.15pt;
+    }
+
+    .sutra-showcase {
+      margin-top: 2.5pt;
+      background: #f8f9fa;
+      border-left: 2.8pt solid #111111;
+      padding: 2pt 5.5pt;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 0 2pt 2pt 0;
+      gap: 8pt;
+    }
+
+    .sutra-devanagari {
+      font-family: 'Noto Sans Devanagari', 'Anek Devanagari', serif;
+      font-size: 9.8pt;
+      font-weight: 600;
+      color: #111111;
+      letter-spacing: 0.2pt;
+      line-height: 1.22;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .sutra-label {
+      font-size: 7.6pt;
+      font-weight: 600;
+      color: #666666;
+      text-transform: uppercase;
+      letter-spacing: 0.4pt;
+      flex-shrink: 0;
+    }
+
+    .section-ribbon {
+      display: flex;
+      align-items: center;
+      gap: 6pt;
+      margin-top: 2.5pt;
+      margin-bottom: 3.5pt;
+    }
+
+    .ribbon-badge {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 800;
+      font-size: 9.8pt;
+      color: #000000;
+      letter-spacing: 0.3pt;
+      display: flex;
+      align-items: center;
+      gap: 4.5pt;
+    }
+
+    .ribbon-badge::before {
+      content: "■";
+      font-size: 7.2pt;
+      color: #000000;
+    }
+
+    .ribbon-rule {
+      flex: 1;
+      height: 0.6pt;
+      background: #d8d8d8;
+    }
+
+    /* -------------------------------------------------------------
+       BEST GRAPHIC DESIGN: TATTVADHARA 4-CARD GRID
+       Harmonious Left-to-Right Reading Hierarchy, 11.0 pt Body
+       ------------------------------------------------------------- */
+    .tattva-infographic-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 5pt 8pt;
+      flex: 1;
+      margin-bottom: 3.5pt;
+      min-height: 0;
+    }
+
+    .tattva-card-shell {
+      position: relative;
+      background: #ffffff;
+      border: 0.75pt solid #c8cbcf;
+      border-radius: 4.5pt;
+      padding: 4.5pt 7pt;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 1.2pt 3pt rgba(0, 0, 0, 0.02);
+      z-index: 1;
+      overflow: hidden;
+    }
+
+    .card-top-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 5.5pt;
+      margin-bottom: 3.5pt;
+      padding-bottom: 2.2pt;
+      border-bottom: 0.6pt solid #e6e8eb;
+    }
+
+    .step-badge {
+      background: #111111;
+      color: #ffffff;
+      font-family: 'Anek Gujarati', sans-serif;
+      font-size: 8.5pt;
+      font-weight: 700;
+      padding: 1.5pt 4.2pt;
+      border-radius: 2.2pt;
+      letter-spacing: 0.2pt;
+      flex-shrink: 0;
+      line-height: 1.1;
+      margin-top: 1pt;
+    }
+
+    .card-header-titles {
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+    }
+
+    .card-main-heading {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 700;
+      font-size: 11.5pt;
+      color: #0d0d0d;
+      line-height: 1.15;
+    }
+
+    .card-sub-kicker {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 600;
+      font-size: 9.3pt;
+      color: #4b5563;
+      line-height: 1.18;
+    }
+
+    /* STRICT MANDATORY 11.0 PT BODY TEXT */
+    .card-body-text {
+      font-family: 'Noto Sans Gujarati', sans-serif;
+      font-size: 11.0pt !important;
+      line-height: 1.34;
+      color: #1f2937;
+      margin: 0;
+      text-align: justify;
+      hyphens: auto;
+      flex: 1;
+    }
+
+    .card-bullet-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      font-family: 'Noto Sans Gujarati', sans-serif;
+      font-size: 11.0pt !important;
+      line-height: 1.32;
+      color: #1f2937;
+    }
+
+    .card-bullet-list li {
+      position: relative;
+      padding-left: 9pt;
+      margin-bottom: 2pt;
+      text-align: justify;
+    }
+
+    .card-bullet-list li:last-child {
+      margin-bottom: 0;
+    }
+
+    .card-bullet-list li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      top: -0.5pt;
+      font-size: 9.5pt;
+      color: #333333;
+    }
+
+    .card-bullet-list strong {
+      font-family: 'Noto Sans Gujarati', sans-serif;
+      font-weight: 700;
+      color: #0d0d0d;
+    }
+
+    /* DUO-RIBBON (11.0 PT BODY) */
+    .bottom-ribbon-shell {
+      margin-top: 3.5pt;
+      background: #fafafa;
+      border: 0.6pt solid #d0d0d0;
+      border-left: 2.6pt solid #111111;
+      border-radius: 0 4pt 4pt 0;
+      padding: 3.5pt 7.5pt;
+      margin-bottom: 0;
+    }
+
+    .duo-ribbon-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12pt;
+      align-items: center;
+    }
+
+    .duo-col {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5pt;
+    }
+
+    .duo-divider-col {
+      border-left: 0.6pt solid #d8d8d8;
+      padding-left: 10pt;
+    }
+
+    .duo-label {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 700;
+      font-size: 9.0pt;
+      color: #333333;
+      letter-spacing: 0.3pt;
+      display: flex;
+      align-items: center;
+      gap: 3.5pt;
+    }
+
+    .kavya-quote {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 600;
+      font-size: 11.0pt !important;
+      line-height: 1.30;
+      color: #111111;
+      font-style: italic;
+      margin: 0;
+    }
+
+    .sadhana-statement {
+      font-family: 'Noto Sans Gujarati', sans-serif;
+      font-size: 10.6pt !important;
+      line-height: 1.32;
+      color: #222222;
+      margin: 0;
+      text-align: justify;
+    }
+
+    /* PAGE 3: KATHADHARA, VIVEKDHARA & DARSHANDHARA */
+    .top-story-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 3.0pt;
+      padding-bottom: 2.0pt;
+      border-bottom: 0.8pt solid #111111;
+    }
+
+    .top-story-header .story-kicker {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 700;
+      font-size: 10.5pt;
+      color: #111111;
+      letter-spacing: 0.3pt;
+    }
+
+    .top-story-header .story-title-main {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 700;
+      font-size: 11.2pt;
+      color: #111111;
+    }
+
+    .story-hero-split {
+      display: grid;
+      grid-template-columns: 115pt 1fr;
+      gap: 8pt;
+      margin-bottom: 3.0pt;
+    }
+
+    .story-artwork-box {
+      width: 115pt;
+      height: 78pt;
+      border: 0.6pt solid #c8c8c8;
+      background: #fafafa;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2.0pt;
+      border-radius: 2pt;
+      overflow: hidden;
+    }
+
+    .katha-art-img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+    }
+
+    .story-pipasa-article {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .pipasa-badge {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 700;
+      font-size: 8.5pt;
+      color: #111111;
+      border-bottom: 1.1pt solid #111111;
+      display: inline-block;
+      margin-bottom: 1.5pt;
+      padding-bottom: 0.5pt;
+      align-self: flex-start;
+    }
+
+    .story-pipasa-article p {
+      font-family: 'Noto Sans Gujarati', sans-serif;
+      font-size: 11.0pt !important;
+      line-height: 1.32;
+      color: #242424;
+      margin: 0;
+      text-align: justify;
+    }
+
+    .story-paan-article {
+      background: #f7f8f9;
+      border-left: 2.5pt solid #111111;
+      border-top: 0.6pt solid #cfcfcf;
+      border-right: 0.6pt solid #cfcfcf;
+      border-bottom: 0.6pt solid #cfcfcf;
+      padding: 3.0pt 6.5pt;
+      margin-bottom: 3.0pt;
+      border-radius: 0 3pt 3pt 0;
+    }
+
+    .story-paan-article p {
+      font-family: 'Noto Sans Gujarati', sans-serif;
+      font-size: 11.0pt !important;
+      line-height: 1.32;
+      color: #242424;
+      margin: 0;
+      text-align: justify;
+    }
+
+    .section-divider-title {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 700;
+      font-size: 10.2pt;
+      color: #111111;
+      margin-bottom: 2.0pt;
+      display: flex;
+      align-items: center;
+      gap: 4.5pt;
+    }
+
+    .section-divider-title::before {
+      content: "❖";
+      font-size: 8.0pt;
+      color: #111111;
+    }
+
+    .vivek-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 7pt;
+      margin-bottom: 2.5pt;
+    }
+
+    .vivek-card {
+      border: 0.6pt solid #cfcfcf;
+      border-radius: 3pt;
+      padding: 3.5pt 5.5pt;
+      background: #ffffff;
+    }
+
+    .vivek-card-title {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 700;
+      font-size: 9.8pt;
+      color: #111111;
+      padding-bottom: 1.2pt;
+      border-bottom: 0.6pt solid #e0e0e0;
+      margin-bottom: 2.0pt;
+    }
+
+    .vivek-card p {
+      font-family: 'Noto Sans Gujarati', sans-serif;
+      font-size: 10.6pt !important;
+      line-height: 1.32;
+      color: #242424;
+      margin: 0;
+      text-align: justify;
+    }
+
+    .darshan-section {
+      margin-top: auto;
+      border-top: 0.6pt solid #d0d0d0;
+      padding-top: 2.5pt;
+      margin-bottom: 1.0pt;
+    }
+
+    .darshan-header {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 700;
+      font-size: 10.5pt;
+      color: #111111;
+      margin-bottom: 2.0pt;
+      display: flex;
+      align-items: center;
+      gap: 4pt;
+    }
+
+    .darshan-pillars-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2.5pt 7pt;
+    }
+
+    .darshan-pillar-item {
+      font-family: 'Noto Sans Gujarati', sans-serif;
+      font-size: 10.2pt !important;
+      line-height: 1.30;
+      color: #242424;
+      text-align: justify;
+    }
+
+    .darshan-pillar-item strong {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 700;
+      color: #111111;
+    }
+
+  </style>
+</head>
+<body>
+
+<!-- =============================================================
+     CHAPTER: ૧. સમભિરૂઢનય (PAGES 360 & 361)
+     ============================================================= -->
+<div class="spread-container" id="spread-K06_C001">
+
+  <!-- ==================== LEFT PAGE (360) ==================== -->
+  <section class="page page-even">
+    <div class="page-canvas">
+
+      <!-- Chapter Masthead -->
+      <div class="chapter-masthead">
+        <div class="kicker-row">
+          <div class="khanda-pill">
+            <span>સમભિરૂઢ નય</span>
+            <span class="khanda-pill-sub">જ્ઞાનનય</span>
+          </div>
+          <div class="category-tag">મુખ્ય શ્રેણી: સમભિરૂઢ મૂળ ભેદ</div>
+        </div>
+
+        <div class="chapter-title-row">
+          <h1 class="chapter-main-title">૧. સમભિરૂઢનય</h1>
+          <div class="chapter-sub-meta-right">
+            <span class="gu-general-term">પર્યાયવાચી શબ્દોના સૂક્ષ્મ ભેદની દ્રષ્ટિ</span>
+            <span class="en-concept">The Etymological Standpoint: Nuance</span>
+          </div>
+        </div>
+
+        <div class="sutra-showcase">
+          <span class="sutra-devanagari">पर्यायशब्देष्वेकार्थरूढिग्राहकः समभिरूढनयः</span>
+          <span class="sutra-label">મૂળ આગમિક લક્ષણ-સૂત્ર</span>
+        </div>
+      </div>
+
+      <!-- Section Ribbon -->
+      <div class="section-ribbon">
+        <span class="ribbon-badge">તત્વધારા</span>
+        <div class="ribbon-rule"></div>
+      </div>
+
+      <!-- Tattvadhara 4-Card Grid (Left-to-Right Natural Reading Axis, 11pt) -->
+      <div class="tattva-infographic-grid">
+        
+        <!-- 1. Rupak Drishti -->
+        <div class="tattva-card-shell tattva-card-1">
+          <div class="card-top-row">
+            <span class="step-badge">૦૧</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">રૂપક-દ્રષ્ટિ:</span>
+              <span class="card-sub-kicker">સૂર્યના વિવિધ નામોમાંથી વિશેષ કાર્યવાળા નામની સાર્થકતા જોવી</span>
+            </div>
+          </div>
+          <p class="card-body-text">પ્રભાતે પૂર્વ દિશામાં સોનેરી ગોળો ઊગે ત્યારે તેને 'ભાસ્કર' કહેવાય છે કારણ કે તે પ્રકાશ ફેલાવે છે; બપોરે પ્રચંડ ગરમી ફેંકે ત્યારે તેને 'તપન' કહેવાય છે કારણ કે તે તપે છે; અને જગતને અજવાળતો હોવાથી તેને 'દિવાકર' કહેવાય છે. સામાન્ય માણસ આ ત્રણેય શબ્દોને સમાનાર્થી માને છે, પરંતુ સૂક્ષ્મ ભાષાશાસ્ત્રી કહે છે કે પ્રત્યેક શબ્દની વ્યુત્પત્તિ અને ધાતુનો અર્થ અલગ છે. તેવી જ રીતે શબ્દનય દ્વારા સ્વીકારાયેલા પર્યાયવાચી શબ્દો — જેમ કે ઇન્દ્ર, શક્ર અને પુરંદર — પૈકી પ્રત્યેક શબ્દની વ્યુત્પત્તિ અનુસાર ભિન્ન અર્થ સ્વીકારીને — <em>"જે ઐશ્વર્યવાન છે તે 'ઇન્દ્ર', જે સમર્થ છે તે 'શક્ર' અને જે શત્રુઓનો નાશ કરે છે તે 'પુરંદર'"</em> — એમ એક ચોક્કસ રૂઢ અર્થને જ મુખ્યતા આપતો જે નય છે, તેને 'સમભિરૂઢનય' કહેવાય છે.</p>
+        </div>
+
+        <!-- 2. Swarup Srishti -->
+        <div class="tattva-card-shell tattva-card-2">
+          <div class="card-top-row">
+            <span class="step-badge">૦૨</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">સ્વરૂપ-સૃષ્ટિ:</span>
+              <span class="card-sub-kicker">પર્યાયવાચી શબ્દોમાં અર્થભેદનું દર્શન</span>
+            </div>
+          </div>
+          <p class="card-body-text">સમભિરૂઢ નય માને છે કે જો બે શબ્દોનો અર્થ સર્વથા એક જ હોય, તો બે જુદા શબ્દો રચવાની જરૂર જ ન રહેત. 'જીવ' એટલે જે પ્રાણથી જીવે છે; 'આત્મા' એટલે જે જ્ઞાનમય વ્યાપે છે; અને 'ચેતન' એટલે જે ચેતનામય સંવેદન કરે છે. આ નય સાધકને શબ્દોના સૂક્ષ્મ રહસ્ય સુધી પહોંચાડે છે.</p>
+        </div>
+
+        <!-- 3. Vyavahar Pushti -->
+        <div class="tattva-card-shell tattva-card-3">
+          <div class="card-top-row">
+            <span class="step-badge">૦૩</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">વ્યવહાર-પૃષ્ટિ:</span>
+              <span class="card-sub-kicker">શાસ્ત્ર અને વ્યુત્પત્તિમાં સ્વીકૃત ઉદાહરણો</span>
+            </div>
+          </div>
+          <ul class="card-bullet-list">
+            <li>ઇન્દ્ર, શક્ર અને પુરંદર**: ગુણોના આધારે ભિન્ન સંજ્ઞાઓ સ્વીકારવી.</li>
+            <li>આત્મા અને જીવ**: ચેતનાના વિવિધ પાસાંના આધારે શબ્દભેદ કરવો.</li>
+            <li>ઘટ અને કળશ**: આકાર અને કાર્યના આધારે પદાર્થની ઓળખ કરવી.</li>
+          </ul>
+        </div>
+
+        <!-- 4. Marm Tushti -->
+        <div class="tattva-card-shell tattva-card-4">
+          <div class="card-top-row">
+            <span class="step-badge">૦૪</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">મર્મ-તુષ્ટિ:</span>
+              <span class="card-sub-kicker">બાહ્ય નામોથી પર થઈ શુદ્ધ ગુણની પ્રતીતિ</span>
+            </div>
+          </div>
+          <p class="card-body-text">આ નય સાધકને સમજાવે છે કે જે ક્ષણે જે ગુણ પ્રગટ હોય, તે જ શબ્દ સાર્થક બને છે; કેવળ નામો પાછળ ભટકવા કરતાં સાચા ગુણનું પ્રગટીકરણ કરવું.</p>
+        </div>
+      </div>
+
+      <!-- Duo-Ribbon -->
+      <div class="bottom-ribbon-shell">
+        <div class="duo-ribbon-grid">
+          <div class="duo-col">
+            <span class="duo-label">• કાવ્યધારા</span>
+            <p class="kavya-quote">
+              પર્યાયવાચી શબ્દ મહીં, અર્થ તણો છે ભેદ;<br>
+              સમભિરૂઢ નય વ્યુત્પત્તિથી, ટાળે સહુ સંદેહ.<br>
+              ઇન્દ્ર શક્ર ને પુરંદર, ગુણ ભેદે પરખાય;<br>
+              શબ્દ રૂઢિ સમઝી લહે, તત્વ પરમ જણાય.
+            </p>
+          </div>
+          <div class="duo-col duo-divider-col">
+            <span class="duo-label">✦ સાધનાધારા</span>
+            <p class="sadhana-statement">રૂઢિગત સંજ્ઞાઓ ઓળંગીને પદાર્થના સૂક્ષ્મ પરમાર્થ સ્વરૂપમાં પ્રવેશ કરવો.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Running Footer: Left Page -->
+    <footer class="running-footer">
+      <span class="page-num">360</span>
+      <div class="footer-label">
+        <span class="footer-book">નય-ચક્ષુ</span>
+        <span class="footer-sep">|</span>
+        <span class="footer-sub">નયનું જ્ઞાન, સંશયનું સમાધાન</span>
+      </div>
+    </footer>
+  </section>
+
+
+  <!-- ==================== RIGHT PAGE (361) ==================== -->
+  <section class="page page-odd">
+    <div class="page-canvas">
+
+      <!-- Top Story Header Bar -->
+      <div class="top-story-header">
+        <span class="story-kicker">+ કથાધારા</span>
+        <span class="story-title-main">નવલિકા: ત્રણ વિદ્વાનો અને રાજાની પરીક્ષા</span>
+      </div>
+
+      <!-- Split Story Hero: 1:1 Press Illustration + Pipasa -->
+      <div class="story-hero-split">
+        <div class="story-artwork-box">
+          <img class="katha-art-img" src="../../../Image/press/K06_C001_chapter_042_samabhirudhanaya_katha_r01_press.png" alt="ત્રણ વિદ્વાનો અને રાજાની પરીક્ષા" loading="lazy">
+        </div>
+        <div class="story-pipasa-article">
+          <span class="pipasa-badge">પિપાસા</span>
+          <p>ધર્મપુરી નગરમાં રાજા ચંદ્રશેખરે ત્રણ પ્રખર શાસ્ત્રીઓને રાજદરબારમાં બોલાવ્યા. રાજાએ પૂછ્યું: "પંડિતજીઓ! શાસ્ત્રોમાં ભગવાન માટે 'જિન', 'અરિહંત' અને 'વીતરાગ' એવા ત્રણ શબ્દો વાપર્યા છે. શું આ ત્રણેય શબ્દો એક જ અર્થવાળા છે કે આમાં કોઈ ભેદ છે?" પ્રથમ પંડિતે કહ્યું: "મહારાજ, આ તો એક જ અર્થના પર્યાયવાચી શબ્દો છે, આમાં કોઈ ભેદ નથી!" રાજાને સંતોષ ન થયો. બધા ગૂંચવાઈ ગયા કે જો અર્થ એક જ હોય તો ત્રણ જુદા શબ્દો શા માટે રચાયા?</p>
+        </div>
+      </div>
+
+      <!-- Paan Block -->
+      <div class="story-paan-article">
+        <span class="pipasa-badge">પાન</span>
+        <p>તે સમયે સભામાં બેઠેલા પ્રજ્ઞાવાન જ્ઞાની મુનિશ્રી ઊભા થયા. તેમણે સ્મિત સાથે કહ્યું: "રાજન! સમભિરૂઢનયને ઓળખો! આ ત્રણેય શબ્દો લૌકિક દ્રષ્ટિએ એક ભગવાનના લાગે, પણ સમભિરૂઢ નયની સૂક્ષ્મ આંખે પ્રત્યેક શબ્દનો અર્થ અલગ છે! જેણે પોતાના રાગ-દ્વેષરૂપી શત્રુઓ પર વિજય મેળવ્યો છે તે 'જિન' છે; જેણે ચાર ઘાતી કર્મોરૂપી અરીઓ (શત્રુઓ) નો સર્વથા હનન (નાશ) કર્યો છે તે 'અરિહંત' છે; અને જે સર્વ પદાર્થો પ્રત્યે રાગ અને દ્વેષથી સર્વથા પર થઈ ગયા છે તે 'વીતરાગ' છે! ત્રણેય શબ્દો ભિન્ન ભિન્ન આધ્યાત્મિક ગુણોને પ્રગટ કરે છે!" રાજા અને પંડિતો આ અદ્ભુત રહસ્ય સાંભળીને ગદગદ થઈ ગયા. શબ્દોના સૂક્ષ્મ વ્યુત્પત્તિગત ભેદ સમજાતાં જ સભામાં એક ગહન સંતોષ છવાઈ ગયો અને સૌનું ચિત્ત પરમ વિશ્રામમાં શાંત થઈ ગયું.</p>
+      </div>
+
+      <!-- Vivekdhara Section -->
+      <div class="section-divider-title">વિવેકધારા</div>
+      <div class="vivek-container">
+        <div class="vivek-card">
+          <div class="vivek-card-title">એકાંત દર્શન (કદાગ્રહનો ગેરલાભ)</div>
+          <p>જો જીવ કેવળ શબ્દભેદને જ પકડીને એક જ આત્માના અનેક ટુકડા કરી નાખે, તો તે અખંડ તત્વને ગુમાવીને વિભાજનમાં સબડતો રહે છે. શબ્દો કે વ્યાકરણના બાહ્ય નિયમોમાં જ અટવાઈ રહેવાથી અંતરંગ ભાવશુદ્ધિ ખોવાઈ જાય છે અને જીવ શુષ્ક વાદવિવાદ કે જડ ક્રિયાજડતામાં સબડતો રહે છે.</p>
+        </div>
+        <div class="vivek-card">
+          <div class="vivek-card-title">અનેકાંત દર્શન (સમન્વયનું સૌંદર્ય)</div>
+          <p>આ નય પ્રત્યેક શબ્દની વ્યુત્પત્તિગત સાર્થકતા બતાવીને પણ અંતે આત્મતત્ત્વના શુદ્ધ સ્વરૂપની આરાધના કરાવે છે, જેથી જીવ હું-પણાને ખોઈને પોતાના આત્મસ્વરૂપમાં સ્થિર થાય છે. તે વાણી અને સંજ્ઞાઓને આત્મજ્ઞાનનું સાધન બનાવી સાધકને નિર્વિકલ્પ અનુભૂતિ તરફ દોરી જાય છે, જેથી ચેતના પોતાના આત્મસ્વરૂપમાં સ્થિર થઈ શાંતિ અનુભવે છે.</p>
+        </div>
+      </div>
+
+      <!-- Darshandhara Section (4 Rhyming Pillars) -->
+      <div class="darshan-section">
+        <div class="darshan-header">❖ દર્શનધારા</div>
+        <div class="darshan-pillars-grid">
+          <div class="darshan-pillar-item">
+            <strong>૧. નય-ઉન્મેષ:</strong> પર્યાયવાચી શબ્દોમાં પણ ધાતુ અને વ્યુત્પત્તિ અનુસાર સૂક્ષ્મ અર્થભેદ સ્વીકારવો — જેમ કે ઐશ્વર્યવાન હોવાથી 'ઇન્દ્ર', સમર્થ હોવાથી 'શક્ર' અને શત્રુનાશક હોવાથી 'પુરંદર' કહેવો.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૨. પ્રાચીન-વિશેષ:</strong> યાસ્કનું નિરુક્ત ધાતુમૂલક વ્યુત્પત્તિ દ્વારા પ્રત્યેક શબ્દનો વિશિષ્ટ અર્થ સ્થાપે છે; પાણિનીય ધાતુપાઠ શબ્દભેદથી અર્થભેદની અનિવાર્યતા સિદ્ધ કરે છે.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૩. અર્વાચીન-પ્રવેશ:</strong> ગોટલોબ ફ્રેગે (Gottlob Frege)નો <strong>અર્થ અને સંદર્ભ વિચાર (Sense and Reference)</strong> દર્શાવે છે કે સમાન વસ્તુ દર્શાવતા બે શબ્દોનો ગર્ભિત અર્થ તદ્દન ભિન્ન હોઈ શકે છે.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૪. સમન્વય-અશેષ:</strong> સ્યાદવાદ આ દર્શનોને સમભિરૂઢનયમાં જોડી સ્થાપે છે કે ભાષાના આ સૂક્ષ્મ ભેદો પરમાત્માના ગુણાનુરાગ અને શાસ્ત્રોના ગહન અર્થો ખોલવા માટે પરમ ઉપકારક છે.
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Running Footer: Right Page -->
+    <footer class="running-footer">
+      <div class="footer-label">
+        <span class="footer-book">સમભિરૂઢ નય</span>
+        <span class="footer-sep">|</span>
+        <span class="footer-sub">૧. સમભિરૂઢનય</span>
+      </div>
+      <span class="page-num">361</span>
+    </footer>
+  </section>
+
+</div>
+
+
+<!-- =============================================================
+     CHAPTER: ૨. સમભિરૂઢનયપર્યાયાર્થિક પ્રતિપાદક વ્યવહાર (PAGES 362 & 363)
+     ============================================================= -->
+<div class="spread-container" id="spread-K06_C002">
+
+  <!-- ==================== LEFT PAGE (362) ==================== -->
+  <section class="page page-even">
+    <div class="page-canvas">
+
+      <!-- Chapter Masthead -->
+      <div class="chapter-masthead">
+        <div class="kicker-row">
+          <div class="khanda-pill">
+            <span>સમભિરૂઢ નય</span>
+            <span class="khanda-pill-sub">જ્ઞાનનય</span>
+          </div>
+          <div class="category-tag">મુખ્ય શ્રેણી: સમભિરૂઢ પ્રતિપાદક વ્યવહાર</div>
+        </div>
+
+        <div class="chapter-title-row">
+          <h1 class="chapter-main-title title-long">૨. સમભિરૂઢનયપર્યાયાર્થિક પ્રતિપાદક વ્યવહાર</h1>
+          <div class="chapter-sub-meta-right">
+            <span class="gu-general-term">ભેદ અને પ્રયોજન સાધવાની દ્રષ્ટિ</span>
+            <span class="en-concept">The Practical Standpoint: Differentiation</span>
+          </div>
+        </div>
+
+        <div class="sutra-showcase">
+          <span class="sutra-devanagari">पर्यायशब्देष्वेकार्थरूढिप्रतिपादकः समभिरूढनयपर्यायार्थिकप्रतिपादकव्यवहारः</span>
+          <span class="sutra-label">મૂળ આગમિક લક્ષણ-સૂત્ર</span>
+        </div>
+      </div>
+
+      <!-- Section Ribbon -->
+      <div class="section-ribbon">
+        <span class="ribbon-badge">તત્વધારા</span>
+        <div class="ribbon-rule"></div>
+      </div>
+
+      <!-- Tattvadhara 4-Card Grid (Left-to-Right Natural Reading Axis, 11pt) -->
+      <div class="tattva-infographic-grid">
+        
+        <!-- 1. Rupak Drishti -->
+        <div class="tattva-card-shell tattva-card-1">
+          <div class="card-top-row">
+            <span class="step-badge">૦૧</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">રૂપક-દ્રષ્ટિ:</span>
+              <span class="card-sub-kicker">'ગૌ' શબ્દના અનેક અર્થોમાંથી ચાલતી ગાય માટે જ રૂઢ પ્રયોગ કરવો</span>
+            </div>
+          </div>
+          <p class="card-body-text">સંસ્કૃત વ્યાકરણમાં 'ગૌ' શબ્દ ધાતુ અનુસાર પૃથ્વી, કિરણ, વાણી અને પશુ એમ અનેક અર્થો ધરાવે છે. પરંતુ ગામના ગોવાળ જ્યારે સાંજે કહે છે: "ગૌ પાછી આવી ગઈ છે", ત્યારે આખું ગામ સમજી જાય છે કે અહીં કેવળ દૂધ આપતી ગાય નામના પશુની જ વાત છે, પૃથ્વી કે વાણીની નહીં. એક જ શબ્દના અનેક અર્થો હોવા છતાં લોકસમાજમાં કોઈ એક જ અર્થ રૂઢ (પ્રચલિત) થઈ જાય છે. તેવી જ રીતે જ્યારે શબ્દનયથી નિર્દોષ બનેલા શબ્દોના સમૂહમાંથી કોઈ એક વિશેષ રૂઢ પદાર્થનું વ્યવહારમાં કથન કરીને — <em>"આ શબ્દ આ જ અર્થ માટે રૂઢ છે"</em> — એમ પર્યાયવાચી શબ્દોના વૈવિધ્ય વચ્ચે વ્યવહારિક નિરૂપણ કરવામાં આવે, ત્યારે તે ભાષાશૈલીને 'સમભિરૂઢનયપર્યાયાર્થિક પ્રતિપાદક વ્યવહાર' કહેવાય છે.</p>
+        </div>
+
+        <!-- 2. Swarup Srishti -->
+        <div class="tattva-card-shell tattva-card-2">
+          <div class="card-top-row">
+            <span class="step-badge">૦૨</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">સ્વરૂપ-સૃષ્ટિ:</span>
+              <span class="card-sub-kicker">વ્યુત્પત્તિ અને રૂઢિનો વ્યવહારિક સમન્વય</span>
+            </div>
+          </div>
+          <p class="card-body-text">સમભિરૂઢ નય મૂળભૂત રીતે વ્યુત્પત્તિ પ્રમાણે અર્થ કરે છે. પરંતુ વ્યવહારમાં જ્યારે તે પ્રવર્તે છે, ત્યારે તે સમાજમાં રૂઢ થયેલા અર્થને માન્ય રાખે છે. 'પંકજ' એટલે કાદવમાં જન્મેલું; કાદવમાં કીડા પણ જન્મે છે અને શેવાળ પણ જન્મે છે, છતાં 'પંકજ' કેવળ કમળ માટે જ રૂઢ થયો છે. આ નય વ્યવહારિક ભાષામાં શબ્દની વિશેષતા જાળવી રાખીને ગૂંચવણ ટાળે છે.</p>
+        </div>
+
+        <!-- 3. Vyavahar Pushti -->
+        <div class="tattva-card-shell tattva-card-3">
+          <div class="card-top-row">
+            <span class="step-badge">૦૩</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">વ્યવહાર-પૃષ્ટિ:</span>
+              <span class="card-sub-kicker">લોકવ્યવહાર અને શાસ્ત્રમાં જાણીતા ઉદાહરણો</span>
+            </div>
+          </div>
+          <ul class="card-bullet-list">
+            <li>ગૌ અને ગાય**: 'ગૌ' શબ્દનો પશુ વિશેષ માટે રૂઢ પ્રયોગ કરવો.</li>
+            <li>પંકજ અને કમળ**: કાદવમાં જન્મેલા સર્વ જીવોને બદલે કેવળ કમળને 'પંકજ' કહેવું.</li>
+            <li>તીર્થંકર**: તારનાર અનેક હોવા છતાં કેવળ ધર્મતીર્થના પ્રવર્તકને જ 'તીર્થંકર' કહેવા.</li>
+          </ul>
+        </div>
+
+        <!-- 4. Marm Tushti -->
+        <div class="tattva-card-shell tattva-card-4">
+          <div class="card-top-row">
+            <span class="step-badge">૦૪</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">મર્મ-તુષ્ટિ:</span>
+              <span class="card-sub-kicker">રૂઢિના માધ્યમથી પરમ તત્વનું ગ્રહણ</span>
+            </div>
+          </div>
+          <p class="card-body-text">આ નય સાધકને સમજાવે છે કે જગતના વ્યવહારો રૂઢિ પર ચાલે છે; પરંતુ સાધકે શબ્દોની રૂઢિથી આગળ વધીને અંતરંગ ચૈતન્યતત્વના સાક્ષાત્કાર તરફ વળવું જોઈએ.</p>
+        </div>
+      </div>
+
+      <!-- Duo-Ribbon -->
+      <div class="bottom-ribbon-shell">
+        <div class="duo-ribbon-grid">
+          <div class="duo-col">
+            <span class="duo-label">• કાવ્યધારા</span>
+            <p class="kavya-quote">
+              શબ્દ તણા બહુ અર્થ છે, રૂઢિ એક જણાય;<br>
+              સમભિરૂઢ વ્યવહારથી, જગ સંવાદ ચલાય.<br>
+              પંકજ કહીએ પદ્મને, ગૌથી ગાય ગણાય;<br>
+              રૂઢિ ભેદ સમઝી લહે, ભ્રાંતિ દૂર પળાય.
+            </p>
+          </div>
+          <div class="duo-col duo-divider-col">
+            <span class="duo-label">✦ સાધનાધારા</span>
+            <p class="sadhana-statement">સાધકને સમજાવે છે કે જગતના વ્યવહારો રૂઢિ પર ચાલે છે; પરંતુ સાધકે શબ્દોની રૂઢિથી આગળ વધીને અંતરંગ ચૈતન્યતત્વના સાક્ષાત્કાર તરફ વળવું જોઈએ.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Running Footer: Left Page -->
+    <footer class="running-footer">
+      <span class="page-num">362</span>
+      <div class="footer-label">
+        <span class="footer-book">નય-ચક્ષુ</span>
+        <span class="footer-sep">|</span>
+        <span class="footer-sub">નયનું જ્ઞાન, સંશયનું સમાધાન</span>
+      </div>
+    </footer>
+  </section>
+
+
+  <!-- ==================== RIGHT PAGE (363) ==================== -->
+  <section class="page page-odd">
+    <div class="page-canvas">
+
+      <!-- Top Story Header Bar -->
+      <div class="top-story-header">
+        <span class="story-kicker">+ કથાધારા</span>
+        <span class="story-title-main">નવલિકા: અજાણ્યા ગામનો વટેમાર્ગુ અને 'પંકજ'ની શોધ</span>
+      </div>
+
+      <!-- Split Story Hero: 1:1 Press Illustration + Pipasa -->
+      <div class="story-hero-split">
+        <div class="story-artwork-box">
+          <img class="katha-art-img" src="../../../Image/press/K06_C002_chapter_101_samabhirudhanayaparyayarthika_pratipadaka_vyavahara_katha_r01_press.png" alt="અજાણ્યા ગામનો વટેમાર્ગુ અને 'પંકજ'ની શોધ" loading="lazy">
+        </div>
+        <div class="story-pipasa-article">
+          <span class="pipasa-badge">પિપાસા</span>
+          <p>ધર્મપુરી નગરમાં રમેશ નામનો એક નવો કવિ આવ્યો હતો. તેણે તળાવ પાસે રમતાં બાળકોને પૂછ્યું: "બાળકો! મને આ તળાવમાંથી થોડાં 'પંકજ' લાવી આપો." બાળકો દોડ્યાં અને તળાવના કાદવમાંથી બે કાળા કીડા અને ભીની માટી ઉપાડી લાવ્યાં અને બોલ્યાં: "લ્યો કવિરાજ! આ કાદવમાંથી જન્મેલાં પંકજ છે!" રમેશ ગુસ્સે થઈ ગયો: "મૂર્ખાઓ! મેં તો લાલ કમળ માંગ્યું હતું, તમે આ કીડા કેમ લાવ્યા?" બાળકોએ દલીલ કરી: "તમે જ તો કહ્યું હતું કે પંક (કાદવ) માંથી જે જન્મે તે પંકજ! કીડો પણ કાદવમાં જ જન્મ્યો છે ને!" કવિ શબ્દના વ્યુત્પત્તિ અર્થ અને રૂઢિ વચ્ચે ગૂંચવાઈ ગયો.</p>
+        </div>
+      </div>
+
+      <!-- Paan Block -->
+      <div class="story-paan-article">
+        <span class="pipasa-badge">પાન</span>
+        <p>તે સમયે તળાવના કાંઠે ધ્યાનમાં બેઠેલા એક વિદ્વાન મુનિશ્રીએ હસીને કહ્યું: "કવિરાજ! સમભિરૂઢનયપર્યાયાર્થિક પ્રતિપાદક વ્યવહારને ઓળખો! ધાતુના અર્થ પ્રમાણે કાદવમાં જન્મેલી પ્રત્યેક વસ્તુ 'પંકજ' કહેવાય એ સાચું છે, પરંતુ લોકવ્યવહારમાં 'પંકજ' શબ્દ કેવળ નિર્મળ કમળ માટે જ રૂઢ થયેલો છે! વ્યવહારમાં જો તમે રૂઢિનો સ્વીકાર ન કરો, તો ભાષા અરાજક બની જાય. શબ્દનો સાચો મહિમા એ છે કે તે વ્યવહારમાં જે પવિત્ર અર્થ માટે રૂઢ થયો હોય તે જ અર્થમાં પ્રયોજાય!" કવિની આંખો ખૂલી ગઈ. શબ્દ અને રૂઢિનો સુંદર વિવેક સમજાતાં તેનો ક્રોધ શમી ગયો. તેણે બાળકોને પ્રેમથી સમજાવીને કમળ મંગાવ્યું અને તેનું ચિત્ત પરમ વિશ્રામમાં શાંત થઈ ગયું.</p>
+      </div>
+
+      <!-- Vivekdhara Section -->
+      <div class="section-divider-title">વિવેકધારા</div>
+      <div class="vivek-container">
+        <div class="vivek-card">
+          <div class="vivek-card-title">એકાંત દર્શન (કદાગ્રહનો ગેરલાભ)</div>
+          <p>જો જીવ કેવળ શબ્દની ધાતુના અર્થને જ વળગી રહીને લોકરૂઢિને સાવ નકારી કાઢે, તો તે વ્યવહારિક જગતમાં હાસ્યાસ્પદ અને અસંગત બની જાય છે. પરદ્રવ્યો કે ક્ષણિક સંયોગોને જ સર્વસ્વ માની લેવાથી મમત્વ અને પરિગ્રહનો ભાર વધે છે, જે ચિત્તને સદા આકુળ-વ્યાકુળ રાખી આધ્યાત્મિક જાગૃતિને રૂંધી નાખે છે.</p>
+        </div>
+        <div class="vivek-card">
+          <div class="vivek-card-title">અનેકાંત દર્શન (સમન્વયનું સૌંદર્ય)</div>
+          <p>આ નય વ્યવહારિક રૂઢિની સાર્થકતા સ્વીકારીને સાધકને સંવાદમાં સુગમતા આપે છે અને અંતે પરમાત્મતત્વમાં સમાવી દે છે. તે વ્યવહારિક સંયોગોની મર્યાદા દર્શાવીને પણ આંતરિક ગુણો પ્રગટાવવાની પ્રેરણા આપે છે, જેથી સાધક નિજ ચૈતન્ય સ્વરૂપમાં મહામૌનમાં અંતર્લીન થઈ જાય છે.</p>
+        </div>
+      </div>
+
+      <!-- Darshandhara Section (4 Rhyming Pillars) -->
+      <div class="darshan-section">
+        <div class="darshan-header">❖ દર્શનધારા</div>
+        <div class="darshan-pillars-grid">
+          <div class="darshan-pillar-item">
+            <strong>૧. નય-ઉન્મેષ:</strong> સમભિરૂઢનયના વ્યુત્પત્તિસિદ્ધ ભેદોને લોકવ્યવહારમાં લાવીને જે સમયે જે કાર્ય થતું હોય તે જ નામથી પદાર્થનું વાણીમાં પ્રતિપાદન કરવું તે આ નયની વિચારપદ્ધતિ છે.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૨. પ્રાચીન-વિશેષ:</strong> પતંજલિનું મહાભાષ્ય શબ્દના લૌકિક પ્રયોગ અને વ્યુત્પત્તિ-નિયમોનો વ્યવહાર સ્થાપે છે; પ્રાભાકર મીમાંસા શબ્દાર્થની કાર્યનિષ્ઠ વ્યાવહારિકતા સ્વીકારે છે.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૩. અર્વાચીન-પ્રવેશ:</strong> લુડવિગ વિટગેન્સ્ટાઇનનો ભાષા-ઉપયોગ સિદ્ધાંત દર્શાવે છે કે શબ્દનો વાસ્તવિક અર્થ તેના ચોક્કસ સંદર્ભ અને કાર્યશીલ પ્રયોગમાં જ પ્રગટ થાય છે.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૪. સમન્વય-અશેષ:</strong> સ્યાદવાદ આ દર્શનોને આ નયમાં સમન્વિત કરી સ્થાપે છે કે આ પ્રતિપાદનથી લોકવ્યવહાર અત્યંત શુદ્ધ, ભ્રમરહિત અને વૈજ્ઞાનિક ચોકસાઈવાળો બને છે.
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Running Footer: Right Page -->
+    <footer class="running-footer">
+      <div class="footer-label">
+        <span class="footer-book">સમભિરૂઢ નય</span>
+        <span class="footer-sep">|</span>
+        <span class="footer-sub">૨. સમભિરૂઢનયપર્યાયાર્થિક પ્રતિપાદક વ્યવહાર</span>
+      </div>
+      <span class="page-num">363</span>
+    </footer>
+  </section>
+
+</div>
+
+
+<!-- =============================================================
+     CHAPTER: ૩. અસ્તિત્વ-નાસ્તિત્વ-અવક્તવ્યનય (PAGES 364 & 365)
+     ============================================================= -->
+<div class="spread-container" id="spread-K06_C003">
+
+  <!-- ==================== LEFT PAGE (364) ==================== -->
+  <section class="page page-even">
+    <div class="page-canvas">
+
+      <!-- Chapter Masthead -->
+      <div class="chapter-masthead">
+        <div class="kicker-row">
+          <div class="khanda-pill">
+            <span>સમભિરૂઢ નય</span>
+            <span class="khanda-pill-sub">જ્ઞાનનય</span>
+          </div>
+          <div class="category-tag">મુખ્ય શ્રેણી: સપ્તભંગી પૂર્ણાહુતિ નય</div>
+        </div>
+
+        <div class="chapter-title-row">
+          <h1 class="chapter-main-title title-long">૩. અસ્તિત્વ-નાસ્તિત્વ-અવક્તવ્યનય</h1>
+          <div class="chapter-sub-meta-right">
+            <span class="gu-general-term">વસ્તુના સ્વરૂપને સમજવાની દ્રષ્ટિ</span>
+            <span class="en-concept">The Analytical Standpoint</span>
+          </div>
+        </div>
+
+        <div class="sutra-showcase">
+          <span class="sutra-devanagari">क्रमेणास्तिनास्ति-युगपदवक्तव्यग्राहकः अस्तित्वनास्तित्वअवक्तव्यनयः</span>
+          <span class="sutra-label">મૂળ આગમિક લક્ષણ-સૂત્ર</span>
+        </div>
+      </div>
+
+      <!-- Section Ribbon -->
+      <div class="section-ribbon">
+        <span class="ribbon-badge">તત્વધારા</span>
+        <div class="ribbon-rule"></div>
+      </div>
+
+      <!-- Tattvadhara 4-Card Grid (Left-to-Right Natural Reading Axis, 11pt) -->
+      <div class="tattva-infographic-grid">
+        
+        <!-- 1. Rupak Drishti -->
+        <div class="tattva-card-shell tattva-card-1">
+          <div class="card-top-row">
+            <span class="step-badge">૦૧</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">રૂપક-દ્રષ્ટિ:</span>
+              <span class="card-sub-kicker">સુવર્ણ કંકણને સોનારૂપે 'છે', લોઢારૂપે 'નથી' અને યુગપત્ 'અકથ્ય' જોવું</span>
+            </div>
+          </div>
+          <p class="card-body-text">ઝવેરીના ટેબલ પર મૂકેલા કંકણને જોઈને એક વિદ્વાન તત્વચિંતક પ્રશ્ન કરે છે: "આ ઘરેણાનું સમગ્ર વાસ્તવિક સત્ય એકસાથે શું છે?" ઝવેરી સ્મિત સાથે કહે છે: "પહેલાં આ કંકણ પોતાના સુવર્ણરૂપ સ્વચતુષ્ટયથી 'છે' (અસ્તિ). બીજી ક્ષણે આ કંકણ લોખંડ કે માટીરૂપ પરચતુષ્ટયથી 'નથી' (નાસ્તિ). અને ત્રીજી ક્ષણે જ્યારે આ બંને ભાવોને એક જ સમયે એકસાથે વાણીમાં ઉતારવા જઈએ, ત્યારે કોઈ એક શબ્દ ન હોવાથી તે 'અવક્તવ્ય' છે!" અહીં ત્રણેય મૂળભૂત દ્રષ્ટિકોણોનો એક સુંદર સુમેળ રચાય છે. તેવી જ રીતે જ્યારે ચેતન આત્માને ક્રમશઃ — પોતાના જ્ઞાન-દર્શનરૂપ સ્વચતુષ્ટયથી અસ્તિત્વવાન, પરદ્રવ્યરૂપ પરચતુષ્ટયથી નાસ્તિત્વવાન અને યુગપત્ બંને અપેક્ષાઓ એકસાથે ન કહી શકાતી હોવાથી અવક્તવ્ય જાણીને — <em>"સ્યાત્ આત્મા અસ્તિ છે, નાસ્તિ છે અને અવક્તવ્ય છે"</em> — એમ સપ્તભંગીના અંતિમ સાતમા ભંગને મુખ્યતાથી ગ્રહણ કરતો જે નય છે, તેને 'અસ્તિત્વ-નાસ્તિત્વ-અવક્તવ્યનય' કહેવાય છે.</p>
+        </div>
+
+        <!-- 2. Swarup Srishti -->
+        <div class="tattva-card-shell tattva-card-2">
+          <div class="card-top-row">
+            <span class="step-badge">૦૨</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">સ્વરૂપ-સૃષ્ટિ:</span>
+              <span class="card-sub-kicker">સપ્તભંગીની પૂર્ણાહુતિ અને અનેકાંત દર્શનનું શિખર</span>
+            </div>
+          </div>
+          <p class="card-body-text">આ નય સપ્તભંગીનો મુગટમણિ છે. તે પૂર્વેના તમામ ભંગોના તારણોને પોતાનામાં સમાવી લે છે. આત્મા શૂન્ય નથી કારણ કે સ્વરૂપે અસ્તિ છે; આત્મા સર્વરૂપ ભ્રમિત નથી કારણ કે પરરૂપે નાસ્તિ છે; અને આત્મા શબ્દોની સાંકળમાં કેદ નથી કારણ કે તે યુગપત્ અવક્તવ્ય છે. આ ત્રણ સ્તંભો પર જૈન દર્શનનો અદ્ભુત સ્યાદ્વાદ મહેલ અડગ ઊભો છે. આ નય સાધકને સર્વ પક્ષપાતો અને એકાંત હઠાગ્રહોથી મુક્ત કરીને પરમ સમતામાં સ્થિર કરે છે.</p>
+        </div>
+
+        <!-- 3. Vyavahar Pushti -->
+        <div class="tattva-card-shell tattva-card-3">
+          <div class="card-top-row">
+            <span class="step-badge">૦૩</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">વ્યવહાર-પૃષ્ટિ:</span>
+              <span class="card-sub-kicker">શાસ્ત્ર અને ચિંતનમાં પ્રચલિત કથનો</span>
+            </div>
+          </div>
+          <ul class="card-bullet-list">
+            <li>સ્યાદ્ અસ્તિ નાસ્તિ અવક્તવ્ય જીવઃ**: આત્મા સ્વરૂપે છે, પરરૂપે નથી અને યુગપત્ અકથ્ય છે.</li>
+            <li>પૂર્ણ તત્વદર્શન**: વસ્તુના તમામ પરિમાણોને એકસાથે સ્વીકારીને પૂર્ણાહુતિ કરવી.</li>
+            <li>વિવાદમુક્તિ**: ત્રિગુણાત્મક દ્રષ્ટિથી તમામ દાર્શનિક વિરોધો શાંત થઈ જાય છે.</li>
+          </ul>
+        </div>
+
+        <!-- 4. Marm Tushti -->
+        <div class="tattva-card-shell tattva-card-4">
+          <div class="card-top-row">
+            <span class="step-badge">૦૪</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">મર્મ-તુષ્ટિ:</span>
+              <span class="card-sub-kicker">અખંડ પૂર્ણતાનો સાક્ષાત્કાર અને પરમ વિશ્રામ</span>
+            </div>
+          </div>
+          <p class="card-body-text">આ નય સાધકને સમજાવે છે કે જ્યારે આ ત્રણેય પાસાં સ્પષ્ટ થઈ જાય છે, ત્યારે મનમાંથી તર્કના તમામ તરંગો શમી જાય છે અને સાધક મહામૌનમાં અંતર્લીન થઈ જાય છે.</p>
+        </div>
+      </div>
+
+      <!-- Duo-Ribbon -->
+      <div class="bottom-ribbon-shell">
+        <div class="duo-ribbon-grid">
+          <div class="duo-col">
+            <span class="duo-label">• કાવ્યધારા</span>
+            <p class="kavya-quote">
+              સ્વરૂપે અસ્તિ પરે નાસ્તિ, યુગપત્ કથને મૌન;<br>
+              સાતમો ભંગ સપ્તભંગીનો, પામે જ્ઞાની કૌન.<br>
+              અસ્તિત્વ નાસ્તિત્વ વળી, અવક્તવ્ય એકાકાર;<br>
+              પૂર્ણ સત્ય પરખાય ત્યાં, શમે સહુ સંસાર.
+            </p>
+          </div>
+          <div class="duo-col duo-divider-col">
+            <span class="duo-label">✦ સાધનાધારા</span>
+            <p class="sadhana-statement">સાધકને સમજાવે છે કે જ્યારે આ ત્રણેય પાસાં સ્પષ્ટ થઈ જાય છે, ત્યારે મનમાંથી તર્કના તમામ તરંગો શમી જાય છે અને સાધક મહામૌનમાં અંતર્લીન થઈ જાય છે.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Running Footer: Left Page -->
+    <footer class="running-footer">
+      <span class="page-num">364</span>
+      <div class="footer-label">
+        <span class="footer-book">નય-ચક્ષુ</span>
+        <span class="footer-sep">|</span>
+        <span class="footer-sub">નયનું જ્ઞાન, સંશયનું સમાધાન</span>
+      </div>
+    </footer>
+  </section>
+
+
+  <!-- ==================== RIGHT PAGE (365) ==================== -->
+  <section class="page page-odd">
+    <div class="page-canvas">
+
+      <!-- Top Story Header Bar -->
+      <div class="top-story-header">
+        <span class="story-kicker">+ કથાધારા</span>
+        <span class="story-title-main">નવલિકા: અંધજનો અને હાથીનું પૂર્ણ દર્શન</span>
+      </div>
+
+      <!-- Split Story Hero: 1:1 Press Illustration + Pipasa -->
+      <div class="story-hero-split">
+        <div class="story-artwork-box">
+          <img class="katha-art-img" src="../../../Image/press/K06_C003_chapter_160_astitva_nastitva_avaktavyanaya_katha_r01_press.png" alt="અંધજનો અને હાથીનું પૂર્ણ દર્શન" loading="lazy">
+        </div>
+        <div class="story-pipasa-article">
+          <span class="pipasa-badge">પિપાસા</span>
+          <p>ધર્મપુરી નગરમાં સાત અંધજનો એક મોટા હાથીને સ્પર્શીને અંદરોઅંદર ભયાનક ઝઘડો કરતા હતા. કોઈ કહેતું હતું કે "હાથી થાંભલા જેવો છે", કોઈ કહેતું કે "હાથી સૂપડા જેવો છે", કોઈ કહેતું કે "હાથી દોરડા જેવો છે." પ્રત્યેક વ્યક્તિ પોતાના એકાંત પક્ષને જ સર્વસ્વ માનતી હતી અને બીજાને જૂઠો કહીને લાકડીઓ ઉગામતી હતી. નગરમાં ભારે હોબાળો મચી ગયો હતો. કોઈ સમાધાન દેખાતું નહોતું.</p>
+        </div>
+      </div>
+
+      <!-- Paan Block -->
+      <div class="story-paan-article">
+        <span class="pipasa-badge">પાન</span>
+        <p>તે સમયે ત્યાં આંખોવાળા એક પરમ વિવેકી સંત પધાર્યા. તેમણે સાતેય અંધજનોને શાંત પાડીને કહ્યું: "ભાઈઓ! લડશો નહીં, અસ્તિત્વ-નાસ્તિત્વ-અવક્તવ્યનયને ઓળખો! તમારામાંથી કોઈ સાવ ખોટું નથી અને કોઈ પૂર્ણ સાચું પણ નથી! જે પગને સ્પર્શે છે તેના માટે હાથી થાંભલા જેવો 'છે' (અસ્તિ), પણ તે સૂપડા જેવો 'નથી' (નાસ્તિ); અને સમગ્ર હાથીને એકસાથે કેવળ પગ કે કાનના એક શબ્દમાં કહેવો 'અશક્ય' છે (અવક્તવ્ય)! જ્યારે તમે ત્રણેય પાસાં સમજી લેશો કે હાથી પગરૂપે છે, કાનરૂપે નથી અને સમગ્રપણે અવક્તવ્ય છે, ત્યારે જ હાથીનું સાચું સ્વરૂપ સમજાશે!" સંતની આ યુક્તિસંગત વાણી સાંભળીને અંધજનોની લાકડીઓ નીચે પડી ગઈ. અહંકાર અને વિવાદ ક્ષણવારમાં ઓગળી ગયા. સત્યની અખંડ પૂર્ણતાનો બોધ થતાં જ સૌનું ચિત્ત પરમ વિશ્રામમાં શાંત થઈ ગયું.</p>
+      </div>
+
+      <!-- Vivekdhara Section -->
+      <div class="section-divider-title">વિવેકધારા</div>
+      <div class="vivek-container">
+        <div class="vivek-card">
+          <div class="vivek-card-title">એકાંત દર્શન (કદાગ્રહનો ગેરલાભ)</div>
+          <p>જો જીવ આ ત્રિપરિમાણીય સત્યમાંથી કોઈપણ એક અંશને પકડીને બેસી જાય, તો તે અંધજનની જેમ અધૂરા સત્યમાં જ લડતો રહે છે. શબ્દો કે વ્યાકરણના બાહ્ય નિયમોમાં જ અટવાઈ રહેવાથી અંતરંગ ભાવશુદ્ધિ ખોવાઈ જાય છે અને જીવ શુષ્ક વાદવિવાદ કે જડ ક્રિયાજડતામાં સબડતો રહે છે.</p>
+        </div>
+        <div class="vivek-card">
+          <div class="vivek-card-title">અનેકાંત દર્શન (સમન્વયનું સૌંદર્ય)</div>
+          <p>આ નય તમામ નયોનો સમન્વય કરીને સાધકને પરમ વીતરાગભાવમાં પ્રતિષ્ઠિત કરે છે, જેથી જીવ હું-પણાને ખોઈને પોતાના આત્મસ્વરૂપમાં સ્થિર થાય છે. તે વાણી અને સંજ્ઞાઓને આત્મજ્ઞાનનું સાધન બનાવી સાધકને નિર્વિકલ્પ અનુભૂતિ તરફ દોરી જાય છે, જેથી ચેતના પોતાના આત્મસ્વરૂપમાં સ્થિર થઈ શાંતિ અનુભવે છે.</p>
+        </div>
+      </div>
+
+      <!-- Darshandhara Section (4 Rhyming Pillars) -->
+      <div class="darshan-section">
+        <div class="darshan-header">❖ દર્શનધારા</div>
+        <div class="darshan-pillars-grid">
+          <div class="darshan-pillar-item">
+            <strong>૧. નય-ઉન્મેષ:</strong> વસ્તુ સ્વરૂપે 'છે', પરરૂપે 'નથી' અને બંનેને એકસાથે કહેવાની અપેક્ષાએ વાણીથી પર એટલે કે 'અવક્તવ્ય' છે — આ ત્રણેય પાસાંનો પૂર્ણ સંયોગ સાધવો તે આ નયનો ઉન્મેષ છે.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૨. પ્રાચીન-વિશેષ:</strong> માધ્યમિક કારિકામાં નાગાર્જુનની ચતુષ્કોટિ પરમ સત્યના બહુપરિમાણીય સ્વરૂપને ચર્ચે છે; ઉપનિષદો સત્-અસત્ થી પર અવિભાજ્ય સત્ય સ્થાપે છે.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૩. અર્વાચીન-પ્રવેશ:</strong> જ્યોર્જ હેગલ (Hegel)નો દ્વંદ્વાત્મક સંશ્લેષણવાદ (Dialectical Synthesis) વિરોધી ધર્મોના સમન્વય દ્વારા પરમ તત્વની સર્વગ્રાહી પૂર્ણતાને પ્રગટ કરે છે.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૪. સમન્વય-અશેષ:</strong> સ્યાદવાદ આ દર્શનોને સપ્તભંગીના સાતમા પદમાં સાંકળી સ્થાપે છે કે આ નય દ્વારા વિશ્વના કોઈપણ પદાર્થનું સંપૂર્ણ, અખંડ અને સર્વગ્રાહી દર્શન સુનિશ્ચિત થાય છે.
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Running Footer: Right Page -->
+    <footer class="running-footer">
+      <div class="footer-label">
+        <span class="footer-book">સમભિરૂઢ નય</span>
+        <span class="footer-sep">|</span>
+        <span class="footer-sub">૩. અસ્તિત્વ-નાસ્તિત્વ-અવક્તવ્યનય</span>
+      </div>
+      <span class="page-num">365</span>
+    </footer>
+  </section>
+
+</div>
+
+
+<!-- =============================================================
+     CHAPTER: ૪. વિકલ્પનય (PAGES 366 & 367)
+     ============================================================= -->
+<div class="spread-container" id="spread-K06_C004">
+
+  <!-- ==================== LEFT PAGE (366) ==================== -->
+  <section class="page page-even">
+    <div class="page-canvas">
+
+      <!-- Chapter Masthead -->
+      <div class="chapter-masthead">
+        <div class="kicker-row">
+          <div class="khanda-pill">
+            <span>સમભિરૂઢ નય</span>
+            <span class="khanda-pill-sub">જ્ઞાનનય</span>
+          </div>
+          <div class="category-tag">મુખ્ય શ્રેણી: વિકલ્પાત્મક વ્યવહાર</div>
+        </div>
+
+        <div class="chapter-title-row">
+          <h1 class="chapter-main-title">૪. વિકલ્પનય</h1>
+          <div class="chapter-sub-meta-right">
+            <span class="gu-general-term">વસ્તુના સ્વરૂપને સમજવાની દ્રષ્ટિ</span>
+            <span class="en-concept">The Analytical Standpoint</span>
+          </div>
+        </div>
+
+        <div class="sutra-showcase">
+          <span class="sutra-devanagari">नानापर्यायभेदग्राहकः विकल्पनयः</span>
+          <span class="sutra-label">મૂળ આગમિક લક્ષણ-સૂત્ર</span>
+        </div>
+      </div>
+
+      <!-- Section Ribbon -->
+      <div class="section-ribbon">
+        <span class="ribbon-badge">તત્વધારા</span>
+        <div class="ribbon-rule"></div>
+      </div>
+
+      <!-- Tattvadhara 4-Card Grid (Left-to-Right Natural Reading Axis, 11pt) -->
+      <div class="tattva-infographic-grid">
+        
+        <!-- 1. Rupak Drishti -->
+        <div class="tattva-card-shell tattva-card-1">
+          <div class="card-top-row">
+            <span class="step-badge">૦૧</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">રૂપક-દ્રષ્ટિ:</span>
+              <span class="card-sub-kicker">એક જ અભિનેતાને વિવિધ નાટકોમાં અલગ અલગ વેશ ધારણ કરતો જોવો</span>
+            </div>
+          </div>
+          <p class="card-body-text">રંગમંચ પર એક પ્રવીણ નટ (અભિનેતા) પોતાના અદ્ભુત કૌશલ્યથી અલગ અલગ પાત્રો ભજવે છે. પ્રથમ અંકમાં તે સોનાનો મુગટ પહેરીને પ્રતાપી રાજા બને છે; બીજા અંકમાં તે ફાટેલાં ચીંથરાં પહેરીને દીન ભિખારી બને છે; અને ત્રીજા અંકમાં તે ભગવાં વસ્ત્રો પહેરીને ધ્યાની સંત બને છે. દર્શકો તેને જોઈને કહે છે: "આ રાજા છે, આ ભિખારી છે, આ સંત છે!" વાસ્તવમાં માણસ એક જ છે, પણ તેની વિવિધ ભૂમિકાઓ (વિકલ્પો) ભિન્ન ભિન્ન છે. તેવી જ રીતે સંસારના રંગમંચ પર એક જ ચેતન આત્મા જ્યારે વિવિધ કર્મોના ઉદયથી — <em>"આ જ જીવ મનુષ્ય છે, આ જ જીવ પશુ છે, આ જ જીવ નારકી છે, આ જ જીવ ક્રોધી છે કે આ જ જીવ સાધક છે"</em> — એમ એક જ દ્રવ્યમાં ઉદ્ભવતા વિવિધ પર્યાયગત ભેદો અને વિકલ્પોને મુખ્યતાથી ગ્રહણ કરતો જે નય છે, તેને 'વિકલ્પનય' કહેવાય છે.</p>
+        </div>
+
+        <!-- 2. Swarup Srishti -->
+        <div class="tattva-card-shell tattva-card-2">
+          <div class="card-top-row">
+            <span class="step-badge">૦૨</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">સ્વરૂપ-સૃષ્ટિ:</span>
+              <span class="card-sub-kicker">ભેદદ્રષ્ટિ અને સંસાર વ્યવહારનું રહસ્ય</span>
+            </div>
+          </div>
+          <p class="card-body-text">વિકલ્પનય એ સંસારના વિવિધતાપૂર્ણ વ્યવહારને સમજવા માટેનું સાધન છે. જો આત્મામાં આ વિકલ્પો (ભેદો) ન હોત, તો મનુષ્ય અને પશુ, પુણ્યવાન અને પાપી, સંસારી અને સાધક વચ્ચે કોઈ વ્યવહારિક તફાવત જ ન રહેત. વિકલ્પનય સ્વીકારે છે કે આત્મા પોતાના પરિણામોથી ક્ષણે ક્ષણે જુદા જુદા રૂપો ધારણ કરે છે. આ ભેદજ્ઞાનના આધારે જ પાપનો ત્યાગ અને પુણ્યનો સ્વીકાર તેમજ સાધનાનો માર્ગ શક્ય બને છે.</p>
+        </div>
+
+        <!-- 3. Vyavahar Pushti -->
+        <div class="tattva-card-shell tattva-card-3">
+          <div class="card-top-row">
+            <span class="step-badge">૦૩</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">વ્યવહાર-પૃષ્ટિ:</span>
+              <span class="card-sub-kicker">આધ્યાત્મિક અને સામાજિક ક્ષેત્રના ઉદાહરણો</span>
+            </div>
+          </div>
+          <ul class="card-bullet-list">
+            <li>ગતિભેદનો સ્વીકાર**: "આ જીવ પૂર્વે તિર્યંચ હતો અને આજે મનુષ્ય બન્યો છે."</li>
+            <li>સાધનાની ભૂમિકાઓ**: સાધક, શ્રાવક, મુનિ અને આચાર્યના ભેદો કરવા.</li>
+            <li>પરિણામ ભેદ**: ક્રોધ, શાંતિ, લોભ અને સંતોષના વિવિધ વિકલ્પો જાણવા.</li>
+          </ul>
+        </div>
+
+        <!-- 4. Marm Tushti -->
+        <div class="tattva-card-shell tattva-card-4">
+          <div class="card-top-row">
+            <span class="step-badge">૦૪</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">મર્મ-તુષ્ટિ:</span>
+              <span class="card-sub-kicker">વિકલ્પોની ભુલભુલામણીમાંથી મુક્ત થઈ નિર્વિકલ્પ એકતા</span>
+            </div>
+          </div>
+          <p class="card-body-text">આ નય સાધકને સમજાવે છે કે આ તમામ વેશભૂષા કેવળ કર્મજનિત વિકલ્પો છે; આ તમામ વિકલ્પોની પાછળ રહેલો મૂળ ચેતન આત્મા સદા અખંડ અને એક જ છે.</p>
+        </div>
+      </div>
+
+      <!-- Duo-Ribbon -->
+      <div class="bottom-ribbon-shell">
+        <div class="duo-ribbon-grid">
+          <div class="duo-col">
+            <span class="duo-label">• કાવ્યધારા</span>
+            <p class="kavya-quote">
+              એક જ આતમ રંગમંચે, નાના વેશ ભજાય;<br>
+              નર નારક પશુ દેવના, વિકલ્પનયથી જણાય.<br>
+              ભેદ મહીં વ્યવહાર છે, સાધનાનો આધાર;<br>
+              વિકલ્પ સમઝી જે વરે, પામે મુક્તિ સાર.
+            </p>
+          </div>
+          <div class="duo-col duo-divider-col">
+            <span class="duo-label">✦ સાધનાધારા</span>
+            <p class="sadhana-statement">સાધનાના વિવિધ વિકલ્પોનો વિવેકપૂર્વક ઉપયોગ કરી ચિત્તને શુદ્ધ બનાવવું.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Running Footer: Left Page -->
+    <footer class="running-footer">
+      <span class="page-num">366</span>
+      <div class="footer-label">
+        <span class="footer-book">નય-ચક્ષુ</span>
+        <span class="footer-sep">|</span>
+        <span class="footer-sub">નયનું જ્ઞાન, સંશયનું સમાધાન</span>
+      </div>
+    </footer>
+  </section>
+
+
+  <!-- ==================== RIGHT PAGE (367) ==================== -->
+  <section class="page page-odd">
+    <div class="page-canvas">
+
+      <!-- Top Story Header Bar -->
+      <div class="top-story-header">
+        <span class="story-kicker">+ કથાધારા</span>
+        <span class="story-title-main">નવલિકા: સોનાના આભૂષણો અને કન્યાનો હઠ</span>
+      </div>
+
+      <!-- Split Story Hero: 1:1 Press Illustration + Pipasa -->
+      <div class="story-hero-split">
+        <div class="story-artwork-box">
+          <img class="katha-art-img" src="../../../Image/press/K06_C004_chapter_161_vikalpanaya_katha_r01_press.png" alt="સોનાના આભૂષણો અને કન્યાનો હઠ" loading="lazy">
+        </div>
+        <div class="story-pipasa-article">
+          <span class="pipasa-badge">પિપાસા</span>
+          <p>ધર્મપુરી નગરમાં સુરેખા નામની એક યુવતી પોતાના લગ્ન માટે ઝવેરીની દુકાને ગઈ હતી. તેણે સોનાના હાર, કાનની કડી, બંગડી અને વીંટી જોયા. તે ઝવેરી સાથે ઝઘડવા લાગી: "મને વીંટી નથી જોઈતી, મને કેવળ હાર જ જોઈએ છે! વીંટી તો નાની છે અને હાર મોટો છે! આ બંને સોના એકબીજાથી સાવ જુદા છે!" ઝવેરીએ કહ્યું: "બહેન, બંને સોનું જ છે", પણ સુરેખા માનવા તૈયાર નહોતી. તે વિવિધ આકારોના ભેદમાં એટલી અટવાઈ ગઈ હતી કે મૂળ સોનાની કિંમતને ભૂલી ગઈ હતી.</p>
+        </div>
+      </div>
+
+      <!-- Paan Block -->
+      <div class="story-paan-article">
+        <span class="pipasa-badge">પાન</span>
+        <p>તે સમયે દુકાનમાં બેઠેલા એક પ્રજ્ઞાવાન વૃદ્ધ મુનિશ્રીએ સુરેખાને પાસે બોલાવી અને પૂછ્યું: "દીકરી! વિકલ્પનયને ઓળખ! તું જે હાર અને વીંટી જુએ છે, તે સોનાના વિવિધ વિકલ્પો (આકારો) છે. વહેવારમાં હાર ગળામાં પહેરાય છે અને વીંટી આંગળીમાં પહેરાય છે; આ ભેદ વ્યવહાર ચલાવવા માટે સાચો છે. પરંતુ જો તું બંનેને ભઠ્ઠીમાં નાખીશ તો બંનેમાંથી એક જ શુદ્ધ સોનું નીકળશે! તેમ જ સંસારમાં જીવ ક્યારેક મનુષ્ય બને છે તો ક્યારેક પશુ બને છે. આ વિવિધ વિકલ્પોની જેમ દરેક જીવ પોતાનું અલગ દ્રવ્ય છે; દરેકમાં ચૈતન્યનો ગુણ છે, પરંતુ કોઈ એક જ આત્મા બધામાં વહેંચાયેલો નથી." સુરેખાની આંખો ખૂલી ગઈ. આકારોના અહંકાર અને ભેદબુદ્ધિમાંથી મુક્ત થતાં તેનો મોહ શમી ગયો. તેણે પ્રેમપૂર્વક ઘરેણાં સ્વીકાર્યા અને તેનું ચિત્ત પરમ વિશ્રામમાં શાંત થઈ ગયું.</p>
+      </div>
+
+      <!-- Vivekdhara Section -->
+      <div class="section-divider-title">વિવેકધારા</div>
+      <div class="vivek-container">
+        <div class="vivek-card">
+          <div class="vivek-card-title">એકાંત દર્શન (કદાગ્રહનો ગેરલાભ)</div>
+          <p>જો જીવ કેવળ વિકલ્પો અને ભેદોને જ આત્માનું અંતિમ સત્ય માની લે, તો તે જાતિ, વર્ણ અને ગતિના ભેદભાવોમાં સદા સંસારમાં ભટકતો રહે છે. શબ્દો કે વ્યાકરણના બાહ્ય નિયમોમાં જ અટવાઈ રહેવાથી અંતરંગ ભાવશુદ્ધિ ખોવાઈ જાય છે અને જીવ શુષ્ક વાદવિવાદ કે જડ ક્રિયાજડતામાં સબડતો રહે છે.</p>
+        </div>
+        <div class="vivek-card">
+          <div class="vivek-card-title">અનેકાંત દર્શન (સમન્વયનું સૌંદર્ય)</div>
+          <p>આ નય વ્યવહારિક સાધના માટે ભેદો સ્વીકારીને પણ અંતે નિર્વિકલ્પ અભેદ આત્મતત્વ તરફ દોરી જાય છે, જેથી સાધક પોતાના આત્મસ્વરૂપમાં સ્થિર થાય છે. તે વાણી અને સંજ્ઞાઓને આત્મજ્ઞાનનું સાધન બનાવી સાધકને નિર્વિકલ્પ અનુભૂતિ તરફ દોરી જાય છે, જેથી ચેતના પોતાના આત્મસ્વરૂપમાં સ્થિર થઈ શાંતિ અનુભવે છે.</p>
+        </div>
+      </div>
+
+      <!-- Darshandhara Section (4 Rhyming Pillars) -->
+      <div class="darshan-section">
+        <div class="darshan-header">❖ દર્શનધારા</div>
+        <div class="darshan-pillars-grid">
+          <div class="darshan-pillar-item">
+            <strong>૧. નય-ઉન્મેષ:</strong> એક જ અખંડ આત્માના જ્ઞાન, દર્શન, સુખ, ચારિત્ર્ય જેવા અનંત ગુણ-પર્યાયો અને ભેદોને બુદ્ધિના વિશ્લેષણ દ્વારા પૃથક્ પૃથક્ વિષય બનાવવા તે આ વિકલ્પનયની પદ્ધતિ છે.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૨. પ્રાચીન-વિશેષ:</strong> ન્યાય-વૈશેષિક દર્શન દ્રવ્ય, ગુણ અને કર્મનું પૃથક્કરણ કરી ભેદજ્ઞાન સ્થાપે છે; સાંખ્ય દર્શન પચીસ તત્વોના વિશ્લેષણ દ્વારા વિવેકજ્ઞાન મેળવવાનો માર્ગ બતાવે છે.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૩. અર્વાચીન-પ્રવેશ:</strong> રેને દેકાર્ત (Descartes)ની વિશ્લેષણાત્મક પદ્ધતિ (Method of Analysis) જટિલ સત્યને તેના પાયાના ઘટકોમાં વહેંચીને યથાર્થ જ્ઞાન મેળવવાનું સમર્થન કરે છે.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૪. સમન્વય-અશેષ:</strong> સ્યાદવાદ આ દર્શનોને વિકલ્પનયમાં સમાવી સ્થાપે છે કે શાસ્ત્રઅધ્યયન અને સાધનાના પ્રારંભે ગુણોનું વિશ્લેષણ અત્યંત અનિવાર્ય અને જ્ઞાનવર્ધક ભૂમિકા ભજવે છે.
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Running Footer: Right Page -->
+    <footer class="running-footer">
+      <div class="footer-label">
+        <span class="footer-book">સમભિરૂઢ નય</span>
+        <span class="footer-sep">|</span>
+        <span class="footer-sub">૪. વિકલ્પનય</span>
+      </div>
+      <span class="page-num">367</span>
+    </footer>
+  </section>
+
+</div>
+
+
+<!-- =============================================================
+     CHAPTER: ૫. અવિકલ્પનય (PAGES 368 & 369)
+     ============================================================= -->
+<div class="spread-container" id="spread-K06_C005">
+
+  <!-- ==================== LEFT PAGE (368) ==================== -->
+  <section class="page page-even">
+    <div class="page-canvas">
+
+      <!-- Chapter Masthead -->
+      <div class="chapter-masthead">
+        <div class="kicker-row">
+          <div class="khanda-pill">
+            <span>સમભિરૂઢ નય</span>
+            <span class="khanda-pill-sub">જ્ઞાનનય</span>
+          </div>
+          <div class="category-tag">મુખ્ય શ્રેણી: નિર્વિકલ્પ આત્મ વ્યવહાર</div>
+        </div>
+
+        <div class="chapter-title-row">
+          <h1 class="chapter-main-title">૫. અવિકલ્પનય</h1>
+          <div class="chapter-sub-meta-right">
+            <span class="gu-general-term">વસ્તુના સ્વરૂપને સમજવાની દ્રષ્ટિ</span>
+            <span class="en-concept">The Analytical Standpoint</span>
+          </div>
+        </div>
+
+        <div class="sutra-showcase">
+          <span class="sutra-devanagari">एकात्ममात्रप्रतिभासग्राहकः अविकल्पनयः</span>
+          <span class="sutra-label">મૂળ આગમિક લક્ષણ-સૂત્ર</span>
+        </div>
+      </div>
+
+      <!-- Section Ribbon -->
+      <div class="section-ribbon">
+        <span class="ribbon-badge">તત્વધારા</span>
+        <div class="ribbon-rule"></div>
+      </div>
+
+      <!-- Tattvadhara 4-Card Grid (Left-to-Right Natural Reading Axis, 11pt) -->
+      <div class="tattva-infographic-grid">
+        
+        <!-- 1. Rupak Drishti -->
+        <div class="tattva-card-shell tattva-card-1">
+          <div class="card-top-row">
+            <span class="step-badge">૦૧</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">રૂપક-દ્રષ્ટિ:</span>
+              <span class="card-sub-kicker">સાગરના તમામ મોજાં, પરપોટા અને ફીણને ભૂલીને કેવળ 'અગાધ જળરાશિ' જોવો</span>
+            </div>
+          </div>
+          <p class="card-body-text">સાગરના કિનારે ઊભેલો એક ઊંડો ધ્યાની પોતાની આંખો અર્ધમીંચીને વિશાળ સમુદ્ર તરફ જુએ છે. તે સપાટી પર ઊછળતાં મોજાં તરફ જોતો નથી, પથ્થર સાથે અથડાતા ફીણ તરફ જોતો નથી કે કિનારે દોડતી લહેરો તરફ જોતો નથી; તેની સમગ્ર દ્રષ્ટિ કેવળ અને કેવળ અગાધ, અનંત અને એકરસ જળતત્વ પર જ ઠરી જાય છે. તેના મનમાં મોજાંનો કોઈ ભેદ નથી, કેવળ જળ... કેવળ જળ જ ભાસે છે! તેવી જ રીતે જ્યારે ચેતન આત્માના મનુષ્ય, તિર્યંચ, જ્ઞાની, અજ્ઞાની, ક્રોધી કે શાંત જેવા તમામ પર્યાયગત ભેદો (વિકલ્પો) ને સર્વથા ભૂલી જઈને — <em>"અહીં કોઈ સ્ત્રી નથી, કોઈ પુરુષ નથી, કોઈ રાગ નથી, કોઈ દ્વેષ નથી; અહીં તો કેવળ અને કેવળ એક અખંડ ચૈતન્ય આત્મામાત્ર જ ઝળહળી રહ્યો છે"</em> — એમ સર્વ વિકલ્પોથી રહિત એક નિર્વિકલ્પ આત્મસત્તાનો સાક્ષાત્કાર કરતો જે નય છે, તેને 'અવિકલ્પનય' કહેવાય છે.</p>
+        </div>
+
+        <!-- 2. Swarup Srishti -->
+        <div class="tattva-card-shell tattva-card-2">
+          <div class="card-top-row">
+            <span class="step-badge">૦૨</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">સ્વરૂપ-સૃષ્ટિ:</span>
+              <span class="card-sub-kicker">અભેદ પ્રતિભાસ અને પરમ સમાધિનું રહસ્ય</span>
+            </div>
+          </div>
+          <p class="card-body-text">વિકલ્પનય જ્યાં ભેદ જોતો હતો, ત્યાં અવિકલ્પનય અભેદનું દર્શન કરાવે છે. સાધનાની સર્વોચ્ચ દશા આ અવિકલ્પ સ્થિતિમાં છે. જ્યાં સુધી ચિત્તમાં 'હું સાધક છું, આ મારો ધ્યેય છે, આ મારું ધ્યાન છે' એવા ત્રિપુટીના વિકલ્પો રહે છે, ત્યાં સુધી પૂર્ણ મુક્તિ મળતી નથી. જ્યારે ધ્યાન, ધ્યાતા અને ધ્યેયનો ભેદ ઓગળી જાય છે અને કેવળ એકરસ આત્મપ્રતિભાસ બાકી રહે છે, ત્યારે આ અવિકલ્પનય સાક્ષાત્કાર બને છે. આ નય સાધકને મનના તમામ વિકલ્પોમાંથી મુક્ત કરી પરમ શાંતિમાં પ્રતિષ્ઠિત કરે છે.</p>
+        </div>
+
+        <!-- 3. Vyavahar Pushti -->
+        <div class="tattva-card-shell tattva-card-3">
+          <div class="card-top-row">
+            <span class="step-badge">૦૩</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">વ્યવહાર-પૃષ્ટિ:</span>
+              <span class="card-sub-kicker">આધ્યાત્મિક ધ્યાનમાં સુપ્રસિદ્ધ કથનો</span>
+            </div>
+          </div>
+          <ul class="card-bullet-list">
+            <li>એકોઽહં નિર્વિકલ્પોઽહમ્**: "હું એકલો, અસંગ અને સર્વ વિકલ્પોથી રહિત શુદ્ધ આત્મા છું."</li>
+            <li>ચિન્માત્ર જ્યોતિ**: સર્વ ઉપાધિઓથી પર કેવળ જ્ઞાન-દર્શનમય આત્માનો પ્રતિભાસ.</li>
+            <li>પરમ મૌન**: મનના તમામ સંકલ્પ-વિકલ્પ શાંત થતાં પ્રગટતી સમાધિ.</li>
+          </ul>
+        </div>
+
+        <!-- 4. Marm Tushti -->
+        <div class="tattva-card-shell tattva-card-4">
+          <div class="card-top-row">
+            <span class="step-badge">૦૪</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">મર્મ-તુષ્ટિ:</span>
+              <span class="card-sub-kicker">વિકલ્પોના વિરામથી સાક્ષાત્ પરમાત્મ પદ</span>
+            </div>
+          </div>
+          <p class="card-body-text">આ નય સાધકને પરમ મુકામે પહોંચાડે છે જ્યાં વાણી અટકી જાય છે, વિચાર ઓગળી જાય છે અને કેવળ અખંડ આનંદનો પરમ વિશ્રામ પ્રગટે છે.</p>
+        </div>
+      </div>
+
+      <!-- Duo-Ribbon -->
+      <div class="bottom-ribbon-shell">
+        <div class="duo-ribbon-grid">
+          <div class="duo-col">
+            <span class="duo-label">• કાવ્યધારા</span>
+            <p class="kavya-quote">
+              સહુ વિકલ્પો ઓગળ્યા, પ્રગટ્યો એક જ ભાવ;<br>
+              અવિકલ્પ નયે ભાળતાં, ટળે ભવોભવ દાવ.<br>
+              મોજાં મટી સાગર થયો, ચિન્માત્રનો પ્રકાશ;<br>
+              એક આતમા ભાળતાં, પામે મોક્ષ નિવાસ.
+            </p>
+          </div>
+          <div class="duo-col duo-divider-col">
+            <span class="duo-label">✦ સાધનાધારા</span>
+            <p class="sadhana-statement">સર્વ વિકલ્પો શાંત થતાં નિર્વિકલ્પ આત્મસમાધિમાં પરમ વિશ્રામ પામવો.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Running Footer: Left Page -->
+    <footer class="running-footer">
+      <span class="page-num">368</span>
+      <div class="footer-label">
+        <span class="footer-book">નય-ચક્ષુ</span>
+        <span class="footer-sep">|</span>
+        <span class="footer-sub">નયનું જ્ઞાન, સંશયનું સમાધાન</span>
+      </div>
+    </footer>
+  </section>
+
+
+  <!-- ==================== RIGHT PAGE (369) ==================== -->
+  <section class="page page-odd">
+    <div class="page-canvas">
+
+      <!-- Top Story Header Bar -->
+      <div class="top-story-header">
+        <span class="story-kicker">+ કથાધારા</span>
+        <span class="story-title-main">નવલિકા: સૂર્યનું અખંડ તેજ અને આંખો મીંચનાર સાધક</span>
+      </div>
+
+      <!-- Split Story Hero: 1:1 Press Illustration + Pipasa -->
+      <div class="story-hero-split">
+        <div class="story-artwork-box">
+          <img class="katha-art-img" src="../../../Image/press/K06_C005_chapter_162_avikalpanaya_katha_r01_press.png" alt="સૂર્યનું અખંડ તેજ અને આંખો મીંચનાર સાધક" loading="lazy">
+        </div>
+        <div class="story-pipasa-article">
+          <span class="pipasa-badge">પિપાસા</span>
+          <p>ધર્મપુરી નગરમાં આરવ નામનો એક યુવાન તપસ્વી ધ્યાનમાં બેસવાનો પ્રયત્ન કરતો હતો. પરંતુ તે આંખો બંધ કરે કે તરત જ મનમાં વિચારોના વંટોળ ઊઠતા હતા: "હું તપસ્વી છું, મારે ઉપવાસ કરવો છે, મારે આ પુસ્તક વાંચવું છે, પેલો માણસ મને વંદન કરશે કે નહીં?" મનમાં હજારો સંકલ્પો અને વિકલ્પોની ભીડ જામી જતી હતી. આરવ માથું પકડીને રડવા લાગ્યો: "હું ધ્યાનમાં બેસું છું છતાં મારું મન આટલા બધા વિકલ્પોમાં કેમ ભટક્યા કરે છે? આ વિચારોના તોફાનમાંથી મુક્ત થઈને હું અખંડ આત્માને ક્યારે પામી શકીશ?"</p>
+        </div>
+      </div>
+
+      <!-- Paan Block -->
+      <div class="story-paan-article">
+        <span class="pipasa-badge">પાન</span>
+        <p>તે સમયે આશ્રમમાં પધારેલા એક પરમ વીતરાગી મહામુનિએ આરવના મસ્તક પર સ્નેહભર્યો હાથ મૂક્યો અને કહ્યું: "આરવ! અવિકલ્પનયને ઓળખ! તું ધ્યાનમાં બેસીને પણ 'હું ધ્યાન કરું છું' એવો નવો વિચાર ઊભો કરે છે, એ પણ એક વિકલ્પ જ છે! આ તમામ વિચારો, સંકલ્પો અને ભેદોને સાક્ષી બનીને વહી જવા દે. તું કોઈ વિચાર નથી, તું કોઈ તપસ્વી નથી; તું તો આ તમામ વિચારોની પાછળ રહેલો કેવળ એક અખંડ, અરૂપી અને શાંત જ્ઞાતા આત્મા છે! જેમ આકાશ વાદળો તરફ જોતું નથી પણ કેવળ શાંત રહે છે, તેમ તું કેવળ પોતાના એક આત્મમાત્રમાં વિશ્રામ પામ!" આરવે ગુરુદેવની વાણીનું પાન કર્યું. તેણે તમામ વિચારો અને સાધકપણાના અહંકારને પણ છોડી દીધો. ક્ષણવારમાં મનનું તમામ તોફાન શમી ગયું. સર્વ વિકલ્પો ઓગળી જતાં અંતરમાં એક અદ્ભુત નીરવતા અને દિવ્ય શાંતિ પ્રગટી અને તેનું ચિત્ત પરમ વિશ્રામમાં લીન થઈ ગયું.</p>
+      </div>
+
+      <!-- Vivekdhara Section -->
+      <div class="section-divider-title">વિવેકધારા</div>
+      <div class="vivek-container">
+        <div class="vivek-card">
+          <div class="vivek-card-title">એકાંત દર્શન (કદાગ્રહનો ગેરલાભ)</div>
+          <p>જો જીવ સાધનાની ભૂમિકામાં જ વિકલ્પોને સાવ ત્યજી દેવાની જીદ પકડે અને શાસ્ત્રાભ્યાસ કે સંયમ છોડી દે, તો તે તામસી નિષ્ક્રિયતામાં પતિત થઈ જાય છે. શબ્દો કે વ્યાકરણના બાહ્ય નિયમોમાં જ અટવાઈ રહેવાથી અંતરંગ ભાવશુદ્ધિ ખોવાઈ જાય છે અને જીવ શુષ્ક વાદવિવાદ કે જડ ક્રિયાજડતામાં સબડતો રહે છે.</p>
+        </div>
+        <div class="vivek-card">
+          <div class="vivek-card-title">અનેકાંત દર્શન (સમન્વયનું સૌંદર્ય)</div>
+          <p>આ નય ક્રમિક સાધના પછી અંતરંગ ધ્યાનમાં સર્વ વિકલ્પોથી મુક્ત થઈ પૂર્ણ મુક્તિ અપાવે છે, જેથી સાધક હું-પણાને ખોઈને પોતાના આત્મસ્વરૂપમાં સ્થિર થાય છે. તે વાણી અને સંજ્ઞાઓને આત્મજ્ઞાનનું સાધન બનાવી સાધકને નિર્વિકલ્પ અનુભૂતિ તરફ દોરી જાય છે, જેથી ચેતના પોતાના આત્મસ્વરૂપમાં સ્થિર થઈ શાંતિ અનુભવે છે.</p>
+        </div>
+      </div>
+
+      <!-- Darshandhara Section (4 Rhyming Pillars) -->
+      <div class="darshan-section">
+        <div class="darshan-header">❖ દર્શનધારા</div>
+        <div class="darshan-pillars-grid">
+          <div class="darshan-pillar-item">
+            <strong>૧. નય-ઉન્મેષ:</strong> ગુણ-ગુણીના સર્વ માનસિક ભેદો અને વિકલ્પોને શાંત કરી એક અખંડ, નિર્વિકલ્પ, જ્ઞાયક ચૈતન્યમય આત્મતત્વમાં લીન થઈ જવું તે આ અવિકલ્પનયનો મૌલિક ઉન્મેષ છે.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૨. પ્રાચીન-વિશેષ:</strong> અદ્વૈત વેદાંતમાં નિર્વિકલ્પ સમાધિ અને અખંડ આત્માનુભૂતિ સ્થાપે છે; પતંજલિ યોગદર્શન 'યોગશ્ચિત્તવૃત્તિનિરોધઃ' દ્વારા સર્વ વૃત્તિઓ શમી જવાની પરમ સ્થિતિ દર્શાવે છે.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૩. અર્વાચીન-પ્રવેશ:</strong> એડમંડ હુસર્લ (Husserl)નો શુદ્ધ ચેતનાનો સાક્ષાત્કાર વિચાર સર્વ બાહ્ય વિભાવો અને વિકલ્પોના સ્થગન પછી શુદ્ધ અનુભૂતિને સર્વોચ્ચ માને છે.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૪. સમન્વય-અશેષ:</strong> સ્યાદવાદ આ દર્શનોને અવિકલ્પનયમાં સંયોજી સ્થાપે છે કે શાસ્ત્રજ્ઞાન વિકલ્પ છે, જ્યારે મોક્ષની સાક્ષાત્ પ્રાપ્તિ કેવળ નિર્વિકલ્પ આત્માનુભૂતિથી જ શક્ય બને છે.
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Running Footer: Right Page -->
+    <footer class="running-footer">
+      <div class="footer-label">
+        <span class="footer-book">સમભિરૂઢ નય</span>
+        <span class="footer-sep">|</span>
+        <span class="footer-sub">૫. અવિકલ્પનય</span>
+      </div>
+      <span class="page-num">369</span>
+    </footer>
+  </section>
+
+</div>
+
+
+<!-- =============================================================
+     CHAPTER: ૬. નામનય (PAGES 370 & 371)
+     ============================================================= -->
+<div class="spread-container" id="spread-K06_C006">
+
+  <!-- ==================== LEFT PAGE (370) ==================== -->
+  <section class="page page-even">
+    <div class="page-canvas">
+
+      <!-- Chapter Masthead -->
+      <div class="chapter-masthead">
+        <div class="kicker-row">
+          <div class="khanda-pill">
+            <span>સમભિરૂઢ નય</span>
+            <span class="khanda-pill-sub">જ્ઞાનનય</span>
+          </div>
+          <div class="category-tag">મુખ્ય શ્રેણી: નિક્ષેપ વ્યવહાર</div>
+        </div>
+
+        <div class="chapter-title-row">
+          <h1 class="chapter-main-title">૬. નામનય</h1>
+          <div class="chapter-sub-meta-right">
+            <span class="gu-general-term">વસ્તુના સ્વરૂપને સમજવાની દ્રષ્ટિ</span>
+            <span class="en-concept">The Analytical Standpoint</span>
+          </div>
+        </div>
+
+        <div class="sutra-showcase">
+          <span class="sutra-devanagari">वस्तुनिरपेक्षसंज्ञामात्रबोधको नामानयः</span>
+          <span class="sutra-label">મૂળ આગમિક લક્ષણ-સૂત્ર</span>
+        </div>
+      </div>
+
+      <!-- Section Ribbon -->
+      <div class="section-ribbon">
+        <span class="ribbon-badge">તત્વધારા</span>
+        <div class="ribbon-rule"></div>
+      </div>
+
+      <!-- Tattvadhara 4-Card Grid (Left-to-Right Natural Reading Axis, 11pt) -->
+      <div class="tattva-infographic-grid">
+        
+        <!-- 1. Rupak Drishti -->
+        <div class="tattva-card-shell tattva-card-1">
+          <div class="card-top-row">
+            <span class="step-badge">૦૧</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">રૂપક-દ્રષ્ટિ:</span>
+              <span class="card-sub-kicker">નવજાત શિશુનું 'ધનપાલ' નામકરણ અને વ્યવહારનું દ્વાર</span>
+            </div>
+          </div>
+          <p class="card-body-text">એક સાધારણ કુટુંબમાં જન્મેલા નવજાત શિશુના પારણા પાસે સૌ સ્નેહીજનો ભેગા થાય છે. તે બાળકની મુઠ્ઠી હજી ખાલી છે, તેના નામે નથી કોઈ તિજોરી કે નથી કોઈ હવેલી, છતાં પિતા પ્રેમથી તેનું નામ 'ધનપાલ' કે 'રાજેન્દ્ર' પાડે છે. કોઈ એમ નથી પૂછતું કે "આની પાસે ધન ક્યાં છે?" કેવળ વ્યવહાર ચલાવવા, ઓળખ સ્થાપવા અને સંકેત કરવા માટે ગુણ વિના પણ નામ આપી દેવાય છે. તેવી જ રીતે અનંત ગુણ અને અરૂપી સ્વરૂપવાળા ચૈતન્ય તત્વને શબ્દોના જગતમાં ઓળખાવવા માટે 'આત્મા', 'જીવ', 'જ્ઞાતા', 'ચેતન' કે 'પરમાત્મા' એવા નામો આપવામાં આવે છે. ગુણ કે ક્રિયાની તત્કાળ ઉપસ્થિતિની અપેક્ષા રાખ્યા વિના કેવળ સંજ્ઞા કે નામ માત્રથી પદાર્થનો વ્યવહાર સાધતો જે દ્રષ્ટિકોણ છે, તેને 'નામનય' કહેવાય છે.</p>
+        </div>
+
+        <!-- 2. Swarup Srishti -->
+        <div class="tattva-card-shell tattva-card-2">
+          <div class="card-top-row">
+            <span class="step-badge">૦૨</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">સ્વરૂપ-સૃષ્ટિ:</span>
+              <span class="card-sub-kicker">સંકેતની શક્તિ અને નામનું આધ્યાત્મિક રહસ્ય</span>
+            </div>
+          </div>
+          <p class="card-body-text">જ્યાં સુધી સંકેત ન હોય ત્યાં સુધી સંસારી ચેતના કોઈ રહસ્ય સુધી પહોંચી શકતી નથી. અરૂપી આત્મા સ્વયં કોઈ ભાષા કે અક્ષરોનો બનેલો નથી, છતાં 'હું જ્ઞાયક છું' એવું નામ-સ્મરણ જીવને પોતાના મૂળ સ્વભાવની યાદ અપાવે છે. નામનય સ્થૂળ અક્ષરોનું ગ્રહણ કરાવે છે પરંતુ તેનો અંતિમ ઉદ્દેશ્ય અક્ષરોથી પર રહેલા પરમ તત્વ તરફ અંગુલિનિર્દેશ કરવાનો છે.</p>
+        </div>
+
+        <!-- 3. Vyavahar Pushti -->
+        <div class="tattva-card-shell tattva-card-3">
+          <div class="card-top-row">
+            <span class="step-badge">૦૩</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">વ્યવહાર-પૃષ્ટિ:</span>
+              <span class="card-sub-kicker">આધ્યાત્મિક સંજ્ઞા અને લોકપ્રયોગો</span>
+            </div>
+          </div>
+          <ul class="card-bullet-list">
+            <li>જ્ઞાયક સંજ્ઞા**: દેહમાં રહેલા અરૂપી ચૈતન્યને 'જ્ઞાયક' કહીને ઓળખવું.</li>
+            <li>સિદ્ધ નામ**: કર્મબદ્ધ સંસારી જીવને પણ ભાવિ સત્તાના આધારે 'સિદ્ધ' નામ આપવું.</li>
+            <li>મંત્રજાપ**: 'ૐ' કે 'સિદ્ધ' નામના પુનરાવર્તનથી અંતર્મુખ બનવાનો માર્ગ.</li>
+          </ul>
+        </div>
+
+        <!-- 4. Marm Tushti -->
+        <div class="tattva-card-shell tattva-card-4">
+          <div class="card-top-row">
+            <span class="step-badge">૦૪</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">મર્મ-તુષ્ટિ:</span>
+              <span class="card-sub-kicker">સંજ્ઞા ઓળંગી સત્યમાં વિશ્રામ</span>
+            </div>
+          </div>
+          <p class="card-body-text">આ નય નામનો આધાર આપીને જીવને અનામી તત્વ સુધી દોરી જાય છે, જ્યાં શબ્દો શાંત થઈ જાય છે.</p>
+        </div>
+      </div>
+
+      <!-- Duo-Ribbon -->
+      <div class="bottom-ribbon-shell">
+        <div class="duo-ribbon-grid">
+          <div class="duo-col">
+            <span class="duo-label">• કાવ્યધારા</span>
+            <p class="kavya-quote">
+              નામ થકી ઓળખ મળે, વ્યવહારે સુખકાર;<br>
+              અનામી ચૈતન્યનો, નામ કરે વિસ્તાર.<br>
+              શબ્દ તજીને સુરતમાં, પહોંચે જે નિર્વાણ;<br>
+              નામનયનો ભેદ લહી, પામે પરમ કલ્યાણ.
+            </p>
+          </div>
+          <div class="duo-col duo-divider-col">
+            <span class="duo-label">✦ સાધનાધારા</span>
+            <p class="sadhana-statement">પ્રારંભિક ભૂમિકામાં નામ દ્વારા પરમ તત્વનો સંકેત આપી સાધકને અનામી સત્તા સુધી પહોંચાડે છે, જેથી ચેતના સહજ શાંતિમાં ડૂબી જાય છે.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Running Footer: Left Page -->
+    <footer class="running-footer">
+      <span class="page-num">370</span>
+      <div class="footer-label">
+        <span class="footer-book">નય-ચક્ષુ</span>
+        <span class="footer-sep">|</span>
+        <span class="footer-sub">નયનું જ્ઞાન, સંશયનું સમાધાન</span>
+      </div>
+    </footer>
+  </section>
+
+
+  <!-- ==================== RIGHT PAGE (371) ==================== -->
+  <section class="page page-odd">
+    <div class="page-canvas">
+
+      <!-- Top Story Header Bar -->
+      <div class="top-story-header">
+        <span class="story-kicker">+ કથાધારા</span>
+        <span class="story-title-main">નવલિકા: અનામી રત્ન અને નાવિકનું હોકાયંત્ર</span>
+      </div>
+
+      <!-- Split Story Hero: 1:1 Press Illustration + Pipasa -->
+      <div class="story-hero-split">
+        <div class="story-artwork-box">
+          <img class="katha-art-img" src="../../../Image/press/K06_C006_chapter_163_namanaya_katha_r01_press.png" alt="અનામી રત્ન અને નાવિકનું હોકાયંત્ર" loading="lazy">
+        </div>
+        <div class="story-pipasa-article">
+          <span class="pipasa-badge">પિપાસા</span>
+          <p>એક નદીના કિનારે વસતા યુવાન સાધક સોમેશના મનમાં ભારે મૂંઝવણ ઊભી થઈ હતી. તે વર્ષોથી 'આત્મા', 'જ્ઞાતા', 'બ્રહ્મ' અને 'પરમાત્મા' જેવા પવિત્ર નામોનો જપ કરતો હતો, પરંતુ તેના હૃદયમાં શાંતિ પ્રગટતી નહોતી. તે નિરાશ થઈને એક સંતના ચરણોમાં બેસી ગયો અને બોલ્યો: "મહારાજ! હું હજારો વાર 'જ્ઞાયક' અને 'ચેતન' શબ્દો બોલું છું, છતાં મને સત્યનો અનુભવ કેમ થતો નથી? શું આ નામો કેવળ પોકળ ધ્વનિ માત્ર છે? જો નામથી કશું મળતું ન હોય તો શાસ્ત્રોમાં આટલા બધા નામો કેમ આપ્યા છે?" સોમેશની આંખોમાં સાચા સત્યને પામવાની તીવ્ર પિપાસા છલકાઈ રહી હતી.</p>
+        </div>
+      </div>
+
+      <!-- Paan Block -->
+      <div class="story-paan-article">
+        <span class="pipasa-badge">પાન</span>
+        <p>સંતે સોમેશને શાંતિથી સાંભળ્યો અને કિનારે બાંધેલી હોડી તરફ ઈશારો કરીને કહ્યું: "વત્સ! જો સામે પેલી પેટી પડી છે, તેના પર 'અમૃત' લખેલું છે. તું જો માત્ર તે અક્ષરોને જ પકડી રાખીશ તો તારી તરસ નહીં છીપે. પરંતુ જો તું એ પેટી ખોલીને અંદર રહેલા રસનું પાન કરીશ તો અમર થઈ જઈશ! નામનય એ પેટી પર લખેલું લેબલ છે, તે હોકાયંત્રનો કાંટો છે જે તને દિશા બતાવે છે. 'જ્ઞાયક' નામ એ તારા ચૈતન્યનું સરનામું છે. સરનામું વાંચીને ઊભા ન રહી જા, પણ સરનામે પહોંચીને અંદર બિરાજેલા અનામી આત્માને ભેટ!" આ સાંભળતાં જ સોમેશની આંખો ઊઘડી ગઈ. તેણે શબ્દોનો ભાર ઉતારી નાખ્યો અને અંતરમાં વહેતા અરૂપી જ્ઞાનપ્રવાહમાં ડૂબકી લગાવીને પરમ વિશ્રામમાં લીન થઈ ગયો.</p>
+      </div>
+
+      <!-- Vivekdhara Section -->
+      <div class="section-divider-title">વિવેકધારા</div>
+      <div class="vivek-container">
+        <div class="vivek-card">
+          <div class="vivek-card-title">એકાંત દર્શન (કદાગ્રહનો ગેરલાભ)</div>
+          <p>જો જીવ કેવળ નામ કે શબ્દોને જ સત્ય માની બેસે અને આંતરિક ગુણો પ્રગટાવ્યા વિના સંતોષ માની લે, તો તે વાચિક જ્ઞાની બનીને ભવભ્રમણમાં ભટકતો રહે છે. શબ્દો કે વ્યાકરણના બાહ્ય નિયમોમાં જ અટવાઈ રહેવાથી અંતરંગ ભાવશુદ્ધિ ખોવાઈ જાય છે અને જીવ શુષ્ક વાદવિવાદ કે જડ ક્રિયાજડતામાં સબડતો રહે છે.</p>
+        </div>
+        <div class="vivek-card">
+          <div class="vivek-card-title">અનેકાંત દર્શન (સમન્વયનું સૌંદર્ય)</div>
+          <p>આ નય પ્રારંભિક ભૂમિકામાં નામ દ્વારા પરમ તત્વનો સંકેત આપી સાધકને અનામી સત્તા સુધી પહોંચાડે છે, જેથી ચેતના સહજ શાંતિમાં ડૂબી જાય છે. તે વાણી અને સંજ્ઞાઓને આત્મજ્ઞાનનું સાધન બનાવી સાધકને નિર્વિકલ્પ અનુભૂતિ તરફ દોરી જાય છે, જેથી ચેતના પોતાના આત્મસ્વરૂપમાં સ્થિર થઈ શાંતિ અનુભવે છે.</p>
+        </div>
+      </div>
+
+      <!-- Darshandhara Section (4 Rhyming Pillars) -->
+      <div class="darshan-section">
+        <div class="darshan-header">❖ દર્શનધારા</div>
+        <div class="darshan-pillars-grid">
+          <div class="darshan-pillar-item">
+            <strong>૧. નય-ઉન્મેષ:</strong> વસ્તુમાં ગુણ કે ક્રિયા વિદ્યમાન ન હોય છતાં કેવળ લૌકિક ઓળખ અને વ્યવહાર ચલાવવા માટે જે સંજ્ઞા કે નામ આપવામાં આવે તેને ગ્રહણ કરવો તે નામનયની રીત છે.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૨. પ્રાચીન-વિશેષ:</strong> પાણિનીય સંજ્ઞાસૂત્રો વ્યવહારિક સગવડ માટે કલ્પિત નામોની અનિવાર્યતા સ્થાપે છે; ન્યાય દર્શન નામ-સંકેતને ઈશ્વરીય કે સામાજિક ઇચ્છા ગણે છે.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૩. અર્વાચીન-પ્રવેશ:</strong> વિલિયમ ઓફ ઓખમ (Ockham)નો નામવાદ (Nominalism) સિદ્ધ કરે છે કે સામાન્ય સંજ્ઞાઓ વાસ્તવિક પદાર્થ નથી, પણ વ્યવહાર ચલાવવા માનવીય બુદ્ધિએ રચેલા નામો છે.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૪. સમન્વય-અશેષ:</strong> સ્યાદવાદ આ દર્શનોને નામનયમાં સમાવી સ્થાપે છે કે સામાજિક વ્યવહાર માટે નામ અનિવાર્ય છે, પણ નામને જ સાચો ગુણ માની લેવો તે મોહનું કારણ બને છે.
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Running Footer: Right Page -->
+    <footer class="running-footer">
+      <div class="footer-label">
+        <span class="footer-book">સમભિરૂઢ નય</span>
+        <span class="footer-sep">|</span>
+        <span class="footer-sub">૬. નામનય</span>
+      </div>
+      <span class="page-num">371</span>
+    </footer>
+  </section>
+
+</div>
+
+
+<!-- =============================================================
+     CHAPTER: ૭. સ્થાપનાનય (PAGES 372 & 373)
+     ============================================================= -->
+<div class="spread-container" id="spread-K06_C007">
+
+  <!-- ==================== LEFT PAGE (372) ==================== -->
+  <section class="page page-even">
+    <div class="page-canvas">
+
+      <!-- Chapter Masthead -->
+      <div class="chapter-masthead">
+        <div class="kicker-row">
+          <div class="khanda-pill">
+            <span>સમભિરૂઢ નય</span>
+            <span class="khanda-pill-sub">જ્ઞાનનય</span>
+          </div>
+          <div class="category-tag">મુખ્ય શ્રેણી: નિક્ષેપ વ્યવહાર</div>
+        </div>
+
+        <div class="chapter-title-row">
+          <h1 class="chapter-main-title">૭. સ્થાપનાનય</h1>
+          <div class="chapter-sub-meta-right">
+            <span class="gu-general-term">વસ્તુના સ્વરૂપને સમજવાની દ્રષ્ટિ</span>
+            <span class="en-concept">The Analytical Standpoint</span>
+          </div>
+        </div>
+
+        <div class="sutra-showcase">
+          <span class="sutra-devanagari">तद्भावभावितप्रतीकेषु सद्भावारोपणं स्थापनानयः</span>
+          <span class="sutra-label">મૂળ આગમિક લક્ષણ-સૂત્ર</span>
+        </div>
+      </div>
+
+      <!-- Section Ribbon -->
+      <div class="section-ribbon">
+        <span class="ribbon-badge">તત્વધારા</span>
+        <div class="ribbon-rule"></div>
+      </div>
+
+      <!-- Tattvadhara 4-Card Grid (Left-to-Right Natural Reading Axis, 11pt) -->
+      <div class="tattva-infographic-grid">
+        
+        <!-- 1. Rupak Drishti -->
+        <div class="tattva-card-shell tattva-card-1">
+          <div class="card-top-row">
+            <span class="step-badge">૦૧</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">રૂપક-દ્રષ્ટિ:</span>
+              <span class="card-sub-kicker">શતરંજની સોગઠી અને પાષાણમાં પ્રભુનું સાક્ષાત્ દર્શન</span>
+            </div>
+          </div>
+          <p class="card-body-text">શતરંજના પાટિયા પર કાષ્ઠ કે હાથીદાંતની એક નાની ઘડેલી સોગઠી મૂકવામાં આવે છે. તેના પર કોઈ મુગટ નથી કે નથી કોઈ રક્ત-માંસનું શરીર, છતાં બંને ખેલાડીઓ તેને 'રાજા' માને છે અને તે સોગઠીનું રક્ષણ કરવા પોતાના તમામ પ્યાદાં ન્યોછાવર કરી દે છે. તેવી જ રીતે એક શિલ્પી પર્વતમાંથી પાષાણ લાવીને શાંત, ધ્યાનાવસ્થ મુદ્રા કંડારે છે. જ્યારે વિધિપૂર્વક તેમાં વીતરાગ પ્રભુનું સ્થાપન કરવામાં આવે છે, ત્યારે ભક્તો તે પ્રતિમામાં પ્રભુના ગુણોનું સ્મરણ કરે છે; પથ્થર પુદ્ગલ જ રહે છે અને જીવદ્રવ્યમાં પરિવર્તિત થતો નથી. કોઈ પદાર્થમાં તે પદાર્થ ન હોવા છતાં, સાધના કે વ્યવહારના ઉદ્દેશ્યથી તેના ગુણોનો આરોપ કરીને તેને તે સ્વરૂપ માનતો દ્રષ્ટિકોણ એટલે 'સ્થાપનાનય'.</p>
+        </div>
+
+        <!-- 2. Swarup Srishti -->
+        <div class="tattva-card-shell tattva-card-2">
+          <div class="card-top-row">
+            <span class="step-badge">૦૨</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">સ્વરૂપ-સૃષ્ટિ:</span>
+              <span class="card-sub-kicker">પ્રતીક દ્વારા પરમ તત્વનું આલંબન</span>
+            </div>
+          </div>
+          <p class="card-body-text">અરૂપી, અતીન્દ્રિય અને અગોચર આત્માને સાધનાના પ્રારંભે પકડવો કઠિન છે. તેથી સાધક શુદ્ધ મૂર્તિ, ચિત્ર કે આ દેહરૂપ મંદિરમાં ચૈતન્ય પરમાત્માની ભાવના સ્થાપે છે. સ્થાપનાનય કેવળ જડ આકારને પૂજવાનું નથી કહેતો, પરંતુ જડ આકારના નિમિત્તે અંતરમાં છુપાયેલા શુદ્ધ ચૈતન્ય ગુણોને પ્રગટાવવાનું પરમ આલંબન પૂરું પાડે છે.</p>
+        </div>
+
+        <!-- 3. Vyavahar Pushti -->
+        <div class="tattva-card-shell tattva-card-3">
+          <div class="card-top-row">
+            <span class="step-badge">૦૩</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">વ્યવહાર-પૃષ્ટિ:</span>
+              <span class="card-sub-kicker">દૈનિક ઉપાસના અને વ્યવહારિક આચરણ</span>
+            </div>
+          </div>
+          <ul class="card-bullet-list">
+            <li>પ્રતિમા-પૂજન**: પાષાણ કે ધાતુની મુદ્રામાં પૂર્ણ વીતરાગ દશાની ભાવના ભાવી અંતર્મુખ થવું.</li>
+            <li>દેહ-દેવાલય**: હાડ-માંસના આ સ્થૂળ શરીરમાં રહેલા અરૂપી આત્માને પ્રભુ માની આત્મસાધના કરવી.</li>
+            <li>આલેખ્ય આદર**: નકશા પર દોરેલી રેખાઓને સાક્ષાત્ નદી કે પર્વત માની દિશા નક્કી કરવી.</li>
+          </ul>
+        </div>
+
+        <!-- 4. Marm Tushti -->
+        <div class="tattva-card-shell tattva-card-4">
+          <div class="card-top-row">
+            <span class="step-badge">૦૪</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">મર્મ-તુષ્ટિ:</span>
+              <span class="card-sub-kicker">પ્રતીકથી પ્રભુતા સુધીની ગતિ</span>
+            </div>
+          </div>
+          <p class="card-body-text">આ નય સાધકને બાહ્ય આલંબનથી શરૂ કરાવી છેવટે અંતરના નિરાકાર પરમાત્મામાં સમાવી દે છે.</p>
+        </div>
+      </div>
+
+      <!-- Duo-Ribbon -->
+      <div class="bottom-ribbon-shell">
+        <div class="duo-ribbon-grid">
+          <div class="duo-col">
+            <span class="duo-label">• કાવ્યધારા</span>
+            <p class="kavya-quote">
+              પાષાણે પ્રભુ સ્થાપિયા, પ્રગટે શ્રદ્ધા પૂર;<br>
+              સ્થાપના નયના ભાવથી, થાય અવિદ્યા દૂર.<br>
+              પ્રતીક આલંબન બન્યું, અંતર જ્યોતિ થાય;<br>
+              ભાવ સ્થાપના જે કરે, પરમ પદે સમાય.
+            </p>
+          </div>
+          <div class="duo-col duo-divider-col">
+            <span class="duo-label">✦ સાધનાધારા</span>
+            <p class="sadhana-statement">સાધકને બાહ્ય આલંબનથી શરૂ કરાવી છેવટે અંતરના નિરાકાર પરમાત્મામાં સમાવી દે છે.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Running Footer: Left Page -->
+    <footer class="running-footer">
+      <span class="page-num">372</span>
+      <div class="footer-label">
+        <span class="footer-book">નય-ચક્ષુ</span>
+        <span class="footer-sep">|</span>
+        <span class="footer-sub">નયનું જ્ઞાન, સંશયનું સમાધાન</span>
+      </div>
+    </footer>
+  </section>
+
+
+  <!-- ==================== RIGHT PAGE (373) ==================== -->
+  <section class="page page-odd">
+    <div class="page-canvas">
+
+      <!-- Top Story Header Bar -->
+      <div class="top-story-header">
+        <span class="story-kicker">+ કથાધારા</span>
+        <span class="story-title-main">નવલિકા: શિલ્પીની છીણી અને ભક્તનો સાક્ષાત્કાર</span>
+      </div>
+
+      <!-- Split Story Hero: 1:1 Press Illustration + Pipasa -->
+      <div class="story-hero-split">
+        <div class="story-artwork-box">
+          <img class="katha-art-img" src="../../../Image/press/K06_C007_chapter_164_sthapana_naya_katha_r01_press.png" alt="શિલ્પીની છીણી અને ભક્તનો સાક્ષાત્કાર" loading="lazy">
+        </div>
+        <div class="story-pipasa-article">
+          <span class="pipasa-badge">પિપાસા</span>
+          <p>વિજયગઢના એક વૃદ્ધ શિલ્પી માધવે આરસપહાણના એક સુંદર પથ્થરમાંથી અતિ સૌમ્ય, ધ્યાનસ્થ મુદ્રાવાળી મૂર્તિ ઘડી કાઢી હતી. નગરમાં ઉત્સવ હતો અને સૌ લોકો તે શિલ્પના વખાણ કરતા હતા. પરંતુ શિલ્પીનો યુવાન પુત્ર કલ્પેશ વિચારમાં પડ્યો હતો. તે પિતા પાસે આવીને બોલ્યો: "પિતાજી! આ મૂર્તિ તો ગઈકાલ સુધી એક જડ પથ્થર હતી, જેને તમે છીણી-હથોડીથી ઘડી છે. હવે ગામના લોકો તેને પગે લાગશે અને પ્રભુ કહેશે! આ કેવળ પથ્થર જ છે તો લોકો તેને સાક્ષાત્ ભગવાન કેમ માને છે? શું પથ્થર કદી પરમાત્મા બની શકે?" કલ્પેશના અંતરમાં સત્ય અને પ્રતીક વચ્ચેના ભેદને જાણવાની ગહન તરસ હતી.</p>
+        </div>
+      </div>
+
+      <!-- Paan Block -->
+      <div class="story-paan-article">
+        <span class="pipasa-badge">પાન</span>
+        <p>પિતા માધવે સ્મિત વેરતાં કલ્પેશના ખભા પર હાથ મૂક્યો અને કહ્યું: "બેટા! તારી આંખો માત્ર પથ્થરને જુએ છે, પણ ભક્તનું હૃદય સ્થાપનાનયની દ્રષ્ટિએ જુએ છે. જેમ કાગળ પર લખાયેલી ચિઠ્ઠીમાં કાગળ મહત્ત્વનો નથી પણ તેના પર લખાયેલો પિતાનો પ્રેમ મહત્ત્વનો છે; તેમ આ પાષાણ પર સ્થાપિત થયેલી શાંતિ, ક્ષમા અને વીતરાગતા મહત્ત્વની છે! જ્યારે કોઈ સાધક આ મુદ્રા સામે બેસે છે, ત્યારે તે પથ્થરને નથી પૂજતો, પણ પથ્થરના દર્પણમાં પોતાના જ આત્માની પરમ શાંતિનું પ્રતિબિંબ જુએ છે. આ સ્થાપના એક સેતુ છે, જે સાધકને જડમાંથી ચેતનમાં લઈ જાય છે." કલ્પેશને રહસ્ય સમજાઈ ગયું. તેણે પ્રતીકની પાછળ છુપાયેલા ભાવને નમન કર્યું અને તેનું મન મહામૌનમાં અંતર્લીન થઈ ગયું.</p>
+      </div>
+
+      <!-- Vivekdhara Section -->
+      <div class="section-divider-title">વિવેકધારા</div>
+      <div class="vivek-container">
+        <div class="vivek-card">
+          <div class="vivek-card-title">એકાંત દર્શન (કદાગ્રહનો ગેરલાભ)</div>
+          <p>જો જીવ કેવળ બાહ્ય પ્રતીક કે આકારને જ પૂર્ણ સત્ય માની લે અને અંતરના શુદ્ધ ચૈતન્યભાવને કદી ન ઓળખે, તો તે કેવળ બાહ્યાડંબરમાં અટવાઈ જાય છે. શબ્દો કે વ્યાકરણના બાહ્ય નિયમોમાં જ અટવાઈ રહેવાથી અંતરંગ ભાવશુદ્ધિ ખોવાઈ જાય છે અને જીવ શુષ્ક વાદવિવાદ કે જડ ક્રિયાજડતામાં સબડતો રહે છે.</p>
+        </div>
+        <div class="vivek-card">
+          <div class="vivek-card-title">અનેકાંત દર્શન (સમન્વયનું સૌંદર્ય)</div>
+          <p>આ નય પ્રતીકના આલંબન દ્વારા અંતર્ગત વીતરાગ ગુણોને જગાડી સાધકને પોતાના શુદ્ધ સ્વરૂપ તરફ દોરે છે, જેથી તે પરમ વિશ્રામ પામે છે. તે વાણી અને સંજ્ઞાઓને આત્મજ્ઞાનનું સાધન બનાવી સાધકને નિર્વિકલ્પ અનુભૂતિ તરફ દોરી જાય છે, જેથી ચેતના પોતાના આત્મસ્વરૂપમાં સ્થિર થઈ શાંતિ અનુભવે છે.</p>
+        </div>
+      </div>
+
+      <!-- Darshandhara Section (4 Rhyming Pillars) -->
+      <div class="darshan-section">
+        <div class="darshan-header">❖ દર્શનધારા</div>
+        <div class="darshan-pillars-grid">
+          <div class="darshan-pillar-item">
+            <strong>૧. નય-ઉન્મેષ:</strong> કાષ્ઠ, પાષાણ, ચિત્ર કે ધાતુની પ્રતિમામાં "આ સાક્ષાત્ તીર્થંકર પ્રભુ છે" એવો સદ્ભાવ કે અસદ્ભાવ સ્થાપનાપૂર્વક પૂજ્યભાવ સ્વીકારવો તે સ્થાપનાનયનો મૌલિક ઉન્મેષ છે.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૨. પ્રાચીન-વિશેષ:</strong> આગમો અને શિલ્પશાસ્ત્રોમાં મૂર્તિ-પ્રતિષ્ઠા અને પ્રાણપ્રતિષ્ઠા દ્વારા દિવ્યતાનું આરોપણ સ્થાપે છે; શતરંજની રમત સોગઠીઓમાં રાજા-પ્રધાનની સ્થાપનાથી ચાલે છે.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૩. અર્વાચીન-પ્રવેશ:</strong> અર્ન્સ્ટ કેસિરર (Cassirer)નો પ્રતીકવાદ દર્શાવે છે કે ભૌતિક આકારમાં ઉચ્ચતમ આધ્યાત્મિક આદર્શની સ્થાપના માનવીય સંસ્કૃતિનું સર્વોચ્ચ સર્જનાત્મક અંગ છે.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૪. સમન્વય-અશેષ:</strong> સ્યાદવાદ આ દર્શનોને સ્થાપનાનયમાં જોડી સ્થાપે છે કે પ્રત્યક્ષ ભગવંતના અભાવમાં સાધક માટે આ સ્થાપના-પૂજન વીતરાગભાવ પ્રગટાવવાનું પરમ પ્રબળ નિમિત્ત છે.
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Running Footer: Right Page -->
+    <footer class="running-footer">
+      <div class="footer-label">
+        <span class="footer-book">સમભિરૂઢ નય</span>
+        <span class="footer-sep">|</span>
+        <span class="footer-sub">૭. સ્થાપનાનય</span>
+      </div>
+      <span class="page-num">373</span>
+    </footer>
+  </section>
+
+</div>
+
+
+<!-- =============================================================
+     CHAPTER: ૮. દ્રવ્યનય (PAGES 374 & 375)
+     ============================================================= -->
+<div class="spread-container" id="spread-K06_C008">
+
+  <!-- ==================== LEFT PAGE (374) ==================== -->
+  <section class="page page-even">
+    <div class="page-canvas">
+
+      <!-- Chapter Masthead -->
+      <div class="chapter-masthead">
+        <div class="kicker-row">
+          <div class="khanda-pill">
+            <span>સમભિરૂઢ નય</span>
+            <span class="khanda-pill-sub">જ્ઞાનનય</span>
+          </div>
+          <div class="category-tag">મુખ્ય શ્રેણી: નિક્ષેપ વ્યવહાર</div>
+        </div>
+
+        <div class="chapter-title-row">
+          <h1 class="chapter-main-title">૮. દ્રવ્યનય</h1>
+          <div class="chapter-sub-meta-right">
+            <span class="gu-general-term">વસ્તુના સ્વરૂપને સમજવાની દ્રષ્ટિ</span>
+            <span class="en-concept">The Analytical Standpoint</span>
+          </div>
+        </div>
+
+        <div class="sutra-showcase">
+          <span class="sutra-devanagari">अतीतनागतपर्यायविशिष्टसत्ताग्राही द्रव्यनयः</span>
+          <span class="sutra-label">મૂળ આગમિક લક્ષણ-સૂત્ર</span>
+        </div>
+      </div>
+
+      <!-- Section Ribbon -->
+      <div class="section-ribbon">
+        <span class="ribbon-badge">તત્વધારા</span>
+        <div class="ribbon-rule"></div>
+      </div>
+
+      <!-- Tattvadhara 4-Card Grid (Left-to-Right Natural Reading Axis, 11pt) -->
+      <div class="tattva-infographic-grid">
+        
+        <!-- 1. Rupak Drishti -->
+        <div class="tattva-card-shell tattva-card-1">
+          <div class="card-top-row">
+            <span class="step-badge">૦૧</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">રૂપક-દ્રષ્ટિ:</span>
+              <span class="card-sub-kicker">નિવૃત્ત મહારાજા અને માટીમાં દબાયેલું સોનાનું બીબાં</span>
+            </div>
+          </div>
+          <p class="card-body-text">એક સમયે વિશાળ સામ્રાજ્ય પર શાસન કરનાર રાજા હવે રાજપાટ ત્યજીને અરણ્યમાં એક નાની પર્ણકુટીમાં સાદા સુતરાઉ વસ્ત્રો પહેરીને રહે છે. તેમની પાસે ન તો સેના છે, ન તો રત્નજડિત સિંહાસન; છતાં વટેમાર્ગુઓ કે પ્રજાજનો તેમને જોતાં જ મસ્તક નમાવીને કહે છે: "આ આપણા મહારાજ છે!" તેવી જ રીતે ખાણમાંથી નીકળેલા ધૂળ અને પથ્થરથી ભરેલા કાચા ધાતુના ટુકડાને જોઈને પારખુ ઝવેરી કહે છે: "આ શુદ્ધ સોનું છે!" તે વર્તમાન મેલી અવસ્થા તરફ જોતો નથી, પણ અગાઉ શુદ્ધ હતું અને ભવિષ્યમાં અગ્નિમાં તપીને શુદ્ધ કુંદન બનશે તે ત્રિકાળી દ્રવ્યસ્વભાવને જુએ છે. ભૂતકાળની ગુણવત્તા કે ભવિષ્યની સંભાવનાના આધારે વર્તમાન પદાર્થને મૂળ દ્રવ્યરૂપે સ્વીકારતો દ્રષ્ટિકોણ એટલે 'દ્રવ્યનય'.</p>
+        </div>
+
+        <!-- 2. Swarup Srishti -->
+        <div class="tattva-card-shell tattva-card-2">
+          <div class="card-top-row">
+            <span class="step-badge">૦૨</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">સ્વરૂપ-સૃષ્ટિ:</span>
+              <span class="card-sub-kicker">ત્રિકાળી વ્યાપકતા અને સંસ્કારની સાતત્યતા</span>
+            </div>
+          </div>
+          <p class="card-body-text">પર્યાયો પ્રતિક્ષણ બદલાય છે. ક્યારેક જીવ દેવ બને છે, ક્યારેક નારકી બને છે, ક્યારેક સાધક બને છે. પરંતુ આ તમામ બદલાતી અવસ્થાઓની ભીતર જે મૂળ અવિનાશી ચૈતન્ય દ્રવ્ય વહી રહ્યું છે, તેને આ નય લક્ષ્યમાં રાખે છે. તે ભૂતકાળના સંસ્કારો અને ભવિષ્યની મુક્તિની ક્ષમતાને એક જ દ્રવ્યરૂપ દોરામાં પરોવે છે.</p>
+        </div>
+
+        <!-- 3. Vyavahar Pushti -->
+        <div class="tattva-card-shell tattva-card-3">
+          <div class="card-top-row">
+            <span class="step-badge">૦૩</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">વ્યવહાર-પૃષ્ટિ:</span>
+              <span class="card-sub-kicker">આધ્યાત્મિક ઓળખ અને વ્યવહારિક દ્રષ્ટિ</span>
+            </div>
+          </div>
+          <ul class="card-bullet-list">
+            <li>ભાવિ તીર્થંકર**: સામાન્ય રાજકુમાર અવસ્થામાં પણ જીવને 'ભાવિ જિનેશ્વર' તરીકે જોવો.</li>
+            <li>ભૂતપૂર્વ પ્રધાન**: પદ પરથી મુક્ત થયેલા વરિષ્ઠ વ્યક્તિને સન્માનપૂર્વક જૂના પદથી સંબોધવા.</li>
+            <li>દ્રવ્ય-નિષ્ઠા**: સંસારી જીવને પણ 'સિદ્ધ સમાન' મૂળ સ્વભાવવાન માનવો.</li>
+          </ul>
+        </div>
+
+        <!-- 4. Marm Tushti -->
+        <div class="tattva-card-shell tattva-card-4">
+          <div class="card-top-row">
+            <span class="step-badge">૦૪</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">મર્મ-તુષ્ટિ:</span>
+              <span class="card-sub-kicker">ક્ષણિક દોષો ભૂલી શાશ્વત સત્યમાં વિશ્રામ</span>
+            </div>
+          </div>
+          <p class="card-body-text">આ નય વર્તમાન ક્ષતિઓથી નિરાશ થયા વિના આત્માની અનંત ક્ષમતામાં આસ્થા જગાવી શાંતિ આપે છે.</p>
+        </div>
+      </div>
+
+      <!-- Duo-Ribbon -->
+      <div class="bottom-ribbon-shell">
+        <div class="duo-ribbon-grid">
+          <div class="duo-col">
+            <span class="duo-label">• કાવ્યધારા</span>
+            <p class="kavya-quote">
+              કાલ અતીતના ભાવ લહી, ભાવી તણો વિચાર;<br>
+              દ્રવ્યનયે જે પારખે, પામે તત્વનો સાર.<br>
+              સોનું ધૂળમાં સંતાયેલું, ઝવેરી ઓળખાય;<br>
+              આતમ દ્રવ્ય પ્રકાશતાં, ભવનો અંત જ થાય.
+            </p>
+          </div>
+          <div class="duo-col duo-divider-col">
+            <span class="duo-label">✦ સાધનાધારા</span>
+            <p class="sadhana-statement">વર્તમાન ક્ષતિઓથી નિરાશ થયા વિના આત્માની અનંત ક્ષમતામાં આસ્થા જગાવી શાંતિ આપે છે.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Running Footer: Left Page -->
+    <footer class="running-footer">
+      <span class="page-num">374</span>
+      <div class="footer-label">
+        <span class="footer-book">નય-ચક્ષુ</span>
+        <span class="footer-sep">|</span>
+        <span class="footer-sub">નયનું જ્ઞાન, સંશયનું સમાધાન</span>
+      </div>
+    </footer>
+  </section>
+
+
+  <!-- ==================== RIGHT PAGE (375) ==================== -->
+  <section class="page page-odd">
+    <div class="page-canvas">
+
+      <!-- Top Story Header Bar -->
+      <div class="top-story-header">
+        <span class="story-kicker">+ કથાધારા</span>
+        <span class="story-title-main">નવલિકા: ધૂળભર્યો હીરો અને ઝવેરીની દીર્ઘદ્રષ્ટિ</span>
+      </div>
+
+      <!-- Split Story Hero: 1:1 Press Illustration + Pipasa -->
+      <div class="story-hero-split">
+        <div class="story-artwork-box">
+          <img class="katha-art-img" src="../../../Image/press/K06_C008_chapter_165_dravyanaya_katha_r01_press.png" alt="ધૂળભર્યો હીરો અને ઝવેરીની દીર્ઘદ્રષ્ટિ" loading="lazy">
+        </div>
+        <div class="story-pipasa-article">
+          <span class="pipasa-badge">પિપાસા</span>
+          <p>ધર્મનગરના માર્ગ પર એક ભિક્ષુક જેવો દેખાતો યુવાન વિનય રસ્તાની ધૂળમાં પડેલા એક કાળા, ખરબચડા પથ્થરને લાત મારીને દૂર ફેંકી રહ્યો હતો. તે મનમાં વિચારતો હતો: "આ સંસારમાં મારું કોઈ મૂલ્ય નથી. હું પાપ અને દોષોથી ભરેલો છું. શું મારા જેવો પામર જીવ ક્યારેય પરમ શાંતિ પામી શકે?" વિનયના હૃદયમાં પોતાની હીનતા અને વર્તમાન દુર્દશા પ્રત્યે ભારે ગ્લાનિ અને હતાશા ભરેલી હતી. તે પોતાના મૂળ અસ્તિત્વની પવિત્રતાથી સાવ અજાણ હતો અને મુક્તિના માર્ગ અંગે અસમંજસમાં ડૂબેલો હતો.</p>
+        </div>
+      </div>
+
+      <!-- Paan Block -->
+      <div class="story-paan-article">
+        <span class="pipasa-badge">પાન</span>
+        <p>તે જ ક્ષણે માર્ગ પરથી પસાર થતા એક જ્ઞાની સંતે તે કાળા પથ્થરને હાથમાં ઉપાડી લીધો. તેમણે વિનયને પાસે બોલાવીને સ્નેહથી કહ્યું: "ભાઈ! તું જેને કાળો પથ્થર સમજીને ઠોકર મારે છે, તે સામાન્ય પથ્થર નથી, પણ કાચો હીરો છે! ભલે અત્યારે તે કાદવમાં ખરડાયેલો છે, પણ જ્યારે કસબી તેને ઘાટ આપશે ત્યારે તે રાજમુકુટનું સર્વોચ્ચ રત્ન બનશે! તેવી જ રીતે દ્રવ્યનયની આંખથી તારા આત્માને જો. તું અત્યારે ભલે રાગ-દ્વેષના કાદવમાં ઢંકાયેલો હોય, પણ તારા આત્માનું ચૈતન્યસ્વરૂપ દ્રવ્યની અપેક્ષાએ શુદ્ધ છે, જ્યારે વર્તમાનમાં કર્મોદયથી અશુદ્ધ ભાવો પણ અનુભવાય છે. યોગ્ય પુરુષાર્થ અને નિમિત્તો મળે તો તું મુક્તિમાર્ગે આગળ વધી શકે છે; મુક્તિમાં આ જ જીવ અલગ સિદ્ધદ્રવ્ય તરીકે રહે છે." આ બોધ સાંભળતાં જ વિનયની લઘુતાગ્રંથિ ઓગળી ગઈ. તેણે પોતાની વર્તમાન કમજોરીઓને છોડી શાશ્વત દ્રવ્યસ્વભાવ પર દ્રષ્ટિ ઠેરવી અને તેનું ચિત્ત પરમ વિશ્રામમાં સમાઈ ગયું.</p>
+      </div>
+
+      <!-- Vivekdhara Section -->
+      <div class="section-divider-title">વિવેકધારા</div>
+      <div class="vivek-container">
+        <div class="vivek-card">
+          <div class="vivek-card-title">એકાંત દર્શન (કદાગ્રહનો ગેરલાભ)</div>
+          <p>જો જીવ કેવળ અતીત કે ભવિષ્યના દ્રવ્યરૂપને જ પકડી રાખે અને વર્તમાન પરિણામો સુધારવા કોઈ પુરુષાર્થ ન કરે, તો તે પ્રમાદમાં પડીને અધોગતિ પામે છે. શબ્દો કે વ્યાકરણના બાહ્ય નિયમોમાં જ અટવાઈ રહેવાથી અંતરંગ ભાવશુદ્ધિ ખોવાઈ જાય છે અને જીવ શુષ્ક વાદવિવાદ કે જડ ક્રિયાજડતામાં સબડતો રહે છે.</p>
+        </div>
+        <div class="vivek-card">
+          <div class="vivek-card-title">અનેકાંત દર્શન (સમન્વયનું સૌંદર્ય)</div>
+          <p>આ નય આત્માની ત્રિકાળી ક્ષમતાનો ભરોસો આપી વર્તમાન સાધનાને બળવાન બનાવે છે, જેથી ચેતના પોતાના આત્મસ્વરૂપમાં સ્થિર થાય છે. તે વાણી અને સંજ્ઞાઓને આત્મજ્ઞાનનું સાધન બનાવી સાધકને નિર્વિકલ્પ અનુભૂતિ તરફ દોરી જાય છે, જેથી ચેતના પોતાના આત્મસ્વરૂપમાં સ્થિર થઈ શાંતિ અનુભવે છે.</p>
+        </div>
+      </div>
+
+      <!-- Darshandhara Section (4 Rhyming Pillars) -->
+      <div class="darshan-section">
+        <div class="darshan-header">❖ દર્શનધારા</div>
+        <div class="darshan-pillars-grid">
+          <div class="darshan-pillar-item">
+            <strong>૧. નય-ઉન્મેષ:</strong> જે જીવ પૂર્વે તે પદ પર હતો અથવા ભવિષ્યમાં થવાનો છે, તેને વર્તમાનમાં તે જ પદરૂપે જોવો — જેમ કે રાજકુમારને 'રાજા' કે મુનિરાજને 'ભાવિ સિદ્ધ' માનવા.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૨. પ્રાચીન-વિશેષ:</strong> સાંખ્ય દર્શનનો સત્કાર્યવાદ ભવિષ્યની સ્થિતિ કારણમાં વિદ્યમાન સ્થાપે છે; જ્યોતિષશાસ્ત્ર અને રાજનીતિ ભાવી યોગ્યતાને આધારે વર્તમાન આદરનું સમર્થન કરે છે.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૩. અર્વાચીન-પ્રવેશ:</strong> એરિસ્ટોટલનો સંભાવના સિદ્ધાંત (Potentiality) દર્શાવે છે કે બીજમાં રહેલી ભાવિ વૃક્ષની શક્તિ જ તેના વર્તમાન મૂલ્ય અને માવજતનો આધાર બને છે.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૪. સમન્વય-અશેષ:</strong> સ્યાદવાદ આ દર્શનોને દ્રવ્યનિક્ષેપરૂપ આ નયમાં સાંકળી સ્થાપે છે કે આ દ્રષ્ટિ સાધકને પ્રત્યેક આત્મામાં પરમાત્મા બનવાની ગર્ભિત ક્ષમતા નિહાળવાનો સમભાવ આપે છે.
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Running Footer: Right Page -->
+    <footer class="running-footer">
+      <div class="footer-label">
+        <span class="footer-book">સમભિરૂઢ નય</span>
+        <span class="footer-sep">|</span>
+        <span class="footer-sub">૮. દ્રવ્યનય</span>
+      </div>
+      <span class="page-num">375</span>
+    </footer>
+  </section>
+
+</div>
+
+
+<!-- =============================================================
+     CHAPTER: ૯. ભાવનય (PAGES 376 & 377)
+     ============================================================= -->
+<div class="spread-container" id="spread-K06_C009">
+
+  <!-- ==================== LEFT PAGE (376) ==================== -->
+  <section class="page page-even">
+    <div class="page-canvas">
+
+      <!-- Chapter Masthead -->
+      <div class="chapter-masthead">
+        <div class="kicker-row">
+          <div class="khanda-pill">
+            <span>સમભિરૂઢ નય</span>
+            <span class="khanda-pill-sub">જ્ઞાનનય</span>
+          </div>
+          <div class="category-tag">મુખ્ય શ્રેણી: નિક્ષેપ વ્યવહાર</div>
+        </div>
+
+        <div class="chapter-title-row">
+          <h1 class="chapter-main-title">૯. ભાવનય</h1>
+          <div class="chapter-sub-meta-right">
+            <span class="gu-general-term">વસ્તુના સ્વરૂપને સમજવાની દ્રષ્ટિ</span>
+            <span class="en-concept">The Analytical Standpoint</span>
+          </div>
+        </div>
+
+        <div class="sutra-showcase">
+          <span class="sutra-devanagari">वर्तमानपर्यायपरिणतवस्तुग्राहको भावनयः</span>
+          <span class="sutra-label">મૂળ આગમિક લક્ષણ-સૂત્ર</span>
+        </div>
+      </div>
+
+      <!-- Section Ribbon -->
+      <div class="section-ribbon">
+        <span class="ribbon-badge">તત્વધારા</span>
+        <div class="ribbon-rule"></div>
+      </div>
+
+      <!-- Tattvadhara 4-Card Grid (Left-to-Right Natural Reading Axis, 11pt) -->
+      <div class="tattva-infographic-grid">
+        
+        <!-- 1. Rupak Drishti -->
+        <div class="tattva-card-shell tattva-card-1">
+          <div class="card-top-row">
+            <span class="step-badge">૦૧</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">રૂપક-દ્રષ્ટિ:</span>
+              <span class="card-sub-kicker">સિતારના તાર છેડતો વાદક અને સળગતી જ્યોતિ</span>
+            </div>
+          </div>
+          <p class="card-body-text">એક સંગીતજ્ઞ જ્યારે સિતાર ખોળામાં લઈને મંત્રમુગ્ધ થઈને તાર છેડે છે અને સુરાવલીઓ વહેવડાવે છે, ત્યારે જ શ્રોતાઓ પોકારી ઊઠે છે: "અહો! કેવો અદ્ભુત વાદક છે!" પરંતુ જ્યારે તે સિતાર બાજુ પર મૂકીને ચાલી જાય છે, ત્યારે તે કેવળ એક સામાન્ય વટેમાર્ગુ બની જાય છે. તેવી જ રીતે દીવાની વાટ જ્યારે તેલ ખેંચીને અગ્નિરૂપે પ્રજ્વળે છે, ત્યારે જ તેને 'દીપક' કહેવાય છે; બુઝાઈ ગયેલી વાટને કોઈ પ્રકાશ આપનાર કહેતું નથી. ભૂતકાળમાં શું હતું કે ભવિષ્યમાં શું થશે તેની કલ્પના કર્યા વિના, પદાર્થ જે ક્ષણે જે ગુણ કે ક્રિયાથી પરિણમી રહ્યો હોય, તે વર્તમાન ભાવમાં જ વસ્તુનો સાક્ષાત્કાર કરતો દ્રષ્ટિકોણ એટલે 'ભાવનય'.</p>
+        </div>
+
+        <!-- 2. Swarup Srishti -->
+        <div class="tattva-card-shell tattva-card-2">
+          <div class="card-top-row">
+            <span class="step-badge">૦૨</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">સ્વરૂપ-સૃષ્ટિ:</span>
+              <span class="card-sub-kicker">વર્તમાન ક્ષણની જીવંત સચ્ચાઈ</span>
+            </div>
+          </div>
+          <p class="card-body-text">આત્મા ત્રિકાળી છે એ સત્ય છે, પરંતુ મુક્તિ કે બંધન તો વર્તમાન પરિણામો પર નિર્ભર છે. જો વર્તમાનમાં ક્રોધ છે તો જીવ ક્રોધી છે, અને જો વર્તમાનમાં ક્ષમા અને જ્ઞાનની જ્યોતિ જાગ્રત છે તો જીવ પરમ શુદ્ધ છે. ભાવનય અતીતના ભાર અને ભવિષ્યની ચિંતાથી મુક્ત થઈને સાધકને પ્રત્યેક ક્ષણે જાગ્રત રહેવાની પ્રેરણા આપે છે.</p>
+        </div>
+
+        <!-- 3. Vyavahar Pushti -->
+        <div class="tattva-card-shell tattva-card-3">
+          <div class="card-top-row">
+            <span class="step-badge">૦૩</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">વ્યવહાર-પૃષ્ટિ:</span>
+              <span class="card-sub-kicker">દૈનિક અનુભવ અને સાધનાની જીવંતતા</span>
+            </div>
+          </div>
+          <ul class="card-bullet-list">
+            <li>વર્તમાન જ્ઞાની**: જે ક્ષણે જીવ આત્મધ્યાનમાં લીન હોય તે ક્ષણે જ તે સાચો સાધક છે.</li>
+            <li>પ્રજ્વલિત અગ્નિ**: જે ક્ષણે કાષ્ઠ બળીને પ્રકાશ આપે તે ક્ષણે જ તે અગ્નિરૂપ છે.</li>
+            <li>ક્ષણે-ક્ષણે જાગૃતિ**: ભૂતકાળની પુણ્ય-કમાણીના ભરોસે બેસી ન રહેતાં તાજી સાધના કરવી.</li>
+          </ul>
+        </div>
+
+        <!-- 4. Marm Tushti -->
+        <div class="tattva-card-shell tattva-card-4">
+          <div class="card-top-row">
+            <span class="step-badge">૦૪</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">મર્મ-તુષ્ટિ:</span>
+              <span class="card-sub-kicker">વર્તમાન ભાવમાં અનંત શાંતિનો સાક્ષાત્કાર</span>
+            </div>
+          </div>
+          <p class="card-body-text">આ નય સાધકને અહીં અને અત્યારે જ આત્મસ્વરૂપમાં સ્થિર કરી પરમ શાંતિનો અનુભવ કરાવે છે.</p>
+        </div>
+      </div>
+
+      <!-- Duo-Ribbon -->
+      <div class="bottom-ribbon-shell">
+        <div class="duo-ribbon-grid">
+          <div class="duo-col">
+            <span class="duo-label">• કાવ્યધારા</span>
+            <p class="kavya-quote">
+              વર્તમાન પરિણામ જે, ભાવનયે ઓળખાય;<br>
+              ક્ષણે ક્ષણની જાગૃતિ, મુક્તિ માર્ગ સુહાય.<br>
+              દીપક બળે તો તેજ છે, સુરાવટમાં ગાન;<br>
+              અંતર ભાવે જે રમે, પામે પદ નિર્વાણ.
+            </p>
+          </div>
+          <div class="duo-col duo-divider-col">
+            <span class="duo-label">✦ સાધનાધારા</span>
+            <p class="sadhana-statement">સાધકને અહીં અને અત્યારે જ આત્મસ્વરૂપમાં સ્થિર કરી પરમ શાંતિનો અનુભવ કરાવે છે.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Running Footer: Left Page -->
+    <footer class="running-footer">
+      <span class="page-num">376</span>
+      <div class="footer-label">
+        <span class="footer-book">નય-ચક્ષુ</span>
+        <span class="footer-sep">|</span>
+        <span class="footer-sub">નયનું જ્ઞાન, સંશયનું સમાધાન</span>
+      </div>
+    </footer>
+  </section>
+
+
+  <!-- ==================== RIGHT PAGE (377) ==================== -->
+  <section class="page page-odd">
+    <div class="page-canvas">
+
+      <!-- Top Story Header Bar -->
+      <div class="top-story-header">
+        <span class="story-kicker">+ કથાધારા</span>
+        <span class="story-title-main">નવલિકા: ભૂતકાળના દાતા અને વર્તમાનનો ક્રોધ</span>
+      </div>
+
+      <!-- Split Story Hero: 1:1 Press Illustration + Pipasa -->
+      <div class="story-hero-split">
+        <div class="story-artwork-box">
+          <img class="katha-art-img" src="../../../Image/press/K06_C009_chapter_166_bhavanaya_katha_r01_press.png" alt="ભૂતકાળના દાતા અને વર્તમાનનો ક્રોધ" loading="lazy">
+        </div>
+        <div class="story-pipasa-article">
+          <span class="pipasa-badge">પિપાસા</span>
+          <p>ધર્મક્ષેત્રમાં વસતા એક ધનાઢ્ય શ્રેષ્ઠી સુશીલકુમાર પોતાના ભૂતકાળના દાન અને તપના ગુણગાન ગાવામાં મસ્ત રહેતા હતા. તેઓ વારંવાર કહેતા: "મેં ભૂતકાળમાં આટલા આશ્રમો બનાવ્યા છે, હું તો મોટો પુણ્યશાળી જીવ છું!" પરંતુ પોતાના ઘરમાં કોઈ નાની ભૂલ કરે તો તેઓ ક્રોધથી લાલચોળ થઈ જતા અને અપશબ્દો બોલતા. એક દિવસ તેમના મનમાં અશાંતિ વ્યાપી ગઈ: "હું આટલો મોટો દાનવીર છું છતાં મારું મન આટલું અશાંત કેમ રહે છે? મારી અંદર શાંતિનો એક પણ ઝરણું કેમ ફૂટતું નથી?" તેમની અંદર વર્તમાન જીવનના કલેશમાંથી છૂટવાની તીવ્ર પિપાસા જાગી.</p>
+        </div>
+      </div>
+
+      <!-- Paan Block -->
+      <div class="story-paan-article">
+        <span class="pipasa-badge">પાન</span>
+        <p>તે સમયે નગરમાં એક શાંત, પ્રશાંત મુનિરાજનું આગમન થયું. સુશીલકુમારે તેમના ચરણોમાં નમીને પોતાની વ્યથા જણાવી. મુનિરાજે સ્મિત સાથે કહ્યું: "શ્રેષ્ઠી! ગઈકાલે ખાધેલા પકવાનથી આજની ભૂખ ભાંગતી નથી, અને ગઈકાલે સળગાવેલા દીવાથી આજનો અંધકાર મટતો નથી! ભાવનયની દ્રષ્ટિએ વિચાર કર. ગઈકાલે તું દાતા હતો, પણ આ ક્ષણે તું ક્રોધી છે! આત્મા વર્તમાન ભાવથી ઓળખાય છે. તારા ગઈકાલના પુણ્યના ગુણગાન છોડ અને અત્યારે, આ જ ક્ષણે તારા ચિત્તમાં ક્ષમા, શાંતિ અને સમતાનો ભાવ પ્રગટાવ! શુદ્ધ ભાવ પ્રગટે તે ક્ષણથી તું મુક્તિમાર્ગે આગળ વધે છે; પરમાત્મા અથવા સિદ્ધ અવસ્થા ત્યારે જ કહેવાય જ્યારે બધા કર્મોનો ક્ષય થાય." આ વેધક સત્ય સુશીલકુમારના હૃદયમાં સોંસરવું ઊતરી ગયું. તેમણે અતીતનો ગર્વ છોડી દીધો અને વર્તમાન પળમાં પોતાના મનને સમતામાં સ્થિર કર્યું. ક્ષણવારમાં અંતરની તમામ દાહ શમી ગઈ અને તેઓ મહામૌનમાં અંતર્લીન થઈ ગયા.</p>
+      </div>
+
+      <!-- Vivekdhara Section -->
+      <div class="section-divider-title">વિવેકધારા</div>
+      <div class="vivek-container">
+        <div class="vivek-card">
+          <div class="vivek-card-title">એકાંત દર્શન (કદાગ્રહનો ગેરલાભ)</div>
+          <p>જો જીવ કેવળ વર્તમાન ભાવને જ સર્વસ્વ માની ત્રિકાળી ધ્રુવ આત્મદ્રવ્યને ભૂલી જાય, તો તે ક્ષણિક પર્યાયોના પ્રવાહમાં તણાઈને આત્મવિશ્વાસ ગુમાવી બેસે છે. શબ્દો કે વ્યાકરણના બાહ્ય નિયમોમાં જ અટવાઈ રહેવાથી અંતરંગ ભાવશુદ્ધિ ખોવાઈ જાય છે અને જીવ શુષ્ક વાદવિવાદ કે જડ ક્રિયાજડતામાં સબડતો રહે છે.</p>
+        </div>
+        <div class="vivek-card">
+          <div class="vivek-card-title">અનેકાંત દર્શન (સમન્વયનું સૌંદર્ય)</div>
+          <p>આ નય વર્તમાન ક્ષણની શુદ્ધતા પર ભાર મૂકી સાધકને સદા જાગ્રત રાખે છે, જેથી ચેતના સહજ શાંતિમાં ડૂબી જાય છે. તે વાણી અને સંજ્ઞાઓને આત્મજ્ઞાનનું સાધન બનાવી સાધકને નિર્વિકલ્પ અનુભૂતિ તરફ દોરી જાય છે, જેથી ચેતના પોતાના આત્મસ્વરૂપમાં સ્થિર થઈ શાંતિ અનુભવે છે.</p>
+        </div>
+      </div>
+
+      <!-- Darshandhara Section (4 Rhyming Pillars) -->
+      <div class="darshan-section">
+        <div class="darshan-header">❖ દર્શનધારા</div>
+        <div class="darshan-pillars-grid">
+          <div class="darshan-pillar-item">
+            <strong>૧. નય-ઉન્મેષ:</strong> પૂર્વ કે ભાવિ કલ્પના છોડીને વર્તમાન ક્ષણે જે વાસ્તવિક ગુણ અને ક્રિયાથી જીવ પરિણમેલો છે તેને જ સાક્ષાત્ તે રૂપ સ્વીકારવો તે આ ભાવનયનો ઉન્મેષ છે.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૨. પ્રાચીન-વિશેષ:</strong> બૌદ્ધ દર્શન વર્તમાન ક્રિયાશીલતાને જ 'અર્થક્રિયાકારિત્વ' લક્ષણથી સત્ય માને છે; ન્યાય દર્શન પ્રત્યક્ષ પરિણામયુક્ત પદાર્થને જ પ્રમાણભૂત ગણે છે.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૩. અર્વાચીન-પ્રવેશ:</strong> વિલિયમ જેમ્સનો વ્યવહારવાદ (Pragmatism) સિદ્ધ કરે છે કે સિદ્ધાંતો કે નામો કરતાં વર્તમાનમાં જે સક્રિય અનુભવ અને ક્રિયા ચાલે છે તે જ અંતિમ સત્ય છે.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૪. સમન્વય-અશેષ:</strong> સ્યાદવાદ આ દર્શનોને ભાવનયમાં સમન્વિત કરી સ્થાપે છે કે નિક્ષેપોમાં ભાવનિક્ષેપ પરમોચ્ચ છે, કારણ કે વર્તમાન જીવંત આચરણ જ સાચો મોક્ષમાર્ગ છે.
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Running Footer: Right Page -->
+    <footer class="running-footer">
+      <div class="footer-label">
+        <span class="footer-book">સમભિરૂઢ નય</span>
+        <span class="footer-sep">|</span>
+        <span class="footer-sub">૯. ભાવનય</span>
+      </div>
+      <span class="page-num">377</span>
+    </footer>
+  </section>
+
+</div>
+
+
+<!-- =============================================================
+     CHAPTER: ૧૦. સામાન્યનય (PAGES 378 & 379)
+     ============================================================= -->
+<div class="spread-container" id="spread-K06_C010">
+
+  <!-- ==================== LEFT PAGE (378) ==================== -->
+  <section class="page page-even">
+    <div class="page-canvas">
+
+      <!-- Chapter Masthead -->
+      <div class="chapter-masthead">
+        <div class="kicker-row">
+          <div class="khanda-pill">
+            <span>સમભિરૂઢ નય</span>
+            <span class="khanda-pill-sub">વિશેષ વ્યવહાર</span>
+          </div>
+          <div class="category-tag">મુખ્ય શ્રેણી: સામાન્ય</div>
+        </div>
+
+        <div class="chapter-title-row">
+          <h1 class="chapter-main-title">૧૦. સામાન્યનય</h1>
+          <div class="chapter-sub-meta-right">
+            <span class="gu-general-term">વસ્તુના સ્વરૂપને સમજવાની દ્રષ્ટિ</span>
+            <span class="en-concept">The Analytical Standpoint</span>
+          </div>
+        </div>
+
+        <div class="sutra-showcase">
+          <span class="sutra-devanagari">सर्वविशेषव्यापकसत्ताग्राही सामान्यनयः</span>
+          <span class="sutra-label">મૂળ આગમિક લક્ષણ-સૂત્ર</span>
+        </div>
+      </div>
+
+      <!-- Section Ribbon -->
+      <div class="section-ribbon">
+        <span class="ribbon-badge">તત્વધારા</span>
+        <div class="ribbon-rule"></div>
+      </div>
+
+      <!-- Tattvadhara 4-Card Grid (Left-to-Right Natural Reading Axis, 11pt) -->
+      <div class="tattva-infographic-grid">
+        
+        <!-- 1. Rupak Drishti -->
+        <div class="tattva-card-shell tattva-card-1">
+          <div class="card-top-row">
+            <span class="step-badge">૦૧</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">રૂપક-દ્રષ્ટિ:</span>
+              <span class="card-sub-kicker">વિવિધ ઘરેણાં અને સુવર્ણનો સામાન્ય ધર્મ</span>
+            </div>
+          </div>
+          <p class="card-body-text">ઝવેરીની દુકાનમાં બંગડી, કુંડળ અને હારના આકાર જુદા છે; છતાં આ બધામાં સુવર્ણ હોવાનો સામાન્ય ધર્મ ઓળખી શકાય છે. આ સામાન્ય ધર્મ ઓળખવાથી દરેક ઘરેણું એક જ વસ્તુ બની જતું નથી. તેવી જ રીતે દરેક જીવમાં ચૈતન્યધર્મ છે, પરંતુ અનંત આત્માઓ એક જ આત્મદ્રવ્ય નથી. સામાન્યનય સમાન ધર્મને મુખ્ય કરે છે; વ્યક્તિગત દ્રવ્ય અને તેના વિશેષ પર્યાયોને નકારે એવો તેનો અર્થ નથી.</p>
+        </div>
+
+        <!-- 2. Swarup Srishti -->
+        <div class="tattva-card-shell tattva-card-2">
+          <div class="card-top-row">
+            <span class="step-badge">૦૨</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">સ્વરૂપ-સૃષ્ટિ:</span>
+              <span class="card-sub-kicker">ભેદોની પાછળ રહેલી અખંડ એકતા</span>
+            </div>
+          </div>
+          <p class="card-body-text">સામાન્યનય અનેક પદાર્થોમાં રહેલા સમાન ધર્મને ઓળખે છે. આથી તેમની સંખ્યાગત કે દ્રવ્યગત ભિન્નતા નાબૂદ થતી નથી. જીવદ્રવ્યનું સાતત્ય અને તેના જ્ઞાનાદિ ગુણોનો સ્વભાવ સમજતાં દરેક જીવની પોતાની પર્યાયયાત્રા પણ સ્વીકારવી પડે છે. સામાન્યને મુખ્ય કરવું એ વિશેષનો સર્વથા નિષેધ નથી.</p>
+        </div>
+
+        <!-- 3. Vyavahar Pushti -->
+        <div class="tattva-card-shell tattva-card-3">
+          <div class="card-top-row">
+            <span class="step-badge">૦૩</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">વ્યવહાર-પૃષ્ટિ:</span>
+              <span class="card-sub-kicker">લોકવ્યવહાર અને તત્વબોધના દ્રષ્ટાંતો</span>
+            </div>
+          </div>
+          <ul class="card-bullet-list">
+            <li>સુવર્ણ-દ્રષ્ટિ**: અલંકારો ભાંગીને નવો ઘાટ બને છતાં સુવર્ણની સત્તા અખંડ રહેવી.</li>
+            <li>મૃત્તિકા-ન્યાય**: ઘડો કે કોડિયું ફૂટે તો પણ માટીનો નાશ ન થવો.</li>
+            <li>જીવત્વ-ભાવ**: કીડીથી માંડીને સિદ્ધ સુધી દરેક જીવમાં ચૈતન્યધર્મ સ્વીકારવો, સાથે દરેક જીવની અલગ દ્રવ્યસત્તા જાળવવી.</li>
+          </ul>
+        </div>
+
+        <!-- 4. Marm Tushti -->
+        <div class="tattva-card-shell tattva-card-4">
+          <div class="card-top-row">
+            <span class="step-badge">૦૪</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">મર્મ-તુષ્ટિ:</span>
+              <span class="card-sub-kicker">સામાન્ય ધર્મની ઓળખ, ભેદનો આદર</span>
+            </div>
+          </div>
+          <p class="card-body-text">આ નય સમાન ધર્મને ઓળખવામાં મદદ કરે છે; જુદા જીવો કે પદાર્થોને એક જ સત્તા બનાવી દેતો નથી. સામાન્ય અને વિશેષ—બંને અપેક્ષાઓનું યોગ્ય સ્થાન સમજવાથી સમતા અને વિવેક સાથે રહી શકે છે.</p>
+        </div>
+      </div>
+
+      <!-- Duo-Ribbon -->
+      <div class="bottom-ribbon-shell">
+        <div class="duo-ribbon-grid">
+          <div class="duo-col">
+            <span class="duo-label">• કાવ્યધારા</span>
+            <p class="kavya-quote">
+              ઘરેણાં અનેક, સુવર્ણનો, સામાન્ય ધર્મ પ્રકાશ;<br>
+              જીવો અનેક, ચૈતન્યધર્મ, ભેદ સહીતનો વાસ.
+            </p>
+          </div>
+          <div class="duo-col duo-divider-col">
+            <span class="duo-label">✦ સાધનાધારા</span>
+            <p class="sadhana-statement">સમાન ધર્મ ઓળખવો, પણ દરેક જીવની સ્વતંત્ર દ્રવ્યસત્તા અને વિશેષતાનો આદર રાખવો.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Running Footer: Left Page -->
+    <footer class="running-footer">
+      <span class="page-num">378</span>
+      <div class="footer-label">
+        <span class="footer-book">નય-ચક્ષુ</span>
+        <span class="footer-sep">|</span>
+        <span class="footer-sub">નયનું જ્ઞાન, સંશયનું સમાધાન</span>
+      </div>
+    </footer>
+  </section>
+
+
+  <!-- ==================== RIGHT PAGE (379) ==================== -->
+  <section class="page page-odd">
+    <div class="page-canvas">
+
+      <!-- Top Story Header Bar -->
+      <div class="top-story-header">
+        <span class="story-kicker">+ કથાધારા</span>
+        <span class="story-title-main">નવલિકા: માટીના વાસણો અને કુંભારનો એકતાર</span>
+      </div>
+
+      <!-- Split Story Hero: 1:1 Press Illustration + Pipasa -->
+      <div class="story-hero-split">
+        <div class="story-artwork-box">
+          <img class="katha-art-img" src="../../../Image/press/K06_C010_chapter_167_samanyanaya_katha_r01_press.png" alt="માટીના વાસણો અને કુંભારનો એકતાર" loading="lazy">
+        </div>
+        <div class="story-pipasa-article">
+          <span class="pipasa-badge">પિપાસા</span>
+          <p>નગરના સીમાડે આવેલા કુંભારવાડામાં આનંદ નામનો એક જિજ્ઞાસુ યુવાન રોજ માટીના વાસણો બનતાં જોતો હતો. ચાકડા પર ક્યારેક નાનું કોડિયું બનતું, ક્યારેક વિશાળ માટલી બનતી, તો ક્યારેક સુંદર સુરાહી બનતી. લોકો આવીને કોઈ વાસણને ખૂબ સુંદર કહેતા તો કોઈને સાવ તુચ્છ ગણતા. આનંદના મનમાં એક ઊંડો પ્રશ્ન જાગ્યો: "આ જગતમાં કોઈ જીવ મોટો છે, કોઈ નાનો છે, કોઈ જ્ઞાની છે તો કોઈ અજ્ઞાની છે. શું આ બધા વચ્ચે કોઈ એવી સામાન્ય સાંકળ છે જે સહુને એકતાના સૂત્રમાં બાંધતી હોય? મારે એ પરમ તત્વને જાણવું છે જે કદી બદલાતું નથી!" આનંદના હૃદયમાં એકતાને પામવાની તીવ્ર પિપાસા ઊભરાઈ રહી હતી.</p>
+        </div>
+      </div>
+
+      <!-- Paan Block -->
+      <div class="story-paan-article">
+        <span class="pipasa-badge">પાન</span>
+        <p>ત્યાં બેઠેલા વૃદ્ધ કુંભાર દેવરાજે આનંદના મનની ગડમથલ પારખી. તેમણે ચાકડા પરથી ઘડો ઉતારી કહ્યું: "કોડિયું, માટલી અને સુરાહી—આકારમાં જુદાં છે, પણ માટીના હોવાનો સામાન્ય ધર્મ ધરાવે છે. સામાન્ય ધર્મ જોવો એટલે આકારનો ભેદ ભૂંસી નાખવો નહીં." પછી તેમણે ઉમેર્યું: "જીવોમાં ચૈતન્યધર્મ સામાન્ય છે, પણ દરેક જીવ પોતાનું સ્વતંત્ર આત્મદ્રવ્ય છે. એક જીવનું જ્ઞાન, કર્મપરિણામ કે મુક્તિ બીજાનો અનુભવ નથી." આનંદે સમજ્યું કે સામાન્યને ઓળખતાં વ્યક્તિગત ભેદ અને દ્રવ્યસત્તા પણ સાચવવી જોઈએ.</p>
+      </div>
+
+      <!-- Vivekdhara Section -->
+      <div class="section-divider-title">વિવેકધારા</div>
+      <div class="vivek-container">
+        <div class="vivek-card">
+          <div class="vivek-card-title">એકાંત દર્શન (કદાગ્રહનો ગેરલાભ)</div>
+          <p>જો જીવ કેવળ સામાન્ય તત્વને જ માનીને વિશેષ ગુણો કે પર્યાયોનો સાવ ઈનકાર કરી દે, તો સંસાર અને મોક્ષની વ્યવસ્થા જ નષ્ટ થઈ જાય છે. શબ્દો કે વ્યાકરણના બાહ્ય નિયમોમાં જ અટવાઈ રહેવાથી અંતરંગ ભાવશુદ્ધિ ખોવાઈ જાય છે અને જીવ શુષ્ક વાદવિવાદ કે જડ ક્રિયાજડતામાં સબડતો રહે છે.</p>
+        </div>
+        <div class="vivek-card">
+          <div class="vivek-card-title">અનેકાંત દર્શન (સમન્વયનું સૌંદર્ય)</div>
+          <p>આ નય વિશેષોમાં રહેલા સામાન્ય ધર્મનું દર્શન કરાવે છે. સામાન્યની સાથે વ્યક્તિગત વિશેષોને સ્વીકારવાથી સમતા અને વિવેક બંને જળવાય છે; સાધક પોતાના આત્મસ્વરૂપમાં સ્થિર થવા પ્રયત્ન કરે છે.</p>
+        </div>
+      </div>
+
+      <!-- Darshandhara Section (4 Rhyming Pillars) -->
+      <div class="darshan-section">
+        <div class="darshan-header">❖ દર્શનધારા</div>
+        <div class="darshan-pillars-grid">
+          <div class="darshan-pillar-item">
+            <strong>૧. નય-ઉન્મેષ:</strong> પદાર્થોના પરસ્પરના ભેદો અને ભિન્નતાઓને ગૌણ કરીને સર્વમાં રહેલી એક સમાન અખંડ જાતિ કે સત્તાને મુખ્ય વિષય બનાવવી તે આ સામાન્યનયની વિચારપદ્ધતિ છે.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૨. પ્રાચીન-વિશેષ:</strong> 
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૩. અર્વાચીન-પ્રવેશ:</strong> 
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૪. સમન્વય-અશેષ:</strong> 
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Running Footer: Right Page -->
+    <footer class="running-footer">
+      <div class="footer-label">
+        <span class="footer-book">સમભિરૂઢ નય</span>
+        <span class="footer-sep">|</span>
+        <span class="footer-sub">૧૦. સામાન્યનય</span>
+      </div>
+      <span class="page-num">379</span>
+    </footer>
+  </section>
+
+</div>
+
+
+<!-- =============================================================
+     CHAPTER: ૧૧. વિશેષનય (PAGES 380 & 381)
+     ============================================================= -->
+<div class="spread-container" id="spread-K06_C011">
+
+  <!-- ==================== LEFT PAGE (380) ==================== -->
+  <section class="page page-even">
+    <div class="page-canvas">
+
+      <!-- Chapter Masthead -->
+      <div class="chapter-masthead">
+        <div class="kicker-row">
+          <div class="khanda-pill">
+            <span>સમભિરૂઢ નય</span>
+            <span class="khanda-pill-sub">વિશેષ વ્યવહાર</span>
+          </div>
+          <div class="category-tag">મુખ્ય શ્રેણી: સામાન્ય</div>
+        </div>
+
+        <div class="chapter-title-row">
+          <h1 class="chapter-main-title">૧૧. વિશેષનય</h1>
+          <div class="chapter-sub-meta-right">
+            <span class="gu-general-term">વસ્તુના સ્વરૂપને સમજવાની દ્રષ્ટિ</span>
+            <span class="en-concept">The Analytical Standpoint</span>
+          </div>
+        </div>
+
+        <div class="sutra-showcase">
+          <span class="sutra-devanagari">परस्परव्यावृत्तविशेषपर्यायग्राहको विशेषनयः</span>
+          <span class="sutra-label">મૂળ આગમિક લક્ષણ-સૂત્ર</span>
+        </div>
+      </div>
+
+      <!-- Section Ribbon -->
+      <div class="section-ribbon">
+        <span class="ribbon-badge">તત્વધારા</span>
+        <div class="ribbon-rule"></div>
+      </div>
+
+      <!-- Tattvadhara 4-Card Grid (Left-to-Right Natural Reading Axis, 11pt) -->
+      <div class="tattva-infographic-grid">
+        
+        <!-- 1. Rupak Drishti -->
+        <div class="tattva-card-shell tattva-card-1">
+          <div class="card-top-row">
+            <span class="step-badge">૦૧</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">રૂપક-દ્રષ્ટિ:</span>
+              <span class="card-sub-kicker">ઉપવનના વિવિધ પુષ્પો અને ઔષધિઓની વિલક્ષણતા</span>
+            </div>
+          </div>
+          <p class="card-body-text">એક સુંદર ઉપવનમાં લાલ ગુલાબ, શ્વેત ચમેલી, સુવર્ણવર્ણી ચંપો અને નીલકમળ ખીલેલાં છે. જો કોઈ માળી એમ કહીને બધાને એક સરખા માને કે "આ બધું કેવળ વનસ્પતિ જ છે", તો તે ભૂલ કરશે; કારણ કે ગુલાબની કોમળ સુવાસ ગુલાબમાં છે અને ચંપાની તીવ્ર માદકતા ચંપામાં છે! તેવી જ રીતે એક વૈદ્ય જ્યારે ઔષધિઓ ભેગી કરે છે ત્યારે તે સર્વમાં વનસ્પતિપણું જોતો નથી, પણ કઈ વનસ્પતિ પિત્ત શમાવે છે અને કઈ વાયુ મટાડે છે તે વિશેષ ગુણધર્મ જુએ છે. સામાન્ય સત્તા હોવા છતાં, પ્રત્યેક પદાર્થના ગુણ, કાર્ય અને ક્ષણ-ક્ષણનો પર્યાયમાં જે વિશિષ્ટ ભેદ અને અનોખાપણું રહેલું છે, તેને બારીકાઈથી ઓળખતો દ્રષ્ટિકોણ એટલે 'વિશેષનય'.</p>
+        </div>
+
+        <!-- 2. Swarup Srishti -->
+        <div class="tattva-card-shell tattva-card-2">
+          <div class="card-top-row">
+            <span class="step-badge">૦૨</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">સ્વરૂપ-સૃષ્ટિ:</span>
+              <span class="card-sub-kicker">પર્યાયગત ભિન્નતા અને કાર્યસિદ્ધિનું રહસ્ય</span>
+            </div>
+          </div>
+          <p class="card-body-text">આત્મા સામાન્ય દ્રષ્ટિએ શુદ્ધ ચૈતન્ય છે, છતાં વિશેષ દ્રષ્ટિએ જોતાં જ્ઞાનગુણનું કાર્ય જાણવાનું છે, દર્શનગુણનું કાર્ય સામાન્ય અવલોકન છે અને ચારિત્રનું કાર્ય સ્થિરતા છે. તેમજ વર્તમાનમાં કોઈ જીવ સંસારી નર છે, કોઈ દેવ છે તો કોઈ વીતરાગ મુનિ છે. વિશેષનય આ પર્યાયગત ભેદોને ઓળખીને સાધનામાં ક્યાં શું સુધારવું તે માર્ગદર્શન આપે છે.</p>
+        </div>
+
+        <!-- 3. Vyavahar Pushti -->
+        <div class="tattva-card-shell tattva-card-3">
+          <div class="card-top-row">
+            <span class="step-badge">૦૩</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">વ્યવહાર-પૃષ્ટિ:</span>
+              <span class="card-sub-kicker">ગુણભેદ અને વ્યવહારિક વિવેક</span>
+            </div>
+          </div>
+          <ul class="card-bullet-list">
+            <li>ગુણવિભાજન**: જ્ઞાન અને શ્રદ્ધા બંને આત્માના ગુણ હોવા છતાં તેમનાં કાર્યો અલગ છે.</li>
+            <li>પર્યાયવિશેષ**: મનુષ્ય ભવ એ જ મોક્ષ પ્રાપ્તિ માટે સર્વોત્તમ તક છે તે ઓળખવું.</li>
+            <li>ઔષધિવિવેક**: રોગ અનુસાર ચોક્કસ વિશિષ્ટ ઔષધિ પસંદ કરવી.</li>
+          </ul>
+        </div>
+
+        <!-- 4. Marm Tushti -->
+        <div class="tattva-card-shell tattva-card-4">
+          <div class="card-top-row">
+            <span class="step-badge">૦૪</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">મર્મ-તુષ્ટિ:</span>
+              <span class="card-sub-kicker">વિશેષતા ઓળખી પૂર્ણતા તરફ પ્રયાણ</span>
+            </div>
+          </div>
+          <p class="card-body-text">આ નય સાધકને પોતાના દોષો અને ગુણોની ચોક્કસ પરખ કરાવી આત્મશુદ્ધિના પરમ મુકામ સુધી દોરી જાય છે.</p>
+        </div>
+      </div>
+
+      <!-- Duo-Ribbon -->
+      <div class="bottom-ribbon-shell">
+        <div class="duo-ribbon-grid">
+          <div class="duo-col">
+            <span class="duo-label">• કાવ્યધારા</span>
+            <p class="kavya-quote">
+              પુષ્પ અનેક બગીચામાં, નોખી સહુ સુવાસ;<br>
+              વિશેષનયથી પરખતાં, ગુણનો થાય પ્રકાશ.<br>
+              પર્યાયોના ભેદ લહી, સાધે આતમ કાજ;<br>
+              વિશેષ જાણી પૂર્ણ થતાં, પામે શિવ સામ્રાજ્ય.
+            </p>
+          </div>
+          <div class="duo-col duo-divider-col">
+            <span class="duo-label">✦ સાધનાધારા</span>
+            <p class="sadhana-statement">સાધકને પોતાના દોષો અને ગુણોની ચોક્કસ પરખ કરાવી આત્મશુદ્ધિના પરમ મુકામ સુધી દોરી જાય છે.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Running Footer: Left Page -->
+    <footer class="running-footer">
+      <span class="page-num">380</span>
+      <div class="footer-label">
+        <span class="footer-book">નય-ચક્ષુ</span>
+        <span class="footer-sep">|</span>
+        <span class="footer-sub">નયનું જ્ઞાન, સંશયનું સમાધાન</span>
+      </div>
+    </footer>
+  </section>
+
+
+  <!-- ==================== RIGHT PAGE (381) ==================== -->
+  <section class="page page-odd">
+    <div class="page-canvas">
+
+      <!-- Top Story Header Bar -->
+      <div class="top-story-header">
+        <span class="story-kicker">+ કથાધારા</span>
+        <span class="story-title-main">નવલિકા: વૈદ્યરાજની પરખ અને ત્રણ શિષ્યોની પરીક્ષા</span>
+      </div>
+
+      <!-- Split Story Hero: 1:1 Press Illustration + Pipasa -->
+      <div class="story-hero-split">
+        <div class="story-artwork-box">
+          <img class="katha-art-img" src="../../../Image/press/K06_C011_chapter_168_visheshanaya_katha_r01_press.png" alt="વૈદ્યરાજની પરખ અને ત્રણ શિષ્યોની પરીક્ષા" loading="lazy">
+        </div>
+        <div class="story-pipasa-article">
+          <span class="pipasa-badge">પિપાસા</span>
+          <p>ધન્વંતરિ નગરમાં એક વૃદ્ધ રાજવૈદ્ય પાસે ત્રણ યુવાન શિષ્યો આયુર્વેદનું જ્ઞાન લેતા હતા. શિક્ષણ પૂર્ણ થતાં ગુરુએ પરીક્ષા માટે કહ્યું: "જંગલમાં જાઓ અને કોઈ એવી વનસ્પતિ લાવો જે સંપૂર્ણપણે નકામી હોય." બે શિષ્યો આખો દિવસ ફરીને ખાલી હાથે પાછા આવ્યા અને બોલ્યા: "ગુરુજી! સામાન્ય દ્રષ્ટિએ બધી વનસ્પતિ સમાન છે, કોઈ પણ સાવ નકામી નથી." પરંતુ ત્રીજો શિષ્ય દેવદત્ત વિચારમાં પડી ગયો: "જો બધી વનસ્પતિ સમાન હોય તો પછી રોગ અનુસાર ચોક્કસ ઔષધ કેમ આપવું પડે છે? પ્રત્યેક તત્વની આગવી વિશેષતા શું છે?" દેવદત્તના અંતરમાં પ્રત્યેક પદાર્થના વિશિષ્ટ ગુણ અને કાર્યને ઓળખવાની તીવ્ર જિજ્ઞાસા જાગી.</p>
+        </div>
+      </div>
+
+      <!-- Paan Block -->
+      <div class="story-paan-article">
+        <span class="pipasa-badge">પાન</span>
+        <p>દેવદત્ત જંગલમાં ઊંડે સુધી ગયો. તેણે દરેક છોડનું મૂળ, પાન અને રસ ચાખીને ચકાસ્યું. તેણે જોયું કે કડવો લીમડો તાવ ઉતારે છે અને મીઠી તુલસી કફ મટાડે છે. તે પાછો આવ્યો અને ગુરુને નમીને બોલ્યો: "ગુરુજી! સામાન્ય સત્તાની રીતે ભલે સહુ વનસ્પતિ હોય, પણ વિશેષનયની દ્રષ્ટિએ પ્રત્યેક છોડમાં એક અનોખો, અદ્વિતીય ગુણ રહેલો છે! કોઈ છોડ વિષ છે તો કોઈ અમૃત છે." રાજવૈદ્યે પ્રસન્ન થઈને કહ્યું: "તેં સત્ય પકડ્યું, દેવદત્ત! સામાન્યથી એકતા સમજાય છે, પણ વિશેષનયથી કાર્ય સિદ્ધ થાય છે! સાધનામાં પણ તારે પોતાના ક્રોધ, માન કે માયાના વિશિષ્ટ દોષોને અલગ અલગ ઓળખીને તેમને દૂર કરવા પડશે." દેવદત્તને વિવેક પ્રગટ્યો. તેણે પોતાના ચિત્તના એક-એક ભાવનું સૂક્ષ્મ નિરીક્ષણ કર્યું, સર્વ દોષો શાંત કર્યા અને તેનું અંતઃકરણ સહજ શાંતિમાં ડૂબી ગયું.</p>
+      </div>
+
+      <!-- Vivekdhara Section -->
+      <div class="section-divider-title">વિવેકધારા</div>
+      <div class="vivek-container">
+        <div class="vivek-card">
+          <div class="vivek-card-title">એકાંત દર્શન (કદાગ્રહનો ગેરલાભ)</div>
+          <p>જો જીવ કેવળ ભેદો અને વિશેષતાઓમાં જ અટવાઈ જાય અને મૂળ એકરસ આત્મદ્રવ્યને ભૂલી જાય, તો તે રાગ-દ્વેષ અને કલેશના વમળમાંથી કદી બહાર નીકળી શકતો નથી. શબ્દો કે વ્યાકરણના બાહ્ય નિયમોમાં જ અટવાઈ રહેવાથી અંતરંગ ભાવશુદ્ધિ ખોવાઈ જાય છે અને જીવ શુષ્ક વાદવિવાદ કે જડ ક્રિયાજડતામાં સબડતો રહે છે.</p>
+        </div>
+        <div class="vivek-card">
+          <div class="vivek-card-title">અનેકાંત દર્શન (સમન્વયનું સૌંદર્ય)</div>
+          <p>આ નય પ્રત્યેક ગુણ અને અવસ્થાની વિશેષતા ઓળખાવી સાધનાને વ્યવસ્થિત બનાવે છે, જેથી સાધક હું-પણાને ખોઈને પોતાના આત્મસ્વરૂપમાં સ્થિર થાય છે. તે વાણી અને સંજ્ઞાઓને આત્મજ્ઞાનનું સાધન બનાવી સાધકને નિર્વિકલ્પ અનુભૂતિ તરફ દોરી જાય છે, જેથી ચેતના પોતાના આત્મસ્વરૂપમાં સ્થિર થઈ શાંતિ અનુભવે છે.</p>
+        </div>
+      </div>
+
+      <!-- Darshandhara Section (4 Rhyming Pillars) -->
+      <div class="darshan-section">
+        <div class="darshan-header">❖ દર્શનધારા</div>
+        <div class="darshan-pillars-grid">
+          <div class="darshan-pillar-item">
+            <strong>૧. નય-ઉન્મેષ:</strong> સામાન્ય સમાનતાને ગૌણ કરી પ્રત્યેક દ્રવ્યમાં રહેલા તેના અનન્ય અસાધારણ લક્ષણો અને વિશિષ્ટ ગુણધર્મોને જ મુખ્ય રૂપે ગ્રહણ કરવા તે આ વિશેષનયનો ઉન્મેષ છે.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૨. પ્રાચીન-વિશેષ:</strong> વૈશેષિક દર્શનનો 'વિશેષ' પદાર્થ પરમાણુઓ અને મુક્ત આત્માઓ વચ્ચેનો અંતિમ વ્યાવર્તક ભેદ સ્થાપે છે; બૌદ્ધ દર્શન ક્ષણિક સ્વલક્ષણને જ પરમાર્થ સત્ય ગણે છે.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૩. અર્વાચીન-પ્રવેશ:</strong> વિલ્હેમ લાઇબનિઝનો અસમાનતાનો સિદ્ધાંત (Identity of Indiscernibles) સિદ્ધ કરે છે કે સમગ્ર બ્રહ્માંડમાં કોઈપણ બે અસ્તિત્વ સર્વથા એકસરખા હોતા નથી.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૪. સમન્વય-અશેષ:</strong> સ્યાદવાદ આ દર્શનોને વિશેષનયમાં જોડી સ્થાપે છે કે વિશેષનું આ દર્શન પ્રત્યેક આત્માની સ્વતંત્રતા અને કર્મ-જવાબદારીનું સાચું રક્ષણ કરે છે.
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Running Footer: Right Page -->
+    <footer class="running-footer">
+      <div class="footer-label">
+        <span class="footer-book">સમભિરૂઢ નય</span>
+        <span class="footer-sep">|</span>
+        <span class="footer-sub">૧૧. વિશેષનય</span>
+      </div>
+      <span class="page-num">381</span>
+    </footer>
+  </section>
+
+</div>
+
+</body>
+</html>

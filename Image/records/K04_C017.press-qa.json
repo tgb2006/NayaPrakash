@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K04_C017_chapter_061_upadhisapeksha_nityashuddhaparyayarthikanaya_katha_r02_press.png",
+  "sha256": "71a3a941aa2f2d88d6e8fc3b131c5abae03b805dfaad8ec1ba1ddd9fd0a240cc",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.1566546858664713,
+  "white_fraction": 0.8433453141335286,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

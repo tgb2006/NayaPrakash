@@ -1,0 +1,32 @@
+{
+  "total": 225,
+  "press_count": 225,
+  "states": {
+    "press_pixels_validated_review_pending": 225
+  },
+  "errors": [],
+  "warnings": [
+    {
+      "key": "K03_C002",
+      "warnings": [
+        "Likely perceptual duplicates require human review"
+      ]
+    },
+    {
+      "key": "K03_C062",
+      "warnings": [
+        "Likely perceptual duplicates require human review"
+      ]
+    },
+    {
+      "key": "K04_C012",
+      "warnings": [
+        "Likely perceptual duplicates require human review"
+      ]
+    }
+  ],
+  "source_integrity": "pass",
+  "exact_duplicate_groups": [],
+  "human_press_approval": "pending",
+  "contact_sheets": 12
+}

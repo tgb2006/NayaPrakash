@@ -1,0 +1,23 @@
+{
+  "key": "K01_C002",
+  "width": 1254,
+  "height": 1254,
+  "square": true,
+  "color_channel_max_difference": 12,
+  "effective_dpi_at_50mm": 637.0319999999999,
+  "max_width_mm_at_600dpi": 53.08599999999999,
+  "dark_fraction": 0.20939182812766294,
+  "white_fraction": 0.7666071442198362,
+  "corner_values": [
+    255,
+    255,
+    253,
+    253
+  ],
+  "sha256": "f7d78664d566f22a738aa9892833a1537371296c901ec11f42d92c1b36336e2e",
+  "errors": [
+    "Non-neutral color channels"
+  ],
+  "warnings": [],
+  "pixel_qa_pass": false
+}

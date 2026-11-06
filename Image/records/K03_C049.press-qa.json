@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K03_C049_chapter_073_karaka_karakibhedaka_sadbhuta_vyavahara_katha_r01_press.png",
+  "sha256": "bbb142a42d38235469d4dd9cd3469202a5ead14d847a2e59e0e4944d671df2b3",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.12162229191944629,
+  "white_fraction": 0.8783777080805537,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

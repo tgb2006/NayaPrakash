@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K02_C010_chapter_066_3_ashuddha_apara_sangraha_dravyarthika_pratipadaka_vyavahara_katha_r01_press.png",
+  "sha256": "a00c2c06c09068ba1888a7505d44abb891374f45e0ef4d93a5fad28348ef270b",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.14068092152957426,
+  "white_fraction": 0.8593190784704258,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

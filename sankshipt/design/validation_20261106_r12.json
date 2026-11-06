@@ -1,0 +1,260 @@
+{
+  "date": "2026-11-06",
+  "scope": "Documentation checked against current pilot computed print styles, not full-book or PDF certification",
+  "brokenDocumentationLinks": [],
+  "checks": [
+    {
+      "name": "two_pilot_pages",
+      "pass": true,
+      "actual": 2
+    },
+    {
+      "name": "page-2_width",
+      "pass": true,
+      "actual": 165.1
+    },
+    {
+      "name": "page-2_height",
+      "pass": true,
+      "actual": 241.29999999999998
+    },
+    {
+      "name": "page-3_width",
+      "pass": true,
+      "actual": 165.1
+    },
+    {
+      "name": "page-3_height",
+      "pass": true,
+      "actual": 241.29999999999998
+    },
+    {
+      "name": "no_running_headers",
+      "pass": true,
+      "actual": 0
+    },
+    {
+      "name": "sutra_label",
+      "pass": true,
+      "actual": "લક્ષણ સૂત્ર"
+    },
+    {
+      "name": "six_dharas",
+      "pass": true,
+      "actual": 6
+    },
+    {
+      "name": "dhara_0",
+      "pass": true,
+      "actual": {
+        "text": "તત્વધારા THE PRINCIPLE",
+        "sizePt": 17.000025,
+        "weight": "800"
+      }
+    },
+    {
+      "name": "dhara_1",
+      "pass": true,
+      "actual": {
+        "text": "કાવ્યધારા THE POETRY",
+        "sizePt": 17.000025,
+        "weight": "800"
+      }
+    },
+    {
+      "name": "dhara_2",
+      "pass": true,
+      "actual": {
+        "text": "સાધનાધારા THE PRACTICE",
+        "sizePt": 17.000025,
+        "weight": "800"
+      }
+    },
+    {
+      "name": "dhara_3",
+      "pass": true,
+      "actual": {
+        "text": "કથાધારા THE STORY",
+        "sizePt": 17.000025,
+        "weight": "800"
+      }
+    },
+    {
+      "name": "dhara_4",
+      "pass": true,
+      "actual": {
+        "text": "વિવેકધારા THE DISCERNMENT",
+        "sizePt": 17.000025,
+        "weight": "800"
+      }
+    },
+    {
+      "name": "dhara_5",
+      "pass": true,
+      "actual": {
+        "text": "દર્શનધારા THE PERSPECTIVE",
+        "sizePt": 17.000025,
+        "weight": "800"
+      }
+    },
+    {
+      "name": "body_typography",
+      "pass": true,
+      "actual": {
+        "sizePt": 11.000025,
+        "lineHeight": "20.24px",
+        "alignment": "justify"
+      }
+    },
+    {
+      "name": "subheadings",
+      "pass": true,
+      "actual": 12
+    },
+    {
+      "name": "zero_padded_no_dot",
+      "pass": true,
+      "actual": [
+        "૦૧",
+        "૦૨",
+        "૦૩",
+        "૦૪"
+      ]
+    },
+    {
+      "name": "A_selected",
+      "pass": true,
+      "actual": "style-c tone-a"
+    },
+    {
+      "name": "A_cell_colors",
+      "pass": true,
+      "actual": [
+        "rgb(234, 234, 234)",
+        "rgb(255, 255, 255)",
+        "rgb(255, 255, 255)",
+        "rgb(234, 234, 234)"
+      ]
+    },
+    {
+      "name": "joined_gap",
+      "pass": true,
+      "actual": {
+        "row": "0px",
+        "column": "0px"
+      }
+    },
+    {
+      "name": "hanging_0",
+      "pass": true,
+      "actual": {
+        "numberColumnMM": 6.498828124999999,
+        "numberGapMM": 1.1988932291666667,
+        "fontPt": 15.999975000000001
+      }
+    },
+    {
+      "name": "cell_padding_0",
+      "pass": true,
+      "actual": {
+        "top": "4.53543px",
+        "left": "7.55906px"
+      }
+    },
+    {
+      "name": "hanging_1",
+      "pass": true,
+      "actual": {
+        "numberColumnMM": 6.498828124999999,
+        "numberGapMM": 1.1988932291666667,
+        "fontPt": 15.999975000000001
+      }
+    },
+    {
+      "name": "cell_padding_1",
+      "pass": true,
+      "actual": {
+        "top": "4.53543px",
+        "left": "7.55906px"
+      }
+    },
+    {
+      "name": "hanging_2",
+      "pass": true,
+      "actual": {
+        "numberColumnMM": 6.498828124999999,
+        "numberGapMM": 1.1988932291666667,
+        "fontPt": 15.999975000000001
+      }
+    },
+    {
+      "name": "cell_padding_2",
+      "pass": true,
+      "actual": {
+        "top": "4.53543px",
+        "left": "7.55906px"
+      }
+    },
+    {
+      "name": "hanging_3",
+      "pass": true,
+      "actual": {
+        "numberColumnMM": 6.498828124999999,
+        "numberGapMM": 1.1988932291666667,
+        "fontPt": 15.999975000000001
+      }
+    },
+    {
+      "name": "cell_padding_3",
+      "pass": true,
+      "actual": {
+        "top": "4.53543px",
+        "left": "7.55906px"
+      }
+    },
+    {
+      "name": "anekant_padding",
+      "pass": true,
+      "actual": {
+        "top": "6.80315px",
+        "left": "9.44882px"
+      }
+    },
+    {
+      "name": "paan_vivek_gap",
+      "pass": true,
+      "actual": 4.493782552083333
+    },
+    {
+      "name": "final_footer_left",
+      "pass": true,
+      "actual": [
+        "૨",
+        "નય-ચક્ષુ | નયનું જ્ઞાન, સંશયનું સમાધાન"
+      ]
+    },
+    {
+      "name": "final_footer_right",
+      "pass": true,
+      "actual": [
+        "પ્રથમ ખંડ: નૈગમ નય",
+        "૩"
+      ]
+    }
+  ],
+  "htmlUnchangedSHA256": "056d0bddad5d3d8c6e5d05fb0799fc14d94239b58a666253e3580ce24220ce1d",
+  "pdfUnchangedSHA256": "b8b635f9d5de1124a12ca3b3ae759cfc3a96e9d8030cfeea82323438e9bbca8c",
+  "allPassed": true,
+  "sourceSync": "pending; previous pilot/current output mismatch remains",
+  "changedFiles": [
+    "README.md",
+    "GEMINI.md",
+    "sankshipt/README.md",
+    "sankshipt/design/DESIGN_RULES.md",
+    "sankshipt/design/PRODUCTION_CHECKLIST.md",
+    "sankshipt/pilot_chapter_001/design_plan_20261106_r01.md",
+    "sankshipt/pilot_chapter_001/QA_REPORT.md",
+    "sankshipt/design/design_tokens.json",
+    "sankshipt/design/validation_20261106_r12.json"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K03_C028_chapter_046_shuddha_nishchayanaya_katha_r01_press.png",
+  "sha256": "2417089e3cf921d5f2f3102fade0e3f7a3f21409d1f0fdd3d6e1a790b049efd0",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.2910787553195007,
+  "white_fraction": 0.7089212446804993,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

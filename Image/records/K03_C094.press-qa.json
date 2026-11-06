@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K03_C094_chapter_118_svajatigune_svajatiparyayopacharaka_asadbhuta_vyavahara_katha_r01_press.png",
+  "sha256": "7b678b85401bd122780084ddaafdad7abb143a18eb98ebaa2e9ea2cd72b2e155",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.17262399873832762,
+  "white_fraction": 0.8273760012616723,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

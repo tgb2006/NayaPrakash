@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K03_C025_chapter_030_1_shuddhaparinamika_paramabhavagrahaka_shuddha_dravyarthika_naya_katha_r01_press.png",
+  "sha256": "d79c4a528a2c9713dba19e1d27595ac1c5a63cb5d5e33782fdd153270f505965",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.15348905829892986,
+  "white_fraction": 0.8465109417010701,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K04_C006_chapter_036_sadinitya_paryayarthikanaya_katha_r01_press.png",
+  "sha256": "817eba2fc4d396ea28a6c8fd0cf105090a93787af9d90e92e1e13739d1c2e36d",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.1935503358948335,
+  "white_fraction": 0.8064496641051665,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

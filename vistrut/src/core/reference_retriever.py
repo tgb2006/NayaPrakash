@@ -21,7 +21,9 @@ BOOK_DESCRIPTIONS = {
     "Dravya_Guna_Paryay_no_Ras_Paramarsh_Part04.txt": "द्रव्यानुयोग परामर्श भाग 4 (यशोविजयजी)",
     "Dravya_Guna_Paryay_no_Ras_Paramarsh_Part05.txt": "द्रव्यानुयोग परामर्श भाग 5 (यशोविजयजी)",
     "Dravya_Guna_Paryay_no_Ras_Paramarsh_Part06.txt": "द्रव्यानुयोग परामर्श भाग 6 (यशोविजयजी)",
-    "Dravya_Guna_Paryay_no_Ras_Paramarsh_Part07.txt": "द्रव्यानुयोग परामर्श भाग 7 (यशोविजयजी)"
+    "Dravya_Guna_Paryay_no_Ras_Paramarsh_Part07.txt": "द्रव्यानुयोग परामर्श भाग 7 (यशोविजयजी)",
+    "Dravya_Guna_Paryay_no_Ras_Adhyatma_Anuyog_Part01.txt": "દ્રવ્ય-ગુણ-પર્યાયનો રાસ અધ્યાત્મ અનુયોગ ભાગ ૧ (યશોવિજયજી)",
+    "Dravya_Guna_Paryay_no_Ras_Adhyatma_Anuyog_Part02.txt": "દ્રવ્ય-ગુણ-પર્યાયનો રાસ અધ્યાત્મ અનુયોગ ભાગ ૨ (યશોવિજયજી)"
 }
 
 HINDI_TO_GUJARATI_TERMS = {

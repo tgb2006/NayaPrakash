@@ -140,5 +140,45 @@ class TestChapterValidator(unittest.TestCase):
         self.assertTrue(report.ahimsa_passed)
         self.assertEqual(len(report.missing_sections), 0)
 
+    def test_paryay_feminine_gender_violation_fails(self):
+        sample = """
+# અધ્યાય ૦૦૧: ભૂતનૈગમ નય
+## નય
+નય લક્ષણ
+## સામાન્ય અર્થ અને શબ્દાર્થ
+શબ્દાર્થ
+## તાર્કિક વિવેચન
+""" + "તાર્કિક વિવેચનનું લખાણ પ્રમાણભૂત અને ઊંડાણપૂર્વકનું હોવું જોઈએ. " * 65 + """
+## ઉદાહરણ
+### ઉદાહરણ ૧: પ્રથમ
+ઉદાહરણ ૧
+### ઉદાહરણ ૨: દ્વિતીય
+ઉદાહરણ ૨
+### ઉદાહરણ ૩: તૃતીય
+ઉદાહરણ ૩
+## વ્યવહારિક સમજ
+વ્યવહાર
+## દાર્શનિક સમજ
+૧. દર્શન
+## સૈદ્ધાંતિક સમજ
+સિદ્ધાંત
+## સાધનાકીય સમજ
+સાધના
+## ડીપ ડાઈવ
+""" + "ડીપ ડાઈવ અંતર્ગત એકાંત અને અનેકાંતનું વિશ્લેષણ કરવામાં આવે છે. " * 30 + """
+## મંઝિલગામી વલણ
+""" + "મંઝિલગામી વલણ સાધકને પરમ વિશ્રામ તરફ દોરી જાય છે. " * 20 + """
+"""
+        # Test feminine verb: 'પર્યાય થઈ'
+        bad1 = sample + "\n\nજ્યારે અતીતની પર્યાય થઈ ત્યારે સાધના સિદ્ધ થઈ."
+        r1 = self.validator.validate_content(bad1)
+        self.assertFalse(r1.is_valid)
+        self.assertTrue(any("પર્યાય" in err for err in r1.errors))
+
+        # Test masculine usage passes
+        good = sample + "\n\nદ્રવ્યનો પર્યાય ઉત્પન્ન થયો અને બધા પર્યાયો બદલાયા."
+        r2 = self.validator.validate_content(good)
+        self.assertTrue(r2.is_valid, f"Unexpected errors: {r2.errors}")
+
 if __name__ == "__main__":
     unittest.main()

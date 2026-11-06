@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+  <meta charset="utf-8">
+  <title>પ્રકરણ ૧: ભૂતનૈગમ નય</title>
+  <style>
+    @font-face {
+      font-family: 'Anek Gujarati';
+      font-weight: 800;
+      src: url('../assets/fonts/AnekGujarati-ExtraBold.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: 'Anek Gujarati';
+      font-weight: 700;
+      src: url('../assets/fonts/AnekGujarati-Bold.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: 'Anek Gujarati';
+      font-weight: 600;
+      src: url('../assets/fonts/AnekGujarati-SemiBold.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: 'Anek Gujarati';
+      font-weight: 400;
+      src: url('../assets/fonts/AnekGujarati-Regular.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: 'Noto Sans Gujarati';
+      font-weight: 700;
+      src: url('../assets/fonts/NotoSansGujarati-Bold.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: 'Noto Sans Gujarati';
+      font-weight: 600;
+      src: url('../assets/fonts/NotoSansGujarati-SemiBold.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: 'Noto Sans Gujarati';
+      font-weight: 400;
+      src: url('../assets/fonts/NotoSansGujarati-Regular.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: 'Noto Sans Devanagari';
+      font-weight: 700;
+      src: url('../assets/fonts/NotoSansDevanagari-Bold.ttf') format('truetype');
+    }
+
+    @page { size: 8in 8in; margin: 0; }
+    * { box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+    html, body {
+      margin: 0; padding: 0;
+      background: #ffffff;
+      font-family: 'Noto Sans Gujarati', sans-serif;
+      color: #111111;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .spread-container {
+      display: flex; flex-direction: row; justify-content: center; align-items: flex-start;
+      gap: 20px; padding: 30px 20px; background: #e4e7ec;
+    }
+    @media print {
+      body { background: transparent; }
+      .spread-container { display: block; padding: 0; gap: 0; background: transparent; }
+    }
+
+    .page {
+      width: 8in; height: 8in;
+      background: #ffffff;
+      position: relative;
+      overflow: hidden;
+      page-break-after: always; break-after: page;
+      padding: 0;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    }
+    @media print { .page { box-shadow: none; margin: 0; } }
+
+    /* =========================================================================
+       PAGE 2 (LEFT PAGE)
+       ========================================================================= */
+
+    /* Full-height Black Sidebar */
+    .p2-sidebar {
+      position: absolute; top: 0; bottom: 0; left: 0; width: 22mm;
+      background: #111111; color: #ffffff;
+      display: flex; flex-direction: column; align-items: center; justify-content: flex-start;
+      padding-top: 13mm; z-index: 10;
+    }
+    .p2-sidebar-num-badge {
+      width: 17.5mm; height: 14mm; background: #ffffff; border-radius: 999px;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 1pt 3pt rgba(0,0,0,0.3);
+    }
+    .p2-sidebar-num-txt {
+      font-family: 'Anek Gujarati', sans-serif; font-size: 15.5pt; font-weight: 800;
+      color: #111111; line-height: 1; margin-top: -1pt;
+    }
+    .p2-sidebar-vtext {
+      writing-mode: vertical-rl; transform: rotate(180deg);
+      font-family: 'Anek Gujarati', sans-serif; font-size: 11pt; font-weight: 700;
+      letter-spacing: 2.2pt; color: #ffffff; margin-top: 24mm;
+    }
+
+    /* Left Page Main Content Area */
+    .p2-content {
+      position: absolute; top: 10mm; left: 26.8mm; right: 10.8mm; bottom: 9.5mm;
+      display: block;
+    }
+
+    /* Masthead Header */
+    .p2-masthead { margin-bottom: 4pt; }
+    .p2-title-row {
+      display: flex; justify-content: space-between; align-items: flex-end;
+    }
+    .p2-main-title {
+      font-family: 'Anek Gujarati', sans-serif; font-size: 28pt; font-weight: 800;
+      line-height: 1.1; color: #111111; margin: 0; letter-spacing: -0.3pt;
+    }
+    .p2-category-meta {
+      font-family: 'Anek Gujarati', sans-serif; font-size: 9.2pt; font-weight: 700;
+      color: #111111; text-align: right; margin-bottom: 2pt;
+    }
+    .p2-header-line {
+      width: 100%; height: 0.9pt; background: #111111; margin: 2.5pt 0 2.5pt 0;
+    }
+    .p2-sutra-row {
+      text-align: right; font-family: 'Noto Sans Devanagari', serif; font-size: 10pt;
+      font-weight: 700; color: #111111; line-height: 1.3;
+    }
+
+    /* Section: Tattvadhara */
+    .p2-tattva-sec { margin-top: 3pt; }
+    .section-brush-title { display: block; margin-bottom: 6pt; }
+    .section-brush-title img { height: 28px; width: auto; display: block; }
+
+    .tattva-point-item { margin-bottom: 8.5pt; }
+    .tattva-badge-row {
+      display: flex; align-items: center; gap: 5.5pt; margin-bottom: 2pt;
+    }
+    .tattva-pill-badge {
+      background: #3e3e3e; color: #ffffff; padding: 2.2pt 6.5pt; border-radius: 2.5pt;
+      font-family: 'Anek Gujarati', sans-serif; font-size: 9.8pt; font-weight: 700;
+      white-space: nowrap; line-height: 1.2;
+    }
+    .tattva-badge-title {
+      font-family: 'Anek Gujarati', sans-serif; font-size: 11pt; font-weight: 700;
+      color: #111111; line-height: 1.2;
+    }
+    .tattva-body-txt {
+      font-size: 10.4pt; line-height: 1.45; text-align: justify; color: #111111; margin: 0;
+    }
+    .tattva-sub-bullet-wrap { margin-top: 2.5pt; }
+    .tattva-sub-bullet {
+      font-size: 10.25pt; line-height: 1.43; text-align: justify; color: #111111;
+      margin-bottom: 3pt;
+    }
+    .tattva-sub-bullet strong { font-family: 'Anek Gujarati', sans-serif; font-weight: 700; }
+    .tattva-sub-bullet:last-child { margin-bottom: 0; }
+
+    /* Section: Kavyadhara Bottom Shaded Block */
+    .p2-kavya-shaded-panel {
+      background: #ececec; padding: 6pt 10pt; border-radius: 2pt; margin-top: 10pt;
+      display: flex; align-items: center; gap: 12pt;
+    }
+    .p2-kavya-left { flex-shrink: 0; }
+    .p2-kavya-left img { height: 27px; width: auto; display: block; }
+    .p2-kavya-right {
+      flex: 1; border-top: 0.9pt solid #777777; padding-top: 2.5pt;
+    }
+    .p2-kavya-verse-line {
+      font-family: 'Anek Gujarati', sans-serif; font-size: 10.8pt; font-weight: 700;
+      color: #111111; line-height: 1.38; margin: 0;
+    }
+
+    /* =========================================================================
+       PAGE 3 (RIGHT PAGE)
+       ========================================================================= */
+
+    .p3-content {
+      position: absolute; top: 10mm; left: 11.5mm; right: 11.5mm; bottom: 8mm;
+      display: block;
+    }
+
+    /* Running Header */
+    .p3-running-header {
+      display: flex; justify-content: flex-end; align-items: baseline;
+      border-bottom: 0.9pt solid #111111; padding-bottom: 2pt; margin-bottom: 6pt;
+    }
+    .p3-running-header-txt {
+      font-family: 'Anek Gujarati', sans-serif; font-size: 9.2pt; font-weight: 700;
+      color: #111111; letter-spacing: 0.2pt;
+    }
+
+    /* 40 / 60 Vertical Split Container */
+    .p3-dual-columns {
+      display: flex; gap: 6.5mm; align-items: flex-start;
+    }
+
+    /* Left Column (37.5% width): Illustration + Arrow + Vivekdhara */
+    .p3-col-left {
+      flex: 0 0 37.5%; display: block;
+    }
+    .p3-fig-art {
+      width: 100%; display: flex; justify-content: center; align-items: center; margin-bottom: 2pt;
+    }
+    .p3-fig-art img {
+      width: auto; max-width: 100%; height: auto; max-height: 52mm; object-fit: contain; display: block;
+    }
+    .p3-arrow-divider {
+      width: 100%; height: 5mm; margin: 3pt 0 5pt 0; display: flex; align-items: center;
+    }
+    .p3-arrow-divider svg { width: 100%; height: 6px; display: block; }
+
+    .p3-vivek-title-wrap { margin-bottom: 5pt; }
+    .p3-vivek-title-wrap img { height: 27px; width: auto; display: block; }
+
+    .p3-vivek-card { margin-bottom: 12pt; }
+    .p3-vivek-card:last-child { margin-bottom: 0; }
+    .p3-charcoal-pill-hdr {
+      background: #3e3e3e; color: #ffffff; text-align: center;
+      font-family: 'Anek Gujarati', sans-serif; font-size: 9.6pt; font-weight: 700;
+      padding: 2.2pt 5pt; border-radius: 2.5pt; line-height: 1.25; margin-bottom: 3.5pt;
+    }
+    .p3-vivek-txt {
+      font-size: 10.4pt; line-height: 1.42; text-align: justify; color: #111111; margin: 0;
+    }
+
+    /* Right Column (60% width): Kathadhara + Pipasa + Paan */
+    .p3-col-right {
+      flex: 0 0 60%; display: block;
+    }
+    .p3-katha-hdr-wrap { margin-bottom: 6pt; }
+    .p3-katha-hdr-wrap img { height: 27px; width: auto; display: block; margin-bottom: 2pt; }
+    .p3-katha-sub-title {
+      font-family: 'Anek Gujarati', sans-serif; font-size: 13.5pt; font-weight: 800;
+      color: #111111; line-height: 1.2;
+    }
+    .p3-katha-sub-line {
+      width: 100%; height: 0.9pt; background: #111111; margin-top: 3pt;
+    }
+
+    .p3-story-block { margin-bottom: 12pt; }
+    .p3-story-block:last-child { margin-bottom: 0; }
+    .p3-story-txt {
+      font-size: 10.8pt; line-height: 1.44; text-align: justify; color: #111111; margin: 0;
+    }
+
+    /* Running Footer with Downward Bracket */
+    .p3-running-footer {
+      display: flex; flex-direction: column; align-items: flex-end; margin-top: 10pt;
+    }
+    .p3-footer-bracket {
+      width: 36mm; height: 3pt;
+      border-top: 0.9pt solid #111111;
+      border-left: 0.9pt solid #111111;
+      border-right: 0.9pt solid #111111;
+      margin-bottom: 2pt;
+    }
+    .p3-footer-txt {
+      font-family: sans-serif; font-size: 9pt; font-weight: 700; color: #111111;
+      letter-spacing: 0.2pt; width: 36mm; text-align: center;
+    }
+  </style>
+</head>
+<body>
+<div class="spread-container">
+
+  <!-- PAGE 2 (LEFT PAGE) -->
+  <section class="page" id="page-2">
+    <aside class="p2-sidebar">
+      <div class="p2-sidebar-num-badge">
+        <span class="p2-sidebar-num-txt">૦૦૧</span>
+      </div>
+      <div class="p2-sidebar-vtext">
+        પ્રથમ ખંડ &bull; નૈગમ નય
+      </div>
+    </aside>
+
+    <main class="p2-content">
+      <header class="p2-masthead">
+        <div class="p2-title-row">
+          <h1 class="p2-main-title" id="p-001-title">ભૂતનૈગમ નય</h1>
+          <div class="p2-category-meta" id="p-001-meta">
+            નૈગમ નય &bull; દ્રવ્યાર્થિક નય &bull; જ્ઞાનનય
+          </div>
+        </div>
+        <div class="p2-header-line"></div>
+        <div class="p2-sutra-row" id="p-001-sutra">
+          अनिष्पन्नेऽर्थे संकल्पमात्रग्राही नैगमः
+        </div>
+      </header>
+
+      <section class="p2-tattva-sec">
+        <div class="section-brush-title">
+          <img src="../assets/images/user_head_tattvadhara_clean.png" alt="તત્વધારા" />
+        </div>
+
+        <article class="tattva-point-item" id="p-001-rupak">
+          <div class="tattva-badge-row">
+            <span class="tattva-pill-badge">૧. રૂપક-દ્રષ્ટિ:</span>
+            <span class="tattva-badge-title">ઓલવાયેલા તારકનું જીવંત કિરણ</span>
+          </div>
+          <p class="tattva-body-txt">
+            અનંત આકાશમાં અબજો વર્ષ પૂર્વે એક તારો ભસ્મીભૂત થઈને ઓલવાઈ ગયો હોય, છતાં આજે રાત્રે તેનું કિરણ આપણી આંખ સામે એટલું જ તેજસ્વી અને જીવંત ચમકે છે. ભૌતિક રૂપે જે વીતી ચૂક્યું છે, તે જ્ઞાતાના જ્ઞાન-ફલક પર આ ક્ષણે પણ પ્રત્યક્ષ પ્રકાશમાન છે. આ જ દ્રષ્ટિ એટલે <strong>'ભૂતનૈગમ નય'</strong>.
+          </p>
+        </article>
+
+        <article class="tattva-point-item" id="p-001-swarup">
+          <div class="tattva-badge-row">
+            <span class="tattva-pill-badge">૨. સ્વરૂપ-સૃષ્ટિ:</span>
+            <span class="tattva-badge-title">કાળના પડદા પાર જોતી આંખ</span>
+          </div>
+          <p class="tattva-body-txt">
+            ભૂતકાળમાં જે ઘટના કે પર્યાય પૂર્ણ થઈ ચૂકી છે, તેને સ્મૃતિના બંધ કબાટમાં રાખવાને બદલે જ્ઞાનના સંકલ્પ વડે વર્તમાનમાં એવી રીતે પ્રત્યક્ષ અનુભવવી કે જાણે તે આ પળે જ આપણી નજર સામે ઘટી રહી હોય! આ નય કાળના અંતરને ભૂંસી નાખીને વસ્તુના અખંડ સત્-સાતત્યને જોવાની દિવ્ય બારી છે.
+          </p>
+        </article>
+
+        <article class="tattva-point-item" id="p-001-vyavahar">
+          <div class="tattva-badge-row">
+            <span class="tattva-pill-badge">૩. વ્યવહાર-પૃષ્ટિ:</span>
+            <span class="tattva-badge-title">જીવન-વ્યવહારના જીવંત દૃષ્ટાંતો</span>
+          </div>
+          <div class="tattva-sub-bullet-wrap">
+            <div class="tattva-sub-bullet">
+              <strong>દિવાળીનો દીવો:</strong> દિવાળીની રાત્રે એક નાનો બાળક પણ હર્ષોલ્લાસથી પોકારી ઊઠે છે: <em>"આજે મહાવીર પ્રભુ મોક્ષ પધાર્યા!"</em> પચ્ચીસો વર્ષ પૂર્વેની એ પાવન ક્ષણ બાળકના હૃદયમાં આજના તહેવાર જેવી જ જીવંત બની જાય છે.
+            </div>
+            <div class="tattva-sub-bullet">
+              <strong>માતાનું વાત્સલ્ય:</strong> ચાલીસ વર્ષના પુખ્ત દીકરાને જોઈને વૃદ્ધ માતા આજે પણ <em>"મારું નાનું બાળક"</em> કહીને વાત્સલ્યથી છાતીએ લગાડે છે. માતાની આંખમાં પુત્રનું અતીત-બાળપણ આજે પણ પ્રત્યક્ષ રમે છે.
+            </div>
+            <div class="tattva-sub-bullet">
+              <strong>બીજ અને બરફ:</strong> માળી સૂકી ગોટલી જોઈને કહે છે કે <em>"આ મારો મીઠો આંબો છે,"</em> અને પીવાના જળને જોઈ કહેવાય કે <em>"આ હિમાલયનો બરફ છે."</em>
+            </div>
+          </div>
+        </article>
+
+        <article class="tattva-point-item" id="p-001-marm">
+          <div class="tattva-badge-row">
+            <span class="tattva-pill-badge">૪. મર્મ-તુષ્ટિ:</span>
+            <span class="tattva-badge-title">ભીતરી સત્ય અને ભ્રમણા-નિવારણ</span>
+          </div>
+          <p class="tattva-body-txt">
+            ઘણાને ભ્રમ થાય છે કે આ તો માત્ર જૂની યાદ કે માનસિક કલ્પના (સ્મૃતિ) છે, પણ વાસ્તવમાં આ કેવળ સ્મૃતિ નથી; આ તો વસ્તુના અખંડ અસ્તિત્વનો સ્વીકાર છે. અતીત એ કાળના અંધકારમાં ડૂબી ગયેલું શૂન્ય નથી, પણ વર્તમાનની પરિપક્વતાનું જીવંત મૂળિયું છે. જે દ્રષ્ટિ અતીતના સત્યને વર્તમાનમાં સન્માની શકે, તે જ સાચી નય-દ્રષ્ટિ છે.
+          </p>
+        </article>
+      </section>
+
+      <footer class="p2-kavya-shaded-panel" id="p-001-kavya">
+        <div class="p2-kavya-left">
+          <img src="../assets/images/user_head_kavyadhara_clean.png" alt="કાવ્યધારા" />
+        </div>
+        <div class="p2-kavya-right">
+          <p class="p2-kavya-verse-line">અતીતનો પર્યાય જે, કાળે થઈ વિનષ્ટ |</p>
+          <p class="p2-kavya-verse-line">જ્ઞાન તણા સંકલ્પથી, આ પળ ભાસે સ્પષ્ટ ||</p>
+        </div>
+      </footer>
+    </main>
+  </section>
+
+  <!-- PAGE 3 (RIGHT PAGE) -->
+  <section class="page" id="page-3">
+    <main class="p3-content">
+      <header class="p3-running-header">
+        <span class="p3-running-header-txt">નય-ચક્ષુ | નયનું જ્ઞાન, સંશયનું સમાધાન</span>
+      </header>
+
+      <div class="p3-dual-columns">
+        <!-- Left Column (37.5%) -->
+        <div class="p3-col-left">
+          <div class="p3-fig-art">
+            <img src="../assets/images/user_figures_trans.png" alt="દાદાજી, પિતા અને પુત્રનું ચિત્ર" />
+          </div>
+
+          <div class="p3-arrow-divider">
+            <svg viewBox="0 0 200 6" preserveAspectRatio="none">
+              <line x1="0" y1="3" x2="192" y2="3" stroke="#111111" stroke-width="1.2" />
+              <polygon points="190,0.5 200,3 190,5.5" fill="#111111" />
+            </svg>
+          </div>
+
+          <div class="p3-vivek-title-wrap" id="p-001-vivek-sec">
+            <img src="../assets/images/user_head_vivekdhara_clean.png" alt="વિવેકધારા" />
+          </div>
+
+          <div class="p3-vivek-card" id="p-001-ekant">
+            <div class="p3-charcoal-pill-hdr">એકાંત દર્શન</div>
+            <p class="p3-vivek-txt">
+              જો આ નય-દ્રષ્ટિ જીદ કે કદાગ્રહ બને, તો મનુષ્ય ભૂતકાળના જડ વળગણોમાં કેદી બની જાય છે. <em>"અમારા જમાનામાં આમ જ થતું હતું"</em> એવી હઠ પકડીને તે વર્તમાનના નવા સત્યો અને પરિસ્થિતિઓનો અસ્વીકાર કરે છે. જૂના વેર, કડવી સ્મૃતિઓ કે પૂર્વજોના અહંકારને છાતીએ વળગાડી રાખવાથી જીવનમાં જડતા, અસહિષ્ણુતા અને સંબંધોમાં કાયમી સંકુચિતતા જન્મે છે.
+            </p>
+          </div>
+
+          <div class="p3-vivek-card" id="p-001-anekant">
+            <div class="p3-charcoal-pill-hdr">અનેકાંત દર્શન</div>
+            <p class="p3-vivek-txt">
+              આ જ નય-દ્રષ્ટિ જો સમન્વયની યાત્રા બને, તો તે અતીતના સારને ગ્રહણ કરીને વર્તમાનને સમૃદ્ધ બનાવે છે. તે અતીતના તીર્થંકરો અને જ્ઞાનીઓના મુક્તિ-પ્રકાશને આત્મસાત કરી સાધ્ય તરફ સરકવાનું બળ બને છે. અહીં ભૂતકાળ બોજ નથી બનતો, પરંતુ ભવિષ્યના મોક્ષમાર્ગનું મંગલ પ્રસ્થાન અને આધ્યાત્મિક જીવન-યાત્રાનું પરમ સૌંદર્ય પ્રગટાવે છે.
+            </p>
+          </div>
+        </div>
+
+        <!-- Right Column (60%) -->
+        <div class="p3-col-right">
+          <div class="p3-katha-hdr-wrap">
+            <img src="../assets/images/user_head_kathadhara_clean.png" alt="કથાધારા" id="p-001-story-sec" />
+            <div class="p3-katha-sub-title" id="p-001-story-title">ઓલવાયેલા દીવાનું અમૃત-તેજ</div>
+            <div class="p3-katha-sub-line"></div>
+          </div>
+
+          <div class="p3-story-block" id="p-001-pipasa">
+            <div class="p3-charcoal-pill-hdr">પિપાસા</div>
+            <p class="p3-story-txt">
+              રમેશભાઈ પોતાના યુવાન પુત્ર આનંદની એક વ્યાપારિક ભૂલથી અત્યંત ક્રોધિત અને વ્યથિત હતા. આનંદના એક અવિચારી નિર્ણયથી પેઢીને મોટો આર્થિક ફટકો પડ્યો હતો. રમેશભાઈના મગજમાં નિરંતર નકારાત્મક વલયો ઘૂમરાતા હતા: <em>"આટલો મોટો દીકરો થઈને આવી નાદાની કેમ કરી? મારું આખી જિંદગીનું પરિશ્રમ એક ક્ષણમાં રોળાઈ ગયું!"</em> તેમનો ક્રોધ ઊંડા વિષાદ અને અસહાયતામાં ફેરવાઈ ગયો હતો. પિતા-પુત્રના સ્નેહાળ સંબંધોમાં તીખી તિરાડ પડી ચૂકી હતી. રમેશભાઈ માનસિક અટકળોના એવા અંધકારમય ચક્રવ્યૂહમાં અટવાઈ ગયા હતા કે આગળ કોઈ માર્ગ દેખાતો નહોતો. રાત્રિના અંધકારમાં છત તરફ તાકતાં તેમના હૃદયમાંથી એક જ વિવશ પોકાર ઊઠ્યો: <strong>"આ વિષમ ગૂંચવણમાંથી બહાર નીકળવાનો હવે શું રસ્તો?"</strong>
+            </p>
+          </div>
+
+          <div class="p3-story-block" id="p-001-paan">
+            <div class="p3-charcoal-pill-hdr">પાન</div>
+            <p class="p3-story-txt">
+              તે જ ક્ષણે ઘરના એકાંત ખૂણામાં બિરાજમાન વૃદ્ધ દાદાજીએ રમેશભાઈના ખભા પર સ્નેહભર્યો હાથ મૂક્યો અને અત્યંત શાંત સ્વરે કહ્યું, <em>"બેટા, જરા ભૂતનૈગમ દ્રષ્ટિથી જો. આજે ભલે એનાથી ભૂલ થઈ, પણ ભૂતકાળમાં આજ આનંદે રાત-દિવસ એક કરીને તારી આ પેઢીને સંકટમાંથી ઉગારી હતી અને તારી જીવલેણ બીમારીમાં અવિરત સેવા કરી હતી, તે શું સાવ મિથ્યા થઈ ગયું? વર્તમાનની એક ભૂલ પાછળ તેના અતીતના સો ઉપકારોને કેમ ભૂલી જાય છે?"</em> દાદાજીના આ બોધ-અમૃતનું પાન કરતાં જ રમેશભાઈની ભીતરમાં અતીતનો સ્નેહ સજીવન થઈ ઊઠ્યો. ક્રોધ પળવારમાં ઓગળી ગયો, આંખોમાંથી પશ્ચાત્તાપના આંસુ વહી નીકળ્યા અને અંતરમાં અસીમ ક્ષમા અને પરમ વિશ્રામ છવાઈ ગયો.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <footer class="p3-running-footer">
+        <div class="p3-footer-bracket"></div>
+        <div class="p3-footer-txt">Page &bull; 002 - 003</div>
+      </footer>
+    </main>
+  </section>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K03_C041_chapter_053_1_nimittadrishti_vyavaharanaya_katha_r01_press.png",
+  "sha256": "a99865e3031889dffe67f58290420197bb65a73acef629e952a9d9ab57e696f6",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.14862678662729029,
+  "white_fraction": 0.8513732133727098,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

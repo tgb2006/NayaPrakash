@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K03_C090_chapter_114_svajatidravye_svajatiparyayopacharaka_asadbhuta_vyavahara_katha_r01_press.png",
+  "sha256": "220759f8a6dadb2eb126a177bd66f499511f336215076a4579d5f0a742a12a64",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.15967023546978218,
+  "white_fraction": 0.8403297645302178,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

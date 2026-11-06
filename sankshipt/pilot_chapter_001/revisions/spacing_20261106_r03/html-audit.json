@@ -1,0 +1,22 @@
+{
+  "sectionGapMM": 4.49,
+  "pages": [
+    {
+      "id": "page-2",
+      "widthMM": 165.1,
+      "heightMM": 241.3,
+      "contentFooterGapMM": 2.71
+    },
+    {
+      "id": "page-3",
+      "widthMM": 165.1,
+      "heightMM": 241.3,
+      "contentFooterGapMM": 2.97
+    }
+  ],
+  "textBlocks": 26,
+  "selectedStyle": "style-c",
+  "problems": [],
+  "browserErrors": [],
+  "htmlContentUnchanged": true
+}

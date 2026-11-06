@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K03_C051_chapter_074_anupacharita_ashuddha_sadbhuta_vyavahara_katha_r01_press.png",
+  "sha256": "c1df8a1e7fb80c788e32b96e4c47340f514f477116d13486945a2e255ab1c97b",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.10628190746548843,
+  "white_fraction": 0.8937180925345116,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

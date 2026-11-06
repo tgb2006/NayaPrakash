@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K04_C007_chapter_037_sattagaunotpadavyayagrahaka_nitya_ashuddhaparyayarthikanaya_katha_r01_press.png",
+  "sha256": "fce004fe0a3f693a12c63b237d3887c74be444aaca7791bce9aef0a26e8f96f3",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.17257948408792026,
+  "white_fraction": 0.8274205159120798,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

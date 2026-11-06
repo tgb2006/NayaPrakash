@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K01_C004_chapter_062_bhuta_naigam_pratipadaka_vyavahara_katha_r01_press.png",
+  "sha256": "47a1a745fe8fc9a40b7d8d29e9d95352952bfe4502e9f6823e3b559d828bfdb6",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.17092989832853847,
+  "white_fraction": 0.8290701016714616,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K03_C008_chapter_016_paramashuddha_bhedavishayi_antima_vyavahara_dravyarthika_naya_katha_r01_press.png",
+  "sha256": "5fb861a5b1976d85b39ce5185f1eaac18963ebb089d55b19e03c6bc9dd27fbd1",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.21459813445459378,
+  "white_fraction": 0.7854018655454063,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

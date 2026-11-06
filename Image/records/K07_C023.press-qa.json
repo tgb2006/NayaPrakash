@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K07_C023_chapter_191_bhoktanaya_katha_r01_press.png",
+  "sha256": "3c63ca692200724d39bee5c069fa5be33423faa5a452940ea621bce79eebfc32",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.22131157965960283,
+  "white_fraction": 0.7786884203403972,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

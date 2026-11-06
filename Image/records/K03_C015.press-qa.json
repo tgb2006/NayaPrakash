@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K03_C015_chapter_023_bhedakalpananirapeksha_shuddha_dravyarthika_naya_katha_r01_press.png",
+  "sha256": "4f49313590ded42db1c4bedd8c02b16156920b62e0a688d5520e026e9daae0c2",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.14175308868081468,
+  "white_fraction": 0.8582469113191853,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

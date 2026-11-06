@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K03_C035_chapter_049_1_pratishedhaka_shuddhanaya_katha_r01_press.png",
+  "sha256": "f38bd78b47b9928c60659d5d074b7b22ce82a13e17c0afa7ca87ee6add12535e",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.14032226063200628,
+  "white_fraction": 0.8596777393679937,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

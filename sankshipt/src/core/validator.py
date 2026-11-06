@@ -18,6 +18,21 @@ PROHIBITED_ETHICAL_PATTERNS = [
     (r"(?:मांसाहार|मद्यपान|માંસાહાર|મદિરાપાન)\s+(?:उत्तम|आवश्यक|श्रेष्ठ|ઉત્તમ|શ્રેષ્ઠ)", "માંસાહાર કે મદિરાપાનનું સમર્થન જૈન સિદ્ધાંતો વિરુદ્ધ છે")
 ]
 
+PROHIBITED_GRAMMAR_PATTERNS = [
+    (
+        r"\b\w+ની\s+(?:પર્યાય|પર્યાયો|પર્યાયને)\b",
+        "ભાષાકીય/વ્યાકરણ ક્ષતિ: 'પર્યાય' શબ્દ પુલ્લિંગ હોવાથી '...ની પર્યાય/પર્યાયો' (સ્ત્રીલિંગ) ને બદલે '...નો પર્યાય' અથવા '...ના પર્યાયો' (પુલ્લિંગ) વાપરવું (દા.ત. દ્રવ્યનો પર્યાય, તેનો પર્યાય, અતીતનો પર્યાય)."
+    ),
+    (
+        r"\b(?:પર્યાય|પર્યાયો)\s+(?:થઈ|બદલાઈ|ઉત્પન્ન\s+થઈ|પ્રગટ\s+થઈ|પ્રગટી|નષ્ટ\s+થઈ|વિનષ્ટ\s+થઈ|જન્મી|જતી|આવતી|રહેતી|વહેતી|બદલાતી|દેખાતી|નાશ\s+પામી|છૂટી|પૂરી\s+થઈ|પલટાઈ)\b",
+        "ભાષાકીય/વ્યાકરણ ક્ષતિ: 'પર્યાય' શબ્દ પુલ્લિંગ હોવાથી સ્ત્રીલિંગ ક્રિયાપદને બદલે પુલ્લિંગ ક્રિયાપદ વાપરવું (દા.ત. પર્યાય થયો / બદલાયો / ઉત્પન્ન થયો / પ્રગટ થયો / નષ્ટ થયો)."
+    ),
+    (
+        r"\b(?:આવી|જેવી|તેવી|એવી|નવી|જૂની|બધી|સઘળી)\s+(?:પર્યાય|પર્યાયો)\b",
+        "ભાષાકીય/વ્યાકરણ ક્ષતિ: 'પર્યાય' શબ્દ પુલ્લિંગ હોવાથી સ્ત્રીલિંગ વિશેષણને બદલે પુલ્લિંગ વિશેષણ વાપરવું (દા.ત. બધા પર્યાયો, નવો પર્યાય, આવો પર્યાય)."
+    ),
+]
+
 class ChapterValidator:
     def __init__(self):
         pass
@@ -144,6 +159,13 @@ class ChapterValidator:
         if re.search(r"1_2_3_4_5_merged|\.pdf|\.txt|\.docx|આગમિક આધાર ગ્રંથ", content, re.IGNORECASE):
             errors.append("સ્રોત ઉલ્લેખ નિષેધ: અધ્યાયમાં ફાઇલ નામ (જેમ કે .pdf) અથવા 'આગમિક આધાર ગ્રંથ' લખવું વર્જિત છે.")
 
+        # 7. Grammar & Linguistic gender checks ('પર્યાય' પુલ્લિંગ ચકાસણી)
+        for pat, msg in PROHIBITED_GRAMMAR_PATTERNS:
+            found = re.findall(pat, content)
+            if found:
+                samples = [f.strip() if isinstance(f, str) else " ".join(f).strip() for f in found[:3]]
+                errors.append(f"{msg} (મળેલ પ્રયોગ: {', '.join(samples)})")
+
         is_valid = (len(errors) == 0 and len(missing_sections) == 0 and ahimsa_passed)
 
         return ValidationReport(
@@ -167,7 +189,11 @@ class ChapterValidator:
         clean_title = re.sub(r"^#{1,3}\s*\*{0,2}(?:કથાધારા|પ્રસંગ)\s*[:\-\.]*\s*", "", title).strip()
         clean_title = re.sub(r"\*{1,2}$", "", clean_title).strip()
         if not clean_title:
-            clean_title = "અધ્યાય કથાધારા (પિપાસા-પાન)"
+            subheading_match = re.search(r"^###\s*(?:વાર્તા\s*[:\-\.]*\s*|કથા\s*[:\-\.]*\s*)?([^\n]+)", body, re.MULTILINE)
+            if subheading_match and not any(k in subheading_match.group(1) for k in ["પિપાસા", "પાન"]):
+                clean_title = subheading_match.group(1).strip()
+            else:
+                clean_title = "અધ્યાય કથાધારા (પિપાસા-પાન)"
 
         first_para = body.split("\n\n")[0] if "\n\n" in body else body[:200]
 

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K03_C078_chapter_104_upadhija_upacharita_pratiphalanavyavahara_katha_r01_press.png",
+  "sha256": "18bbd19b4341eff6321d0f8873cb9fddb2d8cc8436e19ec5cfc15e9da00a359e",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.15048686309074122,
+  "white_fraction": 0.8495131369092588,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

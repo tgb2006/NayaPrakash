@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K05_C001_chapter_041_shabdanaya_katha_r01_press.png",
+  "sha256": "575a17f1127ac672ed78c8f220d9d0167fb0cb584e8338639e9ff6e9d7d62a01",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.18637711794347403,
+  "white_fraction": 0.813622882056526,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

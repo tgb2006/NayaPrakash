@@ -1,0 +1,338 @@
+[
+  {
+    "file": "sankshipt\\output\\khanda_3_vyavahar\\chapter_134_paradhikaranatva_asadbhuta_vyavahara_gu.md",
+    "original": "Telugu 'సమ' (in సమન્વિત)",
+    "replacement": "Gujarati 'સમ' (સમન્વિત)",
+    "count": 1
+  },
+  {
+    "file": "sankshipt\\output\\khanda_3_vyavahar\\chapter_148_bhavini_bhutopacharaka_vyavahara_gu.md",
+    "original": "Armenian 'այդ'",
+    "replacement": "Gujarati 'તે'",
+    "count": 1
+  },
+  {
+    "file": "sankshipt\\src\\pipeline\\generate_parishishta.py",
+    "original": "Cyrillic 'ступен'",
+    "replacement": "Removed / Gujarati Clean",
+    "count": 1
+  },
+  {
+    "file": "sankshipt\\output\\khanda_2_sangrah\\000_khanda_2_sangrah_parichay_gu.md",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 13
+  },
+  {
+    "file": "sankshipt\\output\\khanda_2_sangrah\\chapter_004_para_sangraha_dravyarthika_naya_gu.md",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 1
+  },
+  {
+    "file": "sankshipt\\output\\khanda_2_sangrah\\chapter_005_apara_sangraha_dravyarthika_naya_gu.md",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 6
+  },
+  {
+    "file": "sankshipt\\output\\khanda_2_sangrah\\chapter_006_paramashuddha_apara_sangraha_dravyarthika_naya_gu.md",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 4
+  },
+  {
+    "file": "sankshipt\\output\\khanda_2_sangrah\\chapter_007_shuddha_apara_sangraha_dravyarthika_naya_gu.md",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 5
+  },
+  {
+    "file": "sankshipt\\output\\khanda_2_sangrah\\chapter_008_ashuddha_apara_sangraha_dravyarthika_naya_gu.md",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 5
+  },
+  {
+    "file": "sankshipt\\output\\khanda_2_sangrah\\chapter_066_1_paramashuddha_apara_sangraha_dravyarthika_pratipadaka_vyavahara_gu.md",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 4
+  },
+  {
+    "file": "sankshipt\\output\\khanda_2_sangrah\\chapter_066_2_shuddha_apara_sangraha_dravyarthika_pratipadaka_vyavahara_gu.md",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 4
+  },
+  {
+    "file": "sankshipt\\output\\khanda_2_sangrah\\chapter_066_3_ashuddha_apara_sangraha_dravyarthika_pratipadaka_vyavahara_gu.md",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 4
+  },
+  {
+    "file": "sankshipt\\output\\khanda_2_sangrah\\chapter_066_apara_sangraha_dravyarthika_pratipadaka_vyavahara_gu.md",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 5
+  },
+  {
+    "file": "sankshipt\\output\\khanda_2_sangrah\\chapter_067_apara_sangraha_bhedaka_vyavahara_dravyarthika_pratipadaka_gu.md",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 4
+  },
+  {
+    "file": "sankshipt\\output\\khanda_2_sangrah\\chapter_068_1_antima_apara_sangraha_bhedaka_vyavahara_dravyarthika_pratipadaka_gu.md",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 4
+  },
+  {
+    "file": "sankshipt\\output\\khanda_2_sangrah\\chapter_068_apara_sangraha_bhedaka_vyavahara_dravyarthika_pratipadaka_gu.md",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 5
+  },
+  {
+    "file": "sankshipt\\output\\khanda_3_vyavahar\\000_khanda_3_vyavahar_parichay_gu.md",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 1
+  },
+  {
+    "file": "sankshipt\\output\\khanda_3_vyavahar\\chapter_010_apara_sangraha_bhedaka_vyavahara_dravyarthika_naya_gu.md",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 5
+  },
+  {
+    "file": "sankshipt\\output\\khanda_3_vyavahar\\chapter_011_antima_apara_sangraha_bhedaka_vyavahara_dravyarthika_naya_gu.md",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 4
+  },
+  {
+    "file": "sankshipt\\output\\khanda_3_vyavahar\\chapter_012_paramashuddha_apara_sangraha_bhedaka_vyavahara_dravyarthika_naya_gu.md",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 2
+  },
+  {
+    "file": "sankshipt\\output\\khanda_3_vyavahar\\chapter_013_shuddha_apara_sangraha_bhedaka_vyavahara_dravyarthika_naya_gu.md",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 4
+  },
+  {
+    "file": "sankshipt\\output\\khanda_3_vyavahar\\chapter_014_ashuddha_apara_sangraha_bhedaka_vyavahara_dravyarthika_naya_gu.md",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 4
+  },
+  {
+    "file": "vistrut\\output\\khanda_2_sangrah\\000_khanda_2_sangrah_parichay_gu.md",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 13
+  },
+  {
+    "file": "vistrut\\output\\khanda_3_vyavahar\\000_khanda_3_vyavahar_parichay_gu.md",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 1
+  },
+  {
+    "file": "sankshipt\\references\\Nayas_Spelling_Correction_Register.md",
+    "original": "અબર / અબરસંગ્રહ & Mixed Devanagari/Gujarati",
+    "replacement": "અપર / અપરસંગ્રહ (શુદ્ધ)",
+    "count": 12
+  },
+  {
+    "file": "Image\\chapter-image-map.json",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 66
+  },
+  {
+    "file": "Image\\chapter-image-map.md",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 16
+  },
+  {
+    "file": "Image\\image-review.html",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 16
+  },
+  {
+    "file": "Image\\records\\K02_C002.json",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 6
+  },
+  {
+    "file": "Image\\records\\K02_C003.json",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 4
+  },
+  {
+    "file": "Image\\records\\K02_C004.json",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 4
+  },
+  {
+    "file": "Image\\records\\K02_C005.json",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 4
+  },
+  {
+    "file": "Image\\records\\K02_C007.json",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 4
+  },
+  {
+    "file": "Image\\records\\K02_C007.prompt.txt",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 2
+  },
+  {
+    "file": "Image\\records\\K02_C008.json",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 4
+  },
+  {
+    "file": "Image\\records\\K02_C008.prompt.txt",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 2
+  },
+  {
+    "file": "Image\\records\\K02_C009.json",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 4
+  },
+  {
+    "file": "Image\\records\\K02_C009.prompt.txt",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 2
+  },
+  {
+    "file": "Image\\records\\K02_C010.json",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 4
+  },
+  {
+    "file": "Image\\records\\K02_C010.prompt.txt",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 2
+  },
+  {
+    "file": "Image\\records\\K02_C011.json",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 4
+  },
+  {
+    "file": "Image\\records\\K02_C011.prompt.txt",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 2
+  },
+  {
+    "file": "Image\\records\\K02_C012.json",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 4
+  },
+  {
+    "file": "Image\\records\\K02_C012.prompt.txt",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 2
+  },
+  {
+    "file": "Image\\records\\K02_C013.json",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 4
+  },
+  {
+    "file": "Image\\records\\K02_C013.prompt.txt",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 2
+  },
+  {
+    "file": "Image\\records\\K03_C002.json",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 4
+  },
+  {
+    "file": "Image\\records\\K03_C002.prompt.txt",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 2
+  },
+  {
+    "file": "Image\\records\\K03_C003.json",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 4
+  },
+  {
+    "file": "Image\\records\\K03_C003.prompt.txt",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 2
+  },
+  {
+    "file": "Image\\records\\K03_C004.json",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 4
+  },
+  {
+    "file": "Image\\records\\K03_C004.prompt.txt",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 2
+  },
+  {
+    "file": "Image\\records\\K03_C005.json",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 4
+  },
+  {
+    "file": "Image\\records\\K03_C005.prompt.txt",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 2
+  },
+  {
+    "file": "Image\\records\\K03_C006.json",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 4
+  },
+  {
+    "file": "Image\\records\\K03_C006.prompt.txt",
+    "original": "અબર / અબરસંગ્રહ",
+    "replacement": "અપર / અપરસંગ્રહ",
+    "count": 2
+  }
+]

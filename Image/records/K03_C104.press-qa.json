@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K03_C104_chapter_128_asanshlishta_svajati_vijatyupacharita_asadbhuta_vyavahara_katha_r01_press.png",
+  "sha256": "1ab647620a1fcb674bdc4b4d5176b2e5e56d801a143561de4c0010d1f1c7642e",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.1705540674943848,
+  "white_fraction": 0.8294459325056152,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

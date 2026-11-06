@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K03_C062_chapter_085_paradravyadigrahaka_dravyarthikapratipadaka_vyavahara_katha_r01_press.png",
+  "sha256": "152eca00ef13fe09fd4ddf8106d0851686c4e69d15637ede22a2b400a881d27c",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.1397969877571993,
+  "white_fraction": 0.8602030122428007,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [
+    "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K03_C060_chapter_083_anvayadravyarthikapratipadaka_vyavahara_katha_r01_press.png"
+  ],
+  "errors": [],
+  "warnings": [
+    "Likely perceptual duplicates require human review"
+  ],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

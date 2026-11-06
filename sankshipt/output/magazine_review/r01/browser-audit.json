@@ -1,0 +1,37 @@
+{
+  "pages": 740,
+  "documents": 237,
+  "chapters": 225,
+  "sourceBlocks": 4901,
+  "renderedUniqueBlocks": 4901,
+  "sourceOrderExact": true,
+  "overflow": [],
+  "issues": [],
+  "sparse": [
+    {
+      "page": 119,
+      "fill": [
+        0.3438322368421053,
+        0.3809758771929825
+      ]
+    },
+    {
+      "page": 167,
+      "fill": [
+        0.3438322368421053,
+        0.3809758771929825
+      ]
+    },
+    {
+      "page": 188,
+      "fill": [
+        0.3438322368421053,
+        0.3809758771929825
+      ]
+    }
+  ],
+  "fontsLoaded": "loaded",
+  "illustrationsPending": 225,
+  "status": "HTML text review; illustration production and human approval pending; PDF not exported",
+  "firstChapterPage": 46
+}

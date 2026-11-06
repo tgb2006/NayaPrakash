@@ -1,0 +1,119 @@
+{
+  "gapsMM": {
+    "topToMiddle": 0,
+    "middleColumns": 0,
+    "middleToBottom": 0
+  },
+  "symmetry": {
+    "middleWidthsMM": [
+      69.04,
+      69.04
+    ],
+    "middleHeightsMM": [
+      34.78,
+      34.78
+    ],
+    "dividerOffsetFromCenterMM": 0,
+    "lineWidthsPx": [
+      "1px",
+      "1px",
+      "1px",
+      "1px"
+    ]
+  },
+  "justified": [
+    {
+      "id": "tattva-1-body",
+      "alignment": "justify",
+      "lastLine": "start"
+    },
+    {
+      "id": "tattva-2-body",
+      "alignment": "justify",
+      "lastLine": "start"
+    },
+    {
+      "id": "example-1",
+      "alignment": "justify",
+      "lastLine": "start"
+    },
+    {
+      "id": "example-2",
+      "alignment": "justify",
+      "lastLine": "start"
+    },
+    {
+      "id": "example-3",
+      "alignment": "justify",
+      "lastLine": "start"
+    },
+    {
+      "id": "tattva-4-body",
+      "alignment": "justify",
+      "lastLine": "start"
+    },
+    {
+      "id": "practice",
+      "alignment": "justify",
+      "lastLine": "start"
+    },
+    {
+      "id": "pipasa",
+      "alignment": "justify",
+      "lastLine": "start"
+    },
+    {
+      "id": "paan",
+      "alignment": "justify",
+      "lastLine": "start"
+    },
+    {
+      "id": "ekant",
+      "alignment": "justify",
+      "lastLine": "start"
+    },
+    {
+      "id": "anekant",
+      "alignment": "justify",
+      "lastLine": "start"
+    },
+    {
+      "id": "darshan-1",
+      "alignment": "justify",
+      "lastLine": "start"
+    },
+    {
+      "id": "darshan-2",
+      "alignment": "justify",
+      "lastLine": "start"
+    },
+    {
+      "id": "darshan-3",
+      "alignment": "justify",
+      "lastLine": "start"
+    },
+    {
+      "id": "darshan-4",
+      "alignment": "justify",
+      "lastLine": "start"
+    }
+  ],
+  "pages": [
+    {
+      "widthMM": 165.1,
+      "heightMM": 241.3,
+      "footerClearanceMM": 2.71
+    },
+    {
+      "widthMM": 165.1,
+      "heightMM": 241.3,
+      "footerClearanceMM": 4.01
+    }
+  ],
+  "textBlocks": 26,
+  "poemAlignment": "left",
+  "selectedStyle": "style-c tone-a",
+  "problems": [],
+  "browserErrors": [],
+  "htmlContentUnchanged": true
+}

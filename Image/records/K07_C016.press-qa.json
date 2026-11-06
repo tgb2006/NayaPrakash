@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K07_C016_chapter_184_daivanaya_katha_r01_press.png",
+  "sha256": "e983c9d8febbf4d2d73d422ac3d9c5a202b5b7beffc62f721e581ea9b20c0831",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.1569726476550954,
+  "white_fraction": 0.8430273523449046,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

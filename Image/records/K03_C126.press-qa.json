@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K03_C126_chapter_147_atitasamipye_tadupacharaka_vyavahara_katha_r01_press.png",
+  "sha256": "27faf9d3c6d9110fb0363e70ccfbfcc5fe380eedc598bff0c5f4e8b2789934ce",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.17388885073347427,
+  "white_fraction": 0.8261111492665257,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

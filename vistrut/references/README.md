@@ -6,12 +6,21 @@
 ---
 
 ### ૧. દ્રવ્ય-ગુણ-પર્યાયનો રાસ (Dravya-Guna-Paryay no Ras)
-* **રચયિતા:** મહામહોપાધ્યાય શ્રીમદ્ યશોવિજયજી ગણિ / આચાર્ય અભયશેખરસૂરિજી
+* **રચયિતા:** મહામહોપાધ્યાય શ્રીમદ્ યશોવિજયજી ગણિ / આચાર્ય અભયશેખરસૂરિજી / પંન્યાસ યશોવિજયજી
 * **ઉપલબ્ધ સામગ્રી:**
-  * `Dravya_Guna_Paryay_no_Ras_Paramarsh_Part01.txt` થી `Part07.txt` (દ્રવ્યાનુયોગ પરામર્શ - ૭ ભાગો, સંપૂર્ણ ટેક્સ્ટ)
-  * `Dravya_Guna_Paryay_no_Ras_Abhayshekharsuri.txt` (આચાર્ય અભયશેખરસૂરિજી કૃત વિવેચન)
-* **Jain eLibrary Direct Link:** [Jain eLibrary SR: 022378](https://jainelibrary.org/book/022378)
-* **Jain Quantum Reader:** [Jain Quantum 022378](https://jainqq.org/explore/022378/1)
+  * **દ્રવ્યાનુયોગ પરામર્શ (Dravyanuyog Paramarsh - ૭ ભાગો, સંપૂર્ણ ટેક્સ્ટ):**
+    * `Dravya_Guna_Paryay_no_Ras_Paramarsh_Part01.txt` થી `Part07.txt`
+    * **Jain eLibrary Direct Link:** [Jain eLibrary SR: 022378](https://jainelibrary.org/book/022378) | [Jain Quantum 022378](https://jainqq.org/explore/022378/1)
+  * **આચાર્ય અભયશેખરસૂરિજી કૃત વિવેચન:**
+    * `Dravya_Guna_Paryay_no_Ras_Abhayshekharsuri.txt`
+    * **Jain eLibrary Direct Link:** [Jain eLibrary SR: 004991](https://jainelibrary.org/book/004991) | [Jain Quantum 004991](https://jainqq.org/explore/004991/1)
+  * **અધ્યાત્મ અનુયોગ (Adhyatma Anuyog - ભાગ ૧ અને ૨, સ્વોપજ્ઞ ટબા અને આધ્યાત્મિક ઉપનય સહિત):**
+    * `Dravya_Guna_Paryay_no_Ras_Adhyatma_Anuyog_Part01.txt` (AI-Readable શુદ્ધ યુનિકોડ ટેક્સ્ટ - ૬.૫ લાખ અક્ષરો)
+    * `Dravya_Guna_Paryay_no_Ras_Adhyatma_Anuyog_Part02.txt` (AI-Readable શુદ્ધ યુનિકોડ ટેક્સ્ટ - ૮.૪ લાખ અક્ષરો)
+    * **સંપાદક/લેખક:** પંન્યાસ પ્રવર શ્રીવિશ્વકલ્યાણવિજયજી મહારાજના શિષ્ય પંન્યાસ યશોવિજયજી
+    * **પ્રકાશક:** શ્રેયસ્કર શ્રી અંધેરી ગુજરાતી જૈન સંઘ (૨૦૧૩)
+    * **Jain eLibrary Links:** [ભાગ ૧ (SR: 022421)](https://jainelibrary.org/book/022421) | [ભાગ ૨ (SR: 022422)](https://jainelibrary.org/book/022422)
+    * **Jain Quantum Links:** [Reader 022421](https://jainqq.org/explore/022421/1) | [Reader 022422](https://jainqq.org/explore/022422/1)
 
 ---
 
@@ -56,3 +65,10 @@
   * `Aalappaddhati_Acharya_Devasena.txt` (સંપૂર્ણ સંસ્કૃત સૂત્રો અને ભાષાંતર - ૧.૯ લાખ અક્ષરો)
 * **Jain eLibrary Direct Link:** [Jain eLibrary SR: 001365](https://jainelibrary.org/book/001365)
 * **Jain Quantum Reader:** [Jain Quantum 001365](https://jainqq.org/explore/001365/1)
+
+---
+
+### ૬. ભાષાકીય અને વ્યાકરણીય પ્રમાણીકરણ (Linguistic & Grammar Standards)
+* **'પર્યાય' શબ્દનું લિંગ (હંમેશાં પુલ્લિંગ)**: ગુજરાતી વ્યાકરણ અને જૈન શાસ્ત્રો અનુસાર **'પર્યાય' સર્વથા પુલ્લિંગ (Masculine)** છે. ક્યારેય સ્ત્રીલિંગ તરીકે ન વાપરવો.
+  * ✅ **પુલ્લિંગ શુદ્ધ**: `દ્રવ્યનો પર્યાય`, `તેનો પર્યાય`, `બધા પર્યાયો`, `પર્યાય ઉત્પન્ન થયો / બદલાયો / પ્રગટ થયો / નષ્ટ થયો`.
+  * ❌ **સ્ત્રીલિંગ વર્જિત**: `દ્રવ્યની પર્યાય`, `તેની પર્યાય`, `બધી પર્યાયો`, `પર્યાય ઉત્પન્ન થઈ / બદલાઈ / પ્રગટી / નષ્ટ થઈ`.

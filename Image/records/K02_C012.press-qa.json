@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K02_C012_chapter_068_apara_sangraha_bhedaka_vyavahara_dravyarthika_pratipadaka_katha_r01_press.png",
+  "sha256": "d065ab0c5910b62f2fdb1ae2b4bf0ba14cdf023286fcf060ad818b6bcee442b9",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.12908294732772194,
+  "white_fraction": 0.870917052672278,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

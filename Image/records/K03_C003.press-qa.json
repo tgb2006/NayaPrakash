@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K03_C003_chapter_011_antima_apara_sangraha_bhedaka_vyavahara_dravyarthika_naya_katha_r01_press.png",
+  "sha256": "7b9fe7a4561adad00a258c6ed5fbef1777c7e4acdd504fb0cebef18ce52c83f6",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.17422843392372478,
+  "white_fraction": 0.8257715660762752,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

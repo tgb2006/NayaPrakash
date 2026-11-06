@@ -1,4 +1,7 @@
 # નય પ્રકાશ (Naya Prakash): ૨૦૩ નય મહાગ્રંથ નિર્માણ તંત્ર
+
+> **સંક્ષિપ્ત આવૃત્તિની વર્તમાન production design — 06-11-2026:** [મુખ્ય ડિઝાઇન નિયમો](sankshipt/design/DESIGN_RULES.md), [ચોક્કસ માપ/settings](sankshipt/design/design_tokens.json) અને [routine checklist](sankshipt/design/PRODUCTION_CHECKLIST.md) પહેલાં વાંચો. અંતિમ trim **6.5 × 9.5 ઇંચ** છે. નીચેના જૂના A5, layout-percentage અને page-total વર્ણનો production designનો આધાર નથી; current source/catalogue તથા નવી નિયમાવલી વાપરો. આ design scope માત્ર `sankshipt` છે.
+
 ### Autonomous Agentic Book Writing Workflow for 203 Jain Nayas
 
 જૈન દર્શનના નય રહસ્ય (Epistemological Perspectives & Standpoints) પર આધારિત ૨૦૩ નયોનો ૭ ખંડોમાં સંપૂર્ણ ૧૦૦% અણીશુદ્ધ સાહિત્યિક ગુજરાતી ભાષામાં પ્રમાણભૂત મહાગ્રંથ નિર્માણ તંત્ર.
@@ -15,7 +18,7 @@ NayaPrakash_Book/
 └── sankshipt/           # [સંક્ષિપ્ત ૨-પેજ આવૃત્તિ] A5 સામસામેના બે પાના (૫૪૦-૬૩૦ શબ્દો/નય)
 ```
 
-### ૧. [`sankshipt/`](./sankshipt): રસપાન — નયનું જ્ઞાન નિર્વાણનું પાન (સંક્ષિપ્ત ૨-પેજ A5 આવૃત્તિ)
+### ૧. [`sankshipt/`](./sankshipt): નય-ચક્ષુ — નયનું જ્ઞાન, સંશયનું સમાધાન (સંક્ષિપ્ત ૨-પેજ A5 આવૃત્તિ)
 - **લક્ષ્ય**: એક જ સુવાચ્ય પુસ્તકમાં ૨૦૩ નયોનો કન્સેપ્ટ રસપ્રદ, સ્વાદિષ્ટ, અલંકારિક અને સરળ શૈલીમાં રજૂ કરવો.
 - **પાના માળખું (Facing 2 Pages)**:
   - **ડાબું પાનું (પાનું ૧)**: નય વિવેચન (૪૫%), વ્યવહારિક જીવનમાં વિનિયોગ (૪૫%), કાવ્યાત્મક બોધસૂત્ર, સાધના-સંકેત (~૨૪૦-૩૩૦ શબ્દો).

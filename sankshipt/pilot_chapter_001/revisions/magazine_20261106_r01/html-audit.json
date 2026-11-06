@@ -1,0 +1,193 @@
+{
+  "pages": [
+    {
+      "id": "page-2",
+      "widthMM": 165.1,
+      "heightMM": 241.3,
+      "contentEndMM": 220.82,
+      "footerTopMM": 224.42,
+      "contentHeightMM": 207.3,
+      "scrollHeight": 912,
+      "clientHeight": 912,
+      "overlaps": []
+    },
+    {
+      "id": "page-3",
+      "widthMM": 165.1,
+      "heightMM": 241.3,
+      "contentEndMM": 220.65,
+      "footerTopMM": 224.42,
+      "contentHeightMM": 207.3,
+      "scrollHeight": 912,
+      "clientHeight": 912,
+      "overlaps": []
+    }
+  ],
+  "blocks": [
+    {
+      "id": "source-title",
+      "match": true
+    },
+    {
+      "id": "tattva-1-heading",
+      "match": true
+    },
+    {
+      "id": "tattva-1-subtitle",
+      "match": true
+    },
+    {
+      "id": "tattva-1-body",
+      "match": true
+    },
+    {
+      "id": "tattva-2-heading",
+      "match": true
+    },
+    {
+      "id": "tattva-2-subtitle",
+      "match": true
+    },
+    {
+      "id": "tattva-2-body",
+      "match": true
+    },
+    {
+      "id": "tattva-3-heading",
+      "match": true
+    },
+    {
+      "id": "tattva-3-subtitle",
+      "match": true
+    },
+    {
+      "id": "example-1",
+      "match": true
+    },
+    {
+      "id": "example-2",
+      "match": true
+    },
+    {
+      "id": "example-3",
+      "match": true
+    },
+    {
+      "id": "tattva-4-heading",
+      "match": true
+    },
+    {
+      "id": "tattva-4-subtitle",
+      "match": true
+    },
+    {
+      "id": "tattva-4-body",
+      "match": true
+    },
+    {
+      "id": "poem",
+      "match": true
+    },
+    {
+      "id": "practice",
+      "match": true
+    },
+    {
+      "id": "story-title",
+      "match": true
+    },
+    {
+      "id": "pipasa",
+      "match": true
+    },
+    {
+      "id": "paan",
+      "match": true
+    },
+    {
+      "id": "ekant",
+      "match": true
+    },
+    {
+      "id": "anekant",
+      "match": true
+    },
+    {
+      "id": "darshan-1",
+      "match": true
+    },
+    {
+      "id": "darshan-2",
+      "match": true
+    },
+    {
+      "id": "darshan-3",
+      "match": true
+    },
+    {
+      "id": "darshan-4",
+      "match": true
+    }
+  ],
+  "sourceOrderMatches": true,
+  "textCollisions": [],
+  "overflowingContainers": [],
+  "bodyType": {
+    "font": "\"Noto Sans Gujarati\", sans-serif",
+    "size": "14.6667px",
+    "lineHeight": "20.24px"
+  },
+  "images": [
+    {
+      "key": "K01_C001",
+      "complete": true,
+      "width": 1254,
+      "height": 1254,
+      "placementMM": 38
+    }
+  ],
+  "fonts": [
+    {
+      "family": "Anek Gujarati",
+      "weight": "400",
+      "status": "loaded"
+    },
+    {
+      "family": "Anek Gujarati",
+      "weight": "600",
+      "status": "loaded"
+    },
+    {
+      "family": "Anek Gujarati",
+      "weight": "700",
+      "status": "loaded"
+    },
+    {
+      "family": "Anek Gujarati",
+      "weight": "800",
+      "status": "loaded"
+    },
+    {
+      "family": "Noto Sans Gujarati",
+      "weight": "400",
+      "status": "loaded"
+    },
+    {
+      "family": "Noto Sans Gujarati",
+      "weight": "700",
+      "status": "loaded"
+    },
+    {
+      "family": "Noto Sans Devanagari",
+      "weight": "400",
+      "status": "loaded"
+    },
+    {
+      "family": "Noto Sans Devanagari",
+      "weight": "700",
+      "status": "unloaded"
+    }
+  ],
+  "problems": [],
+  "browserErrors": []
+}

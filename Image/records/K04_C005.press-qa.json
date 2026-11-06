@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K04_C005_chapter_035_anadinitya_paryayarthikanaya_katha_r01_press.png",
+  "sha256": "17a34ccf4bb0ca1607f98b452451ae19bbe84d1c5b2f635f5b751e608ef405a1",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.17032131946511195,
+  "white_fraction": 0.829678680534888,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

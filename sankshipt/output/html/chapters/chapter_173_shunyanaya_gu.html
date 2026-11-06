@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+  <meta charset="utf-8">
+  <title>૫. શૂન્યનય — નય-ચક્ષુ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+
+    @font-face {
+      font-family: 'Anek Gujarati';
+      font-style: normal;
+      font-weight: 400;
+      src: url('../../../../pilot_chapter_001/assets/fonts/AnekGujarati-Regular.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: 'Anek Gujarati';
+      font-style: normal;
+      font-weight: 600;
+      src: url('../../../../pilot_chapter_001/assets/fonts/AnekGujarati-SemiBold.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: 'Anek Gujarati';
+      font-style: normal;
+      font-weight: 700;
+      src: url('../../../../pilot_chapter_001/assets/fonts/AnekGujarati-Bold.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: 'Anek Gujarati';
+      font-style: normal;
+      font-weight: 800;
+      src: url('../../../../pilot_chapter_001/assets/fonts/AnekGujarati-ExtraBold.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: 'Noto Sans Gujarati';
+      font-style: normal;
+      font-weight: 400;
+      src: url('../../../../pilot_chapter_001/assets/fonts/NotoSansGujarati-Regular.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: 'Noto Sans Gujarati';
+      font-style: normal;
+      font-weight: 700;
+      src: url('../../../../pilot_chapter_001/assets/fonts/NotoSansGujarati-Bold.ttf') format('truetype');
+    }
+
+    @page {
+      size: 6.5in 9.5in;
+      margin: 0;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: #e9eaec;
+      font-family: 'Noto Sans Gujarati', sans-serif;
+      color: #1a1a1a;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .spread-container {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      padding: 24px 16px;
+      margin: 0 auto;
+    }
+
+    .page {
+      width: 6.5in;
+      height: 9.5in;
+      background: #ffffff;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+    }
+
+    @media print {
+      body {
+        background: none;
+      }
+      .spread-container {
+        padding: 0;
+        gap: 0;
+        display: block;
+      }
+      .page {
+        box-shadow: none;
+        page-break-after: always;
+        break-after: page;
+        float: none;
+      }
+    }
+
+    .page-even {
+      padding: 11.5mm 14mm 11.5mm 12.5mm;
+    }
+
+    .page-odd {
+      padding: 11.5mm 12.5mm 11.5mm 14mm;
+    }
+
+    .page-canvas {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+    }
+
+    /* Footers */
+    .running-footer {
+      margin-top: auto;
+      padding-top: 4.5pt;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 0.6pt solid #cfcfcf;
+      font-size: 9.2pt;
+      color: #555555;
+      position: relative;
+      z-index: 10;
+    }
+
+    .running-footer .page-num {
+      font-family: 'Noto Sans Gujarati', sans-serif;
+      font-weight: 700;
+      color: #111111;
+      font-size: 11.0pt;
+    }
+
+    .running-footer .footer-label {
+      display: flex;
+      align-items: center;
+      gap: 5pt;
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 500;
+    }
+
+    .running-footer .footer-book {
+      font-weight: 700;
+      color: #222222;
+    }
+
+    .running-footer .footer-sep {
+      color: #888888;
+    }
+
+    /* Chapter Masthead */
+    .chapter-masthead {
+      margin-bottom: 3.5pt;
+    }
+
+    .kicker-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2.5pt;
+    }
+
+    .khanda-pill {
+      background: #111111;
+      color: #ffffff;
+      padding: 2.2pt 6.5pt;
+      border-radius: 2pt;
+      font-size: 8.8pt;
+      font-weight: 700;
+      letter-spacing: 0.2pt;
+      display: inline-flex;
+      align-items: center;
+      gap: 4pt;
+    }
+
+    .khanda-pill-sub {
+      color: #b0b0b0;
+      font-weight: 500;
+      font-size: 8.2pt;
+      border-left: 0.6pt solid #555555;
+      padding-left: 4pt;
+    }
+
+    .category-tag {
+      font-size: 8.8pt;
+      color: #333333;
+      font-weight: 600;
+      border: 0.6pt solid #b0b0b0;
+      padding: 1.8pt 5.5pt;
+      border-radius: 2pt;
+      background: #f7f7f7;
+    }
+
+    .chapter-title-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      gap: 8pt;
+      margin-top: 1.5pt;
+      margin-bottom: 2pt;
+    }
+
+    .chapter-main-title {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 800;
+      font-size: 19.0pt;
+      line-height: 1.15;
+      color: #000000;
+      letter-spacing: -0.3pt;
+      margin: 0;
+      flex: 1;
+    }
+
+    .chapter-main-title.title-long {
+      font-size: 14.8pt;
+      line-height: 1.16;
+    }
+
+    .chapter-sub-meta-right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      text-align: right;
+      gap: 1.5pt;
+      flex-shrink: 0;
+      max-width: 50%;
+    }
+
+    .gu-general-term {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 700;
+      font-size: 11.2pt;
+      color: #111111;
+      line-height: 1.18;
+    }
+
+    .en-concept {
+      font-family: 'Cinzel', serif;
+      font-size: 8.0pt;
+      font-weight: 600;
+      color: #666666;
+      font-style: italic;
+      line-height: 1.18;
+      letter-spacing: 0.15pt;
+    }
+
+    .sutra-showcase {
+      margin-top: 2.5pt;
+      background: #f8f9fa;
+      border-left: 2.8pt solid #111111;
+      padding: 2pt 5.5pt;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 0 2pt 2pt 0;
+      gap: 8pt;
+    }
+
+    .sutra-devanagari {
+      font-family: 'Noto Sans Devanagari', 'Anek Devanagari', serif;
+      font-size: 9.8pt;
+      font-weight: 600;
+      color: #111111;
+      letter-spacing: 0.2pt;
+      line-height: 1.22;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .sutra-label {
+      font-size: 7.6pt;
+      font-weight: 600;
+      color: #666666;
+      text-transform: uppercase;
+      letter-spacing: 0.4pt;
+      flex-shrink: 0;
+    }
+
+    .section-ribbon {
+      display: flex;
+      align-items: center;
+      gap: 6pt;
+      margin-top: 2.5pt;
+      margin-bottom: 3.5pt;
+    }
+
+    .ribbon-badge {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 800;
+      font-size: 9.8pt;
+      color: #000000;
+      letter-spacing: 0.3pt;
+      display: flex;
+      align-items: center;
+      gap: 4.5pt;
+    }
+
+    .ribbon-badge::before {
+      content: "■";
+      font-size: 7.2pt;
+      color: #000000;
+    }
+
+    .ribbon-rule {
+      flex: 1;
+      height: 0.6pt;
+      background: #d8d8d8;
+    }
+
+    /* -------------------------------------------------------------
+       BEST GRAPHIC DESIGN: TATTVADHARA 4-CARD GRID
+       Harmonious Left-to-Right Reading Hierarchy, 11.0 pt Body
+       ------------------------------------------------------------- */
+    .tattva-infographic-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 5pt 8pt;
+      flex: 1;
+      margin-bottom: 3.5pt;
+      min-height: 0;
+    }
+
+    .tattva-card-shell {
+      position: relative;
+      background: #ffffff;
+      border: 0.75pt solid #c8cbcf;
+      border-radius: 4.5pt;
+      padding: 4.5pt 7pt;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 1.2pt 3pt rgba(0, 0, 0, 0.02);
+      z-index: 1;
+      overflow: hidden;
+    }
+
+    .card-top-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 5.5pt;
+      margin-bottom: 3.5pt;
+      padding-bottom: 2.2pt;
+      border-bottom: 0.6pt solid #e6e8eb;
+    }
+
+    .step-badge {
+      background: #111111;
+      color: #ffffff;
+      font-family: 'Anek Gujarati', sans-serif;
+      font-size: 8.5pt;
+      font-weight: 700;
+      padding: 1.5pt 4.2pt;
+      border-radius: 2.2pt;
+      letter-spacing: 0.2pt;
+      flex-shrink: 0;
+      line-height: 1.1;
+      margin-top: 1pt;
+    }
+
+    .card-header-titles {
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+    }
+
+    .card-main-heading {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 700;
+      font-size: 11.5pt;
+      color: #0d0d0d;
+      line-height: 1.15;
+    }
+
+    .card-sub-kicker {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 600;
+      font-size: 9.3pt;
+      color: #4b5563;
+      line-height: 1.18;
+    }
+
+    /* STRICT MANDATORY 11.0 PT BODY TEXT */
+    .card-body-text {
+      font-family: 'Noto Sans Gujarati', sans-serif;
+      font-size: 11.0pt !important;
+      line-height: 1.34;
+      color: #1f2937;
+      margin: 0;
+      text-align: justify;
+      hyphens: auto;
+      flex: 1;
+    }
+
+    .card-bullet-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      font-family: 'Noto Sans Gujarati', sans-serif;
+      font-size: 11.0pt !important;
+      line-height: 1.32;
+      color: #1f2937;
+    }
+
+    .card-bullet-list li {
+      position: relative;
+      padding-left: 9pt;
+      margin-bottom: 2pt;
+      text-align: justify;
+    }
+
+    .card-bullet-list li:last-child {
+      margin-bottom: 0;
+    }
+
+    .card-bullet-list li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      top: -0.5pt;
+      font-size: 9.5pt;
+      color: #333333;
+    }
+
+    .card-bullet-list strong {
+      font-family: 'Noto Sans Gujarati', sans-serif;
+      font-weight: 700;
+      color: #0d0d0d;
+    }
+
+    /* DUO-RIBBON (11.0 PT BODY) */
+    .bottom-ribbon-shell {
+      margin-top: 3.5pt;
+      background: #fafafa;
+      border: 0.6pt solid #d0d0d0;
+      border-left: 2.6pt solid #111111;
+      border-radius: 0 4pt 4pt 0;
+      padding: 3.5pt 7.5pt;
+      margin-bottom: 0;
+    }
+
+    .duo-ribbon-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12pt;
+      align-items: center;
+    }
+
+    .duo-col {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5pt;
+    }
+
+    .duo-divider-col {
+      border-left: 0.6pt solid #d8d8d8;
+      padding-left: 10pt;
+    }
+
+    .duo-label {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 700;
+      font-size: 9.0pt;
+      color: #333333;
+      letter-spacing: 0.3pt;
+      display: flex;
+      align-items: center;
+      gap: 3.5pt;
+    }
+
+    .kavya-quote {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 600;
+      font-size: 11.0pt !important;
+      line-height: 1.30;
+      color: #111111;
+      font-style: italic;
+      margin: 0;
+    }
+
+    .sadhana-statement {
+      font-family: 'Noto Sans Gujarati', sans-serif;
+      font-size: 10.6pt !important;
+      line-height: 1.32;
+      color: #222222;
+      margin: 0;
+      text-align: justify;
+    }
+
+    /* PAGE 3: KATHADHARA, VIVEKDHARA & DARSHANDHARA */
+    .top-story-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 3.0pt;
+      padding-bottom: 2.0pt;
+      border-bottom: 0.8pt solid #111111;
+    }
+
+    .top-story-header .story-kicker {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 700;
+      font-size: 10.5pt;
+      color: #111111;
+      letter-spacing: 0.3pt;
+    }
+
+    .top-story-header .story-title-main {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 700;
+      font-size: 11.2pt;
+      color: #111111;
+    }
+
+    .story-hero-split {
+      display: grid;
+      grid-template-columns: 115pt 1fr;
+      gap: 8pt;
+      margin-bottom: 3.0pt;
+    }
+
+    .story-artwork-box {
+      width: 115pt;
+      height: 78pt;
+      border: 0.6pt solid #c8c8c8;
+      background: #fafafa;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2.0pt;
+      border-radius: 2pt;
+      overflow: hidden;
+    }
+
+    .katha-art-img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+    }
+
+    .story-pipasa-article {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .pipasa-badge {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 700;
+      font-size: 8.5pt;
+      color: #111111;
+      border-bottom: 1.1pt solid #111111;
+      display: inline-block;
+      margin-bottom: 1.5pt;
+      padding-bottom: 0.5pt;
+      align-self: flex-start;
+    }
+
+    .story-pipasa-article p {
+      font-family: 'Noto Sans Gujarati', sans-serif;
+      font-size: 11.0pt !important;
+      line-height: 1.32;
+      color: #242424;
+      margin: 0;
+      text-align: justify;
+    }
+
+    .story-paan-article {
+      background: #f7f8f9;
+      border-left: 2.5pt solid #111111;
+      border-top: 0.6pt solid #cfcfcf;
+      border-right: 0.6pt solid #cfcfcf;
+      border-bottom: 0.6pt solid #cfcfcf;
+      padding: 3.0pt 6.5pt;
+      margin-bottom: 3.0pt;
+      border-radius: 0 3pt 3pt 0;
+    }
+
+    .story-paan-article p {
+      font-family: 'Noto Sans Gujarati', sans-serif;
+      font-size: 11.0pt !important;
+      line-height: 1.32;
+      color: #242424;
+      margin: 0;
+      text-align: justify;
+    }
+
+    .section-divider-title {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 700;
+      font-size: 10.2pt;
+      color: #111111;
+      margin-bottom: 2.0pt;
+      display: flex;
+      align-items: center;
+      gap: 4.5pt;
+    }
+
+    .section-divider-title::before {
+      content: "❖";
+      font-size: 8.0pt;
+      color: #111111;
+    }
+
+    .vivek-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 7pt;
+      margin-bottom: 2.5pt;
+    }
+
+    .vivek-card {
+      border: 0.6pt solid #cfcfcf;
+      border-radius: 3pt;
+      padding: 3.5pt 5.5pt;
+      background: #ffffff;
+    }
+
+    .vivek-card-title {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 700;
+      font-size: 9.8pt;
+      color: #111111;
+      padding-bottom: 1.2pt;
+      border-bottom: 0.6pt solid #e0e0e0;
+      margin-bottom: 2.0pt;
+    }
+
+    .vivek-card p {
+      font-family: 'Noto Sans Gujarati', sans-serif;
+      font-size: 10.6pt !important;
+      line-height: 1.32;
+      color: #242424;
+      margin: 0;
+      text-align: justify;
+    }
+
+    .darshan-section {
+      margin-top: auto;
+      border-top: 0.6pt solid #d0d0d0;
+      padding-top: 2.5pt;
+      margin-bottom: 1.0pt;
+    }
+
+    .darshan-header {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 700;
+      font-size: 10.5pt;
+      color: #111111;
+      margin-bottom: 2.0pt;
+      display: flex;
+      align-items: center;
+      gap: 4pt;
+    }
+
+    .darshan-pillars-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2.5pt 7pt;
+    }
+
+    .darshan-pillar-item {
+      font-family: 'Noto Sans Gujarati', sans-serif;
+      font-size: 10.2pt !important;
+      line-height: 1.30;
+      color: #242424;
+      text-align: justify;
+    }
+
+    .darshan-pillar-item strong {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 700;
+      color: #111111;
+    }
+
+  </style>
+</head>
+<body>
+
+<!-- =============================================================
+     CHAPTER: ૫. શૂન્યનય (PAGES 390 & 391)
+     ============================================================= -->
+<div class="spread-container" id="spread-K07_C005">
+
+  <!-- ==================== LEFT PAGE (390) ==================== -->
+  <section class="page page-even">
+    <div class="page-canvas">
+
+      <!-- Chapter Masthead -->
+      <div class="chapter-masthead">
+        <div class="kicker-row">
+          <div class="khanda-pill">
+            <span>એવંભૂત નય</span>
+            <span class="khanda-pill-sub">જ્ઞાનનય</span>
+          </div>
+          <div class="category-tag">મુખ્ય શ્રેણી: આધ્યાત્મિક નય</div>
+        </div>
+
+        <div class="chapter-title-row">
+          <h1 class="chapter-main-title">૫. શૂન્યનય</h1>
+          <div class="chapter-sub-meta-right">
+            <span class="gu-general-term">વસ્તુના સ્વરૂપને સમજવાની દ્રષ્ટિ</span>
+            <span class="en-concept">The Analytical Standpoint</span>
+          </div>
+        </div>
+
+        <div class="sutra-showcase">
+          <span class="sutra-devanagari">सर्वपरभावशून्यकेवलात्मबोधकः शून्यनयः</span>
+          <span class="sutra-label">મૂળ આગમિક લક્ષણ-સૂત્ર</span>
+        </div>
+      </div>
+
+      <!-- Section Ribbon -->
+      <div class="section-ribbon">
+        <span class="ribbon-badge">તત્વધારા</span>
+        <div class="ribbon-rule"></div>
+      </div>
+
+      <!-- Tattvadhara 4-Card Grid (Left-to-Right Natural Reading Axis, 11pt) -->
+      <div class="tattva-infographic-grid">
+        
+        <!-- 1. Rupak Drishti -->
+        <div class="tattva-card-shell tattva-card-1">
+          <div class="card-top-row">
+            <span class="step-badge">૦૧</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">રૂપક-દ્રષ્ટિ:</span>
+              <span class="card-sub-kicker">સ્ફટિક મણિ અને લાલ જાસૂસનું પ્રતિબિંબ</span>
+            </div>
+          </div>
+          <p class="card-body-text">એક પવિત્ર ધ્યાનીના હાથમાં એક શુદ્ધ, પારદર્શક સ્ફટિક મણિ રહેલો છે. જ્યારે તે મણિની નજીક લાલ જાસૂસનું પુષ્પ મૂકવામાં આવે છે, ત્યારે તે મણિ સર્વત્ર લાલ-ઘુમ્મટ જેવો ઝળહળી ઊઠે છે. અજ્ઞાની વ્યક્તિ એમ માની બેસે છે કે "આ મણિ પોતે લાલ રંગથી રંગાઈ ગયો છે!" પરંતુ જ્યારે પુષ્પને દૂર હટાવી લેવામાં આવે છે, ત્યારે જણાય છે કે તે સ્ફટિકમાં લાલ રંગનો એક સૂક્ષ્મ અણુ પણ કદી પ્રવેશ્યો નહોતો; તે તો પુષ્પના રંગથી સદાકાળ સર્વથા શૂન્ય જ હતો! તેવી જ રીતે આત્મામાં સંસારાવસ્થા દરમિયાન ક્રોધ, માન, માયા, લોભ અને કર્મપુદ્ગલોના અનેક પ્રતિબિંબો પડતા જણાય છે, છતાં વાસ્તવિક દ્રષ્ટિએ આત્મા તે તમામ પરભાવોથી સદા અલિપ્ત અને શૂન્ય છે. પરભાવોના અભાવની અપેક્ષાએ આત્માને કેવળ અને શૂન્ય જોતો દ્રષ્ટિકોણ એટલે 'શૂન્યનય'.</p>
+        </div>
+
+        <!-- 2. Swarup Srishti -->
+        <div class="tattva-card-shell tattva-card-2">
+          <div class="card-top-row">
+            <span class="step-badge">૦૨</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">સ્વરૂપ-સૃષ્ટિ:</span>
+              <span class="card-sub-kicker">પરભાવોનો સર્વથા નિષેધ અને પરમ નિર્લેપતા</span>
+            </div>
+          </div>
+          <p class="card-body-text">શૂન્યનય આત્માના અસ્તિત્વનો નાશ નથી કરતો, પણ આત્મામાંથી અહંકાર અને મમકારના કચરાને સાવ સાફ કરી દે છે. આત્મામાં રાગ નથી, દ્વેષ નથી, મોહ નથી, જન્મ કે મરણ નથી; તે તમામ પરભાવોથી કેવળ શૂન્ય છે. જ્યારે સાધક આ શૂન્યતાનો અનુભવ કરે છે, ત્યારે સંસારનો તમામ ભાર તેના ખભા પરથી ઊતરી જાય છે.</p>
+        </div>
+
+        <!-- 3. Vyavahar Pushti -->
+        <div class="tattva-card-shell tattva-card-3">
+          <div class="card-top-row">
+            <span class="step-badge">૦૩</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">વ્યવહાર-પૃષ્ટિ:</span>
+              <span class="card-sub-kicker">આધ્યાત્મિક વૈરાગ્ય અને નિર્લેપ ભાવ</span>
+            </div>
+          </div>
+          <ul class="card-bullet-list">
+            <li>પરભાવ-શૂન્યતા**: શરીરમાં રોગ કે પીડા હોય છતાં આત્મા તેનાથી સર્વથા અસ્પૃષ્ટ રહેવો.</li>
+            <li>સ્ફટિક-ભાવ**: જગતના રંગો સામે સાક્ષીભાવે નિર્લેપ રહેવું.</li>
+            <li>નિરાલંબ સ્થિતિ**: કોઈ પણ બાહ્ય ઉપાધિ આત્માનો ભાગ નથી તે શ્રદ્ધા.</li>
+          </ul>
+        </div>
+
+        <!-- 4. Marm Tushti -->
+        <div class="tattva-card-shell tattva-card-4">
+          <div class="card-top-row">
+            <span class="step-badge">૦૪</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">મર્મ-તુષ્ટિ:</span>
+              <span class="card-sub-kicker">શૂન્યતાના દ્વારે પૂર્ણતાનો સાક્ષાત્કાર</span>
+            </div>
+          </div>
+          <p class="card-body-text">આ નય પરભાવોથી ખાલી થઈને પોતાના શુદ્ધ સ્વરૂપમાં પૂર્ણપણે સ્થિર થવાનો માર્ગ બતાવે છે.</p>
+        </div>
+      </div>
+
+      <!-- Duo-Ribbon -->
+      <div class="bottom-ribbon-shell">
+        <div class="duo-ribbon-grid">
+          <div class="duo-col">
+            <span class="duo-label">• કાવ્યધારા</span>
+            <p class="kavya-quote">
+              સ્ફટિક મણિમાં રંગ નહિ, પુષ્પ તણો આભાસ;<br>
+              શૂન્યનયે પરભાવ ત્યજી, થાય આતમ પ્રકાશ.<br>
+              રાગ દ્વેષથી શૂન્ય હું, કેવળ જ્ઞાન સ્વરૂપ;<br>
+              નિર્લેપ આતમ ભાળતાં, પ્રગટે શાંતિ અનૂપ.
+            </p>
+          </div>
+          <div class="duo-col duo-divider-col">
+            <span class="duo-label">✦ સાધનાધારા</span>
+            <p class="sadhana-statement">પરભાવોથી ખાલી થઈને પોતાના શુદ્ધ સ્વરૂપમાં પૂર્ણપણે સ્થિર થવાનો માર્ગ બતાવે છે.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Running Footer: Left Page -->
+    <footer class="running-footer">
+      <span class="page-num">390</span>
+      <div class="footer-label">
+        <span class="footer-book">નય-ચક્ષુ</span>
+        <span class="footer-sep">|</span>
+        <span class="footer-sub">નયનું જ્ઞાન, સંશયનું સમાધાન</span>
+      </div>
+    </footer>
+  </section>
+
+
+  <!-- ==================== RIGHT PAGE (391) ==================== -->
+  <section class="page page-odd">
+    <div class="page-canvas">
+
+      <!-- Top Story Header Bar -->
+      <div class="top-story-header">
+        <span class="story-kicker">+ કથાધારા</span>
+        <span class="story-title-main">નવલિકા: અરીસો અને કાળી મેશનું ટીલું</span>
+      </div>
+
+      <!-- Split Story Hero: 1:1 Press Illustration + Pipasa -->
+      <div class="story-hero-split">
+        <div class="story-artwork-box">
+          <img class="katha-art-img" src="../../../../Image/press/K07_C005_chapter_173_shunyanaya_katha_r01_press.png" alt="અરીસો અને કાળી મેશનું ટીલું" loading="lazy">
+        </div>
+        <div class="story-pipasa-article">
+          <span class="pipasa-badge">પિપાસા</span>
+          <p>ચિત્રકુટ નગરના એક રાજમહેલમાં એક મોટો, અત્યંત સ્વચ્છ આયનો લટકાવેલો હતો. એક દિવસ મહેલમાં કામ કરતો સેવક શ્યામલ અરીસાની સફાઈ કરતો હતો. અકસ્માતે તેના હાથમાં લાગેલી કાળી મેશ અરીસાની સપાટી પર અડી ગઈ અને એક મોટો કાળો ડાઘ પડી ગયો. શ્યામલ ગભરાઈ ગયો: "અરેરે! આ કિંમતી અરીસો હંમેશ માટે કાળો થઈ ગયો! હવે આ કાચમાંથી કાળારાશ ક્યારેય નહીં જાય!" તે અરીસા તરફ જોઈને ધ્રૂજતો હતો અને રડવા લાગ્યો. તેના મનમાં ભય હતો કે અરીસાની શુદ્ધતા નષ્ટ થઈ ગઈ છે.</p>
+        </div>
+      </div>
+
+      <!-- Paan Block -->
+      <div class="story-paan-article">
+        <span class="pipasa-badge">પાન</span>
+        <p>તે સમયે મહેલના જ્ઞાની પ્રધાન ત્યાં આવી પહોંચ્યા. તેમણે શ્યામલને રડતો જોઈને પૂછ્યું: "શ્યામલ! તું કેમ આટલો ગભરાય છે?" શ્યામલે કહ્યું: "સ્વામી! આ અરીસો કાળો થઈ ગયો છે." પ્રધાને સ્મિત કરીને રેશમી રૂમાલ લીધો અને એક જ પળમાં કાચ પરથી મેશ લૂછી નાખી! અરીસો ફરીથી પહેલાં જેવો જ ઝળહળી ઊઠ્યો. પ્રધાને શ્યામલને સમજાવ્યું: "શ્યામલ! શૂન્યનયને જો! મેશ કાચની સપાટી પર માત્ર ચોંટી હતી, તે કાચની અંદર પ્રવેશી નહોતી! અરીસો તો સદા કાળાશથી શૂન્ય જ હતો. તેવી જ રીતે તારા આત્મા પર કર્મ અને ચિંતાઓની મેશ ભલે દેખાય, પણ તારો ચૈતન્ય આત્મા તે તમામ પાપ અને સંતાપથી સદાકાળ શૂન્ય અને અલિપ્ત છે!" આ સાંભળતાં જ શ્યામલના અંતરમાંથી ભયનો ભાર ઊતરી ગયો. તેણે પોતાની અંદર રહેલા અખંડ પવિત્ર આત્માનું સ્મરણ કર્યું અને તેનું મન સહજ શાંતિમાં ડૂબી ગયું.</p>
+      </div>
+
+      <!-- Vivekdhara Section -->
+      <div class="section-divider-title">વિવેકધારા</div>
+      <div class="vivek-container">
+        <div class="vivek-card">
+          <div class="vivek-card-title">એકાંત દર્શન (કદાગ્રહનો ગેરલાભ)</div>
+          <p>જો જીવ આત્માને સર્વથા શૂન્ય માનીને તેના જ્ઞાન, દર્શન અને આનંદ જેવા મૂળ ગુણોનો પણ લોપ કરી દે, તો તે બૌદ્ધ શૂન્યવાદમાં પતિત થઈ નાસ્તિક બની જાય છે. એક જ પાસાને પકડી રાખવાથી વસ્તુની સમગ્ર અનેકાંતમય સત્તા વિખંડિત થાય છે અને સાધક પોતાના જ એકાંગી આગ્રહના બંધનમાં ફસાઈને સાચી શાંતિ ગુમાવી બેસે છે.</p>
+        </div>
+        <div class="vivek-card">
+          <div class="vivek-card-title">અનેકાંત દર્શન (સમન્વયનું સૌંદર્ય)</div>
+          <p>આ નય પરભાવોની અપેક્ષાએ શૂન્ય અને સ્વભાવની અપેક્ષાએ સદ્ભાવવાન બતાવે છે, જેથી ચેતના પોતાના આત્મસ્વરૂપમાં સ્થિર થાય છે.</p>
+        </div>
+      </div>
+
+      <!-- Darshandhara Section (4 Rhyming Pillars) -->
+      <div class="darshan-section">
+        <div class="darshan-header">❖ દર્શનધારા</div>
+        <div class="darshan-pillars-grid">
+          <div class="darshan-pillar-item">
+            <strong>૧. નય-ઉન્મેષ:</strong> પરદ્રવ્ય, પરક્ષેત્ર, પરકાળ, પરભાવ, રાગ, દ્વેષ અને સર્વ જડ પુદ્ગલોની અપેક્ષાએ શુદ્ધ આત્મતત્વ સર્વથા શૂન્ય અર્થાત્ પરભાવ-રહિત છે તેવું ગહન આધ્યાત્મિક દર્શન કરવું તે આ નયનો મૌલિક ઉન્મેષ છે.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૨. પ્રાચીન-વિશેષ:</strong> આચાર્ય નાગાર્જુનનો માધ્યમિક <strong>શૂન્યતાવાદ</strong> સર્વ પર-ધર્મોના નિષેધ દ્વારા પરમ સત્યનું પ્રકાશન કરે છે; સાંખ્ય દર્શન પુરુષને પ્રકૃતિના સર્વ ત્રિગુણાત્મક ધર્મોથી સર્વથા શૂન્ય સ્થાપે છે.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૩. અર્વાચીન-પ્રવેશ:</strong> જેક્સ ડેરિડા (Derrida)નો વિખંડનવાદ (Deconstruction) દર્શાવે છે કે કોઈપણ વસ્તુમાં બાહ્ય અધ્યારોપો અને પૂર્વગ્રહોનું કોઈ શાશ્વત સ્થિર કેન્દ્ર હોતું નથી.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૪. સમન્વય-અશેષ:</strong> સ્યાદવાદ આ દર્શનોને શૂન્યનયમાં સાંકળી સ્થાપે છે કે આત્મા પરભાવોથી સર્વથા શૂન્ય હોવાથી જ સર્વ કર્મબંધનોમાંથી મુક્ત થઈને પોતાની પરમ પવિત્રતા સિદ્ધ કરે છે.
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Running Footer: Right Page -->
+    <footer class="running-footer">
+      <div class="footer-label">
+        <span class="footer-book">એવંભૂત નય</span>
+        <span class="footer-sep">|</span>
+        <span class="footer-sub">૫. શૂન્યનય</span>
+      </div>
+      <span class="page-num">391</span>
+    </footer>
+  </section>
+
+</div>
+
+</body>
+</html>

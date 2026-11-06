@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K03_C064_chapter_087_ashuddhasthula_rjusutrapratipadaka_vyavahara_katha_r01_press.png",
+  "sha256": "c961ed5ae9368c0be0bf484d4f553e4a4431499903e27ea62cecfcc01910a89d",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.14997240091674743,
+  "white_fraction": 0.8500275990832525,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

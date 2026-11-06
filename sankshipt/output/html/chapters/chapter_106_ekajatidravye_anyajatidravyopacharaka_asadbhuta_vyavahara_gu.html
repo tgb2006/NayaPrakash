@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+  <meta charset="utf-8">
+  <title>૮૧. એકજાતિ દ્રવ્યે અન્યજાતિ દ્રવ્યોપચારક અસદ્ભૂત વ્યવહાર — નય-ચક્ષુ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+
+    @font-face {
+      font-family: 'Anek Gujarati';
+      font-style: normal;
+      font-weight: 400;
+      src: url('../../../../pilot_chapter_001/assets/fonts/AnekGujarati-Regular.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: 'Anek Gujarati';
+      font-style: normal;
+      font-weight: 600;
+      src: url('../../../../pilot_chapter_001/assets/fonts/AnekGujarati-SemiBold.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: 'Anek Gujarati';
+      font-style: normal;
+      font-weight: 700;
+      src: url('../../../../pilot_chapter_001/assets/fonts/AnekGujarati-Bold.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: 'Anek Gujarati';
+      font-style: normal;
+      font-weight: 800;
+      src: url('../../../../pilot_chapter_001/assets/fonts/AnekGujarati-ExtraBold.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: 'Noto Sans Gujarati';
+      font-style: normal;
+      font-weight: 400;
+      src: url('../../../../pilot_chapter_001/assets/fonts/NotoSansGujarati-Regular.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: 'Noto Sans Gujarati';
+      font-style: normal;
+      font-weight: 700;
+      src: url('../../../../pilot_chapter_001/assets/fonts/NotoSansGujarati-Bold.ttf') format('truetype');
+    }
+
+    @page {
+      size: 6.5in 9.5in;
+      margin: 0;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: #e9eaec;
+      font-family: 'Noto Sans Gujarati', sans-serif;
+      color: #1a1a1a;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .spread-container {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      padding: 24px 16px;
+      margin: 0 auto;
+    }
+
+    .page {
+      width: 6.5in;
+      height: 9.5in;
+      background: #ffffff;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+    }
+
+    @media print {
+      body {
+        background: none;
+      }
+      .spread-container {
+        padding: 0;
+        gap: 0;
+        display: block;
+      }
+      .page {
+        box-shadow: none;
+        page-break-after: always;
+        break-after: page;
+        float: none;
+      }
+    }
+
+    .page-even {
+      padding: 11.5mm 14mm 11.5mm 12.5mm;
+    }
+
+    .page-odd {
+      padding: 11.5mm 12.5mm 11.5mm 14mm;
+    }
+
+    .page-canvas {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+    }
+
+    /* Footers */
+    .running-footer {
+      margin-top: auto;
+      padding-top: 4.5pt;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 0.6pt solid #cfcfcf;
+      font-size: 9.2pt;
+      color: #555555;
+      position: relative;
+      z-index: 10;
+    }
+
+    .running-footer .page-num {
+      font-family: 'Noto Sans Gujarati', sans-serif;
+      font-weight: 700;
+      color: #111111;
+      font-size: 11.0pt;
+    }
+
+    .running-footer .footer-label {
+      display: flex;
+      align-items: center;
+      gap: 5pt;
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 500;
+    }
+
+    .running-footer .footer-book {
+      font-weight: 700;
+      color: #222222;
+    }
+
+    .running-footer .footer-sep {
+      color: #888888;
+    }
+
+    /* Chapter Masthead */
+    .chapter-masthead {
+      margin-bottom: 3.5pt;
+    }
+
+    .kicker-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2.5pt;
+    }
+
+    .khanda-pill {
+      background: #111111;
+      color: #ffffff;
+      padding: 2.2pt 6.5pt;
+      border-radius: 2pt;
+      font-size: 8.8pt;
+      font-weight: 700;
+      letter-spacing: 0.2pt;
+      display: inline-flex;
+      align-items: center;
+      gap: 4pt;
+    }
+
+    .khanda-pill-sub {
+      color: #b0b0b0;
+      font-weight: 500;
+      font-size: 8.2pt;
+      border-left: 0.6pt solid #555555;
+      padding-left: 4pt;
+    }
+
+    .category-tag {
+      font-size: 8.8pt;
+      color: #333333;
+      font-weight: 600;
+      border: 0.6pt solid #b0b0b0;
+      padding: 1.8pt 5.5pt;
+      border-radius: 2pt;
+      background: #f7f7f7;
+    }
+
+    .chapter-title-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      gap: 8pt;
+      margin-top: 1.5pt;
+      margin-bottom: 2pt;
+    }
+
+    .chapter-main-title {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 800;
+      font-size: 19.0pt;
+      line-height: 1.15;
+      color: #000000;
+      letter-spacing: -0.3pt;
+      margin: 0;
+      flex: 1;
+    }
+
+    .chapter-main-title.title-long {
+      font-size: 14.8pt;
+      line-height: 1.16;
+    }
+
+    .chapter-sub-meta-right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      text-align: right;
+      gap: 1.5pt;
+      flex-shrink: 0;
+      max-width: 50%;
+    }
+
+    .gu-general-term {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 700;
+      font-size: 11.2pt;
+      color: #111111;
+      line-height: 1.18;
+    }
+
+    .en-concept {
+      font-family: 'Cinzel', serif;
+      font-size: 8.0pt;
+      font-weight: 600;
+      color: #666666;
+      font-style: italic;
+      line-height: 1.18;
+      letter-spacing: 0.15pt;
+    }
+
+    .sutra-showcase {
+      margin-top: 2.5pt;
+      background: #f8f9fa;
+      border-left: 2.8pt solid #111111;
+      padding: 2pt 5.5pt;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 0 2pt 2pt 0;
+      gap: 8pt;
+    }
+
+    .sutra-devanagari {
+      font-family: 'Noto Sans Devanagari', 'Anek Devanagari', serif;
+      font-size: 9.8pt;
+      font-weight: 600;
+      color: #111111;
+      letter-spacing: 0.2pt;
+      line-height: 1.22;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .sutra-label {
+      font-size: 7.6pt;
+      font-weight: 600;
+      color: #666666;
+      text-transform: uppercase;
+      letter-spacing: 0.4pt;
+      flex-shrink: 0;
+    }
+
+    .section-ribbon {
+      display: flex;
+      align-items: center;
+      gap: 6pt;
+      margin-top: 2.5pt;
+      margin-bottom: 3.5pt;
+    }
+
+    .ribbon-badge {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 800;
+      font-size: 9.8pt;
+      color: #000000;
+      letter-spacing: 0.3pt;
+      display: flex;
+      align-items: center;
+      gap: 4.5pt;
+    }
+
+    .ribbon-badge::before {
+      content: "■";
+      font-size: 7.2pt;
+      color: #000000;
+    }
+
+    .ribbon-rule {
+      flex: 1;
+      height: 0.6pt;
+      background: #d8d8d8;
+    }
+
+    /* -------------------------------------------------------------
+       BEST GRAPHIC DESIGN: TATTVADHARA 4-CARD GRID
+       Harmonious Left-to-Right Reading Hierarchy, 11.0 pt Body
+       ------------------------------------------------------------- */
+    .tattva-infographic-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 5pt 8pt;
+      flex: 1;
+      margin-bottom: 3.5pt;
+      min-height: 0;
+    }
+
+    .tattva-card-shell {
+      position: relative;
+      background: #ffffff;
+      border: 0.75pt solid #c8cbcf;
+      border-radius: 4.5pt;
+      padding: 4.5pt 7pt;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 1.2pt 3pt rgba(0, 0, 0, 0.02);
+      z-index: 1;
+      overflow: hidden;
+    }
+
+    .card-top-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 5.5pt;
+      margin-bottom: 3.5pt;
+      padding-bottom: 2.2pt;
+      border-bottom: 0.6pt solid #e6e8eb;
+    }
+
+    .step-badge {
+      background: #111111;
+      color: #ffffff;
+      font-family: 'Anek Gujarati', sans-serif;
+      font-size: 8.5pt;
+      font-weight: 700;
+      padding: 1.5pt 4.2pt;
+      border-radius: 2.2pt;
+      letter-spacing: 0.2pt;
+      flex-shrink: 0;
+      line-height: 1.1;
+      margin-top: 1pt;
+    }
+
+    .card-header-titles {
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+    }
+
+    .card-main-heading {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 700;
+      font-size: 11.5pt;
+      color: #0d0d0d;
+      line-height: 1.15;
+    }
+
+    .card-sub-kicker {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 600;
+      font-size: 9.3pt;
+      color: #4b5563;
+      line-height: 1.18;
+    }
+
+    /* STRICT MANDATORY 11.0 PT BODY TEXT */
+    .card-body-text {
+      font-family: 'Noto Sans Gujarati', sans-serif;
+      font-size: 11.0pt !important;
+      line-height: 1.34;
+      color: #1f2937;
+      margin: 0;
+      text-align: justify;
+      hyphens: auto;
+      flex: 1;
+    }
+
+    .card-bullet-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      font-family: 'Noto Sans Gujarati', sans-serif;
+      font-size: 11.0pt !important;
+      line-height: 1.32;
+      color: #1f2937;
+    }
+
+    .card-bullet-list li {
+      position: relative;
+      padding-left: 9pt;
+      margin-bottom: 2pt;
+      text-align: justify;
+    }
+
+    .card-bullet-list li:last-child {
+      margin-bottom: 0;
+    }
+
+    .card-bullet-list li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      top: -0.5pt;
+      font-size: 9.5pt;
+      color: #333333;
+    }
+
+    .card-bullet-list strong {
+      font-family: 'Noto Sans Gujarati', sans-serif;
+      font-weight: 700;
+      color: #0d0d0d;
+    }
+
+    /* DUO-RIBBON (11.0 PT BODY) */
+    .bottom-ribbon-shell {
+      margin-top: 3.5pt;
+      background: #fafafa;
+      border: 0.6pt solid #d0d0d0;
+      border-left: 2.6pt solid #111111;
+      border-radius: 0 4pt 4pt 0;
+      padding: 3.5pt 7.5pt;
+      margin-bottom: 0;
+    }
+
+    .duo-ribbon-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12pt;
+      align-items: center;
+    }
+
+    .duo-col {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5pt;
+    }
+
+    .duo-divider-col {
+      border-left: 0.6pt solid #d8d8d8;
+      padding-left: 10pt;
+    }
+
+    .duo-label {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 700;
+      font-size: 9.0pt;
+      color: #333333;
+      letter-spacing: 0.3pt;
+      display: flex;
+      align-items: center;
+      gap: 3.5pt;
+    }
+
+    .kavya-quote {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 600;
+      font-size: 11.0pt !important;
+      line-height: 1.30;
+      color: #111111;
+      font-style: italic;
+      margin: 0;
+    }
+
+    .sadhana-statement {
+      font-family: 'Noto Sans Gujarati', sans-serif;
+      font-size: 10.6pt !important;
+      line-height: 1.32;
+      color: #222222;
+      margin: 0;
+      text-align: justify;
+    }
+
+    /* PAGE 3: KATHADHARA, VIVEKDHARA & DARSHANDHARA */
+    .top-story-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 3.0pt;
+      padding-bottom: 2.0pt;
+      border-bottom: 0.8pt solid #111111;
+    }
+
+    .top-story-header .story-kicker {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 700;
+      font-size: 10.5pt;
+      color: #111111;
+      letter-spacing: 0.3pt;
+    }
+
+    .top-story-header .story-title-main {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 700;
+      font-size: 11.2pt;
+      color: #111111;
+    }
+
+    .story-hero-split {
+      display: grid;
+      grid-template-columns: 115pt 1fr;
+      gap: 8pt;
+      margin-bottom: 3.0pt;
+    }
+
+    .story-artwork-box {
+      width: 115pt;
+      height: 78pt;
+      border: 0.6pt solid #c8c8c8;
+      background: #fafafa;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2.0pt;
+      border-radius: 2pt;
+      overflow: hidden;
+    }
+
+    .katha-art-img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+    }
+
+    .story-pipasa-article {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .pipasa-badge {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 700;
+      font-size: 8.5pt;
+      color: #111111;
+      border-bottom: 1.1pt solid #111111;
+      display: inline-block;
+      margin-bottom: 1.5pt;
+      padding-bottom: 0.5pt;
+      align-self: flex-start;
+    }
+
+    .story-pipasa-article p {
+      font-family: 'Noto Sans Gujarati', sans-serif;
+      font-size: 11.0pt !important;
+      line-height: 1.32;
+      color: #242424;
+      margin: 0;
+      text-align: justify;
+    }
+
+    .story-paan-article {
+      background: #f7f8f9;
+      border-left: 2.5pt solid #111111;
+      border-top: 0.6pt solid #cfcfcf;
+      border-right: 0.6pt solid #cfcfcf;
+      border-bottom: 0.6pt solid #cfcfcf;
+      padding: 3.0pt 6.5pt;
+      margin-bottom: 3.0pt;
+      border-radius: 0 3pt 3pt 0;
+    }
+
+    .story-paan-article p {
+      font-family: 'Noto Sans Gujarati', sans-serif;
+      font-size: 11.0pt !important;
+      line-height: 1.32;
+      color: #242424;
+      margin: 0;
+      text-align: justify;
+    }
+
+    .section-divider-title {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 700;
+      font-size: 10.2pt;
+      color: #111111;
+      margin-bottom: 2.0pt;
+      display: flex;
+      align-items: center;
+      gap: 4.5pt;
+    }
+
+    .section-divider-title::before {
+      content: "❖";
+      font-size: 8.0pt;
+      color: #111111;
+    }
+
+    .vivek-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 7pt;
+      margin-bottom: 2.5pt;
+    }
+
+    .vivek-card {
+      border: 0.6pt solid #cfcfcf;
+      border-radius: 3pt;
+      padding: 3.5pt 5.5pt;
+      background: #ffffff;
+    }
+
+    .vivek-card-title {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 700;
+      font-size: 9.8pt;
+      color: #111111;
+      padding-bottom: 1.2pt;
+      border-bottom: 0.6pt solid #e0e0e0;
+      margin-bottom: 2.0pt;
+    }
+
+    .vivek-card p {
+      font-family: 'Noto Sans Gujarati', sans-serif;
+      font-size: 10.6pt !important;
+      line-height: 1.32;
+      color: #242424;
+      margin: 0;
+      text-align: justify;
+    }
+
+    .darshan-section {
+      margin-top: auto;
+      border-top: 0.6pt solid #d0d0d0;
+      padding-top: 2.5pt;
+      margin-bottom: 1.0pt;
+    }
+
+    .darshan-header {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 700;
+      font-size: 10.5pt;
+      color: #111111;
+      margin-bottom: 2.0pt;
+      display: flex;
+      align-items: center;
+      gap: 4pt;
+    }
+
+    .darshan-pillars-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2.5pt 7pt;
+    }
+
+    .darshan-pillar-item {
+      font-family: 'Noto Sans Gujarati', sans-serif;
+      font-size: 10.2pt !important;
+      line-height: 1.30;
+      color: #242424;
+      text-align: justify;
+    }
+
+    .darshan-pillar-item strong {
+      font-family: 'Anek Gujarati', sans-serif;
+      font-weight: 700;
+      color: #111111;
+    }
+
+  </style>
+</head>
+<body>
+
+<!-- =============================================================
+     CHAPTER: ૮૧. એકજાતિ દ્રવ્યે અન્યજાતિ દ્રવ્યોપચારક અસદ્ભૂત વ્યવહાર (PAGES 204 & 205)
+     ============================================================= -->
+<div class="spread-container" id="spread-K03_C081">
+
+  <!-- ==================== LEFT PAGE (204) ==================== -->
+  <section class="page page-even">
+    <div class="page-canvas">
+
+      <!-- Chapter Masthead -->
+      <div class="chapter-masthead">
+        <div class="kicker-row">
+          <div class="khanda-pill">
+            <span>વ્યવહાર નય</span>
+            <span class="khanda-pill-sub">અસદ્ભૂત વ્યવહાર</span>
+          </div>
+          <div class="category-tag">મુખ્ય શ્રેણી: ઉપચાર</div>
+        </div>
+
+        <div class="chapter-title-row">
+          <h1 class="chapter-main-title title-long">૮૧. એકજાતિ દ્રવ્યે અન્યજાતિ દ્રવ્યોપચારક અસદ્ભૂત વ્યવહાર</h1>
+          <div class="chapter-sub-meta-right">
+            <span class="gu-general-term">ભેદ અને પ્રયોજન સાધવાની દ્રષ્ટિ</span>
+            <span class="en-concept">The Practical Standpoint: Differentiation</span>
+          </div>
+        </div>
+
+        <div class="sutra-showcase">
+          <span class="sutra-devanagari">शरीरेजीवोपचारप्रतिपादकः एकजातिद्रव्येअन्यजातिद्रव्योपचारकअसद्भूतव्यवहारः</span>
+          <span class="sutra-label">મૂળ આગમિક લક્ષણ-સૂત્ર</span>
+        </div>
+      </div>
+
+      <!-- Section Ribbon -->
+      <div class="section-ribbon">
+        <span class="ribbon-badge">તત્વધારા</span>
+        <div class="ribbon-rule"></div>
+      </div>
+
+      <!-- Tattvadhara 4-Card Grid (Left-to-Right Natural Reading Axis, 11pt) -->
+      <div class="tattva-infographic-grid">
+        
+        <!-- 1. Rupak Drishti -->
+        <div class="tattva-card-shell tattva-card-1">
+          <div class="card-top-row">
+            <span class="step-badge">૦૧</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">રૂપક-દ્રષ્ટિ:</span>
+              <span class="card-sub-kicker">માટીના પૂતળામાં બેઠેલા રાજાને જોઈને પૂતળાને જ 'રાજા' કહેવો</span>
+            </div>
+          </div>
+          <p class="card-body-text">એક ઉત્સવમાં સોનાની પાલખીમાં રાજા બિરાજેલા છે. લોકો પાલખીને જોઈને દૂરથી કહે છે: "જુઓ, પેલો રાજા જાય છે!" વાસ્તવમાં લાકડું અને સોનું એ પાલખી (પુદ્ગલ) છે અને રાજા (ચેતન) તેમાં કેવળ બિરાજમાન છે; છતાં પાલખીને રાજા કહી દેવો તે ઉપચાર છે. તેવી જ રીતે જ્યારે એક જાતિના જડ પુદ્ગલ દ્રવ્યરૂપ આ પંચમહાભૂતના શરીરને અન્ય જાતિના ચેતન આત્મા સાથે એટલું એકાકાર માનીને — <em>"આ શરીર જ જીવ છે, આ હાડ-માંસનો દેહ જીવે છે, હું ગોરો છું, હું લાંબો છું"</em> — એમ પુદ્ગલ દ્રવ્યમાં જીવ દ્રવ્યનો ઉપચાર કરીને વાણી દ્વારા વ્યવહાર કરવો તે 'એકજાતિ દ્રવ્યે અન્યજાતિ દ્રવ્યોપચારક અસદ્ભૂત વ્યવહાર' કહેવાય છે.</p>
+        </div>
+
+        <!-- 2. Swarup Srishti -->
+        <div class="tattva-card-shell tattva-card-2">
+          <div class="card-top-row">
+            <span class="step-badge">૦૨</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">સ્વરૂપ-સૃષ્ટિ:</span>
+              <span class="card-sub-kicker">અસદ્ભૂત વ્યવહારનું પ્રથમ પગથિયું</span>
+            </div>
+          </div>
+          <p class="card-body-text">'અસદ્ભૂત' એટલે જે વસ્તુ આત્મામાં સત્ (હાજર) નથી. શરીર પુદ્ગલ છે, આત્મા નથી. છતાં લૌકિક વ્યવહાર આ ઉપચાર વગર ચાલી શકતો નથી. ડૉક્ટર જ્યારે દર્દીને તપાસે છે ત્યારે શરીરને તપાસીને કહે છે: "જીવ બચી ગયો!" આ વ્યવહાર સંસારના સમગ્ર લૌકિક કાર્યક્રમોનો આધાર છે.</p>
+        </div>
+
+        <!-- 3. Vyavahar Pushti -->
+        <div class="tattva-card-shell tattva-card-3">
+          <div class="card-top-row">
+            <span class="step-badge">૦૩</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">વ્યવહાર-પૃષ્ટિ:</span>
+              <span class="card-sub-kicker">લૌકિક જગતની અખંડ માન્યતાઓ</span>
+            </div>
+          </div>
+          <ul class="card-bullet-list">
+            <li>દેહ અને જીવનું એકત્વ**: "માણસ આવ્યો, માણસ ગયો, આ બાળક જન્મ્યું" — શરીરના જન્મ-મરણને જીવનું માનવું.</li>
+            <li>રૂપ-રંગનું આરોપણ**: શરીર ગોરું છે પણ લોકો કહે છે: "હું સુંદર છું."</li>
+            <li>રોગ અને ઉપચાર**: શરીરને તાવ આવે અને કહેવું: "હું બીમાર છું."</li>
+          </ul>
+        </div>
+
+        <!-- 4. Marm Tushti -->
+        <div class="tattva-card-shell tattva-card-4">
+          <div class="card-top-row">
+            <span class="step-badge">૦૪</span>
+            <div class="card-header-titles">
+              <span class="card-main-heading">મર્મ-તુષ્ટિ:</span>
+              <span class="card-sub-kicker">દેહાધ્યાસમાંથી મુક્ત થવાની ચાવી</span>
+            </div>
+          </div>
+          <p class="card-body-text">જ્યારે સાધક ઓળખે છે કે આ કેવળ અસદ્ભૂત ઉપચાર છે, ત્યારે તે શરીરના રોગ, વૃદ્ધાવસ્થા કે મૃત્યુથી નિર્ભય બનીને આત્મસ્વરૂપમાં સ્થિર થાય છે!</p>
+        </div>
+      </div>
+
+      <!-- Duo-Ribbon -->
+      <div class="bottom-ribbon-shell">
+        <div class="duo-ribbon-grid">
+          <div class="duo-col">
+            <span class="duo-label">• કાવ્યધારા</span>
+            <p class="kavya-quote">
+              શરીર પુદ્ગલ જાતિ છે, ચેતન આતમ રૂપ;<br>
+              દેહ મધ્યે જીવ વદે, વ્યવહારે જગ ભૂપ.<br>
+              અસદ્ભૂત ઉપચારથી, ચાલે સંસારી ખેલ;<br>
+              ભેદવિજ્ઞાને છૂટશે, દેહ આતમનો મેળ.
+            </p>
+          </div>
+          <div class="duo-col duo-divider-col">
+            <span class="duo-label">✦ સાધનાધારા</span>
+            <p class="sadhana-statement">જ્યારે સાધક ઓળખે છે કે આ કેવળ અસદ્ભૂત ઉપચાર છે, ત્યારે તે શરીરના રોગ, વૃદ્ધાવસ્થા કે મૃત્યુથી નિર્ભય બનીને આત્મસ્વરૂપમાં સ્થિર થાય છે.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Running Footer: Left Page -->
+    <footer class="running-footer">
+      <span class="page-num">204</span>
+      <div class="footer-label">
+        <span class="footer-book">નય-ચક્ષુ</span>
+        <span class="footer-sep">|</span>
+        <span class="footer-sub">નયનું જ્ઞાન, સંશયનું સમાધાન</span>
+      </div>
+    </footer>
+  </section>
+
+
+  <!-- ==================== RIGHT PAGE (205) ==================== -->
+  <section class="page page-odd">
+    <div class="page-canvas">
+
+      <!-- Top Story Header Bar -->
+      <div class="top-story-header">
+        <span class="story-kicker">+ કથાધારા</span>
+        <span class="story-title-main">નવલિકા: સોનાની પાલખી અને રાજાની સવારી</span>
+      </div>
+
+      <!-- Split Story Hero: 1:1 Press Illustration + Pipasa -->
+      <div class="story-hero-split">
+        <div class="story-artwork-box">
+          <img class="katha-art-img" src="../../../../Image/press/K03_C081_chapter_106_ekajatidravye_anyajatidravyopacharaka_asadbhuta_vyavahara_katha_r01_press.png" alt="સોનાની પાલખી અને રાજાની સવારી" loading="lazy">
+        </div>
+        <div class="story-pipasa-article">
+          <span class="pipasa-badge">પિપાસા</span>
+          <p>ધર્મક્ષેત્રના એક વિચારશીલ યુવાન ધર્મપાલના મનમાં એક ભારે દ્વિધા જાગી હતી: "જો શરીર પુદ્ગલ છે અને આત્મા ચેતન છે, તો પછી સમગ્ર જગતના લોકો શરીરને જ 'હું' કેમ માને છે? જ્યારે કોઈ પૂછે કે 'તમે કોણ છો?' ત્યારે આપણે કહીએ છીએ કે 'હું ધર્મપાલ છું, હું ગોરો છું, હું યુવાન છું!' આ બધા શબ્દો તો શરીરના છે. તો શું આપણે આખો દિવસ જૂઠું જ બોલીએ છીએ? આ વ્યવહાર સાચો છે કે ખોટો?" ધર્મપાલ આ પ્રશ્નના કારણે પોતાના વ્યવહારિક જીવનમાં સંકોચ અનુભવવા લાગ્યા હતા.</p>
+        </div>
+      </div>
+
+      <!-- Paan Block -->
+      <div class="story-paan-article">
+        <span class="pipasa-badge">પાન</span>
+        <p>તે જ સમયે નગરમાં રાજાની ભવ્ય સવારી નીકળી. રાજા એક વિશાળ હાથી પર શણગારેલી અંબાડીમાં બિરાજમાન હતા. પ્રજાજનો જોરશોરથી જયજયકાર કરતા હતા: "મહારાજાધિરાજ પધાર્યા! રાજા જાય છે!" સંઘના પ્રખર મુનિરાજ વિવેકસૂરિજીએ ધર્મપાલને પૂછ્યું, "ધર્મપાલ, આ લોકો કોનો જયજયકાર કરે છે?" ધર્મપાલે કહ્યું, "રાજાનો." મુનિશ્રીએ પૂછ્યું, "પણ લોકો તો હાથી અને સોનાની અંબાડીને જોઈને હાથ જોડે છે; શું હાથી અને અંબાડી પોતે રાજા છે?" ધર્મપાલ બોલ્યા, "ના મહારાજ! હાથી અને અંબાડી તો જડ વાહન છે, રાજા તો તેમાં બેઠેલા ચેતન પુરુષ છે; પરંતુ રાજા અંબાડીમાં બેઠા હોવાથી લોકો અંબાડીને જોઈને પણ 'રાજા પધાર્યા' કહે છે!" મુનિશ્રીએ સ્મિત સાથે કહ્યું, "બસ! એકજાતિ દ્રવ્યે અન્યજાતિ દ્રવ્યોપચારક અસદ્ભૂત વ્યવહાર આ જ રહસ્ય સમજાવે છે! આ શરીર અંબાડી જેવું પુદ્ગલ દ્રવ્ય છે અને આત્મા તેમાં બેઠેલો રાજા જેવો ચેતન છે! સંસારમાં જ્યાં સુધી આત્મા શરીરમાં બેઠો છે ત્યાં સુધી શરીરને 'જીવ' કહીને વ્યવહાર ચલાવવો અસત્ય નથી, પણ ઉપચારિત સત્ય છે! પરંતુ જ્ઞાની પુરુષ અંબાડી અને રાજાનો ભેદ સદા અંતરમાં જાળવી રાખે છે." મુનિશ્રીના આ તત્વબોધનું પાન કરતાં જ ધર્મપાલનો સંશય મટી ગયો અને તેમને વ્યવહાર અને નિશ્ચયનો સુંદર તાલમેલ સમજાઈ ગયો.</p>
+      </div>
+
+      <!-- Vivekdhara Section -->
+      <div class="section-divider-title">વિવેકધારા</div>
+      <div class="vivek-container">
+        <div class="vivek-card">
+          <div class="vivek-card-title">એકાંત દર્શન (કદાગ્રહનો ગેરલાભ)</div>
+          <p>જો આ નયને એકાંત સત્ય માનીને સાધક શરીરને જ સાચેસાચ આત્મા માની લે, તો તે ચાર્વાક ભૌતિકવાદી બનીને આત્માની અમરતા ખોઈ બેસે છે. પરદ્રવ્યો કે ક્ષણિક સંયોગોને જ સર્વસ્વ માની લેવાથી મમત્વ અને પરિગ્રહનો ભાર વધે છે, જે ચિત્તને સદા આકુળ-વ્યાકુળ રાખી આધ્યાત્મિક જાગૃતિને રૂંધી નાખે છે.</p>
+        </div>
+        <div class="vivek-card">
+          <div class="vivek-card-title">અનેકાંત દર્શન (સમન્વયનું સૌંદર્ય)</div>
+          <p>આ નય જ્યારે ભેદવિજ્ઞાન સાથે જોડાય છે, ત્યારે સાધક શરીરની સંભાળ કેવળ ધર્મસાધનાના વાહન તરીકે રાખીને અંતરમાં દેહથી સર્વથા ભિન્ન ચૈતન્યતત્વની ઉપાસના કરે છે. તે વ્યવહારિક સંયોગોની મર્યાદા દર્શાવીને પણ આંતરિક ગુણો પ્રગટાવવાની પ્રેરણા આપે છે, જેથી સાધક નિજ ચૈતન્ય સ્વરૂપમાં મહામૌનમાં અંતર્લીન થઈ જાય છે.</p>
+        </div>
+      </div>
+
+      <!-- Darshandhara Section (4 Rhyming Pillars) -->
+      <div class="darshan-section">
+        <div class="darshan-header">❖ દર્શનધારા</div>
+        <div class="darshan-pillars-grid">
+          <div class="darshan-pillar-item">
+            <strong>૧. નય-ઉન્મેષ:</strong> ચેતન આત્મામાં સર્વથા વિજાતીય એવા જડ ઔદારિક શરીર કે પુદ્ગલ દ્રવ્યનો ઉપચાર કરીને "આ શરીર જ હું છું" એવો વ્યવહાર બોલવો તે આ નયનો મૌલિક ઉન્મેષ છે.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૨. પ્રાચીન-વિશેષ:</strong> સાંખ્ય દર્શનનો <strong>અવિવેક ખ્યાતિવાદ</strong> પ્રકૃતિ અને પુરુષના પરસ્પર અધ્યારોપથી સંસાર બંધન સ્થાપે છે; વેદાંત દર્શન દેહમાં આત્મભ્રાંતિને માયા કહે છે.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૩. અર્વાચીન-પ્રવેશ:</strong> રેને દેકાર્ત (Descartes)નો <strong>દ્વૈતવાદ (Mind-Body Dualism)</strong> મન અને શરીર વચ્ચેના ગાઢ વ્યવહારિક સંવાદ અને પરસ્પરના ઉપચારને દાર્શનિક રીતે રજૂ કરે છે.
+          </div>
+          <div class="darshan-pillar-item">
+            <strong>૪. સમન્વય-અશેષ:</strong> સ્યાદવાદ આ દર્શનોને આ નયમાં સાંકળી સ્થાપે છે કે લૌકિક ઓળખ માટે શરીર-આત્માનો આ ઉપચાર અનિવાર્ય છે, પણ ભેદવિજ્ઞાન વડે આત્મા સર્વથા દેહાતીત છે.
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Running Footer: Right Page -->
+    <footer class="running-footer">
+      <div class="footer-label">
+        <span class="footer-book">વ્યવહાર નય</span>
+        <span class="footer-sep">|</span>
+        <span class="footer-sub">૮૧. એકજાતિ દ્રવ્યે અન્યજાતિ દ્રવ્યોપચારક અસદ્ભૂત વ્યવહાર</span>
+      </div>
+      <span class="page-num">205</span>
+    </footer>
+  </section>
+
+</div>
+
+</body>
+</html>

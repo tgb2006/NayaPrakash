@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K03_C044_chapter_069_1_gunagunibhedaka_paramashuddha_sadbhuta_vyavahara_katha_r01_press.png",
+  "sha256": "7af4b8523b642f917835d41e455c828ecccb81c5cf8d4a6c27c85eb9b802fef2",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.14382238400118028,
+  "white_fraction": 0.8561776159988197,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

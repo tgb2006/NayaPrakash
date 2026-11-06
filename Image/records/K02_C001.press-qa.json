@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K02_C001_chapter_004_para_sangraha_dravyarthika_naya_katha_r01_press.png",
+  "sha256": "8d04b37e0e0d7c2e1bc4e74d1c5da0f3856bd108714bfa3785d0039f96fe1656",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.21184649313584092,
+  "white_fraction": 0.7881535068641591,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

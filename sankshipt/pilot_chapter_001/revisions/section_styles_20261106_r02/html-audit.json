@@ -1,0 +1,839 @@
+[
+  {
+    "pages": [
+      {
+        "id": "page-2",
+        "widthMM": 165.1,
+        "heightMM": 241.3,
+        "contentEndMM": 221.71,
+        "footerTopMM": 224.42,
+        "scrollHeight": 912,
+        "clientHeight": 912,
+        "overlaps": []
+      },
+      {
+        "id": "page-3",
+        "widthMM": 165.1,
+        "heightMM": 241.3,
+        "contentEndMM": 217.96,
+        "footerTopMM": 224.42,
+        "scrollHeight": 912,
+        "clientHeight": 912,
+        "overlaps": []
+      }
+    ],
+    "blocks": [
+      {
+        "id": "source-title",
+        "match": true
+      },
+      {
+        "id": "tattva-1-heading",
+        "match": true
+      },
+      {
+        "id": "tattva-1-subtitle",
+        "match": true
+      },
+      {
+        "id": "tattva-1-body",
+        "match": true
+      },
+      {
+        "id": "tattva-2-heading",
+        "match": true
+      },
+      {
+        "id": "tattva-2-subtitle",
+        "match": true
+      },
+      {
+        "id": "tattva-2-body",
+        "match": true
+      },
+      {
+        "id": "tattva-3-heading",
+        "match": true
+      },
+      {
+        "id": "tattva-3-subtitle",
+        "match": true
+      },
+      {
+        "id": "example-1",
+        "match": true
+      },
+      {
+        "id": "example-2",
+        "match": true
+      },
+      {
+        "id": "example-3",
+        "match": true
+      },
+      {
+        "id": "tattva-4-heading",
+        "match": true
+      },
+      {
+        "id": "tattva-4-subtitle",
+        "match": true
+      },
+      {
+        "id": "tattva-4-body",
+        "match": true
+      },
+      {
+        "id": "poem",
+        "match": true
+      },
+      {
+        "id": "practice",
+        "match": true
+      },
+      {
+        "id": "story-title",
+        "match": true
+      },
+      {
+        "id": "pipasa",
+        "match": true
+      },
+      {
+        "id": "paan",
+        "match": true
+      },
+      {
+        "id": "ekant",
+        "match": true
+      },
+      {
+        "id": "anekant",
+        "match": true
+      },
+      {
+        "id": "darshan-1",
+        "match": true
+      },
+      {
+        "id": "darshan-2",
+        "match": true
+      },
+      {
+        "id": "darshan-3",
+        "match": true
+      },
+      {
+        "id": "darshan-4",
+        "match": true
+      }
+    ],
+    "sourceOrderMatches": true,
+    "headingStyles": [
+      {
+        "id": "tattva-title",
+        "text": "તત્વધારા",
+        "english": "THE PRINCIPLE",
+        "sizePt": 17,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "800",
+        "englishPt": 7.5
+      },
+      {
+        "id": "kavya-title",
+        "text": "કાવ્યધારા",
+        "english": "THE POETRY",
+        "sizePt": 17,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "800",
+        "englishPt": 7.5
+      },
+      {
+        "id": "sadhana-title",
+        "text": "સાધનાધારા",
+        "english": "THE PRACTICE",
+        "sizePt": 17,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "800",
+        "englishPt": 7.5
+      },
+      {
+        "id": "katha-title",
+        "text": "કથાધારા",
+        "english": "THE STORY",
+        "sizePt": 17,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "800",
+        "englishPt": 7.5
+      },
+      {
+        "id": "vivek-title",
+        "text": "વિવેકધારા",
+        "english": "THE DISCERNMENT",
+        "sizePt": 17,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "800",
+        "englishPt": 7.5
+      },
+      {
+        "id": "darshan-title",
+        "text": "દર્શનધારા",
+        "english": "THE PERSPECTIVE",
+        "sizePt": 17,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "800",
+        "englishPt": 7.5
+      }
+    ],
+    "subheadingStyles": [
+      {
+        "text": "રૂપક-દ્રષ્ટિ",
+        "sizePt": 13,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "700"
+      },
+      {
+        "text": "સ્વરૂપ-સૃષ્ટિ",
+        "sizePt": 13,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "700"
+      },
+      {
+        "text": "વ્યવહાર-પૃષ્ટિ",
+        "sizePt": 13,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "700"
+      },
+      {
+        "text": "મર્મ-તુષ્ટિ",
+        "sizePt": 13,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "700"
+      },
+      {
+        "text": "પિપાસા",
+        "sizePt": 13,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "700"
+      },
+      {
+        "text": "પાન",
+        "sizePt": 13,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "700"
+      },
+      {
+        "text": "એકાંત દર્શન",
+        "sizePt": 13,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "700"
+      },
+      {
+        "text": "અનેકાંત દર્શન",
+        "sizePt": 13,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "700"
+      },
+      {
+        "text": "૧. નય-ઉન્મેષ",
+        "sizePt": 13,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "700"
+      },
+      {
+        "text": "૨. પ્રાચીન-વિશેષ",
+        "sizePt": 13,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "700"
+      },
+      {
+        "text": "૩. અર્વાચીન-પ્રવેશ",
+        "sizePt": 13,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "700"
+      },
+      {
+        "text": "૪. સમન્વય-અશેષ",
+        "sizePt": 13,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "700"
+      }
+    ],
+    "textCollisions": [],
+    "overflowingContainers": [],
+    "images": [
+      {
+        "key": "K01_C001",
+        "loaded": true,
+        "placementMM": 32
+      }
+    ],
+    "rowColors": [
+      "rgba(0, 0, 0, 0)",
+      "rgb(237, 237, 237)",
+      "rgba(0, 0, 0, 0)",
+      "rgb(237, 237, 237)"
+    ],
+    "problems": [],
+    "kind": "a",
+    "browserErrors": []
+  },
+  {
+    "pages": [
+      {
+        "id": "page-2",
+        "widthMM": 165.1,
+        "heightMM": 241.3,
+        "contentEndMM": 221.71,
+        "footerTopMM": 224.42,
+        "scrollHeight": 912,
+        "clientHeight": 912,
+        "overlaps": []
+      },
+      {
+        "id": "page-3",
+        "widthMM": 165.1,
+        "heightMM": 241.3,
+        "contentEndMM": 217.17,
+        "footerTopMM": 224.42,
+        "scrollHeight": 912,
+        "clientHeight": 912,
+        "overlaps": []
+      }
+    ],
+    "blocks": [
+      {
+        "id": "source-title",
+        "match": true
+      },
+      {
+        "id": "tattva-1-heading",
+        "match": true
+      },
+      {
+        "id": "tattva-1-subtitle",
+        "match": true
+      },
+      {
+        "id": "tattva-1-body",
+        "match": true
+      },
+      {
+        "id": "tattva-2-heading",
+        "match": true
+      },
+      {
+        "id": "tattva-2-subtitle",
+        "match": true
+      },
+      {
+        "id": "tattva-2-body",
+        "match": true
+      },
+      {
+        "id": "tattva-3-heading",
+        "match": true
+      },
+      {
+        "id": "tattva-3-subtitle",
+        "match": true
+      },
+      {
+        "id": "example-1",
+        "match": true
+      },
+      {
+        "id": "example-2",
+        "match": true
+      },
+      {
+        "id": "example-3",
+        "match": true
+      },
+      {
+        "id": "tattva-4-heading",
+        "match": true
+      },
+      {
+        "id": "tattva-4-subtitle",
+        "match": true
+      },
+      {
+        "id": "tattva-4-body",
+        "match": true
+      },
+      {
+        "id": "poem",
+        "match": true
+      },
+      {
+        "id": "practice",
+        "match": true
+      },
+      {
+        "id": "story-title",
+        "match": true
+      },
+      {
+        "id": "pipasa",
+        "match": true
+      },
+      {
+        "id": "paan",
+        "match": true
+      },
+      {
+        "id": "ekant",
+        "match": true
+      },
+      {
+        "id": "anekant",
+        "match": true
+      },
+      {
+        "id": "darshan-1",
+        "match": true
+      },
+      {
+        "id": "darshan-2",
+        "match": true
+      },
+      {
+        "id": "darshan-3",
+        "match": true
+      },
+      {
+        "id": "darshan-4",
+        "match": true
+      }
+    ],
+    "sourceOrderMatches": true,
+    "headingStyles": [
+      {
+        "id": "tattva-title",
+        "text": "તત્વધારા",
+        "english": "THE PRINCIPLE",
+        "sizePt": 17,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "800",
+        "englishPt": 7.5
+      },
+      {
+        "id": "kavya-title",
+        "text": "કાવ્યધારા",
+        "english": "THE POETRY",
+        "sizePt": 17,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "800",
+        "englishPt": 7.5
+      },
+      {
+        "id": "sadhana-title",
+        "text": "સાધનાધારા",
+        "english": "THE PRACTICE",
+        "sizePt": 17,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "800",
+        "englishPt": 7.5
+      },
+      {
+        "id": "katha-title",
+        "text": "કથાધારા",
+        "english": "THE STORY",
+        "sizePt": 17,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "800",
+        "englishPt": 7.5
+      },
+      {
+        "id": "vivek-title",
+        "text": "વિવેકધારા",
+        "english": "THE DISCERNMENT",
+        "sizePt": 17,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "800",
+        "englishPt": 7.5
+      },
+      {
+        "id": "darshan-title",
+        "text": "દર્શનધારા",
+        "english": "THE PERSPECTIVE",
+        "sizePt": 17,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "800",
+        "englishPt": 7.5
+      }
+    ],
+    "subheadingStyles": [
+      {
+        "text": "રૂપક-દ્રષ્ટિ",
+        "sizePt": 13,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "700"
+      },
+      {
+        "text": "સ્વરૂપ-સૃષ્ટિ",
+        "sizePt": 13,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "700"
+      },
+      {
+        "text": "વ્યવહાર-પૃષ્ટિ",
+        "sizePt": 13,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "700"
+      },
+      {
+        "text": "મર્મ-તુષ્ટિ",
+        "sizePt": 13,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "700"
+      },
+      {
+        "text": "પિપાસા",
+        "sizePt": 13,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "700"
+      },
+      {
+        "text": "પાન",
+        "sizePt": 13,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "700"
+      },
+      {
+        "text": "એકાંત દર્શન",
+        "sizePt": 13,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "700"
+      },
+      {
+        "text": "અનેકાંત દર્શન",
+        "sizePt": 13,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "700"
+      },
+      {
+        "text": "૧. નય-ઉન્મેષ",
+        "sizePt": 13,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "700"
+      },
+      {
+        "text": "૨. પ્રાચીન-વિશેષ",
+        "sizePt": 13,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "700"
+      },
+      {
+        "text": "૩. અર્વાચીન-પ્રવેશ",
+        "sizePt": 13,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "700"
+      },
+      {
+        "text": "૪. સમન્વય-અશેષ",
+        "sizePt": 13,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "700"
+      }
+    ],
+    "textCollisions": [],
+    "overflowingContainers": [],
+    "images": [
+      {
+        "key": "K01_C001",
+        "loaded": true,
+        "placementMM": 32
+      }
+    ],
+    "rowColors": [
+      "rgba(0, 0, 0, 0)",
+      "rgb(237, 237, 237)",
+      "rgba(0, 0, 0, 0)",
+      "rgb(237, 237, 237)"
+    ],
+    "problems": [],
+    "kind": "b",
+    "browserErrors": []
+  },
+  {
+    "pages": [
+      {
+        "id": "page-2",
+        "widthMM": 165.1,
+        "heightMM": 241.3,
+        "contentEndMM": 221.71,
+        "footerTopMM": 224.42,
+        "scrollHeight": 912,
+        "clientHeight": 912,
+        "overlaps": []
+      },
+      {
+        "id": "page-3",
+        "widthMM": 165.1,
+        "heightMM": 241.3,
+        "contentEndMM": 217.96,
+        "footerTopMM": 224.42,
+        "scrollHeight": 912,
+        "clientHeight": 912,
+        "overlaps": []
+      }
+    ],
+    "blocks": [
+      {
+        "id": "source-title",
+        "match": true
+      },
+      {
+        "id": "tattva-1-heading",
+        "match": true
+      },
+      {
+        "id": "tattva-1-subtitle",
+        "match": true
+      },
+      {
+        "id": "tattva-1-body",
+        "match": true
+      },
+      {
+        "id": "tattva-2-heading",
+        "match": true
+      },
+      {
+        "id": "tattva-2-subtitle",
+        "match": true
+      },
+      {
+        "id": "tattva-2-body",
+        "match": true
+      },
+      {
+        "id": "tattva-3-heading",
+        "match": true
+      },
+      {
+        "id": "tattva-3-subtitle",
+        "match": true
+      },
+      {
+        "id": "example-1",
+        "match": true
+      },
+      {
+        "id": "example-2",
+        "match": true
+      },
+      {
+        "id": "example-3",
+        "match": true
+      },
+      {
+        "id": "tattva-4-heading",
+        "match": true
+      },
+      {
+        "id": "tattva-4-subtitle",
+        "match": true
+      },
+      {
+        "id": "tattva-4-body",
+        "match": true
+      },
+      {
+        "id": "poem",
+        "match": true
+      },
+      {
+        "id": "practice",
+        "match": true
+      },
+      {
+        "id": "story-title",
+        "match": true
+      },
+      {
+        "id": "pipasa",
+        "match": true
+      },
+      {
+        "id": "paan",
+        "match": true
+      },
+      {
+        "id": "ekant",
+        "match": true
+      },
+      {
+        "id": "anekant",
+        "match": true
+      },
+      {
+        "id": "darshan-1",
+        "match": true
+      },
+      {
+        "id": "darshan-2",
+        "match": true
+      },
+      {
+        "id": "darshan-3",
+        "match": true
+      },
+      {
+        "id": "darshan-4",
+        "match": true
+      }
+    ],
+    "sourceOrderMatches": true,
+    "headingStyles": [
+      {
+        "id": "tattva-title",
+        "text": "તત્વધારા",
+        "english": "THE PRINCIPLE",
+        "sizePt": 17,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "800",
+        "englishPt": 7.5
+      },
+      {
+        "id": "kavya-title",
+        "text": "કાવ્યધારા",
+        "english": "THE POETRY",
+        "sizePt": 17,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "800",
+        "englishPt": 7.5
+      },
+      {
+        "id": "sadhana-title",
+        "text": "સાધનાધારા",
+        "english": "THE PRACTICE",
+        "sizePt": 17,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "800",
+        "englishPt": 7.5
+      },
+      {
+        "id": "katha-title",
+        "text": "કથાધારા",
+        "english": "THE STORY",
+        "sizePt": 17,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "800",
+        "englishPt": 7.5
+      },
+      {
+        "id": "vivek-title",
+        "text": "વિવેકધારા",
+        "english": "THE DISCERNMENT",
+        "sizePt": 17,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "800",
+        "englishPt": 7.5
+      },
+      {
+        "id": "darshan-title",
+        "text": "દર્શનધારા",
+        "english": "THE PERSPECTIVE",
+        "sizePt": 17,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "800",
+        "englishPt": 7.5
+      }
+    ],
+    "subheadingStyles": [
+      {
+        "text": "રૂપક-દ્રષ્ટિ",
+        "sizePt": 13,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "700"
+      },
+      {
+        "text": "સ્વરૂપ-સૃષ્ટિ",
+        "sizePt": 13,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "700"
+      },
+      {
+        "text": "વ્યવહાર-પૃષ્ટિ",
+        "sizePt": 13,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "700"
+      },
+      {
+        "text": "મર્મ-તુષ્ટિ",
+        "sizePt": 13,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "700"
+      },
+      {
+        "text": "પિપાસા",
+        "sizePt": 13,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "700"
+      },
+      {
+        "text": "પાન",
+        "sizePt": 13,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "700"
+      },
+      {
+        "text": "એકાંત દર્શન",
+        "sizePt": 13,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "700"
+      },
+      {
+        "text": "અનેકાંત દર્શન",
+        "sizePt": 13,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "700"
+      },
+      {
+        "text": "નય-ઉન્મેષ",
+        "sizePt": 13,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "700"
+      },
+      {
+        "text": "પ્રાચીન-વિશેષ",
+        "sizePt": 13,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "700"
+      },
+      {
+        "text": "અર્વાચીન-પ્રવેશ",
+        "sizePt": 13,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "700"
+      },
+      {
+        "text": "સમન્વય-અશેષ",
+        "sizePt": 13,
+        "font": "\"Anek Gujarati\", sans-serif",
+        "weight": "700"
+      }
+    ],
+    "textCollisions": [],
+    "overflowingContainers": [],
+    "images": [
+      {
+        "key": "K01_C001",
+        "loaded": true,
+        "placementMM": 32
+      }
+    ],
+    "rowColors": [
+      "rgba(0, 0, 0, 0)",
+      "rgb(231, 231, 231)",
+      "rgba(0, 0, 0, 0)",
+      "rgb(231, 231, 231)"
+    ],
+    "problems": [],
+    "kind": "c",
+    "browserErrors": []
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K02_C003_chapter_006_paramashuddha_apara_sangraha_dravyarthika_naya_katha_r01_press.png",
+  "sha256": "16bd8845b2cfee1258eb5f962b9104f758f48dffa86403556a26933abd1de2f6",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.15422609372496052,
+  "white_fraction": 0.8457739062750395,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

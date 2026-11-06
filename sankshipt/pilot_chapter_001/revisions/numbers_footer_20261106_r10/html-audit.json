@@ -1,0 +1,29 @@
+{
+  "numbers": [
+    "૦૧",
+    "૦૨",
+    "૦૩",
+    "૦૪"
+  ],
+  "runningHeaders": 0,
+  "pages": [
+    {
+      "widthMM": 165.1,
+      "heightMM": 241.3,
+      "footerLeft": "૨",
+      "footerRight": "નય-ચક્ષુ | નયનું જ્ઞાન, સંશયનું સમાધાન",
+      "footerClearanceMM": 2.71
+    },
+    {
+      "widthMM": 165.1,
+      "heightMM": 241.3,
+      "footerLeft": "પ્રથમ ખંડ: નૈગમ નય",
+      "footerRight": "૩",
+      "footerClearanceMM": 2.41
+    }
+  ],
+  "textBlocks": 26,
+  "problems": [],
+  "browserErrors": [],
+  "otherContentUnchanged": true
+}

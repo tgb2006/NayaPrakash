@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K07_C009_chapter_177_niyatinaya_katha_r01_press.png",
+  "sha256": "5e1d54b5f50f031249e54e5bdbe6c8e47787a7200a0447a4435d676ec6c17ac1",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.3116763199865693,
+  "white_fraction": 0.6883236800134307,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

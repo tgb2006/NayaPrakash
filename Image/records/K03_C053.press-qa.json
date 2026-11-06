@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K03_C053_chapter_076_upadhisapeksha_ashuddha_dravyarthikapratipadaka_vyavahara_katha_r01_press.png",
+  "sha256": "c9bb0c5ee13f7a2e3806c7f1a8849cfa2a13c3185d1a940b3f0114cc18e396c6",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.17257058115783877,
+  "white_fraction": 0.8274294188421613,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

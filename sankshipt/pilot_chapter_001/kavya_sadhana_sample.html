@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+<meta charset="UTF-8">
+<title>કાવ્યધારા અને સાધનાધારા - સોબર આર્કિટેક્ચર સેમ્પલ</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Anek+Gujarati:wght@400;500;600;700&family=Noto+Sans+Gujarati:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Noto+Serif+Gujarati:wght@400;600;700&display=swap');
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background-color: #edebe6;
+    font-family: 'Noto Sans Gujarati', sans-serif;
+    color: #1a1a1a;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .canvas-page {
+    width: 680px;
+    background: #ffffff;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    border-radius: 4px;
+    padding: 24px 28px;
+    border: 1px solid #e2ddd5;
+  }
+
+  .section-title {
+    font-family: 'Anek Gujarati', sans-serif;
+    font-size: 13pt;
+    font-weight: 700;
+    color: #5a1a1a;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .design-badge {
+    font-size: 8.5pt;
+    font-weight: 600;
+    background: #f0e6df;
+    color: #7a2828;
+    padding: 2px 8px;
+    border-radius: 3px;
+    letter-spacing: 0.3px;
+  }
+
+  .context-desc {
+    font-size: 9.5pt;
+    color: #666;
+    margin-bottom: 16px;
+    line-height: 1.45;
+  }
+
+  /* ============================================================
+     VARIANT A: THE EDITORIAL HARMONY RIBBON (સર્વશ્રેષ્ઠ સોબર મોડેલ)
+     - No harsh boxes
+     - Soft top & bottom hairlines
+     - Gentle fading vertical hairline in center
+     ============================================================ */
+  .duo-ribbon-a {
+    background: #fbfaf7;
+    border-top: 1px solid #e5dfd5;
+    border-bottom: 1px solid #e5dfd5;
+    padding: 12px 16px;
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr;
+    gap: 16px;
+    align-items: center;
+    border-radius: 2px;
+  }
+
+  /* Center Vertical Subtle Hairline */
+  .hairline-divider-a {
+    width: 1px;
+    height: 80%;
+    background: linear-gradient(to bottom, transparent, #d8d0c5 20%, #d8d0c5 80%, transparent);
+    justify-self: center;
+  }
+
+  /* Left Side: કાવ્યધારા */
+  .stream-left {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .stream-kicker {
+    font-family: 'Anek Gujarati', sans-serif;
+    font-size: 8.5pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: #8c4a2f; /* Teracotta earthy tone */
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .stream-kicker::before {
+    content: "•";
+    font-size: 10pt;
+    color: #b35936;
+  }
+
+  .kavya-verse-text {
+    font-family: 'Noto Serif Gujarati', serif;
+    font-size: 10.8pt;
+    line-height: 1.48;
+    font-weight: 600;
+    color: #1f1b18;
+    font-style: italic;
+  }
+
+  /* Right Side: સાધનાધારા */
+  .stream-right {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .sadhana-kicker {
+    font-family: 'Anek Gujarati', sans-serif;
+    font-size: 8.5pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    color: #2b5443; /* Forest serene green / spiritual */
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .sadhana-kicker::before {
+    content: "✦";
+    font-size: 8pt;
+    color: #2b5443;
+  }
+
+  .sadhana-gist-text {
+    font-family: 'Noto Sans Gujarati', sans-serif;
+    font-size: 9.8pt;
+    line-height: 1.48;
+    font-weight: 500;
+    color: #2e332f;
+  }
+
+  /* ============================================================
+     VARIANT B: MONOCHROME LITERARY EMBED (અત્યંત સાદું & પ્રાકૃતિક)
+     - Transparent background
+     - Pure hairline separator
+     ============================================================ */
+  .duo-ribbon-b {
+    background: transparent;
+    border-top: 1px dashed #dcd5ca;
+    border-bottom: 1px dashed #dcd5ca;
+    padding: 10px 8px;
+    display: grid;
+    grid-template-columns: 1fr 1px 1.05fr;
+    gap: 18px;
+    align-items: center;
+  }
+
+  .hairline-divider-b {
+    width: 1px;
+    height: 75%;
+    background: #e2dcd2;
+    justify-self: center;
+  }
+
+  .kavya-verse-text-b {
+    font-family: 'Noto Sans Gujarati', sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.45;
+    font-weight: 600;
+    color: #222222;
+  }
+
+  .sadhana-gist-text-b {
+    font-family: 'Noto Sans Gujarati', sans-serif;
+    font-size: 9.8pt;
+    line-height: 1.45;
+    color: #444444;
+  }
+
+</style>
+</head>
+<body>
+
+  <!-- ==========================================
+       SAMPLE 1: અધ્યાય ૨૧ (ઉપાધિનિરપેક્ષ શુદ્ધ દ્રવ્યાર્થિકનય)
+       ========================================== -->
+  <div class="canvas-page">
+    <div class="section-title">
+      નમૂનો ૧: વાર્મ-ટોન સોબર રિબન (પ્રકરણ ૨૧: ઉપાધિનિરપેક્ષ શુદ્ધ દ્રવ્યાર્થિકનય)
+      <span class="design-badge">ડિઝાઇન વેરિઅન્ટ A (ભલામણપાત્ર)</span>
+    </div>
+    <div class="context-desc">
+      કોઈ પણ બૉક્સ કે ઘેરા બોર્ડર વિના, ફક્ત ઉપર-નીચે સૂક્ષ્મ લાઇન અને વચ્ચે ઝાંખી ગ્રેડિયન્ટ વિભાજક લાઇન સાથે.
+    </div>
+
+    <!-- The Side-by-Side Ribbon -->
+    <div class="duo-ribbon-a">
+      <!-- Left: કાવ્યધારા -->
+      <div class="stream-left">
+        <div class="stream-kicker">કાવ્યધારા</div>
+        <div class="kavya-verse-text">
+          કર્મ ઉપાધિ પરહરી, સ્વભાવ માત્ર જણાય;<br>
+          સિદ્ધ સમાન સદ્જીવને, શુદ્ધ નયે પરખાય.
+        </div>
+      </div>
+
+      <!-- Fading Center Hairline Divider -->
+      <div class="hairline-divider-a"></div>
+
+      <!-- Right: સાધનાધારા (અધ્યાત્મ અનુયોગ પ્રેરિત) -->
+      <div class="stream-right">
+        <div class="sadhana-kicker">સાધનાધારા</div>
+        <div class="sadhana-gist-text">
+          પોતાને પાપી કે દીન માનવાને બદલે, રાગ-દ્વેષના કાદવથી સદા અસ્પૃષ્ટ સિદ્ધસ્વરૂપનું અંતરંગ આત્મગૌરવ જગાડવું.
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ==========================================
+       SAMPLE 2: અધ્યાય ૧ (ભૂતનૈગમ નય)
+       ========================================== -->
+  <div class="canvas-page">
+    <div class="section-title">
+      નમૂનો ૨: ક્લાસિક મિનિમલ સ્ટાઇલ (પ્રકરણ ૧: ભૂતનૈગમ નય)
+      <span class="design-badge">ડિઝાઇન વેરિઅન્ટ B (અલ્ટ્રા-ક્લીન)</span>
+    </div>
+    <div class="context-desc">
+      બેકગ્રાઉન્ડ સદંતર શ્વેત રાખીને, સુવાચ્ય અને શાંત સાહિત્યિક પ્રસ્તુતિ.
+    </div>
+
+    <!-- The Side-by-Side Ribbon B -->
+    <div class="duo-ribbon-b">
+      <!-- Left: કાવ્યધારા -->
+      <div class="stream-left">
+        <div class="stream-kicker">કાવ્યધારા</div>
+        <div class="kavya-verse-text-b">
+          અતીતનો પર્યાય જે, કાળે થઈ વિનષ્ટ;<br>
+          જ્ઞાન તણા સંકલ્પથી, આ પળ ભાસે સ્પષ્ટ.
+        </div>
+      </div>
+
+      <!-- Subtle Hairline Divider -->
+      <div class="hairline-divider-b"></div>
+
+      <!-- Right: સાધનાધારા -->
+      <div class="stream-right">
+        <div class="sadhana-kicker">સાધનાધારા</div>
+        <div class="sadhana-gist-text-b">
+          અતીતના પશ્ચાત્તાપ કે મોહમાં અટવાયા વિના, તેના પરિપાકને વર્તમાન આત્મજાગૃતિનું સબળ પ્રેરકબળ બનાવવું.
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

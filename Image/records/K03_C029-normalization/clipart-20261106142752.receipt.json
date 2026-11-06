@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "created_local": "2026-11-06T14:27:51.125450+05:30",
+  "printed_page": null,
+  "original": {
+    "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\records\\K03_C029-normalization\\clipart-20261106142751.png",
+    "sha256": "5fa358e7e282613cfa41ad86aeb15fe606aa3ac430a1c1ea195ce2cd311ce2c8",
+    "role": "original"
+  },
+  "normalized": {
+    "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\records\\K03_C029-normalization\\clipart-20261106142752.png",
+    "sha256": "7ed7d2925ed43ff8de2dc6924f26f6f104cfdfe9178ac2e48670f3462224b61a",
+    "role": "normalized"
+  },
+  "normalization": {
+    "grayscale": true,
+    "autocontrast": true,
+    "threshold": 205,
+    "padding_px": 64,
+    "canvas_size_px": [
+      1254,
+      1254
+    ]
+  }
+}

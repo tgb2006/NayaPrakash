@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K04_C010_chapter_040_upadhisapeksha_nitya_ashuddhaparyayarthikanaya_katha_r01_press.png",
+  "sha256": "6ae755cd57db1d40111a06ccd57e196ecf7ab51f7d946fdb26e60b42222a9a8f",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.16715887151545675,
+  "white_fraction": 0.8328411284845433,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

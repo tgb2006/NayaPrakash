@@ -25,7 +25,7 @@ SAMPLE_VALID_2PAGE_CHAPTER = """# ૦૦૧. ભૂતનૈગમ નય
 ઘણાને ભ્રમ થાય છે કે આ તો માત્ર જૂની યાદ કે માનસિક કલ્પના (સ્મૃતિ) છે, પણ વાસ્તવમાં આ કેવળ સ્મૃતિ નથી; આ તો વસ્તુના અખંડ અસ્તિત્વનો સ્વીકાર છે. અતીત એ કાળના અંધકારમાં ડૂબી ગયેલું શૂન્ય નથી, પણ વર્તમાનની પરિપક્વતાનું જીવંત મૂળિયું છે. જે દ્રષ્ટિ અતીતના સત્યને વર્તમાનમાં સન્માની શકે, તે જ સાચી નય-દ્રષ્ટિ છે.
 
 ## કાવ્યધારા
-અતીતની પર્યાય જે, કાળે થઈ વિનષ્ટ;
+અતીતનો પર્યાય જે, કાળે થયો વિનષ્ટ;
 જ્ઞાન તણા સંકલ્પથી, આ પળ ભાસે સ્પષ્ટ.
 
 ---
@@ -75,6 +75,31 @@ class TestChapterValidator(unittest.TestCase):
         report = self.validator.validate_content(bad_content)
         self.assertFalse(report.is_valid)
         self.assertFalse(report.ahimsa_passed)
+
+    def test_paryay_feminine_gender_violation_fails(self):
+        # Feminine verb: 'પર્યાય બદલાઈ' should fail
+        bad_content = SAMPLE_VALID_2PAGE_CHAPTER + "\n\nજ્યારે પર્યાય બદલાઈ જાય છે ત્યારે શોક ન કરવો."
+        report = self.validator.validate_content(bad_content)
+        self.assertFalse(report.is_valid)
+        self.assertTrue(any("પર્યાય" in err for err in report.errors))
+
+        # Feminine genitive: 'દ્રવ્યની પર્યાય' should fail
+        bad_content2 = SAMPLE_VALID_2PAGE_CHAPTER + "\n\nઆ દ્રવ્યની પર્યાય ક્ષણિક છે."
+        report2 = self.validator.validate_content(bad_content2)
+        self.assertFalse(report2.is_valid)
+        self.assertTrue(any("પર્યાય" in err for err in report2.errors))
+
+        # Feminine adjective: 'બધી પર્યાયો' should fail
+        bad_content3 = SAMPLE_VALID_2PAGE_CHAPTER + "\n\nજ્યારે બધી પર્યાયો અનિત્ય છે ત્યારે શાંતિ મળે."
+        report3 = self.validator.validate_content(bad_content3)
+        self.assertFalse(report3.is_valid)
+        self.assertTrue(any("પર્યાય" in err for err in report3.errors))
+
+    def test_paryay_masculine_gender_succeeds(self):
+        # Masculine usage should succeed
+        good_content = SAMPLE_VALID_2PAGE_CHAPTER + "\n\nદ્રવ્યનો પર્યાય ઉત્પન્ન થયો અને બધા પર્યાયો બદલાયા."
+        report = self.validator.validate_content(good_content)
+        self.assertTrue(report.is_valid, f"Unexpected errors: {report.errors}")
 
 if __name__ == "__main__":
     unittest.main()

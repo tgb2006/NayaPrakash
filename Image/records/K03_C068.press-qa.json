@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K03_C068_chapter_091_anadinitya_paryayarthikapratipadaka_vyavahara_katha_r01_press.png",
+  "sha256": "42e2d26a803e0d36ba121524c195a106cefa409e193ded6c9b6b62fc08fd59f6",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.15943875928766385,
+  "white_fraction": 0.8405612407123362,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

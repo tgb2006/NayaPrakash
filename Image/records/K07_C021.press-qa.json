@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K07_C021_chapter_189_kartrunaya_katha_r01_press.png",
+  "sha256": "c9781c42d129ad16bd0352b3079e8fd7a191dc80e3883448ff9d3782cc77ce72",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.16544569339835016,
+  "white_fraction": 0.8345543066016499,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

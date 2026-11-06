@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K04_C009_chapter_039_upadhinirapeksha_nitya_shuddhaparyayarthikanaya_katha_r01_press.png",
+  "sha256": "6664b1090af5be9ad4a2fc5e33c79f855034066e3b5dfa6525a99602d5ea96df",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.1312590778090652,
+  "white_fraction": 0.8687409221909348,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

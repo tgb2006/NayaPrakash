@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K03_C045_chapter_070_saguna_paramashuddha_sadbhuta_vyavahara_katha_r01_press.png",
+  "sha256": "76a8d178027df10b06102f2403246a08e36220f87eb76968e5b75ed555494e9b",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.20262114980070156,
+  "white_fraction": 0.7973788501992984,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

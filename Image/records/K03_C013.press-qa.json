@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K03_C013_chapter_021_upadhinirapeksha_shuddha_dravyarthika_naya_katha_r01_press.png",
+  "sha256": "9340cccacc57498426781c0494316ef94e44608af9898f212dfcdbed68286519",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.20221733832914895,
+  "white_fraction": 0.797782661670851,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

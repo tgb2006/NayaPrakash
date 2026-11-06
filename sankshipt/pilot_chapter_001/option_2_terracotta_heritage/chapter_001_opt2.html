@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+  <meta charset="utf-8">
+  <title>Option 2: Terracotta & Heritage Saffron — પ્રકરણ ૧: ભૂતનૈગમ નય</title>
+  
+    <style>
+    
+    @font-face {
+      font-family: 'Anek Gujarati';
+      font-weight: 700;
+      src: url('../assets/fonts/AnekGujarati-Bold.ttf') format('truetype');
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Anek Gujarati';
+      font-weight: 600;
+      src: url('../assets/fonts/AnekGujarati-SemiBold.ttf') format('truetype');
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Anek Gujarati';
+      font-weight: 500;
+      src: url('../assets/fonts/AnekGujarati-Medium.ttf') format('truetype');
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Anek Gujarati';
+      font-weight: 400;
+      src: url('../assets/fonts/AnekGujarati-Regular.ttf') format('truetype');
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Noto Sans Gujarati';
+      font-weight: 700;
+      src: url('../assets/fonts/NotoSansGujarati-Bold.ttf') format('truetype');
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Noto Sans Gujarati';
+      font-weight: 600;
+      src: url('../assets/fonts/NotoSansGujarati-SemiBold.ttf') format('truetype');
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Noto Sans Gujarati';
+      font-weight: 400;
+      src: url('../assets/fonts/NotoSansGujarati-Regular.ttf') format('truetype');
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Noto Sans Devanagari';
+      font-weight: 700;
+      src: url('../assets/fonts/NotoSansDevanagari-Bold.ttf') format('truetype');
+      font-display: swap;
+    }
+    @font-face {
+      font-family: 'Noto Sans Devanagari';
+      font-weight: 400;
+      src: url('../assets/fonts/NotoSansDevanagari-Regular.ttf') format('truetype');
+      font-display: swap;
+    }
+
+    
+    @page { size: 8in 8in; margin: 0; }
+    * { box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    html, body {
+      margin: 0; padding: 0;
+      background: #eef1f5;
+      font-family: 'Noto Sans Gujarati', sans-serif;
+      font-size: 11pt;
+      line-height: 1.45;
+      color: #1a1a1a;
+      -webkit-font-smoothing: antialiased;
+    }
+    .spread-container {
+      display: flex; flex-direction: row; justify-content: center; align-items: flex-start;
+      gap: 24px; padding: 30px 20px;
+    }
+    @media print {
+      body { background: transparent; }
+      .spread-container { display: block; padding: 0; gap: 0; }
+    }
+    .page {
+      width: 8in; height: 8in;
+      background: #ffffff;
+      position: relative;
+      overflow: hidden;
+      page-break-after: always; break-after: page;
+      padding: 0;
+      box-shadow: 0 6px 24px rgba(0,0,0,0.1);
+    }
+    @media print { .page { box-shadow: none; margin: 0; } }
+
+    .running-header {
+      position: absolute; top: 8.5mm; left: 15mm; right: 15mm; height: 5.5mm;
+      display: flex; align-items: center; z-index: 10;
+      font-family: 'Anek Gujarati', sans-serif; font-size: 8.5pt;
+    }
+    .page-even .running-header { justify-content: flex-start; }
+    .page-odd .running-header { justify-content: flex-end; }
+
+    .running-footer {
+      position: absolute; bottom: 8.5mm; left: 15mm; right: 15mm; height: 5.5mm;
+      display: flex; align-items: center; justify-content: space-between; z-index: 10;
+      font-family: 'Anek Gujarati', sans-serif; font-size: 8.5pt;
+    }
+    .running-footer .page-num {
+      font-family: 'Noto Sans Gujarati', sans-serif; font-weight: 700; font-size: 10.5pt;
+    }
+    .running-footer .footer-label { font-weight: 600; letter-spacing: 0.2pt; }
+
+    .content-area {
+      position: absolute; top: 17.5mm; left: 15mm; right: 15mm; bottom: 16.5mm;
+      display: flex; flex-direction: column; justify-content: space-between;
+    }
+
+
+    .running-header { border-bottom: 1.5pt solid #8d2b2b; color: #8d2b2b; }
+    .running-footer { border-top: 1.5pt solid #8d2b2b; color: #8d2b2b; }
+    .running-footer .page-num { color: #8d2b2b; }
+
+    /* Masthead with Terracotta Accent */
+    .opt2-masthead { border-bottom: 1.5pt solid #d3b4b4; padding-bottom: 6pt; margin-bottom: 6pt; }
+    .opt2-kicker-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 4pt; }
+    .opt2-khanda-pill {
+      background: #8d2b2b; color: #fff; padding: 2.5pt 8pt; border-radius: 2pt;
+      font-family: 'Anek Gujarati', sans-serif; font-size: 8.5pt; font-weight: 700;
+    }
+    .opt2-cat-tag {
+      background: #fbf5f5; color: #8d2b2b; border: 0.8pt solid #dfbfbf; padding: 2pt 6pt;
+      font-family: 'Anek Gujarati', sans-serif; font-size: 8.5pt; font-weight: 600; border-radius: 2pt;
+    }
+    .opt2-title-box { margin: 6pt 0; }
+    .opt2-main-title {
+      font-family: 'Anek Gujarati', sans-serif; font-size: 28pt; font-weight: 700; line-height: 1.25;
+      color: #8d2b2b; margin: 0; letter-spacing: -0.3pt;
+    }
+    .opt2-en-meta {
+      font-family: sans-serif; font-size: 9pt; font-weight: 600; color: #666; margin-top: 3pt;
+    }
+    .opt2-sutra-card {
+      background: #fbf5f5; border-left: 3.5pt solid #8d2b2b; padding: 4.5pt 8pt;
+      display: flex; justify-content: space-between; align-items: baseline; margin-top: 5pt; border-radius: 0 3pt 3pt 0;
+    }
+    .opt2-sutra-text { font-family: 'Noto Sans Devanagari', serif; font-size: 9.8pt; font-weight: 700; color: #8d2b2b; }
+    .opt2-sutra-lbl { font-family: 'Anek Gujarati', sans-serif; font-size: 8pt; font-weight: 600; color: #777; }
+
+    /* Section Ribbon */
+    .opt2-ribbon { display: flex; align-items: center; gap: 6pt; margin: 3pt 0 5pt 0; }
+    .opt2-ribbon-tag {
+      color: #8d2b2b; font-family: 'Anek Gujarati', sans-serif; font-size: 11.5pt; font-weight: 700;
+      display: inline-flex; align-items: center; gap: 4pt;
+    }
+    .opt2-ribbon-tag::before { content: "◈"; font-size: 9pt; color: #8d2b2b; }
+    .opt2-ribbon-rule { flex: 1; height: 0.8pt; background: #dfbfbf; }
+
+    /* 2 Column Tattvadhara */
+    .opt2-grid { display: grid; grid-template-columns: 1fr 1fr; column-gap: 5.8mm; row-gap: 7pt; flex: 1; }
+    .opt2-card { font-size: 10.8pt; line-height: 1.45; text-align: justify; color: #222; }
+    .opt2-card-head {
+      font-family: 'Anek Gujarati', sans-serif; font-weight: 700; font-size: 11pt; color: #8d2b2b;
+      display: block; margin-bottom: 2pt; border-bottom: 0.8pt solid #e8d0d0; padding-bottom: 1.5pt;
+    }
+    .opt2-vignette-box {
+      background: #fbf8f6; border: 0.8pt solid #e6d3cf; border-radius: 2pt; padding: 4pt 6pt; margin-top: 2pt;
+    }
+    .opt2-vignette-item { position: relative; padding-left: 9pt; margin-bottom: 3pt; font-size: 10.4pt; }
+    .opt2-vignette-item:last-child { margin-bottom: 0; }
+    .opt2-vignette-item::before { content: "•"; position: absolute; left: 0; top: 0; color: #8d2b2b; font-weight: bold; }
+
+    /* Terracotta Kavyadhara */
+    .opt2-kavya-box {
+      margin-top: 6pt; background: #fbf5f5; border: 1pt solid #8d2b2b; border-left: 4pt solid #8d2b2b;
+      padding: 6pt 10pt; display: flex; align-items: center; gap: 12pt; border-radius: 0 3pt 3pt 0;
+    }
+    .opt2-kavya-badge {
+      background: #8d2b2b; color: #fff; padding: 2.5pt 6pt; border-radius: 2pt;
+      font-family: 'Anek Gujarati', sans-serif; font-size: 9.5pt; font-weight: 700; white-space: nowrap;
+    }
+    .opt2-kavya-verse {
+      font-family: 'Noto Sans Gujarati', sans-serif; font-size: 11.5pt; font-weight: 600;
+      color: #3b1111; font-style: italic; margin: 0;
+    }
+
+    /* Right Page */
+    .opt2-story-header {
+      display: flex; justify-content: space-between; align-items: baseline;
+      border-bottom: 1.5pt solid #8d2b2b; padding-bottom: 4pt; margin-bottom: 6pt;
+    }
+    .opt2-story-kicker {
+      font-family: 'Anek Gujarati', sans-serif; font-size: 13.5pt; font-weight: 700; color: #8d2b2b;
+      display: flex; align-items: center; gap: 5pt;
+    }
+    .opt2-story-sub { font-family: 'Anek Gujarati', sans-serif; font-size: 11pt; font-weight: 700; color: #444; }
+
+    .opt2-hero-row { display: flex; gap: 5.8mm; margin-bottom: 6pt; }
+    .opt2-art-frame {
+      width: 72mm; height: 44mm; flex-shrink: 0; border: 1.2pt solid #8d2b2b; padding: 1.5pt; background: #fff;
+    }
+    .opt2-art-frame img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .opt2-pipasa {
+      flex: 1; display: flex; flex-direction: column; justify-content: space-between;
+      font-size: 10.6pt; line-height: 1.45; text-align: justify;
+    }
+    .opt2-dhara-badge {
+      font-family: 'Anek Gujarati', sans-serif; font-size: 9.2pt; font-weight: 700;
+      color: #8d2b2b; border-bottom: 1pt solid #8d2b2b; display: inline-block; margin-bottom: 2pt;
+    }
+    .opt2-paan {
+      background: #fbf5f5; border: 0.8pt solid #e6d3cf; border-left: 3.5pt solid #8d2b2b;
+      padding: 5.5pt 8pt; font-size: 10.6pt; line-height: 1.45; text-align: justify; margin-bottom: 6pt;
+      border-radius: 0 2pt 2pt 0;
+    }
+
+    .opt2-vivek-sec { border-top: 1.5pt solid #8d2b2b; padding-top: 5pt; }
+    .opt2-vivek-title {
+      font-family: 'Anek Gujarati', sans-serif; font-size: 12pt; font-weight: 700; color: #8d2b2b; margin-bottom: 4pt;
+    }
+    .opt2-vivek-grid { display: grid; grid-template-columns: 1fr 1fr; column-gap: 5.8mm; }
+    .opt2-vivek-card {
+      background: #faf6f5; border: 0.8pt solid #e2cbca; padding: 5.5pt 7.5pt; font-size: 10.2pt;
+      line-height: 1.42; text-align: justify; border-radius: 2pt;
+    }
+    .opt2-vivek-card.anekant { border-top: 3pt solid #8d2b2b; background: #fbf0ee; }
+    .opt2-vivek-card.ekant { border-top: 3pt solid #888; }
+    .opt2-vivek-head {
+      font-family: 'Anek Gujarati', sans-serif; font-weight: 700; font-size: 10.2pt; color: #8d2b2b;
+      margin-bottom: 2.5pt; display: block; border-bottom: 0.6pt solid #dfbfbf; padding-bottom: 1pt;
+    }
+    </style>
+    
+</head>
+<body>
+<div class="spread-container">
+  <!-- PAGE 2 (LEFT) -->
+  <section class="page page-even" id="page-2">
+    <header class="running-header">
+      <span style="font-weight:700;">નય-ચક્ષુ</span>
+      <span style="margin: 0 6pt;">|</span>
+      <span>નયનું જ્ઞાન, સંશયનું સમાધાન</span>
+    </header>
+    <main class="content-area">
+      <div class="opt2-masthead">
+        <div class="opt2-kicker-row">
+          <div class="opt2-khanda-pill">પ્રથમ ખંડ: નૈગમ નય • જ્ઞાનનય</div>
+          <div class="opt2-cat-tag">મુખ્ય શ્રેણી: દ્રવ્યાર્થિક નય</div>
+        </div>
+        <div class="opt2-title-box">
+          <h1 class="opt2-main-title" id="p-001-title">૧. ભૂતનૈગમ નય</h1>
+          <div class="opt2-en-meta" id="p-001-meta">
+            BHUTA NAIGAMA NAYA &bull; The Retrospective Standpoint: Seeing Eternal Continuity
+          </div>
+        </div>
+        <div class="opt2-sutra-card">
+          <span class="opt2-sutra-text">अनिष्पन्नेऽर्थे संकल्पमात्रग्राही नैगमः।</span>
+          <span class="opt2-sutra-lbl">મૂળ આગમિક સૂત્ર</span>
+        </div>
+      </div>
+
+      <div class="opt2-ribbon">
+        <span class="opt2-ribbon-tag">તત્વધારા</span>
+        <div class="opt2-ribbon-rule"></div>
+      </div>
+
+      <div class="opt2-grid">
+        <div class="opt2-card" id="p-001-rupak">
+          <span class="opt2-card-head">૧. રૂપક-દ્રષ્ટિ: ઓલવાયેલા તારકનું જીવંત કિરણ</span>
+          <p>અનંત આકાશમાં અબજો વર્ષ પૂર્વે એક તારો ભસ્મીભૂત થઈને ઓલવાઈ ગયો હોય, છતાં આજે રાત્રે તેનું કિરણ આપણી આંખ સામે એટલું જ તેજસ્વી અને જીવંત ચમકે છે. ભૌતિક રૂપે જે વીતી ચૂક્યું છે, તે જ્ઞાતાના જ્ઞાન-ફલક પર આ ક્ષણે પણ પ્રત્યક્ષ પ્રકાશમાન છે. આ જ દ્રષ્ટિ એટલે <strong>'ભૂતનૈગમ નય'</strong>.</p>
+        </div>
+        <div class="opt2-card" id="p-001-swarup">
+          <span class="opt2-card-head">૨. સ્વરૂપ-સૃષ્ટિ: કાળના પડદા પાર જોતી આંખ</span>
+          <p>ભૂતકાળમાં જે ઘટના કે પર્યાય પૂર્ણ થઈ ચૂકી છે, તેને સ્મૃતિના બંધ કબાટમાં રાખવાને બદલે જ્ઞાનના સંકલ્પ વડે વર્તમાનમાં એવી રીતે પ્રત્યક્ષ અનુભવવી કે જાણે તે આ પળે જ આપણી નજર સામે ઘટી રહી હોય! આ નય કાળના અંતરને ભૂંસી નાખીને વસ્તુના અખંડ સત્-સાતત્યને જોવાની દિવ્ય બારી છે.</p>
+        </div>
+        <div class="opt2-card" id="p-001-vyavahar">
+          <span class="opt2-card-head">૩. વ્યવહાર-પૃષ્ટિ: જીવન-વ્યવહારના જીવંત દૃષ્ટાંતો</span>
+          <div class="opt2-vignette-box">
+            <div class="opt2-vignette-item"><strong>દિવાળીનો દીવો:</strong> રાત્રે બાળક પણ હર્ષથી પોકારે: <em>"આજે મહાવીર પ્રભુ મોક્ષ પધાર્યા!"</em> ૨૫૦૦ વર્ષ પૂર્વેની ક્ષણ હૃદયમાં આજના તહેવાર જેવી જ જીવંત બને છે.</div>
+            <div class="opt2-vignette-item"><strong>માતાનું વાત્સલ્ય:</strong> ચાલીસ વર્ષના પુખ્ત પુત્રને જોઈ વૃદ્ધ માતા <em>"મારું નાનું બાળક"</em> કહી છાતીએ લગાડે છે. માતાની આંખમાં પુત્રનું અતીત-બાળપણ રમતું હોય છે.</div>
+            <div class="opt2-vignette-item"><strong>બીજ અને જળ:</strong> માળી સૂકી ગોટલી જોઈ કહે: <em>"આ મારો આંબો છે,"</em> અને જળને જોઈ કહેવાય: <em>"આ હિમાલયનો બરફ છે."</em></div>
+          </div>
+        </div>
+        <div class="opt2-card" id="p-001-marm">
+          <span class="opt2-card-head">૪. મર્મ-તુષ્ટિ: ભીતરી સત્ય અને ભ્રમણા-નિવારણ</span>
+          <p>ઘણાને ભ્રમ થાય છે કે આ તો માત્ર જૂની યાદ કે માનસિક કલ્પના (સ્મૃતિ) છે, પણ વાસ્તવમાં આ કેવળ સ્મૃતિ નથી; આ તો વસ્તુના અખંડ અસ્તિત્વનો સ્વીકાર છે. અતીત એ કાળના અંધકારમાં ડૂબી ગયેલું શૂન્ય નથી, પણ વર્તમાનની પરિપક્વતાનું જીવંત મૂળિયું છે. જે દ્રષ્ટિ અતીતના સત્યને વર્તમાનમાં સન્માની શકે, તે જ સાચી નય-દ્રષ્ટિ છે.</p>
+        </div>
+      </div>
+
+      <div class="opt2-kavya-box" id="p-001-kavya">
+        <span class="opt2-kavya-badge">કાવ્યધારા</span>
+        <blockquote class="opt2-kavya-verse">“અતીતનો પર્યાય જે, કાળે થઈ વિનષ્ટ; જ્ઞાન તણા સંકલ્પથી, આ પળ ભાસે સ્પષ્ટ.”</blockquote>
+      </div>
+    </main>
+    <footer class="running-footer">
+      <span class="page-num">૨</span>
+      <span class="footer-label">પ્રથમ ખંડ: નૈગમ નય</span>
+    </footer>
+  </section>
+
+  <!-- PAGE 3 (RIGHT) -->
+  <section class="page page-odd" id="page-3">
+    <header class="running-header">
+      <span style="font-weight:700;">પ્રથમ ખંડ: નૈગમ નય</span>
+      <span style="margin: 0 6pt;">|</span>
+      <span>૧. ભૂતનૈગમ નય</span>
+    </header>
+    <main class="content-area">
+      <div class="opt2-story-header">
+        <span class="opt2-story-kicker" id="p-001-story-sec">✦ કથાધારા</span>
+        <span class="opt2-story-sub" id="p-001-story-title">નવલિકા: ઓલવાયેલા દીવાનું અમૃત-તેજ</span>
+      </div>
+
+      <div class="opt2-hero-row">
+        <div class="opt2-art-frame">
+          <img src="../assets/images/chapter_001_art.svg" alt="આર્ટવર્ક" />
+        </div>
+        <div class="opt2-pipasa" id="p-001-pipasa">
+          <div>
+            <span class="opt2-dhara-badge">પિપાસા</span>
+            <p style="margin: 0;">રમેશભાઈ પોતાના યુવાન પુત્ર આનંદની એક વ્યાપારિક ભૂલથી અત્યંત ક્રોધિત અને વ્યથિત હતા. આનંદના એક અવિચારી નિર્ણયથી પેઢીને મોટો આર્થિક ફટકો પડ્યો હતો. રમેશભાઈના મગજમાં નિરંતર નકારાત્મક વલયો ઘૂમરાતા હતા: <em>"આટલો મોટો થઈને આવી નાદાની કેમ કરી? આખી જિંદગીનું પરિશ્રમ એક પળમાં રોળાઈ ગયું!"</em> ક્રોધ ઊંડા વિષાદમાં પલટાઈ ગયો હતો. સંબંધોમાં તીખી તિરાડ પડી ચૂકી હતી. રાત્રિના અંધકારમાં છત તરફ તાકતાં તેમના હૃદયમાંથી વિવશ પોકાર ઊઠ્યો: <strong>"આ વિષમ ગૂંચવણમાંથી બહાર નીકળવાનો હવે શું રસ્તો?"</strong></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="opt2-paan" id="p-001-paan">
+        <span class="opt2-dhara-badge">પાન</span>
+        <p style="margin: 0;">તે જ ક્ષણે ઘરના એકાંત ખૂણામાં બિરાજમાન વૃદ્ધ દાદાજીએ રમેશભાઈના ખભા પર સ્નેહભર્યો હાથ મૂક્યો અને અત્યંત શાંત સ્વરે કહ્યું, <em>"બેટા, જરા ભૂતનૈગમ દ્રષ્ટિથી જો. આજે ભલે એનાથી ભૂલ થઈ, પણ ભૂતકાળમાં આજ આનંદે રાત-દિવસ એક કરીને તારી પેઢીને સંકટમાંથી ઉગારી હતી અને તારી જીવલેણ બીમારીમાં અવિરત સેવા કરી હતી, તે શું સાવ મિથ્યા થઈ ગયું? વર્તમાનની એક ભૂલ પાછળ તેના અતીતના સો ઉપકારોને કેમ ભૂલી જાય છે?"</em> દાદાજીના આ બોધ-અમૃતનું પાન કરતાં જ રમેશભાઈની ભીતરમાં અતીતનો સ્નેહ સજીવન થઈ ઊઠ્યો. ક્રોધ પળવારમાં ઓગળી ગયો, આંખોમાંથી પશ્ચાત્તાપના આંસુ વહી નીકળ્યા અને અંતરમાં અસીમ ક્ષમા અને પરમ વિશ્રામ છવાઈ ગયો.</p>
+      </div>
+
+      <div class="opt2-vivek-sec">
+        <div class="opt2-vivek-title" id="p-001-vivek-sec">❖ વિવેકધારા</div>
+        <div class="opt2-vivek-grid">
+          <div class="opt2-vivek-card ekant" id="p-001-ekant">
+            <span class="opt2-vivek-head">એકાંત દર્શન (કદાગ્રહનો ગેરલાભ)</span>
+            <p style="margin: 0;">જો આ નય-દ્રષ્ટિ જીદ કે કદાગ્રહ બને, તો મનુષ્ય ભૂતકાળના જડ વળગણોમાં કેદી બની જાય છે. <em>"અમારા જમાનામાં આમ જ થતું હતું"</em> એવી હઠ પકડીને તે વર્તમાનના નવા સત્યો અને પરિસ્થિતિઓનો અસ્વીકાર કરે છે. જૂના વેર, કડવી સ્મૃતિઓ કે પૂર્વજોના અહંકારને છાતીએ વળગાડી રાખવાથી જીવનમાં જડતા, અસહિષ્ણુતા અને સંબંધોમાં કાયમી સંકુચિતતા જન્મે છે.</p>
+          </div>
+          <div class="opt2-vivek-card anekant" id="p-001-anekant">
+            <span class="opt2-vivek-head">અનેકાંત દર્શન (સમન્વયનું સૌંદર્ય)</span>
+            <p style="margin: 0;">આ જ નય-દ્રષ્ટિ જો સમન્વયની યાત્રા બને, તો તે અતીતના સારને ગ્રહણ કરીને વર્તમાનને સમૃદ્ધ બનાવે છે. તે અતીતના તીર્થંકરો અને જ્ઞાનીઓના મુક્તિ-પ્રકાશને આત્મસાત કરી સાધ્ય તરફ સરકવાનું બળ બને છે. અહીં ભૂતકાળ બોજ નથી બનતો, પરંતુ ભવિષ્યના મોક્ષમાર્ગનું મંગલ પ્રસ્થાન અને આધ્યાત્મિક જીવન-યાત્રાનું પરમ સૌંદર્ય પ્રગટાવે છે.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="running-footer">
+      <span class="footer-label">૧. ભૂતનૈગમ નય</span>
+      <span class="page-num">૩</span>
+    </footer>
+  </section>
+</div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K03_C010_chapter_018_shuddhabhedavishayi_antima_vyavahara_dravyarthika_naya_katha_r01_press.png",
+  "sha256": "1e05c9f9deae424590e1a0fc5b8c7259ae489f2d98554dae27cc060ce7d99f9f",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.15975290553482444,
+  "white_fraction": 0.8402470944651755,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

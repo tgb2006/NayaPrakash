@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K06_C005_chapter_162_avikalpanaya_katha_r01_press.png",
+  "sha256": "ba02e5671ff9c98f0db9a7c994b8243f568c6dfc6e65df26624feba9d1427b1e",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.1551195663509942,
+  "white_fraction": 0.8448804336490058,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

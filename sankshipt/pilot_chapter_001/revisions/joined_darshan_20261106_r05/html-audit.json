@@ -1,0 +1,24 @@
+{
+  "gapsMM": {
+    "topToMiddle": 0,
+    "middleColumns": 0,
+    "middleToBottom": 0
+  },
+  "pages": [
+    {
+      "widthMM": 165.1,
+      "heightMM": 241.3,
+      "footerClearanceMM": 2.71
+    },
+    {
+      "widthMM": 165.1,
+      "heightMM": 241.3,
+      "footerClearanceMM": 4.01
+    }
+  ],
+  "textBlocks": 26,
+  "bodyPt": 11.000025,
+  "problems": [],
+  "browserErrors": [],
+  "htmlContentUnchanged": true
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K07_C018_chapter_186_anishvaranaya_katha_r01_press.png",
+  "sha256": "9a8833cbf60da54d5a0be5ee127b0dec35abf4fa0d6616ef75e49086aa21e6a0",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.1711562871220388,
+  "white_fraction": 0.8288437128779612,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

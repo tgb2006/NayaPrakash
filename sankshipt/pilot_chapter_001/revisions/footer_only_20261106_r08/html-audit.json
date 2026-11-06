@@ -1,0 +1,23 @@
+{
+  "runningHeaders": 0,
+  "pages": [
+    {
+      "widthMM": 165.1,
+      "heightMM": 241.3,
+      "footerLeft": "૨",
+      "footerRight": "પ્રથમ ખંડ: નૈગમ નય",
+      "footerClearanceMM": 2.71
+    },
+    {
+      "widthMM": 165.1,
+      "heightMM": 241.3,
+      "footerLeft": "ભૂતનૈગમ નય",
+      "footerRight": "૩",
+      "footerClearanceMM": 2.41
+    }
+  ],
+  "textBlocks": 26,
+  "problems": [],
+  "browserErrors": [],
+  "otherContentUnchanged": true
+}

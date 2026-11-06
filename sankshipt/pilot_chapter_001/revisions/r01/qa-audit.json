@@ -1,0 +1,76 @@
+{
+  "pageCount": 2,
+  "canvas": [
+    {
+      "widthPx": 768,
+      "heightPx": 768,
+      "overflow": "visible"
+    },
+    {
+      "widthPx": 768,
+      "heightPx": 768,
+      "overflow": "visible"
+    }
+  ],
+  "missingIDs": [],
+  "uniqueIDs": true,
+  "paragraphs": 12,
+  "paragraphIDs": true,
+  "pageBoundaryViolations": [],
+  "footerOverlaps": [],
+  "gutterMM": 6.498828124999999,
+  "columnRightWithinContent": true,
+  "images": [
+    {
+      "src": "assets/images/user_head_tattvadhara_clean.png",
+      "loaded": true,
+      "effectiveDPI": 60.677997243913644,
+      "width": 86,
+      "height": 28
+    },
+    {
+      "src": "assets/images/user_head_kavyadhara_clean.png",
+      "loaded": true,
+      "effectiveDPI": 63.50022967386312,
+      "width": 90,
+      "height": 30
+    },
+    {
+      "src": "assets/images/family-ink-r01.png",
+      "loaded": true,
+      "effectiveDPI": 626.7196938181213,
+      "width": 1226,
+      "height": 1283
+    },
+    {
+      "src": "assets/images/user_head_vivekdhara_clean.png",
+      "loaded": true,
+      "effectiveDPI": 64.77395348837209,
+      "width": 102,
+      "height": 28
+    },
+    {
+      "src": "assets/images/user_head_kathadhara_clean.png",
+      "loaded": true,
+      "effectiveDPI": 64.91134588883786,
+      "width": 92,
+      "height": 28
+    }
+  ],
+  "fonts": "loaded",
+  "sourceTextDifferences": [],
+  "print": {
+    "pages": 2,
+    "sizes": [
+      {
+        "width": 768,
+        "height": 768
+      },
+      {
+        "width": 768,
+        "height": 768
+      }
+    ],
+    "background": "rgb(255, 255, 255)"
+  }
+}

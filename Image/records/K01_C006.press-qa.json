@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K01_C006_chapter_064_vartaman_naigam_pratipadaka_vyavahara_katha_r01_press.png",
+  "sha256": "129acb2e2f7c29606741f1c059379cc41e2692a59d4e490c15cb5e1bd77afae8",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.14868084013135638,
+  "white_fraction": 0.8513191598686436,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K04_C015_chapter_059_sattagaunotpadavyayagrahaka_nityashuddha_paryayarthikanaya_katha_r02_press.png",
+  "sha256": "d886a8987ab4e7e0acc2392e4ee35e32d3aef16e7cc8f368cbf1403a11a57773",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.15218477904199385,
+  "white_fraction": 0.8478152209580061,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

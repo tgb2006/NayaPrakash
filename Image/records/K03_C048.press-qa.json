@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K03_C048_chapter_072_sabheda_shuddha_sadbhuta_vyavahara_katha_r01_press.png",
+  "sha256": "ca1a7339172b612455d6216b10461ab7f22a9e34bb3f4af2ad8ea97e9a4e4eeb",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.12969661357976645,
+  "white_fraction": 0.8703033864202335,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}

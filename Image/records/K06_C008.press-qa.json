@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\press\\K06_C008_chapter_165_dravyanaya_katha_r01_press.png",
+  "sha256": "1a92194f5ccd49f618ff8060199a80f7099f6fecffba6e2fb14e8c1d059112d3",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.16487654179671304,
+  "white_fraction": 0.8351234582032869,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 637.0319999999999,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": [],
+  "square": true,
+  "mode": "1",
+  "dpi_metadata": [
+    599.9988,
+    599.9988
+  ],
+  "max_width_mm_at_600dpi": 53.08599999999999
+}
