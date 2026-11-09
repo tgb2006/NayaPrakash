@@ -1,0 +1,355 @@
+{
+  "audit": "independent lexical content multiset comparison; visual repeated table headers excluded; enumeration punctuation treated as display style",
+  "all_passed": true,
+  "files": [
+    {
+      "file": "sankshipt/output/preface/01_prastavana_gu.md",
+      "expected_tokens": 1473,
+      "rendered_tokens": 1473,
+      "missing": {},
+      "extra": {},
+      "pass": true,
+      "table_headers_counted_once": 0
+    },
+    {
+      "file": "sankshipt/output/preface/02_nayachakshu_parichay_gu.md",
+      "expected_tokens": 1305,
+      "rendered_tokens": 1305,
+      "missing": {},
+      "extra": {},
+      "pass": true,
+      "table_headers_counted_once": 0
+    },
+    {
+      "file": "sankshipt/output/samanya_prakaran/prakaran_01_naya_etle_shu_gu.md",
+      "expected_tokens": 1139,
+      "rendered_tokens": 1139,
+      "missing": {},
+      "extra": {},
+      "pass": true,
+      "table_headers_counted_once": 0
+    },
+    {
+      "file": "sankshipt/output/samanya_prakaran/prakaran_02_naya_jannvu_kem_jaroori_gu.md",
+      "expected_tokens": 1281,
+      "rendered_tokens": 1281,
+      "missing": {},
+      "extra": {},
+      "pass": true,
+      "table_headers_counted_once": 0
+    },
+    {
+      "file": "sankshipt/output/samanya_prakaran/prakaran_03_naya_na_prakar_naksho_gu.md",
+      "expected_tokens": 1183,
+      "rendered_tokens": 1183,
+      "missing": {},
+      "extra": {},
+      "pass": true,
+      "table_headers_counted_once": 1
+    },
+    {
+      "file": "sankshipt/output/samanya_prakaran/prakaran_04_dravyarthik_ane_paryayarthik_naya_gu.md",
+      "expected_tokens": 1590,
+      "rendered_tokens": 1590,
+      "missing": {},
+      "extra": {},
+      "pass": true,
+      "table_headers_counted_once": 0
+    },
+    {
+      "file": "sankshipt/output/samanya_prakaran/prakaran_05_jnan_artha_shabda_naya_gu.md",
+      "expected_tokens": 1418,
+      "rendered_tokens": 1418,
+      "missing": {},
+      "extra": {},
+      "pass": true,
+      "table_headers_counted_once": 0
+    },
+    {
+      "file": "sankshipt/output/khanda_1_naigam/000_khanda_1_naigam_parichay_gu.md",
+      "expected_tokens": 940,
+      "rendered_tokens": 940,
+      "missing": {},
+      "extra": {},
+      "pass": true,
+      "table_headers_counted_once": 0
+    },
+    {
+      "file": "sankshipt/output/khanda_2_sangrah/000_khanda_2_sangrah_parichay_gu.md",
+      "expected_tokens": 856,
+      "rendered_tokens": 856,
+      "missing": {},
+      "extra": {},
+      "pass": true,
+      "table_headers_counted_once": 0
+    },
+    {
+      "file": "sankshipt/output/khanda_3_vyavahar/000_khanda_3_vyavahar_parichay_gu.md",
+      "expected_tokens": 880,
+      "rendered_tokens": 880,
+      "missing": {},
+      "extra": {},
+      "pass": true,
+      "table_headers_counted_once": 0
+    },
+    {
+      "file": "sankshipt/output/khanda_4_rjusutra/000_khanda_4_rjusutra_parichay_gu.md",
+      "expected_tokens": 864,
+      "rendered_tokens": 864,
+      "missing": {},
+      "extra": {},
+      "pass": true,
+      "table_headers_counted_once": 0
+    },
+    {
+      "file": "sankshipt/output/khanda_5_shabda/000_khanda_5_shabda_parichay_gu.md",
+      "expected_tokens": 841,
+      "rendered_tokens": 841,
+      "missing": {},
+      "extra": {},
+      "pass": true,
+      "table_headers_counted_once": 0
+    },
+    {
+      "file": "sankshipt/output/khanda_6_samabhirudh/000_khanda_6_samabhirudh_parichay_gu.md",
+      "expected_tokens": 856,
+      "rendered_tokens": 856,
+      "missing": {},
+      "extra": {},
+      "pass": true,
+      "table_headers_counted_once": 0
+    },
+    {
+      "file": "sankshipt/output/khanda_7_evambhut/000_khanda_7_evambhut_parichay_gu.md",
+      "expected_tokens": 951,
+      "rendered_tokens": 951,
+      "missing": {},
+      "extra": {},
+      "pass": true,
+      "table_headers_counted_once": 0
+    },
+    {
+      "file": "sankshipt/output/parishishta/00_parishishta_prastavana.md",
+      "expected_tokens": 435,
+      "rendered_tokens": 435,
+      "missing": {},
+      "extra": {},
+      "pass": true,
+      "table_headers_counted_once": 1
+    },
+    {
+      "file": "sankshipt/output/parishishta/01_darshana_samanvaya_matrix.md",
+      "expected_tokens": 1860,
+      "rendered_tokens": 1860,
+      "missing": {},
+      "extra": {},
+      "pass": true,
+      "table_headers_counted_once": 3
+    },
+    {
+      "file": "sankshipt/output/parishishta/02_canonical_sutra_index.md",
+      "expected_tokens": 683,
+      "rendered_tokens": 683,
+      "missing": {},
+      "extra": {},
+      "pass": true,
+      "table_headers_counted_once": 1
+    },
+    {
+      "file": "sankshipt/output/parishishta/03_taxonomical_classification_matrix.md",
+      "expected_tokens": 791,
+      "rendered_tokens": 791,
+      "missing": {},
+      "extra": {},
+      "pass": true,
+      "table_headers_counted_once": 1
+    },
+    {
+      "file": "sankshipt/output/parishishta/04_life_application_conflict_resolution.md",
+      "expected_tokens": 683,
+      "rendered_tokens": 683,
+      "missing": {},
+      "extra": {},
+      "pass": true,
+      "table_headers_counted_once": 1
+    },
+    {
+      "file": "sankshipt/output/parishishta/05_spiritual_sadhana_experiential_directory.md",
+      "expected_tokens": 570,
+      "rendered_tokens": 570,
+      "missing": {},
+      "extra": {},
+      "pass": true,
+      "table_headers_counted_once": 0
+    },
+    {
+      "file": "sankshipt/output/parishishta/06_parables_metaphors_narrative_index.md",
+      "expected_tokens": 478,
+      "rendered_tokens": 478,
+      "missing": {},
+      "extra": {},
+      "pass": true,
+      "table_headers_counted_once": 1
+    },
+    {
+      "file": "sankshipt/output/parishishta/07_fallacy_vs_harmony_guide.md",
+      "expected_tokens": 637,
+      "rendered_tokens": 637,
+      "missing": {},
+      "extra": {},
+      "pass": true,
+      "table_headers_counted_once": 2
+    },
+    {
+      "file": "sankshipt/output/parishishta/08_alphabetical_master_index_glossary.md",
+      "expected_tokens": 802,
+      "rendered_tokens": 802,
+      "missing": {},
+      "extra": {},
+      "pass": true,
+      "table_headers_counted_once": 0
+    }
+  ],
+  "historical_count_references": [
+    {
+      "file": "sankshipt/output/preface/01_prastavana_gu.md",
+      "line": 75,
+      "text": "અત્યાર સુધી જૈન પરંપરામાં નયોની ચર્ચા ગૂઢ, શુષ્ક, અતિ-પારિભાષિક અને સામાન્ય વાચક માટે અગમ્ય રહી હતી. સામાન્ય જન તો ઠીક, ઊંડા અભ્યાસીઓ પણ ગણ્યા-ગાંઠ્યા નયોથી આગળ વધી શકતા નહોતા. પરંતુ આ ગ્રંથની અંદર સમગ્ર નય-સાહિત્યના ગહન સમુદ્રનું મંથન કરીને **૨૦૩ નયોનું એવું સર્વવ્યાપી, વ્યવસ્થિત, વિશિષ્ટ અને અજોડ સંકલન** કરવામાં આવ્યું છે, જે ચિંતન-સાહિત્યના સમગ્ર ઇતિહાસમાં સર્વથા અભૂતપૂર્વ છે."
+    },
+    {
+      "file": "sankshipt/output/preface/02_nayachakshu_parichay_gu.md",
+      "line": 10,
+      "text": "અહીં ૨૦૩ નયોની રજૂઆત કોઈ શુષ્ક પાંડિત્યના ભાર હેઠળ નથી દબાયેલી, પરંતુ જિજ્ઞાસુના ચિત્તમાં રસ, ભાવ, તર્ક અને સાધનાનો અખંડ આનંદ પ્રગટે તેવી અત્યંત પ્રવાહી, રસાળ, અલંકારિક અને કાવ્યાત્મક શૈલીમાં ગૂંથાયેલી છે."
+    },
+    {
+      "file": "sankshipt/output/preface/02_nayachakshu_parichay_gu.md",
+      "line": 26,
+      "text": "#### (૨) સપ્ત ખંડ વિભાજન : ૨૦૩ અવાંતર નયોનું સામ્રાજ્ય"
+    },
+    {
+      "file": "sankshipt/output/samanya_prakaran/prakaran_01_naya_etle_shu_gu.md",
+      "line": 76,
+      "text": "આ સપ્ત નયો આગળ જતાં વિસ્તરીને જૈન પરંપરામાં **૨૦૩ નયો** ના વિશાળ જ્ઞાનમંદિરમાં પલટાઈ જાય છે, જે આ સમગ્ર ગ્રંથનો મુખ્ય વિષય છે."
+    },
+    {
+      "file": "sankshipt/output/samanya_prakaran/prakaran_02_naya_jannvu_kem_jaroori_gu.md",
+      "line": 105,
+      "text": "આ ગ્રંથનું પ્રત્યેક પાનું તમારા મનના જાળાં સાફ કરવા માટે રચાયું છે. આ ગ્રંથ આગળ વાંચવો એ કોઈ ઐચ્છિક વાંચન નથી; તે તો જીવનને ભ્રમણાઓમાંથી ઉગારવા માટેની પરમ અનિવાર્યતા છે. આવો, અહંકાર અને એકાંતના સાંકડા સીમાડાઓ છોડીને ૨૦૩ નયોના વિશાળ, ઉદાર અને અમૃતમય સામ્રાજ્યમાં આગળ વધીએ!"
+    },
+    {
+      "file": "sankshipt/output/khanda_1_naigam/000_khanda_1_naigam_parichay_gu.md",
+      "line": 34,
+      "text": "                          [ પ્રથમ ખંડ: નૈગમ નય (કુલ ૬ અધ્યાય) ]"
+    },
+    {
+      "file": "sankshipt/output/khanda_2_sangrah/000_khanda_2_sangrah_parichay_gu.md",
+      "line": 34,
+      "text": "                          [ દ્વિતીય ખંડ: સંગ્રહ નય (કુલ ૯ અધ્યાય) ]"
+    },
+    {
+      "file": "sankshipt/output/khanda_3_vyavahar/000_khanda_3_vyavahar_parichay_gu.md",
+      "line": 31,
+      "text": "સમગ્ર 'નય પ્રકાશ' મહાગ્રંથમાં તૃતીય ખંડ સૌથી વિશાળ, ગંભીર અને વિસ્મયકારક વૈવિધ્ય ધરાવે છે. તેમાં કુલ **૧૧૬ અધ્યાયો** સમાવિષ્ટ છે, જેનું શાસ્ત્રીય વર્ગીકરણ નીચે મુજબના મહાનક્ષારૂપે પ્રગટ થાય છે:"
+    },
+    {
+      "file": "sankshipt/output/khanda_3_vyavahar/000_khanda_3_vyavahar_parichay_gu.md",
+      "line": 34,
+      "text": "                           [ તૃતીય ખંડ: વ્યવહાર નય (કુલ ૧૧૬ અધ્યાય) ]"
+    },
+    {
+      "file": "sankshipt/output/khanda_4_rjusutra/000_khanda_4_rjusutra_parichay_gu.md",
+      "line": 34,
+      "text": "                          [ ચતુર્થ ખંડ: ઋજુસૂત્ર નય (કુલ ૧૮ અધ્યાય) ]"
+    },
+    {
+      "file": "sankshipt/output/khanda_5_shabda/000_khanda_5_shabda_parichay_gu.md",
+      "line": 34,
+      "text": "                           [ પંચમ ખંડ: શબ્દનય (કુલ ૮ અધ્યાય) ]"
+    },
+    {
+      "file": "sankshipt/output/khanda_6_samabhirudh/000_khanda_6_samabhirudh_parichay_gu.md",
+      "line": 39,
+      "text": "                          [ ષષ્ઠ ખંડ: સમભિરૂઢ નય (કુલ ૧૧ અધ્યાય) ]"
+    },
+    {
+      "file": "sankshipt/output/khanda_7_evambhut/000_khanda_7_evambhut_parichay_gu.md",
+      "line": 34,
+      "text": "સપ્તમ ખંડ સમગ્ર ૨૦૩ નયોના મહાગ્રંથની ભવ્ય પૂર્ણાહુતિ છે. તેમાં કુલ **૩૫ અધ્યાયો** સમાવિષ્ટ છે, જેનું શાસ્ત્રીય વર્ગીકરણ નીચે મુજબના મહાનકશામાં સુપેરે પ્રગટ થાય છે:"
+    },
+    {
+      "file": "sankshipt/output/khanda_7_evambhut/000_khanda_7_evambhut_parichay_gu.md",
+      "line": 37,
+      "text": "                           [ સપ્તમ ખંડ: એવંભૂત નય (કુલ ૩૫ અધ્યાય) ]"
+    },
+    {
+      "file": "sankshipt/output/khanda_7_evambhut/000_khanda_7_evambhut_parichay_gu.md",
+      "line": 42,
+      "text": "(નય ૦૪૩, ૧૦૨)             (નય ૧૭૧-૧૮૦)                         (નય ૧૮૧-૧૮૬)           (નય ૧૮૭-૨૦૩)"
+    },
+    {
+      "file": "sankshipt/output/khanda_7_evambhut/000_khanda_7_evambhut_parichay_gu.md",
+      "line": 65,
+      "text": "૪. **આત્મ-સાધના, ચેતના અને પરમ વૈલક્ષણ્ય પૂર્ણાહુતિ (અધ્યાય ૧૮૭ થી ૨૦૩)**:  "
+    },
+    {
+      "file": "sankshipt/output/khanda_7_evambhut/000_khanda_7_evambhut_parichay_gu.md",
+      "line": 66,
+      "text": "- ગુણી-અગુણી, કર્તા-અકર્તા, ભોક્તા-અભોક્તા, ક્રિયા-જ્ઞાન, વ્યવહાર-નિશ્ચય, શુદ્ધ-અશુદ્ધ, ઊર્ધ્વતા સામાન્ય-વિશેષ, નિમિત્તત્ત્વ, તેમજ અધ્યાય ૨૦૨ (સાદૃશ્યનય) અને અધ્યાય ૨૦૩ (વૈલક્ષણ્યનય) દ્વારા સમગ્ર ૨૦૩ નયચક્રની મંગલ પૂર્ણાહુતિ."
+    },
+    {
+      "file": "sankshipt/output/parishishta/00_parishishta_prastavana.md",
+      "line": 8,
+      "text": "જૈન દર્શનની સર્વોચ્ચ દેન **સ્યાદવાદ અને અનેકાંતવાદ** છે. અનંતધર્માત્મક વસ્તુતત્ત્વને એક સાથે સમગ્રપણે માત્ર કેવળજ્ઞાન જ જાણી શકે છે; જ્યારે છદ્મસ્થ જ્ઞાતા તેને એક સમયે એક દૃષ્ટિકોણથી જાણે છે—તેને **'નય'** કહેવાય છે. 'નયચક્ષુ' ગ્રંથમાં ૨૦૩ (અને પેટાભેદો સહિત ૨૨૫) નયોનું પ્રત્યેક બે પાનાના સુગ્રથિત ફોર્મેટમાં વિવેચન કરવામાં આવ્યું છે."
+    },
+    {
+      "file": "sankshipt/output/parishishta/00_parishishta_prastavana.md",
+      "line": 20,
+      "text": "| **પરિશિષ્ટ ૩** | **સપ્તનય અને ૨૦૩ નયોનું પારિભાષિક વર્ગીકરણ (પારિવારિક માળખું)** | દ્રવ્યાર્થિક-પર્યાયાર્થિક, જ્ઞાન-અર્થ-શબ્દ, નિશ્ચય-વ્યવહાર વર્ગીકરણ અને નય-પરિવાર વંશાવલી | નયચક્રનું માળખાકીય વિજ્ઞાન |"
+    },
+    {
+      "file": "sankshipt/output/parishishta/00_parishishta_prastavana.md",
+      "line": 33,
+      "text": "3. **નય-પરિવાર અને વર્ગીકરણ સમજવા**: **પરિશિષ્ટ ૩** માં ૨૦૩ નયોનું પારિવારિક વિભાજન અને તેના સંબંધો સ્પષ્ટ થશે."
+    },
+    {
+      "file": "sankshipt/output/parishishta/03_taxonomical_classification_matrix.md",
+      "line": 1,
+      "text": "# પરિશિષ્ટ ૩: સપ્તનય અને ૨૦૩ નયોનું પારિભાષિક વર્ગીકરણ (પારિવારિક માળખું)"
+    },
+    {
+      "file": "sankshipt/output/parishishta/03_taxonomical_classification_matrix.md",
+      "line": 2,
+      "text": "### (Taxonomical Classification Matrix & Family Tree of 203 Jain Nayas)"
+    },
+    {
+      "file": "sankshipt/output/parishishta/03_taxonomical_classification_matrix.md",
+      "line": 8,
+      "text": "જૈન દર્શનમાં ૨૦૩ નયોનું વર્ગીકરણ કોઈ કાલ્પનિક વિભાજન નથી, પરંતુ જ્ઞાનમીમાંસા (Epistemology) અને તત્ત્વમીમાંસા (Ontology)ના અત્યંત વૈજ્ઞાનિક માળખા પર રચાયેલું છે. વસ્તુતત્ત્વ અનંત ગુણો અને અનંત પર્યાયો ધરાવે છે; આથી તેને જાણવાના નયો પણ અનેક સ્તરે વર્ગીકૃત થાય છે:"
+    },
+    {
+      "file": "sankshipt/output/parishishta/03_taxonomical_classification_matrix.md",
+      "line": 27,
+      "text": "- **દ્રવ્યાર્થિક નય**: જે પર્યાયોના ઉદય-વ્યયને ગૌણ કરીને અખંડ દ્રવ્ય, ગુણ, સામાન્ય સત્તા અને સાતત્યને મુખ્ય કરે છે. (ખંડ ૧ થી ૩, કુલ ૧૫૩ અધ્યાય)."
+    },
+    {
+      "file": "sankshipt/output/parishishta/03_taxonomical_classification_matrix.md",
+      "line": 28,
+      "text": "- **પર્યાયાર્થિક નય**: જે અખંડ દ્રવ્યને ગૌણ કરીને ક્ષણિક અવસ્થા, નવીન ઉત્પત્તિ, ભેદ અને વિશિષ્ટ ક્રિયાને મુખ્ય કરે છે. (ખંડ ૪ થી ૭, કુલ ૭૨ અધ્યાય)."
+    },
+    {
+      "file": "sankshipt/output/parishishta/03_taxonomical_classification_matrix.md",
+      "line": 63,
+      "text": "| ૭ | સપ્તમ ખંડ | **એવંભૂત નય** | પર્યાયાર્થિક | શબ્દનય | ૩૫ | ૪૩, ૧૦૨, ૧૭૧ થી ૨૦૩ |"
+    },
+    {
+      "file": "sankshipt/output/parishishta/03_taxonomical_classification_matrix.md",
+      "line": 64,
+      "text": "| **કુલ** | **સપ્ત ખંડ** | **૨૦૩ મૂળ નય** | **દ્રવ્યાર્થિક & પર્યાયાર્થિક** | **જ્ઞાન-અર્થ-શબ્દ** | **૨૨૫** | **સંપૂર્ણ મહાગ્રંથ પરિવાર** |"
+    },
+    {
+      "file": "sankshipt/output/parishishta/03_taxonomical_classification_matrix.md",
+      "line": 104,
+      "text": "- **આધ્યાત્મિક ૪૭ નય શાખા**: સ્વભાવનય, નિયતિનય, પુરુષકારનય, કાળનય, સાક્ષીનય, અકર્તૃનય, અભોક્તાનય, અગુણિનય, અશૂન્યનય, અસર્વગતનય, ચિન્માત્રનય, વૈલક્ષણ્યનય વગેરે (અધ્યાય ૧૭૧ થી ૨૦૩)."
+    }
+  ]
+}

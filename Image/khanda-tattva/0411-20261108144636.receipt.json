@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "created_local": "2026-11-08T14:46:35.370036+05:30",
+  "printed_page": 411,
+  "original": {
+    "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\khanda-tattva\\0411-20261108144635.png",
+    "sha256": "6da7de7ca0f3a0ecbfa5d8f05b1ab60e29978d17b57615a9063690586bbe226f",
+    "role": "original"
+  },
+  "normalized": {
+    "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\khanda-tattva\\0411-20261108144636.png",
+    "sha256": "9d301ad6984f97f79c2e48717ac364c127afd811bc797597bcfb29ed6e64d8fa",
+    "role": "normalized"
+  },
+  "normalization": {
+    "grayscale": true,
+    "autocontrast": true,
+    "threshold": 205,
+    "padding_px": 20,
+    "canvas_size_px": [
+      1881,
+      836
+    ]
+  }
+}

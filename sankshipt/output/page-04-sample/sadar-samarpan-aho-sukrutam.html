@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="gu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>નય-ચક્ષુ · પાનાં ૪ના ત્રણ નમૂના</title>
+<style>
+@font-face { font-family: Anek; src: url("../full_book/r14/assets/fonts/AnekGujarati-Bold.ttf"); font-weight: 700; }
+@font-face { font-family: Noto; src: url("../full_book/r14/assets/fonts/NotoSansGujarati-Regular.ttf"); font-weight: 400; }
+@font-face { font-family: Noto; src: url("../full_book/r14/assets/fonts/NotoSansGujarati-Bold.ttf"); font-weight: 700; }
+@page { size: 6.5in 9.5in; margin: 0; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #edeae5; color: #171410; font-family: Noto, "Shruti", sans-serif; }
+.gallery { display: flex; justify-content: center; flex-wrap: wrap; gap: 28px; padding: 24px; }
+figure { margin: 0; }
+figcaption { margin: 0 0 10px; font-size: 14px; font-weight: 700; }
+.page {
+  width: 6.5in;
+  height: 9.5in;
+  display: grid;
+  align-content: center;
+  padding: 17mm 14mm 17mm 12.5mm;
+  text-align: center;
+  background: #fff;
+  box-shadow: 0 3px 16px #1714101f;
+}
+.page section { min-width: 0; }
+h2, .book, .patron, .salute { font-family: Anek, "Shruti", sans-serif; font-weight: 700; }
+h2 { margin: 0 0 18px; font-size: 33pt; line-height: 1.12; }
+p { margin: 0; font-size: 13pt; line-height: 1.57; }
+p + p { margin-top: 11px; }
+.offering, .tribute { font-size: 11.5pt; }
+.book { margin-top: 1px; font-size: 36pt; line-height: 1.08; }
+.book + .offering { margin-top: 2px; }
+.acknowledgment > p:first-of-type { max-width: 340px; margin-inline: auto; }
+.patron { margin-top: 7px; font-size: 23pt; line-height: 1.2; }
+.patron + p { margin-top: 4px; }
+.tribute { margin-top: 18px; }
+.salute { margin-top: 5px; font-size: 17pt; line-height: 1.26; }
+.salute span { color: #6e5c47; }
+.divider { display: flex; align-items: center; gap: 10px; width: 132px; margin: 33px auto; color: #6e5c47; }
+.divider::before, .divider::after { content: ""; flex: 1; border-top: 1px solid; }
+.divider i { width: 6px; height: 6px; background: currentColor; transform: rotate(45deg); }
+.columns { grid-template-columns: minmax(0, 1fr) 1px minmax(0, 1fr); column-gap: 19px; align-content: start; padding-top: 54mm; }
+.columns h2 { margin-bottom: 23px; font-size: 24pt; }
+.columns p { font-size: 11pt; }
+.columns .book { font-size: 30pt; }
+.columns .patron { margin-top: 15px; font-size: 19pt; }
+.columns .salute { font-size: 12.5pt; }
+.columns .divider { display: block; width: 1px; margin: 5px 0 0; background: #a69683; }
+.columns .divider::before, .columns .divider::after, .columns .divider i { display: none; }
+.magazine {
+  --accent: #111;
+  --ornament: #555;
+  position: relative;
+  display: block;
+  padding: 0;
+  background: #fff;
+  color: #111;
+  isolation: isolate;
+}
+.magazine section { position: absolute; z-index: 1; }
+.magazine .dedication { top: 78px; left: 183px; right: 50px; text-align: left; }
+.magazine .acknowledgment { top: 500px; left: 169px; right: 54px; text-align: right; }
+.magazine h2 { color: var(--accent); font-size: 32pt; margin-bottom: 16px; }
+.magazine h2::before {
+  content: "";
+  display: block;
+  width: 39px;
+  height: 2px;
+  margin-bottom: 13px;
+  background: var(--ornament);
+}
+.magazine .acknowledgment h2::before { margin-left: auto; }
+.magazine p { font-size: 12.5pt; line-height: 1.53; }
+.magazine p + p { margin-top: 9px; }
+.magazine .offering, .magazine .tribute { font-size: 10.75pt; }
+.magazine .book { margin-top: 0; color: var(--accent); font-size: 40pt; line-height: 1.05; }
+.magazine .book + .offering { margin-top: 1px; }
+.magazine .acknowledgment > p:first-of-type { max-width: 355px; margin-left: auto; margin-right: 0; }
+.magazine .patron { color: var(--accent); font-size: 23pt; line-height: 1.15; }
+.magazine .patron + p { margin-top: 5px; }
+.magazine .tribute { margin-top: 15px; }
+.magazine .salute span { color: #555; }
+.magazine .salute { color: var(--accent); margin-top: 4px; font-size: 17pt; line-height: 1.2; }
+.magazine::before, .magazine::after {
+  content: "";
+  position: absolute;
+  left: 76px;
+  width: 1px;
+  background: #c3c3c3;
+}
+.magazine::before { top: 71px; height: 261px; }
+.magazine::after { top: 542px; height: 291px; }
+.magazine .ornament {
+  position: absolute;
+  top: 338px;
+  left: 21px;
+  width: 148px;
+  height: 148px;
+  filter: grayscale(1) brightness(1.055);
+}
+body:has(#magazine:target) figure:not(#magazine) { display: none; }
+@media print {
+  body { background: #fff; }
+  .gallery { display: block; padding: 0; }
+  figcaption { display: none; }
+  figure { break-inside: avoid; }
+  figure + figure { break-before: page; }
+  .page { box-shadow: none; }
+}
+</style>
+</head>
+<body>
+<main class="gallery">
+  <figure>
+    <figcaption>નમૂનો ૧ · ઉપર–નીચે · સૂચિત</figcaption>
+    <div class="page stacked">
+      <section class="dedication">
+  <h2>સાદર સમર્પણ</h2>
+  <p>જિનપરમાત્મા અને ગણધર ભગવંતોને,<br>પૂર્વકાળના પૂજ્ય મહાપુરુષોને,<br>મધ્યસ્થ અને તટસ્થ વિદ્વાનોને,</p>
+  <p>મુક્તિના યાત્રિકોને, તત્ત્વજિજ્ઞાસુઓને,<br>સત્યપિપાસુઓને અને એ પરમ મંજિલ ભણી<br>પગલું માંડનારા સૌ પ્રવાસીઓને.</p>
+  <p class="offering">એ સૌનાં હસ્તકમળોમાં</p>
+  <p class="book">નય-ચક્ષુ</p>
+  <p class="offering">વિનયપૂર્વક અર્પણ.</p>
+</section>
+      <div class="divider" aria-hidden="true"><i></i></div>
+      <section class="acknowledgment">
+  <h2>અહો સુકૃતમ્</h2>
+  <p>વિષયવૈવિધ્યથી સમૃદ્ધ વિભાગો અને સાત ખંડોમાં વિસ્તરેલા <strong>નય-ચક્ષુ</strong>ની જ્ઞાનજ્યોત જિજ્ઞાસુઓ સુધી પહોંચે, એ મંગલ ભાવનાથી</p>
+  <p class="patron">એક સમર્પિત સદ્ગૃહસ્થે</p>
+  <p>આત્માર્પણના ભાવે આ ગ્રંથના<br><strong>પ્રકાશનનો લાભ</strong> લીધો છે.</p>
+  <p class="tribute">એમના આત્મસમર્પણને અંતઃકરણપૂર્વક</p>
+  <p class="salute">અનુમોદના <span>·</span> અભિનંદન <span>·</span> ધન્યવાદ</p>
+</section>
+    </div>
+  </figure>
+  <figure>
+    <figcaption>નમૂનો ૨ · બાજુબાજુ</figcaption>
+    <div class="page columns">
+      <section class="dedication">
+  <h2>સાદર સમર્પણ</h2>
+  <p>જિનપરમાત્મા અને ગણધર ભગવંતોને,<br>પૂર્વકાળના પૂજ્ય મહાપુરુષોને,<br>મધ્યસ્થ અને તટસ્થ વિદ્વાનોને,</p>
+  <p>મુક્તિના યાત્રિકોને, તત્ત્વજિજ્ઞાસુઓને,<br>સત્યપિપાસુઓને અને એ પરમ મંજિલ ભણી<br>પગલું માંડનારા સૌ પ્રવાસીઓને.</p>
+  <p class="offering">એ સૌનાં હસ્તકમળોમાં</p>
+  <p class="book">નય-ચક્ષુ</p>
+  <p class="offering">વિનયપૂર્વક અર્પણ.</p>
+</section>
+      <div class="divider" aria-hidden="true"><i></i></div>
+      <section class="acknowledgment">
+  <h2>અહો સુકૃતમ્</h2>
+  <p>વિષયવૈવિધ્યથી સમૃદ્ધ વિભાગો અને સાત ખંડોમાં વિસ્તરેલા <strong>નય-ચક્ષુ</strong>ની જ્ઞાનજ્યોત જિજ્ઞાસુઓ સુધી પહોંચે, એ મંગલ ભાવનાથી</p>
+  <p class="patron">એક સમર્પિત સદ્ગૃહસ્થે</p>
+  <p>આત્માર્પણના ભાવે આ ગ્રંથના<br><strong>પ્રકાશનનો લાભ</strong> લીધો છે.</p>
+  <p class="tribute">એમના આત્મસમર્પણને અંતઃકરણપૂર્વક</p>
+  <p class="salute">અનુમોદના <span>·</span> અભિનંદન <span>·</span> ધન્યવાદ</p>
+</section>
+    </div>
+  </figure>
+  <figure id="magazine">
+    <figcaption>નમૂનો ૩ · મેગેઝીન શૈલી</figcaption>
+    <div class="page magazine">
+      <img class="ornament" src="magazine-botanical-grayscale.png" alt="">
+      <section class="dedication">
+  <h2>સાદર સમર્પણ</h2>
+  <p>જિનપરમાત્મા અને ગણધર ભગવંતોને,<br>પૂર્વકાળના પૂજ્ય મહાપુરુષોને,<br>મધ્યસ્થ અને તટસ્થ વિદ્વાનોને,</p>
+  <p><strong>મુક્તિના યાત્રિકોને, તત્ત્વજિજ્ઞાસુઓને,</strong><br><strong>સત્યપિપાસુઓને</strong> અને એ પરમ મંજિલ ભણી<br>પગલું માંડનારા સૌ પ્રવાસીઓને.</p>
+  <p class="offering">એ સૌનાં હસ્તકમળોમાં</p>
+  <p class="book">નય-ચક્ષુ</p>
+  <p class="offering">વિનયપૂર્વક અર્પણ.</p>
+</section>
+      <section class="acknowledgment">
+  <h2>અહો સુકૃતમ્</h2>
+  <p>વિષયવૈવિધ્યથી સમૃદ્ધ વિભાગો અને સાત ખંડોમાં વિસ્તરેલા <strong>નય-ચક્ષુ</strong>ની જ્ઞાનજ્યોત જિજ્ઞાસુઓ સુધી પહોંચે, એ મંગલ ભાવનાથી</p>
+  <p class="patron">એક સમર્પિત સદ્ગૃહસ્થે</p>
+  <p><strong>આત્માર્પણના ભાવે</strong> આ ગ્રંથના<br><strong>પ્રકાશનનો લાભ</strong> લીધો છે.</p>
+  <p class="tribute">એમના આત્મસમર્પણને અંતઃકરણપૂર્વક</p>
+  <p class="salute">અનુમોદના <span>·</span> અભિનંદન <span>·</span> ધન્યવાદ</p>
+</section>
+    </div>
+  </figure>
+</main>
+</body>
+</html>

@@ -1,0 +1,162 @@
+{
+  "purpose": "Replace decorative color-emoji presentation by vector monochrome symbols; original codepoints retained in data-original-symbol and accessible label; source words unchanged",
+  "count": 31,
+  "symbols": [
+    {
+      "original": "👈",
+      "sourceId": "D002-b0028",
+      "page": "8"
+    },
+    {
+      "original": "👉",
+      "sourceId": "D002-b0035",
+      "page": "9"
+    },
+    {
+      "original": "🏛️",
+      "sourceId": "D015-b0003",
+      "page": "532"
+    },
+    {
+      "original": "🧭",
+      "sourceId": "D015-b0006",
+      "page": "532"
+    },
+    {
+      "original": "📖",
+      "sourceId": "D015-b0015",
+      "page": "533"
+    },
+    {
+      "original": "🏛️",
+      "sourceId": "D016-b0003",
+      "page": "535"
+    },
+    {
+      "original": "🇮🇳",
+      "sourceId": "D016-b0007",
+      "page": "535"
+    },
+    {
+      "original": "🌍",
+      "sourceId": "D016-b0014",
+      "page": "536"
+    },
+    {
+      "original": "📑",
+      "sourceId": "D016-b0025",
+      "page": "538"
+    },
+    {
+      "original": "📜",
+      "sourceId": "D017-b0003",
+      "page": "547"
+    },
+    {
+      "original": "🏛️",
+      "sourceId": "D017-b0013",
+      "page": "547"
+    },
+    {
+      "original": "🔤",
+      "sourceId": "D017-b0028",
+      "page": "549"
+    },
+    {
+      "original": "🧬",
+      "sourceId": "D018-b0003",
+      "page": "552"
+    },
+    {
+      "original": "📊",
+      "sourceId": "D018-b0006",
+      "page": "552"
+    },
+    {
+      "original": "🏛️",
+      "sourceId": "D018-b0027",
+      "page": "553"
+    },
+    {
+      "original": "🌳",
+      "sourceId": "D018-b0036",
+      "page": "555"
+    },
+    {
+      "original": "🧭",
+      "sourceId": "D019-b0003",
+      "page": "557"
+    },
+    {
+      "original": "🌿",
+      "sourceId": "D019-b0006",
+      "page": "557"
+    },
+    {
+      "original": "🛠️",
+      "sourceId": "D019-b0041",
+      "page": "559"
+    },
+    {
+      "original": "🧘",
+      "sourceId": "D020-b0003",
+      "page": "561"
+    },
+    {
+      "original": "🪜",
+      "sourceId": "D020-b0006",
+      "page": "561"
+    },
+    {
+      "original": "🌅",
+      "sourceId": "D020-b0036",
+      "page": "563"
+    },
+    {
+      "original": "🎨",
+      "sourceId": "D021-b0003",
+      "page": "564"
+    },
+    {
+      "original": "🏛️",
+      "sourceId": "D021-b0006",
+      "page": "564"
+    },
+    {
+      "original": "📚",
+      "sourceId": "D021-b0017",
+      "page": "565"
+    },
+    {
+      "original": "⚖️",
+      "sourceId": "D022-b0003",
+      "page": "567"
+    },
+    {
+      "original": "⚠️",
+      "sourceId": "D022-b0007",
+      "page": "567"
+    },
+    {
+      "original": "🛡️",
+      "sourceId": "D022-b0015",
+      "page": "569"
+    },
+    {
+      "original": "🧠",
+      "sourceId": "D022-b0023",
+      "page": "569"
+    },
+    {
+      "original": "📖",
+      "sourceId": "D023-b0003",
+      "page": "571"
+    },
+    {
+      "original": "📚",
+      "sourceId": "D023-b0005",
+      "page": "571"
+    }
+  ],
+  "editionNote": "Generated title-page note distinguishes catalogue225 from historical source counts"
+}

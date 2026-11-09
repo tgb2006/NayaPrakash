@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "created_local": "2026-11-07T20:03:18.234517+05:30",
+  "printed_page": 72,
+  "original": {
+    "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\vyavahar-preview\\0072-20261107200318.png",
+    "sha256": "62bc42d01a5c7bf1b1947b794d32f192af3b3b8a506113ea9d24a9cd121ea272",
+    "role": "original"
+  },
+  "normalized": {
+    "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\vyavahar-preview\\0072-20261107200319.png",
+    "sha256": "926d697b8493418df21ec20dba2be965d80d148a2883cb5849b782f2bd46b252",
+    "role": "normalized"
+  },
+  "normalization": {
+    "grayscale": true,
+    "autocontrast": true,
+    "threshold": 205,
+    "padding_px": 16,
+    "canvas_size_px": [
+      1254,
+      1254
+    ]
+  }
+}

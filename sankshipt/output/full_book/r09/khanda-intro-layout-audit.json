@@ -1,0 +1,254 @@
+[
+  {
+    "key": "D008",
+    "sizeMm": 46,
+    "density": "normal",
+    "tattvaHeightMm": 52,
+    "pages": [
+      {
+        "page": 52,
+        "footerGapMm": 30.2,
+        "fill": 87,
+        "first": "D008-b0001",
+        "last": "D008-b0005"
+      },
+      {
+        "page": 53,
+        "footerGapMm": 3.89,
+        "fill": 99,
+        "first": "D008-b0006",
+        "last": "D008-b0010"
+      },
+      {
+        "page": 54,
+        "footerGapMm": 10.31,
+        "fill": 96,
+        "first": "D008-b0011",
+        "last": "D008-b0020"
+      },
+      {
+        "page": 55,
+        "footerGapMm": 28.34,
+        "fill": 88,
+        "first": "D008-b0021",
+        "last": "D008-b0028"
+      }
+    ]
+  },
+  {
+    "key": "D009",
+    "sizeMm": 46,
+    "density": "normal",
+    "tattvaHeightMm": 98,
+    "pages": [
+      {
+        "page": 68,
+        "footerGapMm": 7.09,
+        "fill": 98,
+        "first": "D009-b0001",
+        "last": "D009-b0006"
+      },
+      {
+        "page": 69,
+        "footerGapMm": 3.82,
+        "fill": 99,
+        "first": "D009-b0007",
+        "last": "D009-b0010"
+      },
+      {
+        "page": 70,
+        "footerGapMm": 27.15,
+        "fill": 88,
+        "first": "D009-b0011",
+        "last": "D009-b0020"
+      },
+      {
+        "page": 71,
+        "footerGapMm": 8.04,
+        "fill": 97,
+        "first": "D009-b0021",
+        "last": "D009-b0030"
+      }
+    ]
+  },
+  {
+    "key": "D010",
+    "sizeMm": 46,
+    "density": "dense",
+    "tattvaHeightMm": 112,
+    "pages": [
+      {
+        "page": 100,
+        "footerGapMm": 16.08,
+        "fill": 93,
+        "first": "D010-b0001",
+        "last": "D010-b0006"
+      },
+      {
+        "page": 101,
+        "footerGapMm": 4.09,
+        "fill": 99,
+        "first": "D010-b0007",
+        "last": "D010-b0010"
+      },
+      {
+        "page": 102,
+        "footerGapMm": 2.77,
+        "fill": 100,
+        "first": "D010-b0011",
+        "last": "D010-b0021"
+      },
+      {
+        "page": 103,
+        "footerGapMm": 15.8,
+        "fill": 94,
+        "first": "D010-b0022",
+        "last": "D010-b0031"
+      }
+    ]
+  },
+  {
+    "key": "D011",
+    "sizeMm": 46,
+    "density": "normal",
+    "tattvaHeightMm": 58,
+    "pages": [
+      {
+        "page": 370,
+        "footerGapMm": 41.35,
+        "fill": 81,
+        "first": "D011-b0001",
+        "last": "D011-b0005"
+      },
+      {
+        "page": 371,
+        "footerGapMm": 3.6,
+        "fill": 99,
+        "first": "D011-b0006",
+        "last": "D011-b0010"
+      },
+      {
+        "page": 372,
+        "footerGapMm": 11.25,
+        "fill": 96,
+        "first": "D011-b0011",
+        "last": "D011-b0021"
+      },
+      {
+        "page": 373,
+        "footerGapMm": 28.34,
+        "fill": 88,
+        "first": "D011-b0022",
+        "last": "D011-b0029"
+      }
+    ]
+  },
+  {
+    "key": "D012",
+    "sizeMm": 46,
+    "density": "normal",
+    "tattvaHeightMm": 63,
+    "pages": [
+      {
+        "page": 410,
+        "footerGapMm": 35.64,
+        "fill": 84,
+        "first": "D012-b0001",
+        "last": "D012-b0005"
+      },
+      {
+        "page": 411,
+        "footerGapMm": 4.31,
+        "fill": 99,
+        "first": "D012-b0006",
+        "last": "D012-b0010"
+      },
+      {
+        "page": 412,
+        "footerGapMm": 26.98,
+        "fill": 88,
+        "first": "D012-b0011",
+        "last": "D012-b0019"
+      },
+      {
+        "page": 413,
+        "footerGapMm": 34.05,
+        "fill": 85,
+        "first": "D012-b0020",
+        "last": "D012-b0027"
+      }
+    ]
+  },
+  {
+    "key": "D013",
+    "sizeMm": 46,
+    "density": "compact",
+    "tattvaHeightMm": 88,
+    "pages": [
+      {
+        "page": 430,
+        "footerGapMm": 8.48,
+        "fill": 97,
+        "first": "D013-b0001",
+        "last": "D013-b0006"
+      },
+      {
+        "page": 431,
+        "footerGapMm": 3.75,
+        "fill": 99,
+        "first": "D013-b0007",
+        "last": "D013-b0014"
+      },
+      {
+        "page": 432,
+        "footerGapMm": 2.96,
+        "fill": 100,
+        "first": "D013-b0015",
+        "last": "D013-b0025"
+      },
+      {
+        "page": 433,
+        "footerGapMm": 28.26,
+        "fill": 88,
+        "first": "D013-b0026",
+        "last": "D013-b0035"
+      }
+    ]
+  },
+  {
+    "key": "D014",
+    "sizeMm": 46,
+    "density": "compact",
+    "tattvaHeightMm": 89,
+    "pages": [
+      {
+        "page": 456,
+        "footerGapMm": 13.91,
+        "fill": 95,
+        "first": "D014-b0001",
+        "last": "D014-b0006"
+      },
+      {
+        "page": 457,
+        "footerGapMm": 3.98,
+        "fill": 99,
+        "first": "D014-b0007",
+        "last": "D014-b0011"
+      },
+      {
+        "page": 458,
+        "footerGapMm": 9.07,
+        "fill": 97,
+        "first": "D014-b0012",
+        "last": "D014-b0021"
+      },
+      {
+        "page": 459,
+        "footerGapMm": 12.04,
+        "fill": 95,
+        "first": "D014-b0022",
+        "last": "D014-b0031"
+      }
+    ]
+  }
+]

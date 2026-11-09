@@ -103,7 +103,8 @@ def parse_chapter(md_path: Path, img_record: Dict[str, Any], global_page_even: i
         if not line:
             continue
         # Remove blockquote '>' and list '-' or '•'
-        line = re.sub(r'^[>\s\-•\*]+', '', line).strip()
+        line = re.sub(r'^[>\s]+', '', line)
+        line = re.sub(r'^[•\-\*]\s+', '', line).strip()
         if line:
             c3_bullets.append(clean_markdown_inline(line))
 
@@ -499,11 +500,11 @@ def get_shared_css(fonts_rel: str = "../../pilot_chapter_001/assets/fonts") -> s
     }}
 
     .page-even {{
-      padding: 11.5mm 14mm 11.5mm 12.5mm;
+      padding: 10.5mm 14mm 10.5mm 12.5mm;
     }}
 
     .page-odd {{
-      padding: 11.5mm 12.5mm 11.5mm 14mm;
+      padding: 10.5mm 12.5mm 10.5mm 14mm;
     }}
 
     .page-canvas {{
@@ -730,7 +731,7 @@ def get_shared_css(fonts_rel: str = "../../pilot_chapter_001/assets/fonts") -> s
       background: #ffffff;
       border: 0.75pt solid #c8cbcf;
       border-radius: 4.5pt;
-      padding: 4.5pt 7pt;
+      padding: 3.5pt 6.5pt;
       display: flex;
       flex-direction: column;
       box-shadow: 0 1.2pt 3pt rgba(0, 0, 0, 0.02);
@@ -742,8 +743,8 @@ def get_shared_css(fonts_rel: str = "../../pilot_chapter_001/assets/fonts") -> s
       display: flex;
       align-items: flex-start;
       gap: 5.5pt;
-      margin-bottom: 3.5pt;
-      padding-bottom: 2.2pt;
+      margin-bottom: 2.2pt;
+      padding-bottom: 1.6pt;
       border-bottom: 0.6pt solid #e6e8eb;
     }}
 
@@ -801,14 +802,14 @@ def get_shared_css(fonts_rel: str = "../../pilot_chapter_001/assets/fonts") -> s
       margin: 0;
       font-family: 'Noto Sans Gujarati', sans-serif;
       font-size: 11.0pt !important;
-      line-height: 1.32;
+      line-height: 1.30;
       color: #1f2937;
     }}
 
     .card-bullet-list li {{
       position: relative;
       padding-left: 9pt;
-      margin-bottom: 2pt;
+      margin-bottom: 1.2pt;
       text-align: justify;
     }}
 
@@ -924,13 +925,13 @@ def get_shared_css(fonts_rel: str = "../../pilot_chapter_001/assets/fonts") -> s
 
     .story-artwork-box {{
       width: 115pt;
-      height: 78pt;
+      height: 72pt;
       border: 0.6pt solid #c8c8c8;
       background: #fafafa;
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 2.0pt;
+      padding: 1.5pt;
       border-radius: 2pt;
       overflow: hidden;
     }}
@@ -975,8 +976,8 @@ def get_shared_css(fonts_rel: str = "../../pilot_chapter_001/assets/fonts") -> s
       border-top: 0.6pt solid #cfcfcf;
       border-right: 0.6pt solid #cfcfcf;
       border-bottom: 0.6pt solid #cfcfcf;
-      padding: 3.0pt 6.5pt;
-      margin-bottom: 3.0pt;
+      padding: 2.2pt 6.0pt;
+      margin-bottom: 2.2pt;
       border-radius: 0 3pt 3pt 0;
     }}
 
@@ -1016,7 +1017,7 @@ def get_shared_css(fonts_rel: str = "../../pilot_chapter_001/assets/fonts") -> s
     .vivek-card {{
       border: 0.6pt solid #cfcfcf;
       border-radius: 3pt;
-      padding: 3.5pt 5.5pt;
+      padding: 2.2pt 5.0pt;
       background: #ffffff;
     }}
 
@@ -1025,15 +1026,15 @@ def get_shared_css(fonts_rel: str = "../../pilot_chapter_001/assets/fonts") -> s
       font-weight: 700;
       font-size: 9.8pt;
       color: #111111;
-      padding-bottom: 1.2pt;
+      padding-bottom: 0.8pt;
       border-bottom: 0.6pt solid #e0e0e0;
-      margin-bottom: 2.0pt;
+      margin-bottom: 1.5pt;
     }}
 
     .vivek-card p {{
       font-family: 'Noto Sans Gujarati', sans-serif;
       font-size: 10.6pt !important;
-      line-height: 1.32;
+      line-height: 1.30;
       color: #242424;
       margin: 0;
       text-align: justify;
@@ -1042,7 +1043,7 @@ def get_shared_css(fonts_rel: str = "../../pilot_chapter_001/assets/fonts") -> s
     .darshan-section {{
       margin-top: auto;
       border-top: 0.6pt solid #d0d0d0;
-      padding-top: 2.5pt;
+      padding-top: 1.8pt;
       margin-bottom: 1.0pt;
     }}
 

@@ -1,0 +1,188 @@
+@page{size:6.5in 9.5in;margin:0}
+*{box-sizing:border-box}body{margin:0;background:#ddd;color:#171717;font-family:'Noto Sans Gujarati',sans-serif}a{color:inherit;text-decoration:none}button{font:inherit}.review-toolbar{display:flex;gap:10mm;align-items:center;justify-content:space-between;padding:4mm 8mm;font:11pt 'Anek Gujarati',sans-serif;background:#ededed;position:sticky;top:0;z-index:10}.review-toolbar button{border:.6pt solid #888;background:white;padding:1.5mm 3mm}.review-toolbar small{color:#555}
+#book{display:flex;flex-wrap:wrap;gap:5mm;justify-content:center;padding:6mm}
+.page{flex:none;width:6.5in;height:9.5in;padding:17mm 12.5mm 17mm 14mm;background:#fff;position:relative;box-shadow:0 1mm 5mm #0002;break-after:page}
+.page.even{padding-left:12.5mm;padding-right:14mm}.page.odd{padding-left:14mm;padding-right:12.5mm}
+.page-content{height:100%;display:flex;flex-direction:column;min-height:0}
+.running-footer{position:absolute;bottom:8mm;left:14mm;right:12.5mm;border-top:.55pt solid #999;padding-top:2mm;display:flex;justify-content:space-between;align-items:baseline;gap:3mm;font:400 8.5pt 'Anek Gujarati',sans-serif;color:#606060}.even .running-footer{left:12.5mm;right:14mm}.running-footer b{font-weight:600;color:#222}.folio{font:400 10pt 'Anek Gujarati',sans-serif;color:#111}
+.frontmatter .page-content{height:100%}.document-page .page-content{display:block}.document-page .generic-block{margin:0}.document-page .table-group{margin-bottom:2.3mm}.document-page .semantic-table thead{display:table-header-group}.document-page .semantic-table td{word-break:normal}.document-page .generic-block:empty{display:none}
+.title-page .page-content,.mangal-page .page-content{display:flex;flex-direction:column}
+.document-page .generic-verse{white-space:normal}.title-page{padding:27mm 15mm}.title-page .page-content{justify-content:space-between}.title-mark{width:14mm;height:1.5mm;background:#111;margin-bottom:7mm}.title-kicker{font:600 11pt 'Anek Gujarati',sans-serif;color:#777}.book-title{font:800 54pt/1.1 'Anek Gujarati',sans-serif;margin:8mm 0 4mm;letter-spacing:-1pt}.book-subtitle{font:600 20pt/1.3 'Anek Gujarati',sans-serif;max-width:120mm;margin:0}.title-rule{border-top:1.5pt solid #171717;padding-top:5mm;margin-top:15mm}.title-bottom{font:400 11pt/1.5 'Noto Sans Gujarati',sans-serif;color:#555}.title-bottom strong{display:block;font:700 18pt 'Anek Gujarati',sans-serif;color:#222;margin-bottom:2mm}.mangal-page .page-content{justify-content:center}.mangal-page h1{font:800 27pt 'Anek Gujarati',sans-serif;margin:0 0 12mm}.mangal-page p{font:600 16pt/1.8 'Anek Gujarati',sans-serif;margin:0 0 8mm}.mangal-rule{width:25mm;border-top:1pt solid #777;margin:5mm 0}
+.contents-heading{font:800 27pt 'Anek Gujarati',sans-serif;margin:0 0 5mm}.contents-row{display:flex;justify-content:space-between;gap:3mm;align-items:baseline;padding:1mm 0;border-bottom:.4pt solid #ddd;font:400 10.5pt/1.35 'Anek Gujarati',sans-serif}.contents-row .toc-title{flex:1;min-width:0}.contents-row .toc-page{font-weight:700;min-width:8mm;text-align:right}.contents-row.khanda_intro{font-weight:700;background:#eee;padding:1.5mm 2mm}.contents-row.chapter{padding-left:2mm}.contents-row.appendix{background:#f7f7f7}.navigation-page h1{font:800 27pt 'Anek Gujarati',sans-serif;margin:4mm 0 8mm}.navigation-page h2{font:700 17pt 'Anek Gujarati',sans-serif;margin:5mm 0 4mm}.navigation-page p{font:400 11pt/1.5 'Noto Sans Gujarati',sans-serif}.navigation-grid{display:grid;grid-template-columns:1fr 1fr;gap:3mm}.navigation-cell{background:#f2f2f2;padding:3mm;border-top:.6pt solid #aaa;font:700 14pt 'Anek Gujarati',sans-serif}.continuation-note{font:600 9pt 'Anek Gujarati',sans-serif;color:#777;margin:0 0 2mm}
+@media print{body{background:#fff;print-color-adjust:exact;-webkit-print-color-adjust:exact}.review-toolbar{display:none}#book{display:block;padding:0}.page{box-shadow:none;margin:0;break-after:page}.page:last-child{break-after:auto}}
+
+/* Keep all four branches of the seventh khanda chart on one tier. */
+.document-page[data-type="khanda_intro"][data-key="D014"] .chart-dimensions {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.3mm;
+}
+.document-page[data-type="khanda_intro"][data-key="D014"] .chart-dimension {
+  padding: 1.4mm;
+}
+.document-page[data-type="khanda_intro"][data-key="D014"] .chart-node {
+  padding: 0.65mm 0.8mm;
+  margin-left: 0;
+}
+
+/* Title-page credits */
+.page.title-page{padding:13mm 15mm 12mm}
+.title-page .page-content{display:flex;flex-direction:column;justify-content:space-between;gap:3mm}
+.title-page .cover-invocations{text-align:center;font:600 8.2pt/1.42 'Noto Sans Devanagari',sans-serif;color:#333}
+.title-page .cover-invocations p,.title-page .cover-credits p,.title-page .cover-publisher p{margin:0}
+.title-page .cover-masthead{border-bottom:1.1pt solid #222;padding:2mm 0 4mm}
+.title-page .cover-masthead .title-mark{margin-bottom:2mm}
+.title-page .cover-masthead .title-kicker{margin:0}
+.title-page .cover-masthead .book-title{margin:2mm 0 1mm}
+.title-page .cover-masthead .book-subtitle{font-size:17pt;max-width:none}
+.title-page .cover-credits h2,.title-page .cover-publisher h2{font:700 10.5pt/1.3 'Anek Gujarati',sans-serif;margin:0 0 .6mm}
+.title-page .cover-credits p{font:400 9.5pt/1.42 'Noto Sans Gujarati',sans-serif}
+.title-page .cover-credit-rows>div{padding:2mm 3mm;text-align:left}
+.title-page .cover-credit-rows>div:nth-child(odd){background:#f0f0f0}
+.title-page .cover-credit-rows h2{font-weight:400;font-size:11pt;color:#444}
+.title-page .cover-credit-rows strong{font-weight:700}
+.title-page :is(.cover-lineage,.cover-credit-grid,.cover-editorial,.cover-publisher){text-align:left}
+.title-page :is(.cover-lineage,.cover-credit-grid,.cover-editorial){display:grid;gap:1.5mm 0}
+.title-page .cover-credit-grid{grid-template-columns:repeat(2,minmax(0,1fr));margin:1.5mm 0}
+.title-page :is(.cover-lineage,.cover-credit-grid,.cover-editorial)>div,.title-page .cover-publisher{padding:2mm 3mm;background:#fff}
+.title-page .cover-credit-grid>div:nth-child(even){padding-left:4mm}
+.title-page .cover-lineage>div:first-child,.title-page .cover-credit-grid>div:nth-child(-n+2),.title-page .cover-editorial>div:first-child,.title-page .cover-publisher{background:#f0f0f0}
+.title-page .cover-publisher{border-top:1pt solid #222}
+.title-page .cover-publisher p{font:700 13pt/1.2 'Anek Gujarati',sans-serif}
+
+/* Inserted front matter */
+.page.publication-page,.page.acknowledgment-page{padding:14mm 15mm}
+.publication-page h1{font:800 27pt/1.15 'Anek Gujarati',sans-serif;margin:0 0 4mm;padding-bottom:2.5mm;border-bottom:1.2pt solid #252525}
+.publication-facts{font:400 9.4pt/1.35 'Noto Sans Gujarati',sans-serif}
+:is(.publication-facts>div,.publication-edition){display:grid;grid-template-columns:36mm minmax(0,1fr);gap:3mm}.publication-facts>div{padding:1.45mm 2mm;border-bottom:.35pt solid #ddd}
+.publication-facts>div:nth-child(odd){background:#f1f1f1}
+.publication-facts strong,.publication-edition strong{font-weight:700}
+.publication-edition-values{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2mm}.publication-edition{padding:2mm;margin:2mm 0;background:#e8e8e8;font:400 9.4pt/1.35 'Noto Sans Gujarati',sans-serif}
+.publication-page .page-content{display:flex;flex-direction:column}
+.publication-page .publication-facts{display:contents}
+.publication-page :is(.publication-facts>div,.publication-edition){flex:1 0 auto;align-content:center}
+.publication-facts:not(.publication-details)>div:last-child{border-bottom:0}
+.acknowledgment-page .page-content{display:flex;flex-direction:column;justify-content:space-between;gap:5mm;text-align:center;border-top:1.2pt solid #252525;border-bottom:1.2pt solid #252525;padding:10mm 0}
+.acknowledgment-rule{width:16mm;height:1.6mm;background:#222;margin:0 auto}
+.acknowledgment-page h1{font:800 39pt/1.16 'Anek Gujarati',sans-serif;margin:0}
+.acknowledgment-page p{font:400 14pt/1.55 'Noto Sans Gujarati',sans-serif;margin:0}
+.acknowledgment-intro strong{display:block;margin-top:2mm;font:700 20pt/1.2 'Anek Gujarati',sans-serif}
+.acknowledgment-name{background:#efefef;padding:8mm 4mm;border-block:.6pt solid #aaa}
+.acknowledgment-name strong,.acknowledgment-name span{display:block}
+.acknowledgment-name strong{font:800 30pt/1.2 'Anek Gujarati',sans-serif}
+.acknowledgment-name span{font:600 15pt/1.35 'Anek Gujarati',sans-serif;margin-top:2mm}
+.acknowledgment-page .acknowledgment-close{font:700 19pt/1.3 'Anek Gujarati',sans-serif}
+
+/* Approved opening poems on page 3. */
+.page.opening-poems-page {
+  padding: 57px 46px 53px 53px;
+  font: 16.8px/1.56 "Noto Sans Gujarati", sans-serif;
+  color: #000;
+}
+.opening-poems-page .poems {
+  display: grid;
+  grid-template-columns: 262px 1fr;
+  gap: 16px;
+}
+.opening-poems-page article + article { align-self: start; border-left: 1px solid #aaa; padding-left: 20px; }
+.opening-poems-page h1, .opening-poems-page h2 {
+  margin: 0 0 24px;
+  font: 700 36px/1.16 "Anek Gujarati", sans-serif;
+}
+.opening-poems-page h1::before, .opening-poems-page h2::before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 3px;
+  margin-bottom: 16px;
+  background: #000;
+}
+.opening-poems-page h2 .dove { width: 24px; height: 23px; margin-right: 3px; vertical-align: 2px; }
+.opening-poems-page p { margin: 0; }
+.opening-poems-page article > p:nth-of-type(even) { padding-left: calc(18px + 5mm); }
+.opening-poems-page p + p { margin-top: 16px; }
+.opening-poems-page .closing::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 1px;
+  margin: 20px 0 13px;
+  background: #888;
+}
+.opening-poems-page .engraving { display: block; width: 100%; height: auto; filter: grayscale(1) brightness(1.025); }
+.opening-poems-page .flower { width: 116px; margin: 0 0 16px 40px; }
+.opening-poems-page .petal { position: absolute; left: 461px; top: 796.453125px; width: 117px; }
+
+/* Approved dedication and acknowledgment on page 4. */
+.dedication-page section { min-width: 0; }
+.dedication-page h2, .dedication-page .book, .dedication-page .patron, .dedication-page .salute { font-family: "Anek Gujarati", "Shruti", sans-serif; font-weight: 700; }
+.dedication-page h2 { margin: 0 0 18px; font-size: 33pt; line-height: 1.12; }
+.dedication-page p { margin: 0; font-size: 13pt; line-height: 1.57; }
+.dedication-page p + p { margin-top: 11px; }
+.dedication-page .offering, .dedication-page .tribute { font-size: 11.5pt; }
+.dedication-page .book { margin-top: 1px; font-size: 36pt; line-height: 1.08; }
+.dedication-page .book + .offering { margin-top: 2px; }
+.dedication-page .acknowledgment > p:first-of-type { max-width: 340px; margin-inline: auto; }
+.dedication-page .patron { margin-top: 9px; font-size: 23pt; line-height: 1.2; }
+.dedication-page .patron + p { margin-top: 4px; }
+.dedication-page .tribute { margin-top: 18px; }
+.dedication-page .salute { margin-top: 5px; font-size: 17pt; line-height: 1.26; }
+.dedication-page .salute span { color: #6e5c47; }
+.page.dedication-page {
+  --accent: #111;
+  --ornament: #555;
+  position: relative;
+  display: block;
+  padding: 0;
+  background: #fff;
+  color: #111;
+  isolation: isolate;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Noto Sans Gujarati", "Shruti", sans-serif;
+}
+.dedication-page section { position: absolute; z-index: 1; }
+.dedication-page .dedication { top: 78px; left: 183px; right: 50px; text-align: left; }
+.dedication-page .acknowledgment { top: 500px; left: 169px; right: 54px; text-align: right; }
+.dedication-page h2 { color: var(--accent); font-size: 32pt; margin-bottom: 16px; }
+.dedication-page h2::before {
+  content: "";
+  display: block;
+  width: 39px;
+  height: 2px;
+  margin-bottom: 13px;
+  background: var(--ornament);
+}
+.dedication-page .acknowledgment h2::before { margin-left: auto; }
+.dedication-page p { font-size: 12.5pt; line-height: 1.53; }
+.dedication-page p + p { margin-top: 9px; }
+.dedication-page .offering, .dedication-page .tribute { font-size: 10.75pt; }
+.dedication-page .book { margin-top: 0; color: var(--accent); font-size: 40pt; line-height: 1.05; }
+.dedication-page .book + .offering { margin-top: 1px; }
+.dedication-page .acknowledgment > p:first-of-type { max-width: 355px; margin-left: auto; margin-right: 0; }
+.dedication-page .patron { color: var(--accent); font-size: 23pt; line-height: 1.15; }
+.dedication-page .patron + p { margin-top: 5px; }
+.dedication-page .tribute { margin-top: 15px; }
+.dedication-page .salute span { color: #555; }
+.dedication-page .salute { color: var(--accent); margin-top: 4px; font-size: 17pt; line-height: 1.2; }
+.dedication-page::before, .dedication-page::after {
+  content: "";
+  position: absolute;
+  left: 76px;
+  width: 1px;
+  background: #c3c3c3;
+}
+.dedication-page::before { top: 71px; height: 261px; }
+.dedication-page::after { top: 542px; height: 291px; }
+.dedication-page .ornament {
+  position: absolute;
+  top: 338px;
+  left: 21px;
+  width: 148px;
+  height: 148px;
+  filter: grayscale(1) brightness(1.055);
+}
+
+/* Preface title, subtitle and byline. */
+#D001-b0001 > h1{margin-bottom:.5mm}
+#D001-b0002 > h4{margin:0;padding-bottom:1.5mm;border-bottom:.6pt solid #252525;font-size:10.5pt;font-weight:600}
+#D001-b0003 > p{margin:1.4mm 0 1.8mm;font:600 11pt/1.28 'Anek Gujarati',sans-serif;text-align:right;text-align-last:right}

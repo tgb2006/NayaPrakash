@@ -1,0 +1,186 @@
+[
+  {
+    "key": "D002",
+    "pages": [
+      {
+        "page": 9,
+        "fill": 80
+      },
+      {
+        "page": 10,
+        "fill": 76
+      },
+      {
+        "page": 11,
+        "fill": 86
+      },
+      {
+        "page": 12,
+        "fill": 81
+      },
+      {
+        "page": 13,
+        "fill": 87
+      }
+    ]
+  },
+  {
+    "key": "D003",
+    "pages": [
+      {
+        "page": 23,
+        "fill": 73
+      },
+      {
+        "page": 24,
+        "fill": 66,
+        "art": "multiple-facets-quartz.png",
+        "effectiveDpi": 398
+      },
+      {
+        "page": 25,
+        "fill": 82
+      },
+      {
+        "page": 26,
+        "fill": 93
+      },
+      {
+        "page": 27,
+        "fill": 83
+      }
+    ]
+  },
+  {
+    "key": "D004",
+    "pages": [
+      {
+        "page": 28,
+        "fill": 81
+      },
+      {
+        "page": 29,
+        "fill": 76
+      },
+      {
+        "page": 30,
+        "fill": 95
+      },
+      {
+        "page": 31,
+        "fill": 85
+      },
+      {
+        "page": 32,
+        "fill": 73
+      }
+    ]
+  },
+  {
+    "key": "D005",
+    "pages": [
+      {
+        "page": 33,
+        "fill": 67,
+        "art": "banyan-and-reflection.png",
+        "effectiveDpi": 405
+      },
+      {
+        "page": 34,
+        "fill": 93
+      },
+      {
+        "page": 35,
+        "fill": 93
+      },
+      {
+        "page": 36,
+        "fill": 96
+      },
+      {
+        "page": 37,
+        "fill": 91
+      },
+      {
+        "page": 38,
+        "fill": 62,
+        "art": "common-trunk-branches.png",
+        "effectiveDpi": 398
+      }
+    ]
+  },
+  {
+    "key": "D006",
+    "pages": [
+      {
+        "page": 39,
+        "fill": 100
+      },
+      {
+        "page": 40,
+        "fill": 79
+      },
+      {
+        "page": 41,
+        "fill": 85
+      },
+      {
+        "page": 42,
+        "fill": 84
+      },
+      {
+        "page": 43,
+        "fill": 82
+      },
+      {
+        "page": 44,
+        "fill": 91
+      },
+      {
+        "page": 45,
+        "fill": 89
+      }
+    ]
+  },
+  {
+    "key": "D007",
+    "pages": [
+      {
+        "page": 46,
+        "fill": 100
+      },
+      {
+        "page": 47,
+        "fill": 82
+      },
+      {
+        "page": 48,
+        "fill": 68,
+        "art": "seed-and-sprout.png",
+        "effectiveDpi": 401
+      },
+      {
+        "page": 49,
+        "fill": 94
+      },
+      {
+        "page": 50,
+        "fill": 52,
+        "art": "artha-naya-application-and-caution.png",
+        "effectiveDpi": 311
+      },
+      {
+        "page": 51,
+        "fill": 96
+      },
+      {
+        "page": 52,
+        "fill": 95
+      },
+      {
+        "page": 53,
+        "fill": 76
+      }
+    ]
+  }
+]

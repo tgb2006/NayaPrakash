@@ -1,0 +1,3330 @@
+{
+  "root": "D:\\PROJECT_WORK\\NayaPrakash_Book",
+  "artifacts": [
+    {
+      "path": "sankshipt/output/full_book/r01/assembly-plan.json",
+      "bytes": 47816,
+      "sha256": "fa7f2c92c0c8a30d318226476802110e43bd897acec942a90f629471fc969715"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/fonts/AnekGujarati-Bold.ttf",
+      "bytes": 296620,
+      "sha256": "a7fd010a6d60ef4b254d5b56e836d9d7722592677e46369df31ba0a222f8e91b"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/fonts/AnekGujarati-ExtraBold.ttf",
+      "bytes": 298340,
+      "sha256": "37a2f10198a1d94dc425ac99c60f5cbb281bd72c2a39bdde499d9933bcebc871"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/fonts/AnekGujarati-Medium.ttf",
+      "bytes": 292936,
+      "sha256": "565b0688b5a1cb01b0ac44b97f137491116dfe6c1d6b0735b134b78e313b0d77"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/fonts/AnekGujarati-Regular.ttf",
+      "bytes": 293148,
+      "sha256": "48c190169027c461e97e2fdf9d8fa47d8987a564abd817a0164ca39856ce706a"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/fonts/AnekGujarati-SemiBold.ttf",
+      "bytes": 294600,
+      "sha256": "216dfbec874e949cc888ff580210d78fa608e0a65bbbe0658b4442c56a151c90"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/fonts/AnekGujarati_Expanded-ExtraBold.ttf",
+      "bytes": 302128,
+      "sha256": "57d9efbde2e6c0513a5071aff54b6b00778bf1dd0d1c899d18cc941b5b863131"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/fonts/BookSerif-Bold.ttf",
+      "bytes": 747144,
+      "sha256": "96656aa5cec8f1d6fd0e804c1fad397e1a1cfa082e6642124e0bda68cd8363ce"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/fonts/BookSerif-Regular.ttf",
+      "bytes": 712444,
+      "sha256": "19e72cd8d595fae5bd74a5206f5d938512e1183d4fed7abb1ec1be1d7efa5f88"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/fonts/NotoSansDevanagari-Bold.ttf",
+      "bytes": 221652,
+      "sha256": "67f1ec9e2ac30b261090e32953b2df0adf6c942ab26ac47efb490fa7315bddab"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/fonts/NotoSansDevanagari-Regular.ttf",
+      "bytes": 221084,
+      "sha256": "084a94d89eb54aafb93a056e15425c34fd859f6342875165d304837b3bcfc2d2"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/fonts/NotoSansGujarati-Bold.ttf",
+      "bytes": 175324,
+      "sha256": "d5aee2fbe1dec84e8e54ec72dfda1d138f1401ddf18f06bbd11ea8b64f8b45b2"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/fonts/NotoSansGujarati-Regular.ttf",
+      "bytes": 175148,
+      "sha256": "7cc0f340be8ef8b63f92181fd5576a4b19631059fd6576c6fd5fcd40f1543610"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/fonts/NotoSansGujarati-SemiBold.ttf",
+      "bytes": 175404,
+      "sha256": "0c950a99fea59da9b1f1c40e78e00069a9e09132cce4a54f9dc7da240eaf962a"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K01_C001_chapter_001_bhuta_naigam_naya_katha_r01_press.png",
+      "bytes": 29544,
+      "sha256": "ff6a28a825ffdc5c51ad13fad32edcc3cb7f148f2268a46896ab04f4f89ecf7c"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K01_C002_chapter_002_bhavi_naigam_naya_katha_r01_press.png",
+      "bytes": 30785,
+      "sha256": "346afb61f44fede49c76fbd6e5ae425080c2169a4cdc45e3ca5571576fa21576"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K01_C003_chapter_003_vartaman_naigam_naya_katha_r01_press.png",
+      "bytes": 46301,
+      "sha256": "e75b2a8dd7383d36c99354467687eed44a471c1361b0ca9680421c71682f475f"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K01_C004_chapter_062_bhuta_naigam_pratipadaka_vyavahara_katha_r01_press.png",
+      "bytes": 31294,
+      "sha256": "47a1a745fe8fc9a40b7d8d29e9d95352952bfe4502e9f6823e3b559d828bfdb6"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K01_C005_chapter_063_bhavi_naigam_pratipadaka_vyavahara_katha_r01_press.png",
+      "bytes": 23136,
+      "sha256": "ef579f81bc83470b264c09c8a54e0941b82f33bdd6673b97bf09bea2d7d92d6b"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K01_C006_chapter_064_vartaman_naigam_pratipadaka_vyavahara_katha_r01_press.png",
+      "bytes": 34859,
+      "sha256": "129acb2e2f7c29606741f1c059379cc41e2692a59d4e490c15cb5e1bd77afae8"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K02_C001_chapter_004_para_sangraha_dravyarthika_naya_katha_r01_press.png",
+      "bytes": 41001,
+      "sha256": "8d04b37e0e0d7c2e1bc4e74d1c5da0f3856bd108714bfa3785d0039f96fe1656"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K02_C002_chapter_005_apara_sangraha_dravyarthika_naya_katha_r01_press.png",
+      "bytes": 30082,
+      "sha256": "bf1a5b980f8a497399ce3d52eca36689904a23865c880118b912ba3b8af6b75d"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K02_C003_chapter_006_paramashuddha_apara_sangraha_dravyarthika_naya_katha_r01_press.png",
+      "bytes": 18659,
+      "sha256": "16bd8845b2cfee1258eb5f962b9104f758f48dffa86403556a26933abd1de2f6"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K02_C004_chapter_007_shuddha_apara_sangraha_dravyarthika_naya_katha_r01_press.png",
+      "bytes": 19313,
+      "sha256": "1978a9128b94bb3608b5a1b1a12e84796f2297c0672695f41be5eba03bfbe93e"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K02_C005_chapter_008_ashuddha_apara_sangraha_dravyarthika_naya_katha_r01_press.png",
+      "bytes": 31732,
+      "sha256": "e84af447d4d75aaf10c1227885274deb3d3e3fb096eccf2c53d9c649982bbaa4"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K02_C006_chapter_065_para_sangraha_dravyarthika_pratipadaka_vyavahara_katha_r01_press.png",
+      "bytes": 33613,
+      "sha256": "b3249c2b2c753c4728f87693a2677f8c4da9e9133979f7c4eb736ab9af6f44fe"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K02_C007_chapter_066_apara_sangraha_dravyarthika_pratipadaka_vyavahara_katha_r01_press.png",
+      "bytes": 34308,
+      "sha256": "c183aa81c68545e30553ab9047c97a9ee82687e83fa0bac00a11063aaa09984c"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K02_C008_chapter_066_1_paramashuddha_apara_sangraha_dravyarthika_pratipadaka_vyavahara_katha_r01_press.png",
+      "bytes": 26652,
+      "sha256": "dda3ead82fa9c4aab02ae906b7ddad6f0aa6952b5cbaca4cb3c797a358a839c3"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K02_C009_chapter_066_2_shuddha_apara_sangraha_dravyarthika_pratipadaka_vyavahara_katha_r01_press.png",
+      "bytes": 19317,
+      "sha256": "cf00e6e1f35ba4536fb7a843cdd6ee5c4d4ef88991da2a9cd5c624c487660a89"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K02_C010_chapter_066_3_ashuddha_apara_sangraha_dravyarthika_pratipadaka_vyavahara_katha_r01_press.png",
+      "bytes": 31462,
+      "sha256": "a00c2c06c09068ba1888a7505d44abb891374f45e0ef4d93a5fad28348ef270b"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K02_C011_chapter_067_apara_sangraha_bhedaka_vyavahara_dravyarthika_pratipadaka_katha_r01_press.png",
+      "bytes": 26740,
+      "sha256": "1648c42c4aacae6224524c57bcf5baa7688dd2be8d26a66228f96126e63cf022"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K02_C012_chapter_068_apara_sangraha_bhedaka_vyavahara_dravyarthika_pratipadaka_katha_r01_press.png",
+      "bytes": 16524,
+      "sha256": "d065ab0c5910b62f2fdb1ae2b4bf0ba14cdf023286fcf060ad818b6bcee442b9"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K02_C013_chapter_068_1_antima_apara_sangraha_bhedaka_vyavahara_dravyarthika_pratipadaka_katha_r01_press.png",
+      "bytes": 24234,
+      "sha256": "b86861c085b5b35c1a42e7579c29d0e987ebca5b64290a7954b9ac21e0ace4b9"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K02_C014_chapter_068_2_antima_akhanda_vyavahara_dravyarthika_pratipadaka_katha_r01_press.png",
+      "bytes": 30611,
+      "sha256": "13502c39641cff055d37bbf8a09eb4bfd46fb989f2028ed857a983fd2a1b220b"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C001_chapter_009_para_sangraha_bhedaka_vyavahara_dravyarthika_naya_katha_r01_press.png",
+      "bytes": 23972,
+      "sha256": "55c68c55619095e366c7fea2501e81ac7a059c3550bef7248cc00ffbef0c9b02"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C002_chapter_010_apara_sangraha_bhedaka_vyavahara_dravyarthika_naya_katha_r01_press.png",
+      "bytes": 17572,
+      "sha256": "cda24408f01a5872a193bbf16915358439dcacfa7454bc69b3258ee050083fea"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C003_chapter_011_antima_apara_sangraha_bhedaka_vyavahara_dravyarthika_naya_katha_r01_press.png",
+      "bytes": 36200,
+      "sha256": "7b9fe7a4561adad00a258c6ed5fbef1777c7e4acdd504fb0cebef18ce52c83f6"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C004_chapter_012_paramashuddha_apara_sangraha_bhedaka_vyavahara_dravyarthika_naya_katha_r01_press.png",
+      "bytes": 30819,
+      "sha256": "cacfb5f516ca5d0fff51d1fbbe75342e39f2405c7bdbfd4f788ef6190b086310"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C005_chapter_013_shuddha_apara_sangraha_bhedaka_vyavahara_dravyarthika_naya_katha_r01_press.png",
+      "bytes": 37852,
+      "sha256": "f3613fa143c9bddcf1204b59b6c6e9b95565a1d93b414d965c15815ca7578554"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C006_chapter_014_ashuddha_apara_sangraha_bhedaka_vyavahara_dravyarthika_naya_katha_r01_press.png",
+      "bytes": 33178,
+      "sha256": "479b9f0bc8c6bdf624d444e64a4c0ce0a72260e779e9f2a6871271a2a06f0828"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C007_chapter_015_paramashuddha_abhedavishayi_antima_vyavahara_dravyarthika_naya_katha_r01_press.png",
+      "bytes": 27295,
+      "sha256": "e401ba71d834b97d2edd92264df3c12e784b2937d75ad2ec87613ca2eda1514e"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C008_chapter_016_paramashuddha_bhedavishayi_antima_vyavahara_dravyarthika_naya_katha_r01_press.png",
+      "bytes": 31315,
+      "sha256": "5fb861a5b1976d85b39ce5185f1eaac18963ebb089d55b19e03c6bc9dd27fbd1"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C009_chapter_017_shuddha_abhedavishayi_antima_vyavahara_dravyarthika_naya_katha_r01_press.png",
+      "bytes": 29669,
+      "sha256": "19038857995d18aab5edc361828394c9758dadf1159d55936c746921ff10c6bd"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C010_chapter_018_shuddhabhedavishayi_antima_vyavahara_dravyarthika_naya_katha_r01_press.png",
+      "bytes": 31110,
+      "sha256": "1e05c9f9deae424590e1a0fc5b8c7259ae489f2d98554dae27cc060ce7d99f9f"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C011_chapter_019_avyakta_ashuddha_antima_vyavahara_dravyarthika_naya_katha_r01_press.png",
+      "bytes": 28432,
+      "sha256": "0944b5e68d0e7dec6fbb53da9cb81fd6669104c3ae9b06557d6a079510824319"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C012_chapter_020_vyakta_ashuddha_antima_vyavahara_dravyarthika_naya_katha_r01_press.png",
+      "bytes": 34894,
+      "sha256": "d409abc75300a0a3d0e17e4471dcd98041853e49d55c7a4e9463434b56b354f1"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C013_chapter_021_upadhinirapeksha_shuddha_dravyarthika_naya_katha_r01_press.png",
+      "bytes": 32726,
+      "sha256": "9340cccacc57498426781c0494316ef94e44608af9898f212dfcdbed68286519"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C014_chapter_022_utpadavyayagauna_sattagrahaka_shuddha_dravyarthika_naya_katha_r01_press.png",
+      "bytes": 37321,
+      "sha256": "37e83a7d9865bc3f32dc0df32da123866d144287d4e5bc4273c6be120193e918"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C015_chapter_023_bhedakalpananirapeksha_shuddha_dravyarthika_naya_katha_r01_press.png",
+      "bytes": 26991,
+      "sha256": "4f49313590ded42db1c4bedd8c02b16156920b62e0a688d5520e026e9daae0c2"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C016_chapter_024_upadhisapeksha_ashuddha_dravyarthika_naya_katha_r01_press.png",
+      "bytes": 35900,
+      "sha256": "8eb9cec2de64cf516674d51f5ae5a92aabc5fa40aee12eb43e9d6849534ec60b"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C017_chapter_024_1_upadhyabhavapeksha_shuddha_dravyarthika_naya_katha_r01_press.png",
+      "bytes": 30574,
+      "sha256": "ffc109c4156c0cdf24b26f36ffe250b64a808cf60ddd0a4f5cde16f52120382e"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C018_chapter_024_2_shuddhabhavanirapeksha_shuddha_dravyarthika_naya_katha_r01_press.png",
+      "bytes": 24123,
+      "sha256": "b76e9134a621df85b1e29896286587b6801a06b6288d55dd23ef49cfbd5c808a"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C019_chapter_025_utpadavyayasapeksha_ashuddha_dravyarthika_naya_katha_r01_press.png",
+      "bytes": 36778,
+      "sha256": "be321654e2c77f1596e101a5395f72459f920a240a87f11ad74cdddb8c5087c3"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C020_chapter_026_bhedakalpanasapeksha_ashuddha_dravyarthika_naya_katha_r01_press.png",
+      "bytes": 32929,
+      "sha256": "e70443c116b2422e493f733d62cb7480de3fae8c717eb3d9d3d977bf930d9480"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C021_chapter_027_anvaya_dravyarthika_naya_katha_r01_press.png",
+      "bytes": 33180,
+      "sha256": "da3972294a74332410bbf9590c60c52cf07d59fcba4a1724fbecbad56232b092"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C022_chapter_028_svadravyadigrahaka_dravyarthika_naya_katha_r01_press.png",
+      "bytes": 37365,
+      "sha256": "0bf25008711f33c0e1ebf6f9a76c227276fef86c79a948963245c1ab50097f9f"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C023_chapter_029_paradravyadigrahaka_dravyarthika_naya_katha_r01_press.png",
+      "bytes": 29472,
+      "sha256": "6fdf141d46caa2ed2c7f45899712f22d807fb99a6769b067dfa46333c03a62e5"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C024_chapter_030_paramabhavagrahaka_dravyarthika_naya_katha_r01_press.png",
+      "bytes": 34224,
+      "sha256": "78a43a1a5a9f38973376193a070c8a2ea808f42bca87e443c41cb7ef3de0d760"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C025_chapter_030_1_shuddhaparinamika_paramabhavagrahaka_shuddha_dravyarthika_naya_katha_r01_press.png",
+      "bytes": 40020,
+      "sha256": "d79c4a528a2c9713dba19e1d27595ac1c5a63cb5d5e33782fdd153270f505965"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C026_chapter_044_akhanda_paramashuddha_nishchayanaya_katha_r01_press.png",
+      "bytes": 26043,
+      "sha256": "d816f992e2585894968dc7f35878bbf4f24a15affee4e3be8789084a37b7e72d"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C027_chapter_045_shaktibodhaka_paramashuddha_nishchayanaya_katha_r01_press.png",
+      "bytes": 34098,
+      "sha256": "096ccc27f78089d235b69c3404dbed621de38f5920ffb870c69fccc07e53ccc8"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C028_chapter_046_shuddha_nishchayanaya_katha_r01_press.png",
+      "bytes": 32090,
+      "sha256": "2417089e3cf921d5f2f3102fade0e3f7a3f21409d1f0fdd3d6e1a790b049efd0"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C029_chapter_046_1_sabheda_shuddha_nishchayanaya_katha_r01_press.png",
+      "bytes": 24159,
+      "sha256": "3a4167379bc333d5e7419fb5a1a09f9599d81966d7c93608177e0bc52b2e3c54"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C030_chapter_046_2_apurnashuddha_nishchayanaya_katha_r01_press.png",
+      "bytes": 32197,
+      "sha256": "91921a4f19a01b92880609bb640c5c308e9a8354b6aeb1a24b9ff7d6531b2848"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C031_chapter_047_ashuddha_nishchayanaya_katha_r01_press.png",
+      "bytes": 27747,
+      "sha256": "070a1cb448b35475354ce02472bc71754440c45726ced9cc6a6795d43d5e134f"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C032_chapter_047_1_sabheda_ashuddha_nishchayanaya_katha_r01_press.png",
+      "bytes": 34975,
+      "sha256": "a9dbc81d56e37868acf10899ce94347521490055b35b67137ce98b21ec39af61"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C033_chapter_048_vivakshitaikadesha_shuddha_nishchayanaya_katha_r01_press.png",
+      "bytes": 30869,
+      "sha256": "85a07f3a739e31b5b90a21798465d1d5dc96ba8873b3e1b7b09285b84139612f"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C034_chapter_049_shuddhanaya_katha_r01_press.png",
+      "bytes": 28980,
+      "sha256": "6b63d506b8747e5c613df646eaa12c9b86642f8ae97895e54a46259356366b4d"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C035_chapter_049_1_pratishedhaka_shuddhanaya_katha_r01_press.png",
+      "bytes": 28599,
+      "sha256": "f38bd78b47b9928c60659d5d074b7b22ce82a13e17c0afa7ca87ee6add12535e"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C036_chapter_049_2_upadanadrishti_shuddhanaya_katha_r01_press.png",
+      "bytes": 23302,
+      "sha256": "22c222f6f7a5eaa783c370330d0402890712f08afe86cf8a1b6a7bdeb1e2ef2d"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C037_chapter_050_paramashuddhabhedavishayi_vyavaharanaya_katha_r01_press.png",
+      "bytes": 30061,
+      "sha256": "a40e12659dd25f3b77b4457fb22de62ac34267013d4fa08d2cf46f2f83cea399"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C038_chapter_051_shuddhabhedavishayi_dravyarthikanaya_katha_r01_press.png",
+      "bytes": 27155,
+      "sha256": "ec75b3c41765ad5b0cff5f50b9bffcb65de69f71d8bb618075f6687f1709f64b"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C039_chapter_052_ashuddhaparayayavishayi_vyavaharanaya_katha_r01_press.png",
+      "bytes": 33398,
+      "sha256": "38e7ab07142b577e42d7eba0da31d184c6b53382bdd4421a773fed2cdada18b5"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C040_chapter_053_upadhisapeksha_ashuddha_dravyarthikanaya_katha_r01_press.png",
+      "bytes": 25992,
+      "sha256": "1b3f1cc50eb1e6cb826a0e28547b721bd4339bdc92c7633dce47d59779b6d53d"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C041_chapter_053_1_nimittadrishti_vyavaharanaya_katha_r01_press.png",
+      "bytes": 36203,
+      "sha256": "a99865e3031889dffe67f58290420197bb65a73acef629e952a9d9ab57e696f6"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C042_chapter_054_utpadavyayasapeksha_ashuddha_dravyarthikanaya_katha_r01_press.png",
+      "bytes": 42631,
+      "sha256": "82e2d77e2b2f52630c8137b2eb00ac1925db6615650d28ba13fba68f7b0ec5ba"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C043_chapter_069_akhanda_paramashuddha_sadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 27732,
+      "sha256": "f19e340b7b6f25c67977e9c372b739889b8f71bee0e1c49d838be399fe9d2d53"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C044_chapter_069_1_gunagunibhedaka_paramashuddha_sadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 30005,
+      "sha256": "7af4b8523b642f917835d41e455c828ecccb81c5cf8d4a6c27c85eb9b802fef2"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C045_chapter_070_saguna_paramashuddha_sadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 35912,
+      "sha256": "76a8d178027df10b06102f2403246a08e36220f87eb76968e5b75ed555494e9b"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C046_chapter_070_1_pratishedhaka_shuddhanaya_pratipadaka_vyavahara_katha_r01_press.png",
+      "bytes": 29982,
+      "sha256": "5b76687d43e9ed96f1ec76c8b340e7e00090c7c995b02f9d790cb0fb22520592"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C047_chapter_071_abheda_shuddha_sadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 31563,
+      "sha256": "77b05893e094dfe252a8bbc3dfde9da12780b9a471f678dbabf9a8f4c8f009dd"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C048_chapter_072_sabheda_shuddha_sadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 30541,
+      "sha256": "ca1a7339172b612455d6216b10461ab7f22a9e34bb3f4af2ad8ea97e9a4e4eeb"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C049_chapter_073_karaka_karakibhedaka_sadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 27583,
+      "sha256": "bbb142a42d38235469d4dd9cd3469202a5ead14d847a2e59e0e4944d671df2b3"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C050_chapter_073_1_karaka_karakibhedaka_ashuddha_sadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 32799,
+      "sha256": "b6b1126a13685437d4026cd880cc5ae485248dcba38a5e411a7c8e84fb150ee8"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C051_chapter_074_anupacharita_ashuddha_sadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 29044,
+      "sha256": "c1df8a1e7fb80c788e32b96e4c47340f514f477116d13486945a2e255ab1c97b"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C052_chapter_075_upacharita_ashuddha_sadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 26333,
+      "sha256": "6530e253d57d791363bd0e283be9100c2ad6794ada806851db5dd8e442c5f576"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C053_chapter_076_upadhisapeksha_ashuddha_dravyarthikapratipadaka_vyavahara_katha_r01_press.png",
+      "bytes": 35887,
+      "sha256": "c9bb0c5ee13f7a2e3806c7f1a8849cfa2a13c3185d1a940b3f0114cc18e396c6"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C054_chapter_077_upacharita_upadhisapeksha_ashuddha_dravyarthikapratipadaka_vyavahara_katha_r01_press.png",
+      "bytes": 38054,
+      "sha256": "d640e28c691f888bb6296a23e1435b75691ee5639514ef3f255ddbc112c14b0a"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C055_chapter_078_upadhinirapeksha_shuddhadravyarthikapratipadaka_vyavahara_katha_r01_press.png",
+      "bytes": 33155,
+      "sha256": "ed2427a2427c71ee7b1d5c4f6a9493a9ed4937bc92c7d26d556ff75f413d3606"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C056_chapter_079_utpadavyayagauna_sattagrahaka_shuddha_dravyarthikapratipadaka_vyavahara_katha_r01_press.png",
+      "bytes": 30538,
+      "sha256": "bc25356c15188c3bfe043d8d898773e7be976cf688ab76f5fca597051216b751"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C057_chapter_080_bhedakalpananirapeksha_shuddhadravyarthikapratipadaka_vyavahara_katha_r01_press.png",
+      "bytes": 27273,
+      "sha256": "a4464bb67c7d53663a521942ec96282aaca170d9311b04f96428554158cda025"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C058_chapter_081_utpadavyayasapeksha_ashuddha_dravyarthikapratipadaka_vyavahara_katha_r01_press.png",
+      "bytes": 29330,
+      "sha256": "9f5868087e0d3fc4ceb5b3dc1112e812c10234bf81ec17a58cd73a3b50afa018"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C059_chapter_082_bhedakalpanasapeksha_ashuddhadravyarthikapratipadaka_vyavahara_katha_r01_press.png",
+      "bytes": 36630,
+      "sha256": "b2907b3aa466153e084a674886d1585f52fe5196c927e3fc6df371d43b8efdf1"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C060_chapter_083_anvayadravyarthikapratipadaka_vyavahara_katha_r01_press.png",
+      "bytes": 31645,
+      "sha256": "1802c040a646e264093acfa50460ee7e3b5819f650138e7328ca76d223286935"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C061_chapter_084_svadravyadigrahaka_dravyarthikapratipadaka_vyavahara_katha_r01_press.png",
+      "bytes": 24991,
+      "sha256": "e2d46b76e7d42d1ac5073bad63858243d1653b7c92c9cb9bc1b7034ceb5caadf"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C062_chapter_085_paradravyadigrahaka_dravyarthikapratipadaka_vyavahara_katha_r01_press.png",
+      "bytes": 28522,
+      "sha256": "152eca00ef13fe09fd4ddf8106d0851686c4e69d15637ede22a2b400a881d27c"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C063_chapter_086_paramabhavagrahaka_dravyarthikapratipadaka_vyavahara_katha_r01_press.png",
+      "bytes": 31230,
+      "sha256": "90ff585b938dfc0eaaf6b9d1c31e4074dfb1f7e520080c04662da99df1ae451b"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C064_chapter_087_ashuddhasthula_rjusutrapratipadaka_vyavahara_katha_r01_press.png",
+      "bytes": 30915,
+      "sha256": "c961ed5ae9368c0be0bf484d4f553e4a4431499903e27ea62cecfcc01910a89d"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C065_chapter_088_shuddhasthula_sukshma_rjusutrapratipadaka_vyavahara_katha_r01_press.png",
+      "bytes": 29307,
+      "sha256": "742878096eaf06aa9a67dce90a990853ec73911c6845722f0a42bcdf8eb275d0"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C066_chapter_089_ashuddhasukshma_rjusutrapratipadaka_vyavahara_katha_r01_press.png",
+      "bytes": 28814,
+      "sha256": "f290d2048279b037cb1d7b7ca6f6e1e66141c010b2cf76d253a6b8816da36ee1"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C067_chapter_090_shuddhasukshma_rjusutrapratipadaka_vyavahara_katha_r01_press.png",
+      "bytes": 32287,
+      "sha256": "ebb29723761eb17652dae02c86d8c05c84940e1ec5147ebaf646b8ebcf4cfad1"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C068_chapter_091_anadinitya_paryayarthikapratipadaka_vyavahara_katha_r01_press.png",
+      "bytes": 34660,
+      "sha256": "42e2d26a803e0d36ba121524c195a106cefa409e193ded6c9b6b62fc08fd59f6"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C069_chapter_092_sadinitya_paryayarthikapratipadaka_vyavahara_katha_r01_press.png",
+      "bytes": 28673,
+      "sha256": "bff7f60f3c88edaebbd9fda332a283cc9cd7c997bb27a213c4be9565f44bbda9"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C070_chapter_093_sattagauna_utpadavyayagrahaka_ashuddha_paryayarthikapratipadaka_vyavahara_katha_r01_press.png",
+      "bytes": 44531,
+      "sha256": "2696757ec25f6cab03a4c1c45c0b5bafafaf589b3e38d7982bcac43e84f70fbf"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C071_chapter_094_sattasapeksha_nitya_ashuddha_paryayarthikapratipadaka_vyavahara_katha_r01_press.png",
+      "bytes": 39159,
+      "sha256": "9887e02aacad9fba02ca057952dff8edb814f21d0a4a3a3d570c88454216614a"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C072_chapter_095_upadhisapeksha_nitya_ashuddhaparyayarthikapratipadaka_vyavahara_katha_r01_press.png",
+      "bytes": 28254,
+      "sha256": "cd9d52d7b76d8d8385e347d93a8317b61ebec445b9604af40be096fe1488c818"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C073_chapter_096_upadhisapeksha_anitya_ashuddhaparyayarthikapratipadaka_vyavahara_katha_r01_press.png",
+      "bytes": 40344,
+      "sha256": "c9419f576ae1334785fee2e0b18aabb41d8e10a854eed4d5f7b1aaa3904e74a7"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C074_chapter_097_svajati_sadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 32586,
+      "sha256": "5647bc26fddaf3357b325ee8b1eb6e28824e45349518c0027fab0e918f6fe25c"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C075_chapter_098_vijati_sadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 25604,
+      "sha256": "ceaf87d6aa298574865e9c4ad68a347af63e61eecd842ad3f7779287d36afcc9"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C076_chapter_099_svajati_vijati_sadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 35565,
+      "sha256": "05c79d38ac84a6822fde9fad9cd44e533183efb03ccfc2279fb32928b8aaf460"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C077_chapter_103_upadhija_upacharita_svabhavavyavahara_katha_r01_press.png",
+      "bytes": 35238,
+      "sha256": "137e7a79c9f2532acff603c5549ef19028fa63a445c17ebe4308dbbd4051c0c9"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C078_chapter_104_upadhija_upacharita_pratiphalanavyavahara_katha_r01_press.png",
+      "bytes": 28568,
+      "sha256": "18bbd19b4341eff6321d0f8873cb9fddb2d8cc8436e19ec5cfc15e9da00a359e"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C079_chapter_105_svabhavika_upacharita_svabhavavyavahara_katha_r01_press.png",
+      "bytes": 30103,
+      "sha256": "46802e22961bd0af3fecd7232ba2c068539bdab9d396beb3b658c4186466cfaa"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C080_chapter_105_1_aparipurna_upacharita_svabhavavyavahara_katha_r01_press.png",
+      "bytes": 26619,
+      "sha256": "73734afdc986e35e4a289b23e78f03fbc1f37a2b13fd4adf47df9f6e12314abc"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C081_chapter_106_ekajatidravye_anyajatidravyopacharaka_asadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 38547,
+      "sha256": "d39f8a96aa3af19498a920d700fc3f409e5ff6afe299462f88a19e93aa45a284"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C082_chapter_106_1_svajatidravye_svajatidravyopacharaka_asadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 30302,
+      "sha256": "a13389dc7299345c44f7c4ab74a9ee2ca8955a5e7662dd8d318ce18b6124d242"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C083_chapter_107_ekajatiparyaye_anyajatiparyayopacharaka_asadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 29429,
+      "sha256": "073df5d6d77c4ab35f0a97383779d7fc2b601b5e95af4ed8e43a3a5c5f34bd46"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C084_chapter_108_svajatiparyaye_svajatiparyayopacharaka_asadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 30146,
+      "sha256": "4471ab0ff2608b13c09bceffef906d7f1a3caba15323629100c1beb654e3fe85"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C085_chapter_109_ekajatigune_anyajatigunopacharaka_asadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 34091,
+      "sha256": "35e5adc1901eee310309ac9b494cee3eb724f108a0baa1e3438139211d28d363"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C086_chapter_110_svajatigune_svajatigunopacharaka_asadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 32432,
+      "sha256": "53cb50a8eaa59b5a2c8d5537c78ea1810b6de469710ac4e8dd9f962192026e32"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C087_chapter_111_ekajatidravye_anyajatigunopacharaka_asadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 35699,
+      "sha256": "834dfb6e5b999bbd2987271cd5bf532f89e39935559d3389d95a8c8033f11547"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C088_chapter_112_svajatidravye_svajatigunopacharaka_asadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 35434,
+      "sha256": "f3aa50d2453e6140a128abc343c69113c909fabce86fadaada63d5b8d7353bea"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C089_chapter_113_ekajatidravye_anyajatiparyayopacharaka_asadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 39755,
+      "sha256": "3e028568535961bf0caba2e2fa66f263d9bd20920c7d03e472465251815f0549"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C090_chapter_114_svajatidravye_svajatiparyayopacharaka_asadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 34453,
+      "sha256": "220759f8a6dadb2eb126a177bd66f499511f336215076a4579d5f0a742a12a64"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C091_chapter_115_ekajatigune_anyajatidravyopacharaka_asadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 39310,
+      "sha256": "0b222b8b77ba644dbdb360efc9da921fb5310ddcf36c776a022de51f076b7566"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C092_chapter_116_svajatigune_anyajatidravyopacharaka_asadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 33185,
+      "sha256": "b55185eac99e9aec0f6ef27c65318f94c3b0c5c59ed019f2e29f383f85c41a4d"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C093_chapter_117_ekajatigune_anyajatiparyayopacharaka_asadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 32855,
+      "sha256": "88544e19c7fc92276da42c8ddf5c09e65834fb1e2e12dd748e0a27ab50480111"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C094_chapter_118_svajatigune_svajatiparyayopacharaka_asadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 36291,
+      "sha256": "7b678b85401bd122780084ddaafdad7abb143a18eb98ebaa2e9ea2cd72b2e155"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C095_chapter_119_ekajatiparyaye_anyajatiparyayopacharaka_asadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 35909,
+      "sha256": "f963e1f63eb9283e1ef168b93a8d46ec64e55088005a9ba4f02c2a83b22f6f8b"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C096_chapter_120_svajatiparyaye_svajatiparyayopacharaka_asadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 29378,
+      "sha256": "474829ca2576ab6a90ba8f8e9f41499e76a0bef236f954ed6c5295345bcfe60e"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C097_chapter_121_ekajatiparyaye_anyajatidravyopacharaka_asadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 31981,
+      "sha256": "3acb7c72c3f87ad854edf523659e46b1fdc7deb07b8323d594c5882c896b2485"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C098_chapter_122_svajatiparyaye_svajatigunopacharaka_asadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 28059,
+      "sha256": "239c45034748cf767d388a9d48fb92aa14ad3080dd426e7d6afbccf43a883759"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C099_chapter_123_sanshlishta_svajatyupacharita_asadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 30398,
+      "sha256": "211575c4f56b5aaca07d2f8bf0a6ea3851334f47938a81463979de74e380a381"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C100_chapter_124_asanshlishta_svajatyupacharita_asadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 40908,
+      "sha256": "8de9fe024b2c5ceda1a102920f71afb24426b7b17eca15c305feb451e9ac1029"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C101_chapter_125_sanshlishta_vijatyupacharita_asadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 36171,
+      "sha256": "28f409fe551fd36cb31102f82baba7a53c407c10ac43a1e03723b3bdf6fd64f2"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C102_chapter_126_asanshlishta_vijatyupacharita_asadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 35196,
+      "sha256": "3df761fbccc45977e78b8bb4cc9167f23eddc037ad9d77dcd0714f238e1f6562"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C103_chapter_127_sanshlishta_svajati_vijatyupacharita_asadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 43630,
+      "sha256": "246936b775be3c3d449cfac92285b6ba976af7ca30b2edcf322f5f95b0587b05"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C104_chapter_128_asanshlishta_svajati_vijatyupacharita_asadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 46015,
+      "sha256": "1ab647620a1fcb674bdc4b4d5176b2e5e56d801a143561de4c0010d1f1c7642e"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C105_chapter_129_parakartritva_anupacharita_asadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 31213,
+      "sha256": "e97a489d47d13f25f03ade1a60c1d818999879b23396d9a6955fcbc3eddcd7f3"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C106_chapter_129_1_parabhoktritva_anupacharita_asadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 34108,
+      "sha256": "d84f914971e4588c616f563829bb3adbeba1e79ea6cd6155513dd0c15bab7d3a"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C107_chapter_129_2_parakartritva_upacharita_asadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 34447,
+      "sha256": "23f591fd9a23c00aadbdff3b7040494aa7e99f0a517b11480679a77dd24962d6"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C108_chapter_129_3_parabhoktritva_upacharita_asadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 41668,
+      "sha256": "47f4b1825f28640af3e074a0d1005d4047f5cef560844a0a3b3f276d2ae430e1"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C109_chapter_130_parakarmatva_asadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 30405,
+      "sha256": "05daa9ecb1440914a30213c42b691f392d344c9a8c47edbb12f67a00ed60e816"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C110_chapter_131_parakaranatva_asadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 27071,
+      "sha256": "2a52f1a0202313624c00a88d8410ed1ace53418b4e4aac71ecb46e8790fa4f68"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C111_chapter_132_parasampradanatva_asadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 37414,
+      "sha256": "8087c86906eedf335bea4b9b6d444817af699ae979f47f77ac76f854577e91a8"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C112_chapter_133_parapadantva_asadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 31744,
+      "sha256": "7a0906a4191408839a403838609d0b77009255b75e288ff647e61cc4139342cf"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C113_chapter_134_paradhikaranatva_asadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 36413,
+      "sha256": "c9c43a1279abe2e792b97768bbeae09f9e403ec4480f7c1cbf788960bedb2d18"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C114_chapter_135_parasvamitva_asadbhuta_vyavahara_katha_r01_press.png",
+      "bytes": 47004,
+      "sha256": "5525e93b360d06066a470b7dc6bc8558a9a73621bd786828845ec2c18465ea1f"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C115_chapter_136_svajatikarane_svajatikaryopacharaka_vyavahara_katha_r01_press.png",
+      "bytes": 31478,
+      "sha256": "899c7d78c505123b3982ee4d532d791b4fbe9fbbebed0077e3f9716cee62ce34"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C116_chapter_137_ekajatikarane_anyajatikaryopacharaka_vyavahara_katha_r01_press.png",
+      "bytes": 35564,
+      "sha256": "0a80e8b206a723a5db280add0929ebb6c038aaa49a96ffa4a974d782a8670cb7"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C117_chapter_138_svajatikarane_anyajatikaranopacharaka_vyavahara_katha_r01_press.png",
+      "bytes": 32394,
+      "sha256": "3575200b507ae93872d3c01ac5976e0a89c89aa3b4ebfc2ce44f309c9cebbc21"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C118_chapter_139_ekajatikarye_anyajatikaranopacharaka_vyavahara_katha_r01_press.png",
+      "bytes": 28297,
+      "sha256": "1f32d4db7bca032fffb7603854889e7c98330572cde137d7abdaa46d248cbc5f"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C119_chapter_140_ekajatyalpe_anyajatipurnopacharaka_vyavahara_katha_r01_press.png",
+      "bytes": 41097,
+      "sha256": "dc4bda7734fa3725453ec32d624576f51303601897729d808211a5b0c6b043db"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C120_chapter_141_svajatyalpe_svajatipurnopacharaka_vyavahara_katha_r01_press.png",
+      "bytes": 31283,
+      "sha256": "c9404ae46204d8d3a781e7d631bb8e75b185716c1aef6b8d8852d12bf23a7647"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C121_chapter_142_ekajatyadhare_anyajatyadheyopacharaka_vyavahara_katha_r01_press.png",
+      "bytes": 38985,
+      "sha256": "348d1b22c752064ad3b6835288354f488d57f3b003f24585a21865c778862f28"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C122_chapter_143_svajatyadhare_svajatyadheyopacharaka_vyavahara_katha_r01_press.png",
+      "bytes": 45459,
+      "sha256": "66f34e9e7b6dc75eb3e46578b2659eed86aa3056488dfccde4ae08144e91f11c"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C123_chapter_144_ekajatyadheye_anyajatyadharopacharaka_vyavahara_katha_r01_press.png",
+      "bytes": 36551,
+      "sha256": "c74022d3a2636e2228fa75820eef236b62a9d5c7f2470f1bfdd886027be51e2c"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C124_chapter_145_svajatyadheye_svajatyadharopacharaka_vyavahara_katha_r01_press.png",
+      "bytes": 35060,
+      "sha256": "f333eee00a169fe9a4b56a6415988a51457ebe48ab3e5056f2c829afe265f341"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C125_chapter_146_tadvati_tadupacharaka_vyavahara_katha_r01_press.png",
+      "bytes": 41927,
+      "sha256": "671629d6e4d84a67aeae5fd03021ab80ffb04974ceb3f3fa7e3d94c1d5e91c3f"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C126_chapter_147_atitasamipye_tadupacharaka_vyavahara_katha_r01_press.png",
+      "bytes": 38952,
+      "sha256": "27faf9d3c6d9110fb0363e70ccfbfcc5fe380eedc598bff0c5f4e8b2789934ce"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C127_chapter_148_bhavini_bhutopacharaka_vyavahara_katha_r01_press.png",
+      "bytes": 39115,
+      "sha256": "e58f0e721d6e8caf94ee32957b2b6a082b0c632845faf00a49d70fde49e4588b"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C128_chapter_149_tatsadrishakarane_tadupacharaka_vyavahara_katha_r01_press.png",
+      "bytes": 29426,
+      "sha256": "237e5d590dd1371ba22b043fbf0ae8650a2b2446517ebcca770cfb51be8d1494"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C129_chapter_150_sadrisha_ekatvopacharaka_vyavahara_katha_r01_press.png",
+      "bytes": 35441,
+      "sha256": "83e856a15d57a3509f38908c020b7174fc40ba2e9cb55e3085189edeefdd0144"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C130_chapter_151_ashraye_ashrayyupacharaka_vyavahara_katha_r01_press.png",
+      "bytes": 40654,
+      "sha256": "26304de9928c444a9dc24ae4886f074094c94a73f557fc2dc3227f685380ff30"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C131_chapter_152_dravyanaya_katha_r01_press.png",
+      "bytes": 32966,
+      "sha256": "a90fd422fc0a4c872d8e528383f2124c32b4894e00154b740abb00aa7b2ca996"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C132_chapter_169_nityanaya_katha_r01_press.png",
+      "bytes": 31688,
+      "sha256": "7fdcd2fdd9442d28d22d7036d302eaeb40af7ef9fad6e326d335fcba48183c38"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K03_C133_chapter_170_anityanaya_katha_r01_press.png",
+      "bytes": 32315,
+      "sha256": "e3590d2bfd13bc3276264c1086222f4b713cf6b00f40c6632d5ae64c3f588b31"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K04_C001_chapter_031_ashuddhasthula_rjusutranayamaka_paryayarthikanaya_katha_r01_press.png",
+      "bytes": 33427,
+      "sha256": "d455fc2163c5cdf4cf43916b103566222e008b055375673650da5edcb47b7804"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K04_C002_chapter_032_shuddhasthula_rjusutranayamaka_paryayarthikanaya_katha_r01_press.png",
+      "bytes": 30515,
+      "sha256": "1b583e318e86565f9cd7b9400f6d05e1a8ddd0aaa0d9937886b10b0cac395628"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K04_C003_chapter_033_ashuddhasukshma_rjusutranayamaka_paryayarthikanaya_katha_r01_press.png",
+      "bytes": 26556,
+      "sha256": "946867d8b5a5067a2522b0b0bb251913aafb7203207f827631cddf3f06885bba"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K04_C004_chapter_034_shuddhasukshma_rjusutranayamaka_paryayarthikanaya_katha_r01_press.png",
+      "bytes": 33070,
+      "sha256": "0b957c1d454028d8974a6d8dd1bdab07cb5fc995f7b18c347b2ed4e928fda290"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K04_C005_chapter_035_anadinitya_paryayarthikanaya_katha_r01_press.png",
+      "bytes": 35526,
+      "sha256": "17a34ccf4bb0ca1607f98b452451ae19bbe84d1c5b2f635f5b751e608ef405a1"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K04_C006_chapter_036_sadinitya_paryayarthikanaya_katha_r01_press.png",
+      "bytes": 36508,
+      "sha256": "817eba2fc4d396ea28a6c8fd0cf105090a93787af9d90e92e1e13739d1c2e36d"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K04_C007_chapter_037_sattagaunotpadavyayagrahaka_nitya_ashuddhaparyayarthikanaya_katha_r01_press.png",
+      "bytes": 34614,
+      "sha256": "fce004fe0a3f693a12c63b237d3887c74be444aaca7791bce9aef0a26e8f96f3"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K04_C008_chapter_038_sattasapeksha_nitya_ashuddhaparyayarthikanaya_katha_r01_press.png",
+      "bytes": 31417,
+      "sha256": "d481d848447722de92dd956729e276a910ce486335dc4ee6f68ef1f0dd0126c1"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K04_C009_chapter_039_upadhinirapeksha_nitya_shuddhaparyayarthikanaya_katha_r01_press.png",
+      "bytes": 26790,
+      "sha256": "6664b1090af5be9ad4a2fc5e33c79f855034066e3b5dfa6525a99602d5ea96df"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K04_C010_chapter_040_upadhisapeksha_nitya_ashuddhaparyayarthikanaya_katha_r01_press.png",
+      "bytes": 29395,
+      "sha256": "6ae755cd57db1d40111a06ccd57e196ecf7ab51f7d946fdb26e60b42222a9a8f"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K04_C011_chapter_055_ashuddhasthula_rjusutranaya_katha_r01_press.png",
+      "bytes": 32248,
+      "sha256": "3c16ed66bd6f7776c67668287811e389f384f10401dc223b0835cfca67d57816"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K04_C012_chapter_056_shuddhasukshma_rjusutranaya_katha_r02_press.png",
+      "bytes": 32639,
+      "sha256": "38de08f3f55ad46e19b1ad2615c0e69e9be59bed2e35bb53ce82bf84f286e7d3"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K04_C013_chapter_057_anadinitya_paryayarthikanaya_katha_r01_press.png",
+      "bytes": 44323,
+      "sha256": "e4306712fb04e6269c35e277c289bf9a0aaf87db47367cacf53bf3be639ccef9"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K04_C014_chapter_058_sadinitya_paryayarthikanaya_katha_r01_press.png",
+      "bytes": 28440,
+      "sha256": "7cd0d786507214900746f2540e7a04df95a24cc1ccdc3bcb34ee7a5c84e6f30f"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K04_C015_chapter_059_sattagaunotpadavyayagrahaka_nityashuddha_paryayarthikanaya_katha_r02_press.png",
+      "bytes": 29974,
+      "sha256": "d886a8987ab4e7e0acc2392e4ee35e32d3aef16e7cc8f368cbf1403a11a57773"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K04_C016_chapter_060_sattasapeksha_nityashuddhaparyayarthikanaya_katha_r01_press.png",
+      "bytes": 36558,
+      "sha256": "bec680c9aeea474237b0c5c8d335de7be7d3aa409c03ad134565c32bca43f522"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K04_C017_chapter_061_upadhisapeksha_nityashuddhaparyayarthikanaya_katha_r02_press.png",
+      "bytes": 29438,
+      "sha256": "71a3a941aa2f2d88d6e8fc3b131c5abae03b805dfaad8ec1ba1ddd9fd0a240cc"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K04_C018_chapter_153_paryayanaya_katha_r01_press.png",
+      "bytes": 26521,
+      "sha256": "ae01205022d4a8ecf78cd2fbd99a7f87b22da01f9e29b85b9d4ca0ed1da5b130"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K05_C001_chapter_041_shabdanaya_katha_r01_press.png",
+      "bytes": 42000,
+      "sha256": "575a17f1127ac672ed78c8f220d9d0167fb0cb584e8338639e9ff6e9d7d62a01"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K05_C002_chapter_100_shabdanayaparyayarthika_pratipadaka_vyavahara_katha_r01_press.png",
+      "bytes": 35363,
+      "sha256": "5bac347b1f28e20f953ab89e445f85794bfd20fb9c049082dbd0b9f33284ef7d"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K05_C003_chapter_154_astitvanaya_katha_r01_press.png",
+      "bytes": 22414,
+      "sha256": "8c16f2551b0e54709e81e777d424089de56bf182a15754dd9939b35bbeea42b3"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K05_C004_chapter_155_nastitvanaya_katha_r01_press.png",
+      "bytes": 28223,
+      "sha256": "2762d4e0fcccc3d779ffa9e1fb200dc98add2134c34cf122c91db6a2ca99cbed"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K05_C005_chapter_156_astitva_nastitvanaya_katha_r01_press.png",
+      "bytes": 30954,
+      "sha256": "d07e504cd449a7c3b546dcae342b220a684fd1ec65c9f0a4954ce84ea7837a4b"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K05_C006_chapter_157_avaktavyanaya_katha_r01_press.png",
+      "bytes": 33608,
+      "sha256": "fc5b56657e28b2884e9e1baa2c2e3fe8e1797b542bb3e0b56cc663e209ff5532"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K05_C007_chapter_158_astitva_avaktavyanaya_katha_r01_press.png",
+      "bytes": 35469,
+      "sha256": "9dea7ffeee75bced437de211bbc0521eb2ca7f870a7ee54585874eebdc7da492"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K05_C008_chapter_159_nastitva_avaktavyanaya_katha_r01_press.png",
+      "bytes": 33274,
+      "sha256": "455a82a7de167a4de3c9265d017a2ffced6b8abe6f82cc25c69429dd94b65aeb"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K06_C001_chapter_042_samabhirudhanaya_katha_r01_press.png",
+      "bytes": 35376,
+      "sha256": "73dcc90aba502971681c008895e31e4496cf2f62b9c21fbb3e295651a6464a60"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K06_C002_chapter_101_samabhirudhanayaparyayarthika_pratipadaka_vyavahara_katha_r01_press.png",
+      "bytes": 37448,
+      "sha256": "9c21fb73edfcafc347ddd503c7ea31a8d8c9c2f0a38531bbae6abe99e884e48d"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K06_C003_chapter_160_astitva_nastitva_avaktavyanaya_katha_r01_press.png",
+      "bytes": 37130,
+      "sha256": "580c1ecae47aaf439de0af67f19d8cbf26f3557119debf60b46b27211dcf365c"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K06_C004_chapter_161_vikalpanaya_katha_r01_press.png",
+      "bytes": 31295,
+      "sha256": "4e54da093247bb9a8f81e26cc906e7ef4bbcd1ba76b67fafbcf91edd817240b3"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K06_C005_chapter_162_avikalpanaya_katha_r01_press.png",
+      "bytes": 27163,
+      "sha256": "ba02e5671ff9c98f0db9a7c994b8243f568c6dfc6e65df26624feba9d1427b1e"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K06_C006_chapter_163_namanaya_katha_r01_press.png",
+      "bytes": 35228,
+      "sha256": "c2531ed0a00d2e13f73227c5e52e2d59602b0869398e6bac1bb0d21dab24e5c5"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K06_C007_chapter_164_sthapana_naya_katha_r01_press.png",
+      "bytes": 34347,
+      "sha256": "cc0bdf390578e49c638e2043ba89d6ace159eb6dc55307e3bc22036c1f4872b6"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K06_C008_chapter_165_dravyanaya_katha_r01_press.png",
+      "bytes": 30119,
+      "sha256": "1a92194f5ccd49f618ff8060199a80f7099f6fecffba6e2fb14e8c1d059112d3"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K06_C009_chapter_166_bhavanaya_katha_r01_press.png",
+      "bytes": 28366,
+      "sha256": "5ab725c23da327361b97af169114788d8bc8feec2c99e7a464182fbe36e8dabe"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K06_C010_chapter_167_samanyanaya_katha_r01_press.png",
+      "bytes": 34443,
+      "sha256": "e29faf6ce46bcb1497863d3026bc996269f2c8a6a10e74efcaff8173403278ee"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K06_C011_chapter_168_visheshanaya_katha_r01_press.png",
+      "bytes": 37391,
+      "sha256": "7ee8730b0bb506c8626e66cc04d069a596ba33d10ce0533f4110441a04f9e56a"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K07_C001_chapter_043_evambhutamaya_katha_r01_press.png",
+      "bytes": 39112,
+      "sha256": "991d1b01ab57722e7571e7e147b1167ef6674bbf7ed7bed16af2aacead707e6e"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K07_C002_chapter_102_evambhutana_paryayarthika_pratipadaka_vyavahara_katha_r01_press.png",
+      "bytes": 37860,
+      "sha256": "2ae8afdc86e84bc8227abb592efe7dd93e67b3977a52e480bb8d6d1779a366db"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K07_C003_chapter_171_sarvagatanaya_katha_r01_press.png",
+      "bytes": 29686,
+      "sha256": "8524f0870eb1e23f2b103a3268dfbfa7496b035b2e26a1bd2db150260a6306fc"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K07_C004_chapter_172_asarvagatanaya_katha_r01_press.png",
+      "bytes": 32280,
+      "sha256": "a56caf5b0fd40a9cc863fdb5ee0700ed8f10a52db8aedec6c758627a12be219a"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K07_C005_chapter_173_shunyanaya_katha_r01_press.png",
+      "bytes": 33033,
+      "sha256": "31958b303bdf5e7e456a5c82a7b3540efd977a0b6a24e7c1e437534abad62e92"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K07_C006_chapter_174_ashunyanaya_katha_r01_press.png",
+      "bytes": 33641,
+      "sha256": "f4ff74a557eb061353af7ac28ea840eb3f0d5da54932bc2b2cfcd9955f7338a6"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K07_C007_chapter_175_jnanajneyadvaitanaya_katha_r01_press.png",
+      "bytes": 35453,
+      "sha256": "023ad5894022dfef321d18c9a3828f4ad5ced45963c528fb11d9df736cd58a14"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K07_C008_chapter_176_jnanajneya_dvaitanaya_katha_r01_press.png",
+      "bytes": 33419,
+      "sha256": "170d839d23224c91fd45cfaf9b54b731f565220a21dd5388295a03c18ebeb4bd"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K07_C009_chapter_177_niyatinaya_katha_r01_press.png",
+      "bytes": 34823,
+      "sha256": "5e1d54b5f50f031249e54e5bdbe6c8e47787a7200a0447a4435d676ec6c17ac1"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K07_C010_chapter_178_aniyatinaya_katha_r01_press.png",
+      "bytes": 43795,
+      "sha256": "62fd924fa850221a416c3098a9294bdcdcb72419df373b12499164375199dfa4"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K07_C011_chapter_179_svabhavanaya_katha_r01_press.png",
+      "bytes": 37164,
+      "sha256": "b05e4821f9e9d1cdca6a14829be11058a641113536ed70ac3fa2defbe9ca417d"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K07_C012_chapter_180_asvabhavanaya_katha_r01_press.png",
+      "bytes": 28486,
+      "sha256": "f960e5253a6c71cf90ad122e293cc57a62ff2e67634d36fb011da968c50d8c13"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K07_C013_chapter_181_kalanaya_katha_r01_press.png",
+      "bytes": 37704,
+      "sha256": "b02c50665a8e6f059b2eeffe08dec96bbe63f291435cc3c629338481aa9504e1"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K07_C014_chapter_182_akalanaya_katha_r01_press.png",
+      "bytes": 30904,
+      "sha256": "975d2163fe6a453d4cc2d46a106b80d50ff2b5ece3c33ce824824c8ca9288b39"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K07_C015_chapter_183_purushakaranaya_katha_r01_press.png",
+      "bytes": 34778,
+      "sha256": "af4b7e09990de5030fed450ae3e48ce75bec44ffea4ec75625972cbaf39f0cec"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K07_C016_chapter_184_daivanaya_katha_r01_press.png",
+      "bytes": 36348,
+      "sha256": "e983c9d8febbf4d2d73d422ac3d9c5a202b5b7beffc62f721e581ea9b20c0831"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K07_C017_chapter_185_ishvaranaya_katha_r01_press.png",
+      "bytes": 31423,
+      "sha256": "65a04825ca1128f273ca1e0b2ebf0d623d4d8c157a076bdf1ba7b7d3f131222d"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K07_C018_chapter_186_anishvaranaya_katha_r01_press.png",
+      "bytes": 32679,
+      "sha256": "9a8833cbf60da54d5a0be5ee127b0dec35abf4fa0d6616ef75e49086aa21e6a0"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K07_C019_chapter_187_guninaya_katha_r01_press.png",
+      "bytes": 32267,
+      "sha256": "a674a047986054414fd5b085f467f98609b9fc961e921c5daac7125a36221094"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K07_C020_chapter_188_aguninaya_katha_r01_press.png",
+      "bytes": 37967,
+      "sha256": "cdcfe7db651ebbb9d624b3e5d6c24125fffcb840c842656428d410e56952bd1c"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K07_C021_chapter_189_kartrunaya_katha_r01_press.png",
+      "bytes": 39080,
+      "sha256": "c9781c42d129ad16bd0352b3079e8fd7a191dc80e3883448ff9d3782cc77ce72"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K07_C022_chapter_190_akartrunaya_katha_r01_press.png",
+      "bytes": 33395,
+      "sha256": "52f12e87553b3591132bb1914b69853c17310baf38964fd395c48ffd72d06f7c"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K07_C023_chapter_191_bhoktanaya_katha_r01_press.png",
+      "bytes": 42670,
+      "sha256": "3c63ca692200724d39bee5c069fa5be33423faa5a452940ea621bce79eebfc32"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K07_C024_chapter_192_abhoktanaya_katha_r01_press.png",
+      "bytes": 31269,
+      "sha256": "28ca083aeeca8c6b7603e52096a118e6acab824ea0ab3c6d7d2611aa98b3ab49"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K07_C025_chapter_193_kriyanaya_katha_r01_press.png",
+      "bytes": 34902,
+      "sha256": "15ea772084ecebc395fe2451ff59713a3877ad9b12f3709c5bab6a223660b8a2"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K07_C026_chapter_194_jnananaya_katha_r01_press.png",
+      "bytes": 36280,
+      "sha256": "627170e1cddf55f513b3d26b603a74032f3d91d6282b18c9dc038b2448e8d19a"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K07_C027_chapter_195_vyavaharanaya_katha_r01_press.png",
+      "bytes": 34017,
+      "sha256": "18f1e82f3e1c7058c6c7576eab367fd4cbb0a0635e17b75bd91aa9537ac97f79"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K07_C028_chapter_196_nishchayanaya_katha_r01_press.png",
+      "bytes": 32616,
+      "sha256": "a1cf94d2b2c4ab31d32a7d1656d4cc30633e24b9e51748803b113d5df5d3d54f"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K07_C029_chapter_197_ashuddhanaya_katha_r01_press.png",
+      "bytes": 35714,
+      "sha256": "e79011acbcb76c73d53deeecc5f7c654e5a580cc04d481b4fe14537756852b1d"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K07_C030_chapter_198_shuddhanaya_katha_r01_press.png",
+      "bytes": 30506,
+      "sha256": "8cd3766ff69d964630af4506bad364a3c2b7d61929d24d456f1653b9a73e4d32"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K07_C031_chapter_199_urdhvatasamanyanaya_katha_r01_press.png",
+      "bytes": 33610,
+      "sha256": "21e786f49258fe760972713f4388e781cf29d0b9599f9483b28ebfe4fc0f5709"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K07_C032_chapter_200_urdhvatavisheshanaya_katha_r01_press.png",
+      "bytes": 40825,
+      "sha256": "fdfbef8bb1cf2c9e845f0f03c6632440255885fc6bd197184ea742aa6259053e"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K07_C033_chapter_201_nimittatvanimittadrishti_katha_r01_press.png",
+      "bytes": 46405,
+      "sha256": "b1e4e2272e4fb124838aa44ab75d0df4b36dfb0acafab53245db1cb3f02e9ad2"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K07_C034_chapter_202_sadrishyanaya_katha_r01_press.png",
+      "bytes": 31937,
+      "sha256": "6599aacb6bc1ca6cf2e401c25ed12c54561488118c9c8683a358a45dad81db3c"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/assets/images/K07_C035_chapter_203_vailakshanyanaya_katha_r01_press.png",
+      "bytes": 27506,
+      "sha256": "04c219124acecbb25a363bc41ca1619862b6b5d009d10b724fed8bcea82ce2fb"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/backups/docs_before_release/README.md",
+      "bytes": 6971,
+      "sha256": "778b0af10ef98e4bbdbf1aae23a131c2406f91bd0b3f6336f0410edd23c8e7d1"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/backups/docs_before_release/sankshipt/README.md",
+      "bytes": 10299,
+      "sha256": "42f050cf0b7d17efe426cfa1fe82c87dffc4e618ef81b1540a04f055c9694545"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/book.build.html",
+      "bytes": 24108736,
+      "sha256": "d288dd09a300e85b523a168918cac2d10a6713f55235f243146a327c3ffbdd2e"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/attempt01/book.build.html",
+      "bytes": 23992042,
+      "sha256": "bdffc88761545808f0d36ed3dbeed87f84289aa7ae58354d13cd65b132fefd26"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/attempt01/source-manifest.json",
+      "bytes": 7569610,
+      "sha256": "cb6f31e5e9b1605a867ffc39a7138b693ad9f81b50a679adb6199122bbcad5fa"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/attempt02/book.build.html",
+      "bytes": 24066863,
+      "sha256": "c8b49cc7edbb89473fa7e8f2d6a54126bdfe52cfbcb50682e6a2a37fe6fba203"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/attempt02/html-audit.json",
+      "bytes": 437823,
+      "sha256": "9ccd4ce6ff18dc794ea6ca3db88e40a13c2a3bbe9125ac0368ef73b25121029c"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/attempt02/naya_chakshu_book.html",
+      "bytes": 5387141,
+      "sha256": "6e9d7b1c6c4b86196dd9e2d014acc4ae5bb5ee1a4d997fb9360c750eff9e0e7e"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/attempt02/pagination.json",
+      "bytes": 490311,
+      "sha256": "458f82ffad856e1a10f233109abdfe27b0a6918b04a6f53655616f6819e6b08b"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/attempt02/source-manifest.json",
+      "bytes": 7592386,
+      "sha256": "6f0133a8cc901dbbd3eeb20f8399c5fdc59118ed657aed99db931338a4854651"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/attempt03/html-audit.json",
+      "bytes": 359757,
+      "sha256": "aef5ffaf4a4b462d9c901b93cca412b740459731e490822d701691c9280ee925"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/attempt03/naya_chakshu_book.html",
+      "bytes": 5381318,
+      "sha256": "dbe3df9189f790f5776761f74e37dabdefa0d8c4a497dc6458233824f7092089"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/attempt03/pagination.json",
+      "bytes": 489081,
+      "sha256": "8df214dccacebef28e8df04dc18a2154e6cf1b09ed83be16bc7b2f3839caf1da"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/before_monochrome_symbols/html-audit.json",
+      "bytes": 359739,
+      "sha256": "312ee5cb473fe4161f8123ff265bc9e069bddba22545ccd9a165e8ef4b02a210"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/before_monochrome_symbols/naya_chakshu_book.html",
+      "bytes": 5381437,
+      "sha256": "2bcae6e5f35a9bbdbf5827d85eb089a59874211e0b4c23ed8f05900ac3660059"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/before_monochrome_symbols/naya_chakshu_book.pdf",
+      "bytes": 20560619,
+      "sha256": "14568efacf234cd9e0c2fcd1c035c56e7c5c5932a89f20e462c32734091756ce"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/early-appendix983.png",
+      "bytes": 135455,
+      "sha256": "0832d16a51d993d11e6cf62a0d9d9f64245b242e1987b4a9d1840e49cbbcc001"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0001.png",
+      "bytes": 28612,
+      "sha256": "917e87b135d3f9f82742dceccbfbae093ed22163a0665639a055ef280f7ed646"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0002.png",
+      "bytes": 39032,
+      "sha256": "dc7027c566991b202d3b8524f681902809ed7c347fe4905ca44cf0278af62b74"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0003.png",
+      "bytes": 214973,
+      "sha256": "9cf2a57f2919bc62c5f67f2c92dc7e086c7420b6fd5b9bbf779c1da7704a99c4"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0012.png",
+      "bytes": 124143,
+      "sha256": "05381b832b4d57e8d0c731b736962339a24a7edc4c4de3028acb6361720300da"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0021.png",
+      "bytes": 74702,
+      "sha256": "b4ad77e16c3a75a3224efd96dbcb33b3616fcc90363035e7e97985738d1c497c"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0022.png",
+      "bytes": 187571,
+      "sha256": "adb640f91ea2bc83e454eb63fb60b5ad7f046b9d4c5c84d1859ba764859ac0c7"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0024.png",
+      "bytes": 161246,
+      "sha256": "e83866c427365d917557619ec8e872629adab2259cf0999370e0e25f6e2bceb8"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0032.png",
+      "bytes": 189737,
+      "sha256": "b177f0067e95fc4293fb397337f49c09da04f12364fa1683f783ca102060d771"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0035.png",
+      "bytes": 172794,
+      "sha256": "1a3102a2373930ebe4949074f18b1c7d0404ed333f5b78a6d142dd1c5586ae85"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0037.png",
+      "bytes": 70799,
+      "sha256": "23e10faa0fe24f448f81bec4cd9eccaa01e124702f0d50a9fed392a5945b7f40"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0038.png",
+      "bytes": 153573,
+      "sha256": "038cd8d81c36c645054c6b53f4108fb24def9bce5c530f66fd8dec3e72dc4115"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0041.png",
+      "bytes": 135712,
+      "sha256": "323ce0dd16df49f3ccf28c342e9d37b71cca113256526919b270da38ca0735cd"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0045.png",
+      "bytes": 144929,
+      "sha256": "d7d2933fcad85aeae3622c430f6eeb40719eb84a18643636c74e511bd54cbbf7"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0048.png",
+      "bytes": 146386,
+      "sha256": "671968876249ea3bef49e1ed0366dd0604d65cc273c182ba4591f12ef82da305"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0050.png",
+      "bytes": 163357,
+      "sha256": "8db143d02c323df6be821b9d514067df0efad65a7bbe984d4361bd5d5acaf54d"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0052.png",
+      "bytes": 63690,
+      "sha256": "ec42fbc7c9050289e36f2e53cb7c2738e4140df54b1bf06c495c4f0a33db9073"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0053.png",
+      "bytes": 228344,
+      "sha256": "73c7048c304c7381521b0ae5f16ef6fac89e9283cbbc683f1c294646ffd1ceb1"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0054.png",
+      "bytes": 135373,
+      "sha256": "046aa07ab38148b14581cd6002f26bd916ba7c9e7d87b56ccbbf045e5ca81e71"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0057.png",
+      "bytes": 35788,
+      "sha256": "f1af65f4554ea9d1781a236dcf99dd3557ec6d0eb93cf36da648e083b32c467a"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0058.png",
+      "bytes": 201615,
+      "sha256": "fd838d4ec40f7602a710ca7efc60b2d8ec564aa2367eb7171d3301c3f7ef004a"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0059.png",
+      "bytes": 224578,
+      "sha256": "615b33add5baf6ee08d2cfb6eb2c63cecf2bd9a533efac18ebfb5033b4345589"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0060.png",
+      "bytes": 88295,
+      "sha256": "a4a95dd9aa51ce1ac46d78c2a1ba77d53502b5f88103a93b350c5cb501961bac"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0080.png",
+      "bytes": 190761,
+      "sha256": "bf473c931003db455070743b07adfe95ceaf065ef953a1648c321d8ac7b85efd"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0081.png",
+      "bytes": 144362,
+      "sha256": "f0be615eb6784db84422ca1726089e7a5f3322dfe37870e528a9ae4008f338fe"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0140.png",
+      "bytes": 205091,
+      "sha256": "e26f64d84a186f5f7916c6d28a0cf0d21ee1a35b3171587058e13a67fdebaacc"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0141.png",
+      "bytes": 172441,
+      "sha256": "be3fcaf70ed6ec60a4a34c85e36f30c8bd532db9b99c1ed5033688fe0a4b3f12"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0620.png",
+      "bytes": 125467,
+      "sha256": "6049f5da3a3c579aac0b509fd45f17befdea7ee90fa053b780064d9e4ac6cac4"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0621.png",
+      "bytes": 146951,
+      "sha256": "f8f6e80bac19909dfeec6b56ca6f08c9251a946a25d3cb417651b44cccfffaed"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0622.png",
+      "bytes": 168797,
+      "sha256": "f7ef32da9720e341322211e65f71ca2cffe8d475af13b5e395a3c2b41f2a0a97"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0674.png",
+      "bytes": 219161,
+      "sha256": "19bca9d0f4213e0e8abb9dd35b7dfd4929ac19bdd8af35f26e10656087b82891"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0675.png",
+      "bytes": 141820,
+      "sha256": "c6d3ed71417cf6c7a4a8753e1dc0fbdad662962d4143a1fa5cc29a17c60ecac5"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0750.png",
+      "bytes": 221822,
+      "sha256": "06f6a2e6c5d26cac7f904017df1f7ff1e47db57e5deabefb2a283c322e23a35a"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0751.png",
+      "bytes": 193715,
+      "sha256": "754ff944058d3a54417962c5fdeaff5153d866a24cf6de2ddf84f05e26199f35"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0752.png",
+      "bytes": 133385,
+      "sha256": "2d4657853cf50c093d2c99b55ddff7ce3fa9e1aba1c65f29f39b154f82c803ec"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0786.png",
+      "bytes": 240035,
+      "sha256": "a1ad9797c646aac9158a480c33be03141d1a2fb315784979092812d16db1f6e8"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0787.png",
+      "bytes": 131545,
+      "sha256": "ea586631673b23823838de6491457dae70fcfd3ec4b5afaaeb8666a5ed09f9ad"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0834.png",
+      "bytes": 223139,
+      "sha256": "e55675f90f398cccdfb59d2ea68a560d69a62bfdb66598b5f2d6f699df65c742"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0836.png",
+      "bytes": 69587,
+      "sha256": "878ac3ca89a2573342bbc98e681eb475fa7a703b9a077644762f870680fcd0a8"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0839.png",
+      "bytes": 38448,
+      "sha256": "077e71f5c1fdcc2f279221c47bf393bc5c928ff2ac4bdb49e868b7e0aad97a81"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0980.png",
+      "bytes": 164242,
+      "sha256": "528b90eb206358a1e3177a6bd58040c6d0a2ca2ce11564547ad92a2bae6878c7"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0983.png",
+      "bytes": 177993,
+      "sha256": "93bcbacb4df9f1f23c8d1ef3d14bd5566af1c6107c5d2a85dcc00e56481127a3"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-0995.png",
+      "bytes": 174578,
+      "sha256": "e725c8ae2884ad96bc93c04adf8e84404e0ccee93639736b76e25baca8080685"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-1000.png",
+      "bytes": 150502,
+      "sha256": "2f7cb92a6189aa92fb64c07ce4aa1bdbf219a65f286924163d15e7fb7dfb48b7"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-1005.png",
+      "bytes": 190791,
+      "sha256": "929e781ac81cfecb3413213f345e583de68e384150f02e5d55cb21da0e142faa"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-1009.png",
+      "bytes": 134964,
+      "sha256": "249aa80d6ab15593144266bff6d076c4dbe7bc146991545fdfbfa4c4d6a58917"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-1012.png",
+      "bytes": 173932,
+      "sha256": "5d44a7747fcb6bc55d89b2acf004bd766678ee721fbb2406470e512dd7ccdd94"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-1015.png",
+      "bytes": 131853,
+      "sha256": "62a006a8122ce2ac8a1e41d0f1a4883c24a1f0120b47b6d60c19420faabf7584"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-1019.png",
+      "bytes": 192741,
+      "sha256": "77ec5ac4c023ec525a9d0a5a2ee604b4d361260c4d1dd7a62608be9c020dbbe9"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-1021.png",
+      "bytes": 215939,
+      "sha256": "cb10c018f637c9b41fe1b15c4157c46c8116b8c782caa42060b4e74b543c5325"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/page-1022.png",
+      "bytes": 95654,
+      "sha256": "b598d3af406cfa97f98fb94329f175cf496c2328e0dc314ccdaf49d660e0e61d"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/pdf-qa.json",
+      "bytes": 599427,
+      "sha256": "bde8c6c08f6f606855db60cc50593a798b94d48a51ccaf0d2236f7852db0705f"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/pdfinfo.txt",
+      "bytes": 700,
+      "sha256": "0c2e62f348b84ddf3474e56fe4e28efd28a696e4f6272146c63bcbd5ad7eb209"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/resource-probe.json",
+      "bytes": 42507,
+      "sha256": "2f8060b4f3b412847b6b4f98e52caf7bfbae25a6a5024a9c6aef0c4e95f595bc"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/build_history/initial_color_pdf_proof/sample-plan.json",
+      "bytes": 22905,
+      "sha256": "1d18c2c259c520c62b6594bda36b6e71aeb5030f95a76ef7c11bd66939cff9d7"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/editorial-layout-receipt.json",
+      "bytes": 2281,
+      "sha256": "e205b01ce81dfec8474b68120ac6113f3aa08844785510cc746cc07ccab3fd7f"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/html-audit.json",
+      "bytes": 359739,
+      "sha256": "312ee5cb473fe4161f8123ff265bc9e069bddba22545ccd9a165e8ef4b02a210"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/html-previews/page-0001.png",
+      "bytes": 28195,
+      "sha256": "8ceca5d0daa64276fd5f383436d0beb91fbc27f104527dabe9dd463ce5d85962"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/html-previews/page-0002.png",
+      "bytes": 28383,
+      "sha256": "823dde1f079879811aa6a4771bfa5dabd28a3d4655cbdbfa7565535e92816172"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/html-previews/page-0011.png",
+      "bytes": 53714,
+      "sha256": "958397ab3230d894993ce0f0ea20588eb7de13ac757723554bec72dc613e1749"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/html-previews/page-0026.png",
+      "bytes": 23387,
+      "sha256": "fc58a7fd1c7e340f1141da096e84f07651ddf7e8809ee5517a58814143cc87a3"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/html-previews/page-0056.png",
+      "bytes": 16697,
+      "sha256": "e05c45beed2fe60725fafb44c0e3b9b6500bec14596f27816fe0253ddf218fcd"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/html-previews/page-0057.png",
+      "bytes": 27169,
+      "sha256": "cdd79d079c83f06ed405f1e229f6146f16ec9bc71ecfd1ad97f81f9bcd35b4a2"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/html-previews/page-0083.png",
+      "bytes": 15691,
+      "sha256": "bcc7b68b18059bfa2b7416a6388c55787b1308ba3a5cb27f711d6a14022385e8"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/html-previews/page-0112.png",
+      "bytes": 97670,
+      "sha256": "0dd5dfe4705b697cc005a0990d7d9273a0b0ed39f4741801a6d6d6406232ef4b"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/html-previews/page-0212.png",
+      "bytes": 85285,
+      "sha256": "1ca64d21d2358ef871fe4473d31344c529a20e79726cd11757815c1efa5bdddb"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/html-previews/page-0312.png",
+      "bytes": 102739,
+      "sha256": "e4533c887f467d008da6a1f6c50115153ddccb0435d2aa458843c9b5e869b7c8"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/html-previews/page-0412.png",
+      "bytes": 84482,
+      "sha256": "4962c273886ed1dab95514fdf55c6479240560b9c4a1007beb2a0ff3b1037e45"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/html-previews/page-0512.png",
+      "bytes": 84704,
+      "sha256": "0e6e9f5ff71ffa069afb57cf6cc7b3436734f37514d26c291a6b344c27625da7"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/html-previews/page-0612.png",
+      "bytes": 94494,
+      "sha256": "bce3965338657152609626ca8174cb5c2990fd58cf5f8d9f6cea2645fdc02d9c"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/html-previews/page-0677.png",
+      "bytes": 17047,
+      "sha256": "af0c0f2292a5dfa1d267396182d2ae9ed6f4bf7f551867b46f740a1aa2d17ae1"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/html-previews/page-0710.png",
+      "bytes": 100354,
+      "sha256": "0c119e53cc5bb85ec379a68300acd16afff33290b74105f41ecd1c92ba6d92f7"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/html-previews/page-0789.png",
+      "bytes": 16421,
+      "sha256": "c8a913cdc1565aec591f9fd67096e9f539e7bba8afc78a2f3e88527e2e9ab85e"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/html-previews/page-0810.png",
+      "bytes": 71194,
+      "sha256": "86466a74a73e73497d9101aa0fe6d61edbc1397b9c7b2d90093ee05ca4290881"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/html-previews/page-0838.png",
+      "bytes": 17053,
+      "sha256": "1fd075345a312552ffcadbc726a876e8b85b59dc57aaa98f18d7df15fed189a1"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/html-previews/page-0839.png",
+      "bytes": 29087,
+      "sha256": "852f08c9e8b094d46622e9282ca0f66fb8171fe09b09e1906da0cb13213be1fe"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/html-previews/page-0912.png",
+      "bytes": 75918,
+      "sha256": "8804c01557d40f172629e148e24739c584525b093ae55e70da6bb08b1f12562e"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/html-previews/page-0982.png",
+      "bytes": 49520,
+      "sha256": "e43514b538e572e46093d09435ab348ea6d6d8018465e34abf73bf54563c54f9"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/html-previews/page-1019.png",
+      "bytes": 144775,
+      "sha256": "bc1451e829d9a648713e78e2f10a016d7074066752be219016af0c94e6f3f4fe"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/html-previews/page-1022.png",
+      "bytes": 71843,
+      "sha256": "f00e22443ae8934408b873b1fd1424d113a16889d8359c78caca0aa02843fce8"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/html-previews/page-1023.png",
+      "bytes": 145251,
+      "sha256": "9ec081fd6cf3c1b5548d63fc2a670aa94eb6fccaf0bc862a77c7e113c4f1f352"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/html-previews/page-1026.png",
+      "bytes": 71862,
+      "sha256": "1bc32dde081193ceeef992655598bc9b6ef00e674bf25c2b26100489938a7a4c"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/link-audit.json",
+      "bytes": 76,
+      "sha256": "23efe739cab4e793b8d79a9a465d0da5696b8155dad48d7d05ffd95b083c229b"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/monochrome-symbol-receipt.json",
+      "bytes": 3192,
+      "sha256": "fae36dada68927391dcdfc67ad42ef44570d2456583a4b2a742da969c85d200d"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/naya_chakshu_book.html",
+      "bytes": 5390451,
+      "sha256": "8cbe2ae0e380a6aa67ef260fdf956fd39eb403be8e03650baf3ad1cbc28d51a6"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/naya_chakshu_book.pdf",
+      "bytes": 19213052,
+      "sha256": "bd68cf9cc6feb76a46213213148db12f99dd715aae7d2a28be51e68f68b51565"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pagination.json",
+      "bytes": 491318,
+      "sha256": "8d63f8aa64bff78b3ceaf2ae2ca6390e1b164b5531249ace4418ef025e60a4e9"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/early-appendix983.png",
+      "bytes": 135455,
+      "sha256": "0832d16a51d993d11e6cf62a0d9d9f64245b242e1987b4a9d1840e49cbbcc001"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/index.html",
+      "bytes": 8405,
+      "sha256": "15e2463fcd88f024cd390ecdbe94075e961bdb3b3fc1931fa7d7b91c73121adc"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0001.png",
+      "bytes": 35442,
+      "sha256": "02873729196df20bce145ec4dc644781dfc075e5df4130d20ad082666d81a333"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0002.png",
+      "bytes": 39032,
+      "sha256": "dc7027c566991b202d3b8524f681902809ed7c347fe4905ca44cf0278af62b74"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0003.png",
+      "bytes": 214973,
+      "sha256": "9cf2a57f2919bc62c5f67f2c92dc7e086c7420b6fd5b9bbf779c1da7704a99c4"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0012.png",
+      "bytes": 124143,
+      "sha256": "05381b832b4d57e8d0c731b736962339a24a7edc4c4de3028acb6361720300da"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0021.png",
+      "bytes": 74702,
+      "sha256": "b4ad77e16c3a75a3224efd96dbcb33b3616fcc90363035e7e97985738d1c497c"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0022.png",
+      "bytes": 187571,
+      "sha256": "adb640f91ea2bc83e454eb63fb60b5ad7f046b9d4c5c84d1859ba764859ac0c7"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0024.png",
+      "bytes": 161246,
+      "sha256": "e83866c427365d917557619ec8e872629adab2259cf0999370e0e25f6e2bceb8"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0032.png",
+      "bytes": 189737,
+      "sha256": "b177f0067e95fc4293fb397337f49c09da04f12364fa1683f783ca102060d771"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0035.png",
+      "bytes": 172794,
+      "sha256": "1a3102a2373930ebe4949074f18b1c7d0404ed333f5b78a6d142dd1c5586ae85"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0037.png",
+      "bytes": 70799,
+      "sha256": "23e10faa0fe24f448f81bec4cd9eccaa01e124702f0d50a9fed392a5945b7f40"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0038.png",
+      "bytes": 153573,
+      "sha256": "038cd8d81c36c645054c6b53f4108fb24def9bce5c530f66fd8dec3e72dc4115"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0041.png",
+      "bytes": 135712,
+      "sha256": "323ce0dd16df49f3ccf28c342e9d37b71cca113256526919b270da38ca0735cd"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0045.png",
+      "bytes": 144929,
+      "sha256": "d7d2933fcad85aeae3622c430f6eeb40719eb84a18643636c74e511bd54cbbf7"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0048.png",
+      "bytes": 146386,
+      "sha256": "671968876249ea3bef49e1ed0366dd0604d65cc273c182ba4591f12ef82da305"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0050.png",
+      "bytes": 163357,
+      "sha256": "8db143d02c323df6be821b9d514067df0efad65a7bbe984d4361bd5d5acaf54d"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0052.png",
+      "bytes": 63690,
+      "sha256": "ec42fbc7c9050289e36f2e53cb7c2738e4140df54b1bf06c495c4f0a33db9073"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0053.png",
+      "bytes": 228344,
+      "sha256": "73c7048c304c7381521b0ae5f16ef6fac89e9283cbbc683f1c294646ffd1ceb1"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0054.png",
+      "bytes": 135373,
+      "sha256": "046aa07ab38148b14581cd6002f26bd916ba7c9e7d87b56ccbbf045e5ca81e71"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0057.png",
+      "bytes": 35788,
+      "sha256": "f1af65f4554ea9d1781a236dcf99dd3557ec6d0eb93cf36da648e083b32c467a"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0058.png",
+      "bytes": 201615,
+      "sha256": "fd838d4ec40f7602a710ca7efc60b2d8ec564aa2367eb7171d3301c3f7ef004a"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0059.png",
+      "bytes": 224578,
+      "sha256": "615b33add5baf6ee08d2cfb6eb2c63cecf2bd9a533efac18ebfb5033b4345589"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0060.png",
+      "bytes": 88295,
+      "sha256": "a4a95dd9aa51ce1ac46d78c2a1ba77d53502b5f88103a93b350c5cb501961bac"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0080.png",
+      "bytes": 190761,
+      "sha256": "bf473c931003db455070743b07adfe95ceaf065ef953a1648c321d8ac7b85efd"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0081.png",
+      "bytes": 144362,
+      "sha256": "f0be615eb6784db84422ca1726089e7a5f3322dfe37870e528a9ae4008f338fe"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0140.png",
+      "bytes": 205091,
+      "sha256": "e26f64d84a186f5f7916c6d28a0cf0d21ee1a35b3171587058e13a67fdebaacc"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0141.png",
+      "bytes": 172441,
+      "sha256": "be3fcaf70ed6ec60a4a34c85e36f30c8bd532db9b99c1ed5033688fe0a4b3f12"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0620.png",
+      "bytes": 125467,
+      "sha256": "6049f5da3a3c579aac0b509fd45f17befdea7ee90fa053b780064d9e4ac6cac4"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0621.png",
+      "bytes": 146951,
+      "sha256": "f8f6e80bac19909dfeec6b56ca6f08c9251a946a25d3cb417651b44cccfffaed"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0622.png",
+      "bytes": 168797,
+      "sha256": "f7ef32da9720e341322211e65f71ca2cffe8d475af13b5e395a3c2b41f2a0a97"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0674.png",
+      "bytes": 219161,
+      "sha256": "19bca9d0f4213e0e8abb9dd35b7dfd4929ac19bdd8af35f26e10656087b82891"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0675.png",
+      "bytes": 141820,
+      "sha256": "c6d3ed71417cf6c7a4a8753e1dc0fbdad662962d4143a1fa5cc29a17c60ecac5"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0750.png",
+      "bytes": 221822,
+      "sha256": "06f6a2e6c5d26cac7f904017df1f7ff1e47db57e5deabefb2a283c322e23a35a"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0751.png",
+      "bytes": 193715,
+      "sha256": "754ff944058d3a54417962c5fdeaff5153d866a24cf6de2ddf84f05e26199f35"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0752.png",
+      "bytes": 133385,
+      "sha256": "2d4657853cf50c093d2c99b55ddff7ce3fa9e1aba1c65f29f39b154f82c803ec"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0786.png",
+      "bytes": 240035,
+      "sha256": "a1ad9797c646aac9158a480c33be03141d1a2fb315784979092812d16db1f6e8"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0787.png",
+      "bytes": 131545,
+      "sha256": "ea586631673b23823838de6491457dae70fcfd3ec4b5afaaeb8666a5ed09f9ad"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0834.png",
+      "bytes": 223139,
+      "sha256": "e55675f90f398cccdfb59d2ea68a560d69a62bfdb66598b5f2d6f699df65c742"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0836.png",
+      "bytes": 69587,
+      "sha256": "878ac3ca89a2573342bbc98e681eb475fa7a703b9a077644762f870680fcd0a8"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0839.png",
+      "bytes": 38448,
+      "sha256": "077e71f5c1fdcc2f279221c47bf393bc5c928ff2ac4bdb49e868b7e0aad97a81"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0980.png",
+      "bytes": 161722,
+      "sha256": "2655605d7369c2f40fa46b2fb1f45b9e87fc2d282f3c6ad912026154a4ab79b6"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0983.png",
+      "bytes": 177509,
+      "sha256": "07a3c0210658546502d15086308a614d0e160032e26153b6d0a1cf44247aee02"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-0995.png",
+      "bytes": 172754,
+      "sha256": "cd408f1e19613a4491bbc4f8efc0920d76c89f816cae7ecc55d39bbce4d6ce85"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-1000.png",
+      "bytes": 147751,
+      "sha256": "d3c72f65703b98e1566f40f5fa85d556c93a138511611c056d9c2a599782db69"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-1005.png",
+      "bytes": 188638,
+      "sha256": "b1e774f61e90178ea60824820f75655a714c53ca2d05fb6a4679842d18a8df18"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-1009.png",
+      "bytes": 132892,
+      "sha256": "a01cd01e984082d9245dfccd6f9b594569d9857c5f944c62c65e49d6d229906b"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-1012.png",
+      "bytes": 172176,
+      "sha256": "9f732b642f23da50644f6d54caca506ca21bbb2a34ec9e1b7485d5b39a646ad0"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-1015.png",
+      "bytes": 130092,
+      "sha256": "c2c0b74183788c546541bf0085bacef8717bf1207a07f708e5cf474b03c44303"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-1019.png",
+      "bytes": 191896,
+      "sha256": "292a07d4a4b1ef7ecd55cb6112d8325658e432fb7e4f3895afc68f33de40c186"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-1021.png",
+      "bytes": 215939,
+      "sha256": "cb10c018f637c9b41fe1b15c4157c46c8116b8c782caa42060b4e74b543c5325"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/page-1022.png",
+      "bytes": 95654,
+      "sha256": "b598d3af406cfa97f98fb94329f175cf496c2328e0dc314ccdaf49d660e0e61d"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/pdf-qa.json",
+      "bytes": 597829,
+      "sha256": "9c7e529811c0f0a692b3291cbcdcde6d41c7f716b6068fc2c9cb95d9ad88e971"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/pdfinfo.txt",
+      "bytes": 700,
+      "sha256": "adadf3bf652e1092c5cd837325e57d27117c670bdd24cc6a5dda552566ab39e5"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/resource-probe.json",
+      "bytes": 42507,
+      "sha256": "2f8060b4f3b412847b6b4f98e52caf7bfbae25a6a5024a9c6aef0c4e95f595bc"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/pdf-proof/sample-plan.json",
+      "bytes": 22905,
+      "sha256": "1d18c2c259c520c62b6594bda36b6e71aeb5030f95a76ef7c11bd66939cff9d7"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/PRODUCTION_PLAN.md",
+      "bytes": 4119,
+      "sha256": "1fa825f091360c94189c07cd5b4db78fb12db3ef8914f31cc0ff3d8cb13d6bcd"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/qa-evidence/chapter-dom-coverage.json",
+      "bytes": 373199,
+      "sha256": "7763ddc611e6b64d5a4e4c4749bbc642eff7b427566ddc3d490e14281712fc98"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/qa-evidence/chapter-semantic-coverage.json",
+      "bytes": 100748,
+      "sha256": "46c77a73af33033a3b9cf422098dba072e870d66b4967be42bed19c6225e316f"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/qa-evidence/frontmatter-semantic-coverage.json",
+      "bytes": 19821,
+      "sha256": "735038dc4c4356e61da51ec7a2b76617c827fc5c6442e79547194518f5293c0a"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/qa-evidence/source-inventory.json",
+      "bytes": 565936,
+      "sha256": "af9de46a3b70e38658810814ccf1d73a0c0679b20cd588bb36760343665f351c"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/QA_REPORT.md",
+      "bytes": 7488,
+      "sha256": "f2bc390380b6287f8b10de2f21731d61611678239bfccd6d4fbc51083641e103"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source-manifest.json",
+      "bytes": 7606194,
+      "sha256": "58f5926f13ebf078ddf3b55313f2a35f2b70ae60cf3c497d83693987382f870b"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_1_naigam/000_khanda_1_naigam_parichay_gu.md",
+      "bytes": 17092,
+      "sha256": "bc1850c41d4bf37a77324319ca7372d6fb09af133d35d0663b6b8c0311f03796"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_1_naigam/chapter_001_bhuta_naigam_naya_gu.md",
+      "bytes": 9542,
+      "sha256": "ac36820fc71625530d77519c6c6cb7180f18c7f82a71a063e5a16bd4965772be"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_1_naigam/chapter_002_bhavi_naigam_naya_gu.md",
+      "bytes": 11720,
+      "sha256": "6435811f91df20d5fc9a820c9836b45bb1c856ad6a21b3832d66c1ecf392afa2"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_1_naigam/chapter_003_vartaman_naigam_naya_gu.md",
+      "bytes": 11873,
+      "sha256": "de1840f45127f3b11b3a28b0c4a34bd9dac421715ccb9a7709b597d2839f174b"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_1_naigam/chapter_062_bhuta_naigam_pratipadaka_vyavahara_gu.md",
+      "bytes": 11019,
+      "sha256": "0f88978523cdbc0e54c3b0ea6c3a988134aa60fa70443c2420177670d30a103c"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_1_naigam/chapter_063_bhavi_naigam_pratipadaka_vyavahara_gu.md",
+      "bytes": 10994,
+      "sha256": "7f9ad5120e1e4d45de8295a9ff97a3daf2869eb5e59caa299f3c73f55b288a83"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_1_naigam/chapter_064_vartaman_naigam_pratipadaka_vyavahara_gu.md",
+      "bytes": 10983,
+      "sha256": "319d6ad698a3faf1859756a05d6af1e5e7002983b35410dd70660648a2d429e2"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_2_sangrah/000_khanda_2_sangrah_parichay_gu.md",
+      "bytes": 15789,
+      "sha256": "2f9f4b77a8c8d0ebd2006bee19def496337c6d537c28dc745ad182765bc8c4d0"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_2_sangrah/chapter_004_para_sangraha_dravyarthika_naya_gu.md",
+      "bytes": 10922,
+      "sha256": "eabafd482db6eb16dac38900073f5491a73ebea0390da3e8ffafa591c50ad4b6"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_2_sangrah/chapter_005_apara_sangraha_dravyarthika_naya_gu.md",
+      "bytes": 10763,
+      "sha256": "0fc5076f1377929c469e55868472f6c5fec6d0f895d8a916134c7e4899ae4f27"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_2_sangrah/chapter_006_paramashuddha_apara_sangraha_dravyarthika_naya_gu.md",
+      "bytes": 11194,
+      "sha256": "5846d12e7f3cc07cc8e2cbc35f2a4dd487ebe83bc188228a30f9c927efdbf44f"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_2_sangrah/chapter_007_shuddha_apara_sangraha_dravyarthika_naya_gu.md",
+      "bytes": 11603,
+      "sha256": "b1dc5d68261f02e4b0879cdad56a7191cdded1536cb2b740e5656e19c36429f1"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_2_sangrah/chapter_008_ashuddha_apara_sangraha_dravyarthika_naya_gu.md",
+      "bytes": 10848,
+      "sha256": "6b04b7051f3e4452c6f84fee352294b3f4e6b52da9e2da09bd56f6ee471e5d39"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_2_sangrah/chapter_065_para_sangraha_dravyarthika_pratipadaka_vyavahara_gu.md",
+      "bytes": 11186,
+      "sha256": "ae7af6ab586dacc45115591649515166ff02f318e543af9dcffb32cac0b5de0e"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_2_sangrah/chapter_066_1_paramashuddha_apara_sangraha_dravyarthika_pratipadaka_vyavahara_gu.md",
+      "bytes": 11576,
+      "sha256": "fc239ff6709cf52f01e6c4cf860101f61787c159320f2bf79dd0835c5b89bab0"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_2_sangrah/chapter_066_2_shuddha_apara_sangraha_dravyarthika_pratipadaka_vyavahara_gu.md",
+      "bytes": 11454,
+      "sha256": "93bf552cf9879bfea98112f391d0c2fdb070ca554cfd923a4874d33641a18cbc"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_2_sangrah/chapter_066_3_ashuddha_apara_sangraha_dravyarthika_pratipadaka_vyavahara_gu.md",
+      "bytes": 11796,
+      "sha256": "7cd882bb55dc2c7a0090644dec70e9dff4000c6b6b3670eec137c767ef7e8560"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_2_sangrah/chapter_066_apara_sangraha_dravyarthika_pratipadaka_vyavahara_gu.md",
+      "bytes": 11028,
+      "sha256": "b17154cf5e9bf637c1d4aa7661ee51b6219630064db59b01d23463967b2e3ec7"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_2_sangrah/chapter_067_apara_sangraha_bhedaka_vyavahara_dravyarthika_pratipadaka_gu.md",
+      "bytes": 10870,
+      "sha256": "03f43630f95e257334c1f19292fff4f00678c11e1abd690bea1a25290f0bd40f"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_2_sangrah/chapter_068_1_antima_apara_sangraha_bhedaka_vyavahara_dravyarthika_pratipadaka_gu.md",
+      "bytes": 10725,
+      "sha256": "f8c0533501facf6382cbddc0f2fb439958c1797975941ef8c2f30a134506d399"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_2_sangrah/chapter_068_2_antima_akhanda_vyavahara_dravyarthika_pratipadaka_gu.md",
+      "bytes": 11055,
+      "sha256": "14c7b0fa367ebc7643e61cecdec12cc441fc74443a4c43c6f3d56092dfb5d2b2"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_2_sangrah/chapter_068_apara_sangraha_bhedaka_vyavahara_dravyarthika_pratipadaka_gu.md",
+      "bytes": 10785,
+      "sha256": "0d81b3331829d7ff50f79943877daae68b302cb696f05add4446484059067c29"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/000_khanda_3_vyavahar_parichay_gu.md",
+      "bytes": 16029,
+      "sha256": "54e4178bad7e3f25519c7dc438a735ff8dac61a6d38ec7b3df4f2c47b47ee176"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_009_para_sangraha_bhedaka_vyavahara_dravyarthika_naya_gu.md",
+      "bytes": 11209,
+      "sha256": "29bcb522b45f82c6c019982c79071282e8569154532205888a4376ac4b90889d"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_010_apara_sangraha_bhedaka_vyavahara_dravyarthika_naya_gu.md",
+      "bytes": 11488,
+      "sha256": "dbdf25a0ed6433a7fe78043ec1efab0ba67ae82b96981bdd95d17653b5c12599"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_011_antima_apara_sangraha_bhedaka_vyavahara_dravyarthika_naya_gu.md",
+      "bytes": 10214,
+      "sha256": "db14065b745a48afa2742d650d1bcfe2dadffbe28fafe13d1ac3968aecaef5fb"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_012_paramashuddha_apara_sangraha_bhedaka_vyavahara_dravyarthika_naya_gu.md",
+      "bytes": 10200,
+      "sha256": "bcff0417c68e588c656d6b7aec923882b4e4e384d3ff48c7857d8fce42554c55"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_013_shuddha_apara_sangraha_bhedaka_vyavahara_dravyarthika_naya_gu.md",
+      "bytes": 11341,
+      "sha256": "736b80cb33f14dd73f5e2f76924e6d49fa72e5c5f39dfb9672b89c974ca2378c"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_014_ashuddha_apara_sangraha_bhedaka_vyavahara_dravyarthika_naya_gu.md",
+      "bytes": 11198,
+      "sha256": "a91148450ea9741ff0b1e725a0e144d6aa4993e8437426e3b43ffe768ac9dfc4"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_015_paramashuddha_abhedavishayi_antima_vyavahara_dravyarthika_naya_gu.md",
+      "bytes": 11253,
+      "sha256": "92404e372e663a31ff4f033d8d807822bce6e8a8b955ed18031fd11d2e5a8b81"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_016_paramashuddha_bhedavishayi_antima_vyavahara_dravyarthika_naya_gu.md",
+      "bytes": 10678,
+      "sha256": "9e1a88e27e39b6230d649953a0da7b4fca1cb04ece84f91f5846ddff7e1eee4a"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_017_shuddha_abhedavishayi_antima_vyavahara_dravyarthika_naya_gu.md",
+      "bytes": 11450,
+      "sha256": "492599dc98c2a25a3c04065d7e5fb09787cd5385b81850aca806207e46b3d609"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_018_shuddhabhedavishayi_antima_vyavahara_dravyarthika_naya_gu.md",
+      "bytes": 11162,
+      "sha256": "e1816dea9e6a2534d2c82d277f4363c9b5320d03173fc8d1cc3c88c9293473c1"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_019_avyakta_ashuddha_antima_vyavahara_dravyarthika_naya_gu.md",
+      "bytes": 10800,
+      "sha256": "0ab242a05fad52e2c8742daf13af32a709b6f42476cd5af1c8a4d403a83a17a9"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_020_vyakta_ashuddha_antima_vyavahara_dravyarthika_naya_gu.md",
+      "bytes": 10865,
+      "sha256": "4e5c42cf32efc8c6ba565262b16d4c58ea9b207f1f6f788e0006b5fdbc951f9a"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_021_upadhinirapeksha_shuddha_dravyarthika_naya_gu.md",
+      "bytes": 12199,
+      "sha256": "966f8fd2597d500165d6d13dca0ebceb1949eff8d5db82a8244cb99451b2e73d"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_022_utpadavyayagauna_sattagrahaka_shuddha_dravyarthika_naya_gu.md",
+      "bytes": 11784,
+      "sha256": "87388174aa4c2f7f0f1931822fd4932da06a81693d5d8f7d321c35fe0dd12be0"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_023_bhedakalpananirapeksha_shuddha_dravyarthika_naya_gu.md",
+      "bytes": 11568,
+      "sha256": "d0234b0df597cf803443ccfbaca6975693885fa3f9984634c524867eb8a38435"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_024_1_upadhyabhavapeksha_shuddha_dravyarthika_naya_gu.md",
+      "bytes": 12282,
+      "sha256": "cc362faf02250c75dd98b1c9ed642943a73396419e5d117d2f7ce0e9fd6f5549"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_024_2_shuddhabhavanirapeksha_shuddha_dravyarthika_naya_gu.md",
+      "bytes": 12458,
+      "sha256": "950efe00749c4dd35c7189afdcdc2720f9ced276487a26b85a54dc60a998d62d"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_024_upadhisapeksha_ashuddha_dravyarthika_naya_gu.md",
+      "bytes": 12312,
+      "sha256": "801a098ce965fadf2f999f0012595b51ce1cb3347618d51308c6f38e7504404e"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_025_utpadavyayasapeksha_ashuddha_dravyarthika_naya_gu.md",
+      "bytes": 11704,
+      "sha256": "61b752ca65856c4f64645d87e3458bde42e855394e09e0c3995cafb605639ad3"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_026_bhedakalpanasapeksha_ashuddha_dravyarthika_naya_gu.md",
+      "bytes": 12051,
+      "sha256": "d0ad389b81f05f3cf6f3f3b2303aa99d2d6a614feb36f355c976b7926dbcf82f"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_027_anvaya_dravyarthika_naya_gu.md",
+      "bytes": 11900,
+      "sha256": "67e401e39476e9cb45ea75c88c20b089caa9836e0c352dfd0fcdb4fd2ce59af8"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_028_svadravyadigrahaka_dravyarthika_naya_gu.md",
+      "bytes": 11892,
+      "sha256": "df2659938b32f1a88894871c4f85b5d2cb6ce346720bfda580b8cac6ffe66075"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_029_paradravyadigrahaka_dravyarthika_naya_gu.md",
+      "bytes": 11655,
+      "sha256": "ac0166450c32d07a977a0556747ec195fdbe923bb8271cde9cf9d4746a7c345c"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_030_1_shuddhaparinamika_paramabhavagrahaka_shuddha_dravyarthika_naya_gu.md",
+      "bytes": 12804,
+      "sha256": "bf6fd425fbbf969a766d2c5d1a25b118064c2804676ed427f6512da825a30c83"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_030_paramabhavagrahaka_dravyarthika_naya_gu.md",
+      "bytes": 11950,
+      "sha256": "abdbe66ea833824cc0c6007fefaa1d97eeee60e38f30f0ca0cec0215ac8daeb1"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_044_akhanda_paramashuddha_nishchayanaya_gu.md",
+      "bytes": 10820,
+      "sha256": "f21261ab08b0bc36dd5c215e364c57f853ddc9610c1167352a2c4ed9fd996dae"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_045_shaktibodhaka_paramashuddha_nishchayanaya_gu.md",
+      "bytes": 11353,
+      "sha256": "a5d00abdb0528a70c4be5d3421e115474a2f24861cb6e2866ba95a56eba74165"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_046_1_sabheda_shuddha_nishchayanaya_gu.md",
+      "bytes": 11115,
+      "sha256": "6d2e2a2513ff32d3edfa55e48d66de209653d2e30249e7acde1c5caaa951fc50"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_046_2_apurnashuddha_nishchayanaya_gu.md",
+      "bytes": 10889,
+      "sha256": "c62d401abb3a4bea5378a372044b5e38b092828fcc2bfb126631a136b0238b36"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_046_shuddha_nishchayanaya_gu.md",
+      "bytes": 11092,
+      "sha256": "65060e5bbaf18699366b77eb72ef17eed8cde7ac3ac40c09670e4ced60ebf67c"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_047_1_sabheda_ashuddha_nishchayanaya_gu.md",
+      "bytes": 11229,
+      "sha256": "a3a1bfb0aad85cf26eb657c76cc8583d8e4b24b7eaecaea8ee6bfbceea8ecdd6"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_047_ashuddha_nishchayanaya_gu.md",
+      "bytes": 12177,
+      "sha256": "5f65d53f115ac8f3a76b0fe55a8fa606b3f5a6a7441eed947fd30310639e87c8"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_048_vivakshitaikadesha_shuddha_nishchayanaya_gu.md",
+      "bytes": 11708,
+      "sha256": "2473de00521be5ac397b8ed3e0432d1ad1135877305e6ec312a7974924685b88"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_049_1_pratishedhaka_shuddhanaya_gu.md",
+      "bytes": 11495,
+      "sha256": "541a8189dedf4417069ba0364a8e00dac814eb6b3d3bde87541ca940dd1f1252"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_049_2_upadanadrishti_shuddhanaya_gu.md",
+      "bytes": 12023,
+      "sha256": "e1eff1d7d60a914f79e36f79863e7b2846638ebda18be80e2833f28167381d8c"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_049_shuddhanaya_gu.md",
+      "bytes": 11870,
+      "sha256": "e7e09017d477f4ef9f70ea4e4ed965222bccaf494dcc41cd5b3a919698faa273"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_050_paramashuddhabhedavishayi_vyavaharanaya_gu.md",
+      "bytes": 11373,
+      "sha256": "93feda49084f391ff55e58b1cd2538064abad6c8d7a82d96193173c1cc2b020a"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_051_shuddhabhedavishayi_dravyarthikanaya_gu.md",
+      "bytes": 11511,
+      "sha256": "6da10de2a9d60827f8cb710ee23481c5e266522f8c49a161910e0dc82c7b0f6e"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_052_ashuddhaparayayavishayi_vyavaharanaya_gu.md",
+      "bytes": 11745,
+      "sha256": "09ef825209a3bafda6a95548bf60d77cfc316db07de46f2c8aa2f187f41a9543"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_053_1_nimittadrishti_vyavaharanaya_gu.md",
+      "bytes": 11701,
+      "sha256": "9591dee0aea6b05b5364645e283634f29ac4bbde1185ed12fc9c9e7547552fd0"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_053_upadhisapeksha_ashuddha_dravyarthikanaya_gu.md",
+      "bytes": 11847,
+      "sha256": "8ef2417599766ee811d254c173ebe7cb7a0084ac5a7795033bd0fd03d34fe7cb"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_054_utpadavyayasapeksha_ashuddha_dravyarthikanaya_gu.md",
+      "bytes": 11791,
+      "sha256": "34f28a91632d77a45a3456389cb727d86b2a3abd48cb45b0ef2693e0331c6a19"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_069_1_gunagunibhedaka_paramashuddha_sadbhuta_vyavahara_gu.md",
+      "bytes": 11483,
+      "sha256": "ff00afc630fac89c0133f4287eaabb20527dc3572f3335e8d37897d9b6e299de"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_069_akhanda_paramashuddha_sadbhuta_vyavahara_gu.md",
+      "bytes": 11312,
+      "sha256": "190f8fd94d4f1b0052c29cbac1323f3b8ad2c14d0d63ab8cba31acb6277a4a06"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_070_1_pratishedhaka_shuddhanaya_pratipadaka_vyavahara_gu.md",
+      "bytes": 12065,
+      "sha256": "f1fcff75ec117252be00fda72a0a7d9b804ef6451822f74b81b2bb3273eeee9d"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_070_saguna_paramashuddha_sadbhuta_vyavahara_gu.md",
+      "bytes": 11526,
+      "sha256": "b9735eaad484d179fdeea38ca7504a8f7027f34d5de479e466a876b30e53ad40"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_071_abheda_shuddha_sadbhuta_vyavahara_gu.md",
+      "bytes": 11418,
+      "sha256": "ac028217386049cfb0f9153e320fc6c5080299d58a29fb90d517471bce12999e"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_072_sabheda_shuddha_sadbhuta_vyavahara_gu.md",
+      "bytes": 12153,
+      "sha256": "7e5795994ddddc6c8fc6b88817f1c6d410f30d58979a70ff14735d5dc16757da"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_073_1_karaka_karakibhedaka_ashuddha_sadbhuta_vyavahara_gu.md",
+      "bytes": 11853,
+      "sha256": "753f411d2497c0513e70f41364352b9485d003519a0ad1471f9bd0ef4898f076"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_073_karaka_karakibhedaka_sadbhuta_vyavahara_gu.md",
+      "bytes": 12371,
+      "sha256": "c4d0a8cab1faf5a5884c3c1ed2be03ff731d5f6c88549f190ac6921359b9780a"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_074_anupacharita_ashuddha_sadbhuta_vyavahara_gu.md",
+      "bytes": 12135,
+      "sha256": "3290c4f101fd8cd24009fc9355cf23d766ba2300572704bc5ce92f799596cbe5"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_075_upacharita_ashuddha_sadbhuta_vyavahara_gu.md",
+      "bytes": 11249,
+      "sha256": "4fe0279959be198c9e8b71ae66ee4553c0917088a7a27bba7a074cdc1b18d094"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_076_upadhisapeksha_ashuddha_dravyarthikapratipadaka_vyavahara_gu.md",
+      "bytes": 11481,
+      "sha256": "7360d235f52b1720b4274e53d2d7a6f6dd2a8929b407b3a64912c395b202de71"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_077_upacharita_upadhisapeksha_ashuddha_dravyarthikapratipadaka_vyavahara_gu.md",
+      "bytes": 11575,
+      "sha256": "d922fcf66f323facc5bc69f6f97f430f6aa52301c9cafd9cf4a63abd520f9604"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_078_upadhinirapeksha_shuddhadravyarthikapratipadaka_vyavahara_gu.md",
+      "bytes": 12315,
+      "sha256": "f813ba3a0400fc3e11aaa63dc4e5f79c44f81660bb0f9c570c1ad5cdb4bbbb1c"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_079_utpadavyayagauna_sattagrahaka_shuddha_dravyarthikapratipadaka_vyavahara_gu.md",
+      "bytes": 11982,
+      "sha256": "1b306ef741b6876a201e29f49f46e975afc8a3d690ad87184ca6dd24906e5b6d"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_080_bhedakalpananirapeksha_shuddhadravyarthikapratipadaka_vyavahara_gu.md",
+      "bytes": 11888,
+      "sha256": "fe55afe055daa97a7ae2a83073d0da1610b5ab2ee652571e555cfae28e153ced"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_081_utpadavyayasapeksha_ashuddha_dravyarthikapratipadaka_vyavahara_gu.md",
+      "bytes": 11769,
+      "sha256": "b6ddb936e3c91687421a621691d2c52067308b378aec8b28ad2b23cf488d20d0"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_082_bhedakalpanasapeksha_ashuddhadravyarthikapratipadaka_vyavahara_gu.md",
+      "bytes": 12018,
+      "sha256": "dbbf6ab0bd1ea8f51097674b3c83c1e8b881ce3c6677d9776fb0b2876c96894f"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_083_anvayadravyarthikapratipadaka_vyavahara_gu.md",
+      "bytes": 11743,
+      "sha256": "12895765dc2c359191e23a65658b05b01a7a56803ef829a5ce8b9e244b368b31"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_084_svadravyadigrahaka_dravyarthikapratipadaka_vyavahara_gu.md",
+      "bytes": 12422,
+      "sha256": "df0a23b79689dad37684606d46b1576ff61c082b2650a673ee4759c72604073c"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_085_paradravyadigrahaka_dravyarthikapratipadaka_vyavahara_gu.md",
+      "bytes": 11660,
+      "sha256": "aac9ff6a19ea4f2bbcbb88d97afff52ba481121886346b96c5d73972e6d2b402"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_086_paramabhavagrahaka_dravyarthikapratipadaka_vyavahara_gu.md",
+      "bytes": 11867,
+      "sha256": "cabaf34a8b30aee35bca35587fe177ddeb9d4f3d608cb3aeba326739d572917a"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_087_ashuddhasthula_rjusutrapratipadaka_vyavahara_gu.md",
+      "bytes": 11700,
+      "sha256": "84410b29b979ed7cb90dbbf32280efaa88438fc43573127bd20f337af0d14b36"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_088_shuddhasthula_sukshma_rjusutrapratipadaka_vyavahara_gu.md",
+      "bytes": 12643,
+      "sha256": "bd12cd6716f092ae466f0113f2d18e34320acb4392191a9bdc0f8d8e0a882e79"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_089_ashuddhasukshma_rjusutrapratipadaka_vyavahara_gu.md",
+      "bytes": 12384,
+      "sha256": "987c37ee14b4a2b8a37291f254a89cd9bdf6de5ae6ecd116662099a86c01a11d"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_090_shuddhasukshma_rjusutrapratipadaka_vyavahara_gu.md",
+      "bytes": 12569,
+      "sha256": "12a5ba06bb763871e23ac9772e798d46ebe201d34de235d565ea33ad0b237cd8"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_091_anadinitya_paryayarthikapratipadaka_vyavahara_gu.md",
+      "bytes": 12521,
+      "sha256": "94f30986793f7939406ffcbe7a91fb4f7db36b5a96899ecb84d3f60adff5981d"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_092_sadinitya_paryayarthikapratipadaka_vyavahara_gu.md",
+      "bytes": 12654,
+      "sha256": "fcc05e150639c2266112aaf6746c6f27bf1243e8898dc4a8df74a1880f04c13e"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_093_sattagauna_utpadavyayagrahaka_ashuddha_paryayarthikapratipadaka_vyavahara_gu.md",
+      "bytes": 12369,
+      "sha256": "d678692f96147a84a0f459ed892c04c1708c950a17d7ca327d5ea253a738457c"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_094_sattasapeksha_nitya_ashuddha_paryayarthikapratipadaka_vyavahara_gu.md",
+      "bytes": 12155,
+      "sha256": "e915134ec66c85d5a084b0bf111fe21b4cc8e0f0e5b554afa036a04cc7eb88dd"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_095_upadhisapeksha_nitya_ashuddhaparyayarthikapratipadaka_vyavahara_gu.md",
+      "bytes": 12442,
+      "sha256": "89723f755bf52df99bad15de97158e96733d4fc863dc3064aea4cb8aef98f108"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_096_upadhisapeksha_anitya_ashuddhaparyayarthikapratipadaka_vyavahara_gu.md",
+      "bytes": 12343,
+      "sha256": "b21a7789a96838f645e88232ff6ed0396ff9f4dedc4a70aaed90a012349ae89c"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_097_svajati_sadbhuta_vyavahara_gu.md",
+      "bytes": 11831,
+      "sha256": "2ff467351422848ff58448667dfc0b4b67f69500fa4a09d7fc89a4971c8f7aa3"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_098_vijati_sadbhuta_vyavahara_gu.md",
+      "bytes": 12206,
+      "sha256": "eeb08b41a0829d9d8ad6e33a32ca1f4fead36b942628901eb156631cd42f9415"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_099_svajati_vijati_sadbhuta_vyavahara_gu.md",
+      "bytes": 12659,
+      "sha256": "04464c250024e01d644c702fa102b6b5a6bb741db0d92ed699026fc7a63abc0b"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_103_upadhija_upacharita_svabhavavyavahara_gu.md",
+      "bytes": 11967,
+      "sha256": "1c9d7ab12a1a2421ba0f86fc52ba9c2f6db9e52a599714e42a02c007787b1938"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_104_upadhija_upacharita_pratiphalanavyavahara_gu.md",
+      "bytes": 12229,
+      "sha256": "7241d586baed598d48f60d719fbe7d3f798f475cec0b81b876e304e6a48d6803"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_105_1_aparipurna_upacharita_svabhavavyavahara_gu.md",
+      "bytes": 11914,
+      "sha256": "05b532a899ed8af6ef628bb98aea98e9b398d08fda265ea7b110dcfcf1c807da"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_105_svabhavika_upacharita_svabhavavyavahara_gu.md",
+      "bytes": 12758,
+      "sha256": "1d5c6617617b2801fb8af80438ebdb7894eac34097fa3436e86df378c774a849"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_106_1_svajatidravye_svajatidravyopacharaka_asadbhuta_vyavahara_gu.md",
+      "bytes": 12641,
+      "sha256": "0499cf867f41ed62a58ec59e56f3ec5dedf675807fa67701bb2227e7010214cd"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_106_ekajatidravye_anyajatidravyopacharaka_asadbhuta_vyavahara_gu.md",
+      "bytes": 12445,
+      "sha256": "df3cf49bf31ac8d5dca4eaf95cc4c65b38a75fa6d8871d4d70ae12469a6266e7"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_107_ekajatiparyaye_anyajatiparyayopacharaka_asadbhuta_vyavahara_gu.md",
+      "bytes": 12903,
+      "sha256": "f605bff39c0436105f2af332afd1dfd5fe005ca817731ea04b820a9daa47bb4a"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_108_svajatiparyaye_svajatiparyayopacharaka_asadbhuta_vyavahara_gu.md",
+      "bytes": 12175,
+      "sha256": "5bce48381b63d652f0537a690ada1f5f1adc9a72d784f9bc74ce143c4996d9f6"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_109_ekajatigune_anyajatigunopacharaka_asadbhuta_vyavahara_gu.md",
+      "bytes": 11673,
+      "sha256": "b9ab21f673404db0f45a4ad95e54909a3fd3c6e7a85905c4652323083b48d696"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_110_svajatigune_svajatigunopacharaka_asadbhuta_vyavahara_gu.md",
+      "bytes": 11956,
+      "sha256": "5e07869e198a486885e96bb6726a844de3c8618cd7d253903a6e1297cc4f83ae"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_111_ekajatidravye_anyajatigunopacharaka_asadbhuta_vyavahara_gu.md",
+      "bytes": 11859,
+      "sha256": "31c47272836d3cf9c764c54e6ff26a1e78f2ae32d9627b90629d8ce815a8b7d1"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_112_svajatidravye_svajatigunopacharaka_asadbhuta_vyavahara_gu.md",
+      "bytes": 12144,
+      "sha256": "4fffa88824687d64592bbdb52d620c2f7fdb0980e6be84aca00c47deed98a5e2"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_113_ekajatidravye_anyajatiparyayopacharaka_asadbhuta_vyavahara_gu.md",
+      "bytes": 12336,
+      "sha256": "bff90718f1efe5a4b6043914c1e9d39bdf76faf0fd639596bc44064dfdf6906f"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_114_svajatidravye_svajatiparyayopacharaka_asadbhuta_vyavahara_gu.md",
+      "bytes": 12540,
+      "sha256": "117037a78234f7905d8884893a694a555c778eb3fd525257d4a00ca0fffe4e6b"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_115_ekajatigune_anyajatidravyopacharaka_asadbhuta_vyavahara_gu.md",
+      "bytes": 12798,
+      "sha256": "5d9ec9f6891fcfe239bde27ce2766fa85459525e72b004c25c47cfb0c5605892"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_116_svajatigune_anyajatidravyopacharaka_asadbhuta_vyavahara_gu.md",
+      "bytes": 11789,
+      "sha256": "459f1012eb39feafbbb0902c28363c60b5a6f83bd63630c5cb2b93032b840004"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_117_ekajatigune_anyajatiparyayopacharaka_asadbhuta_vyavahara_gu.md",
+      "bytes": 11856,
+      "sha256": "fac29c0a7d983d033259509d1ba3cca80774df1a28a03b34401f298b606f2abc"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_118_svajatigune_svajatiparyayopacharaka_asadbhuta_vyavahara_gu.md",
+      "bytes": 11761,
+      "sha256": "64656e9f9ccaf1c1f12817b1e823945c609d4fd546a65d8081ae75bc28d52206"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_119_ekajatiparyaye_anyajatiparyayopacharaka_asadbhuta_vyavahara_gu.md",
+      "bytes": 12187,
+      "sha256": "475a75d914672a68d6c770c3315628af4cba19da8648fce31cf6ec0edb1ad3f3"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_120_svajatiparyaye_svajatiparyayopacharaka_asadbhuta_vyavahara_gu.md",
+      "bytes": 12171,
+      "sha256": "c011c6f359da9445d7740dbe103e859e78590a33185f6f9a47f1455372cd0cb5"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_121_ekajatiparyaye_anyajatidravyopacharaka_asadbhuta_vyavahara_gu.md",
+      "bytes": 11783,
+      "sha256": "f7e98b0b181e2d727608149ad9823c307a857029f6522ab4cde100dca5af9645"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_122_svajatiparyaye_svajatigunopacharaka_asadbhuta_vyavahara_gu.md",
+      "bytes": 12309,
+      "sha256": "f00d956c1dcc8a8190289fa7427bbc01e59805520282b4a73661e33c7b219967"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_123_sanshlishta_svajatyupacharita_asadbhuta_vyavahara_gu.md",
+      "bytes": 11891,
+      "sha256": "53278892704c5860bf500365d193a9d00851aafff0682026896c15442913793e"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_124_asanshlishta_svajatyupacharita_asadbhuta_vyavahara_gu.md",
+      "bytes": 12434,
+      "sha256": "18149a82e0ad5f61dc99de6eb18c1e3642bb12e7b19f979fc215d0f9e8140537"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_125_sanshlishta_vijatyupacharita_asadbhuta_vyavahara_gu.md",
+      "bytes": 11863,
+      "sha256": "55eb4d3aa4bba39294ad6003e8faa47a59d19f2080e38293b6cfaca02111a2ea"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_126_asanshlishta_vijatyupacharita_asadbhuta_vyavahara_gu.md",
+      "bytes": 12383,
+      "sha256": "7a725554ce925d88238a6319c5fb6681d1c20874c654ed1509d73578a9dc9393"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_127_sanshlishta_svajati_vijatyupacharita_asadbhuta_vyavahara_gu.md",
+      "bytes": 12516,
+      "sha256": "addfc0381143c72793bd664b721d05f58666c0371d39ee1f99c6b40e807d2264"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_128_asanshlishta_svajati_vijatyupacharita_asadbhuta_vyavahara_gu.md",
+      "bytes": 12396,
+      "sha256": "beadaf7572fbced43c81826fe96e3618193eee6df6f39532a7daf0de188be9cc"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_129_1_parabhoktritva_anupacharita_asadbhuta_vyavahara_gu.md",
+      "bytes": 12293,
+      "sha256": "be88988d21724ff84aab2c1e22ddc65954ff086216dc0c1dafde73ecbdf4bf2c"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_129_2_parakartritva_upacharita_asadbhuta_vyavahara_gu.md",
+      "bytes": 12752,
+      "sha256": "179231bdaabe8f64bef8fa3a784724b83e89775ea1432ec3c707206176b517e2"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_129_3_parabhoktritva_upacharita_asadbhuta_vyavahara_gu.md",
+      "bytes": 12614,
+      "sha256": "cc2e22d469c049597a40b1175fa1430a4ac6c6b1ac62f8dc7b3d6bd84658e825"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_129_parakartritva_anupacharita_asadbhuta_vyavahara_gu.md",
+      "bytes": 12718,
+      "sha256": "4a83a2b81e97bb1f64f2a1321ec8a59ad664a115d4d353213d03e7940331ce72"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_130_parakarmatva_asadbhuta_vyavahara_gu.md",
+      "bytes": 12648,
+      "sha256": "b86b1d5801ada6284ad23538a1f0d3892fc1bdb9cdce066e4991a53b1cc7a3bb"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_131_parakaranatva_asadbhuta_vyavahara_gu.md",
+      "bytes": 12242,
+      "sha256": "4fdc2ca73dd6059bfe8742b83383ff898dad94dc5da51ff74b6251bc43d8d593"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_132_parasampradanatva_asadbhuta_vyavahara_gu.md",
+      "bytes": 12981,
+      "sha256": "7d4477b5e200fbbe7c988f5687341ee4a18840bcf0bcf9f0ce4e0dd4c9e57e89"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_133_parapadantva_asadbhuta_vyavahara_gu.md",
+      "bytes": 12760,
+      "sha256": "0cb84c025ed674338135c3084ebbf9e8ca1b2b2f92e54195b55d680391813226"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_134_paradhikaranatva_asadbhuta_vyavahara_gu.md",
+      "bytes": 12860,
+      "sha256": "15b6c329d7ea3b586c9d094e7ae8c48eec5cde05a81a8d69942648af23f4eca3"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_135_parasvamitva_asadbhuta_vyavahara_gu.md",
+      "bytes": 12089,
+      "sha256": "19c8c4f802e10e4164da3f284d51315b46b353f733d7c865aa46f5c4fa812d77"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_136_svajatikarane_svajatikaryopacharaka_vyavahara_gu.md",
+      "bytes": 11819,
+      "sha256": "c2858040328960c435077b2cff665fa24368130237b6a113283f1e9ae4ff483c"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_137_ekajatikarane_anyajatikaryopacharaka_vyavahara_gu.md",
+      "bytes": 11918,
+      "sha256": "18eab6e2ad77862e87db7f19e455f8dfbebaa32c2c67e6e4d435707db57c7c1b"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_138_svajatikarane_anyajatikaranopacharaka_vyavahara_gu.md",
+      "bytes": 12314,
+      "sha256": "a75d6db5ec010274abb6b74c789e380d2a254eddcc2e8651db4446e48c824310"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_139_ekajatikarye_anyajatikaranopacharaka_vyavahara_gu.md",
+      "bytes": 11970,
+      "sha256": "42263271b267502b70f788f2697532b53eb38e75606e10a3ffaf911332becf23"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_140_ekajatyalpe_anyajatipurnopacharaka_vyavahara_gu.md",
+      "bytes": 11626,
+      "sha256": "8adee7888dcfba492604916451320545f9607fcd75458c1c850c58e6aeaad190"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_141_svajatyalpe_svajatipurnopacharaka_vyavahara_gu.md",
+      "bytes": 12616,
+      "sha256": "1e602336d2ce37dac551158a0aa62f159ed4b01b8c31fc30777acf9dd00a9d20"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_142_ekajatyadhare_anyajatyadheyopacharaka_vyavahara_gu.md",
+      "bytes": 12467,
+      "sha256": "6ca46513d42b7197517c051a393efaed6c53f5c4141fbf81362a6d885b6c86a4"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_143_svajatyadhare_svajatyadheyopacharaka_vyavahara_gu.md",
+      "bytes": 12906,
+      "sha256": "759f3fcbf7ea914e15b01096121dd9666a1fccd1628d9356cb43423e389c4cef"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_144_ekajatyadheye_anyajatyadharopacharaka_vyavahara_gu.md",
+      "bytes": 12148,
+      "sha256": "6ef79845aa14e3911d224c2e6645ba9478293f822d5d467e557dffd7260ad79f"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_145_svajatyadheye_svajatyadharopacharaka_vyavahara_gu.md",
+      "bytes": 12607,
+      "sha256": "cc65be1fe6e8f843b30c03ff37aacdcca5fc22e108ed36858bf2bf238ff4521e"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_146_tadvati_tadupacharaka_vyavahara_gu.md",
+      "bytes": 11969,
+      "sha256": "dba7cdec2aa1a7bc8574f82d00bcc46ace1ccd0a1a043c7269314b4689c6ece6"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_147_atitasamipye_tadupacharaka_vyavahara_gu.md",
+      "bytes": 12336,
+      "sha256": "06ea249887b084d2de1849f8fadfae04f95b6c3d9921592e5b216408c497f956"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_148_bhavini_bhutopacharaka_vyavahara_gu.md",
+      "bytes": 9955,
+      "sha256": "e0d603232f34fadf14d0cf7d513123e6cd893abd9c104aa8140a8399be99a397"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_149_tatsadrishakarane_tadupacharaka_vyavahara_gu.md",
+      "bytes": 12300,
+      "sha256": "9864418c90f8ddc892d9e86da4e02176f727f92ce97514dcd59af6bd95e04860"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_150_sadrisha_ekatvopacharaka_vyavahara_gu.md",
+      "bytes": 11532,
+      "sha256": "7f4bf2148bcc72e49dc48d4947ad765c920dffe5a5486129e0ac6c46fd8e4b1c"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_151_ashraye_ashrayyupacharaka_vyavahara_gu.md",
+      "bytes": 12589,
+      "sha256": "7e398a5b667cc167c28e8910b74ed9f6cc476d8e83cd7aa4760c1088888f2d0c"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_152_dravyanaya_gu.md",
+      "bytes": 12104,
+      "sha256": "8c1db8ced703e061a899e1278817e7e182fb07e2a772702292df21d5fafbc38a"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_169_nityanaya_gu.md",
+      "bytes": 12017,
+      "sha256": "b812cc97ca7c90197383488fc819ceac9e32bfd22f5a641ef56e66af30b93d9e"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_3_vyavahar/chapter_170_anityanaya_gu.md",
+      "bytes": 12382,
+      "sha256": "68b628f2ffd1b3156348023ec5ac8dbe576d56680d7eb4b6cc5cfe4170666c54"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_4_rjusutra/000_khanda_4_rjusutra_parichay_gu.md",
+      "bytes": 16250,
+      "sha256": "7d982ba886d5f43c74584298ea676dc669f4304106b31dca06479799c743f087"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_4_rjusutra/chapter_031_ashuddhasthula_rjusutranayamaka_paryayarthikanaya_gu.md",
+      "bytes": 12429,
+      "sha256": "efd41a805d1d80b6fffd2c32548cdd8bcc584ec01364e25a396a49ad2a8b52a5"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_4_rjusutra/chapter_032_shuddhasthula_rjusutranayamaka_paryayarthikanaya_gu.md",
+      "bytes": 12508,
+      "sha256": "69be28c1deb76038b43271f98091a6a56a5451780687578320201366155e7360"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_4_rjusutra/chapter_033_ashuddhasukshma_rjusutranayamaka_paryayarthikanaya_gu.md",
+      "bytes": 12424,
+      "sha256": "fbf98bb4797f0f5b8629a5d8cb8975e5a597ed11b70fbac8af2cd0ae3fd28bfe"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_4_rjusutra/chapter_034_shuddhasukshma_rjusutranayamaka_paryayarthikanaya_gu.md",
+      "bytes": 12843,
+      "sha256": "6e6c1c5d72e1178665fe736575ad4bff55e3860a79d14387fe81ae2655caf26e"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_4_rjusutra/chapter_035_anadinitya_paryayarthikanaya_gu.md",
+      "bytes": 12059,
+      "sha256": "88503ec48e624d424c1b5e4007b78fea0d547d862d137c53284f55c43e2e3761"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_4_rjusutra/chapter_036_sadinitya_paryayarthikanaya_gu.md",
+      "bytes": 12416,
+      "sha256": "b1d5d34ac3e7790953b4e9512ae6e685db54481ad9c62d4a83f05b90c1985451"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_4_rjusutra/chapter_037_sattagaunotpadavyayagrahaka_nitya_ashuddhaparyayarthikanaya_gu.md",
+      "bytes": 12362,
+      "sha256": "2651fc25500996ffbb972781dcc83f2aca857971be9c01a704de45a13994238d"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_4_rjusutra/chapter_038_sattasapeksha_nitya_ashuddhaparyayarthikanaya_gu.md",
+      "bytes": 11873,
+      "sha256": "7825cefe7561d98a6145597a5d80e51dc88291090eab3eefb353da120aa9ba2e"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_4_rjusutra/chapter_039_upadhinirapeksha_nitya_shuddhaparyayarthikanaya_gu.md",
+      "bytes": 12046,
+      "sha256": "12f70a34fabbeb055621cb9c96f8c164769723efa1d5739a1fd28734427854e8"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_4_rjusutra/chapter_040_upadhisapeksha_nitya_ashuddhaparyayarthikanaya_gu.md",
+      "bytes": 12180,
+      "sha256": "0d7ea7d8148e12944156c6491a674f4a80d17f8eac09295f2eda4a6d355b8cb3"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_4_rjusutra/chapter_055_ashuddhasthula_rjusutranaya_gu.md",
+      "bytes": 12010,
+      "sha256": "fde6b39f6724f3da466315ab0acd79e9f81fc82d2a880e796881bd4652385845"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_4_rjusutra/chapter_056_shuddhasukshma_rjusutranaya_gu.md",
+      "bytes": 12280,
+      "sha256": "f92ebe3e516bb4c07b4beb77346280f1d962a585fc3730d8053159e608bee6df"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_4_rjusutra/chapter_057_anadinitya_paryayarthikanaya_gu.md",
+      "bytes": 12336,
+      "sha256": "c9e83c494157e39172159c35ce636c0dffda9c91fe0db435aa50735bf97e2ab6"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_4_rjusutra/chapter_058_sadinitya_paryayarthikanaya_gu.md",
+      "bytes": 12882,
+      "sha256": "c5ee10eaffa4cb790eb785669e62fd57e29d74b7556e4ac1cd0b079c46778d44"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_4_rjusutra/chapter_059_sattagaunotpadavyayagrahaka_nityashuddha_paryayarthikanaya_gu.md",
+      "bytes": 12186,
+      "sha256": "95820d53b3329293c17699617350f5b8ae55383ddb276c75400ceb4b20758bf4"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_4_rjusutra/chapter_060_sattasapeksha_nityashuddhaparyayarthikanaya_gu.md",
+      "bytes": 11072,
+      "sha256": "b4bde3303c40936b2703e616cb382d83b6067c7beada53db981f9c6f3be2dc43"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_4_rjusutra/chapter_061_upadhisapeksha_nityashuddhaparyayarthikanaya_gu.md",
+      "bytes": 12444,
+      "sha256": "fbd29999d0227abf1eccb60430b2aebfeeeb1066b7174f5b5b29b0451ad68530"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_4_rjusutra/chapter_153_paryayanaya_gu.md",
+      "bytes": 12211,
+      "sha256": "aea59cb23f60ea718bff7da6b2d4b9fcda74f4e183411edd3e24c3dbb9c43aab"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_5_shabda/000_khanda_5_shabda_parichay_gu.md",
+      "bytes": 16007,
+      "sha256": "57b9dc7dfd14be8f67d00f2ec85f89451353b63c811b8e2d1d84879bf0a8e2df"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_5_shabda/chapter_041_shabdanaya_gu.md",
+      "bytes": 12547,
+      "sha256": "d2f67e2987adf2e4e86fd8f725d9ee6fcdc231362ddb20c0456ba2e5d4dd920e"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_5_shabda/chapter_100_shabdanayaparyayarthika_pratipadaka_vyavahara_gu.md",
+      "bytes": 12519,
+      "sha256": "201ca65675aaabed61e9387b55951e67b74456b6283573506e641c03da56e853"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_5_shabda/chapter_154_astitvanaya_gu.md",
+      "bytes": 12512,
+      "sha256": "a84fadaa495de96196e33207f56754d1e434abfea2a65d5d246a0e1d53cc0c1e"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_5_shabda/chapter_155_nastitvanaya_gu.md",
+      "bytes": 12117,
+      "sha256": "818e266db9c777f0caacb52ab967dcd76e7ad1105ba817314049fc4177f7bbc3"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_5_shabda/chapter_156_astitva_nastitvanaya_gu.md",
+      "bytes": 12637,
+      "sha256": "52df4064b2c6753049e77199bcf1e019318f63760cafa799cf1ed4e5d9f81957"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_5_shabda/chapter_157_avaktavyanaya_gu.md",
+      "bytes": 12347,
+      "sha256": "b5ed4ba8a734e6f1cfbed83ce09e85b67e24cddc9ad56d697623429967a3ed6d"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_5_shabda/chapter_158_astitva_avaktavyanaya_gu.md",
+      "bytes": 12540,
+      "sha256": "46f7eb23754134209e10bac8e66a1b40149522057989e65587dd9b2e06b8c18a"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_5_shabda/chapter_159_nastitva_avaktavyanaya_gu.md",
+      "bytes": 12616,
+      "sha256": "71e7de64704e136b5cdafd586e3d866ef3f05fa8fc66a1bedde1e662f5236d64"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_6_samabhirudh/000_khanda_6_samabhirudh_parichay_gu.md",
+      "bytes": 16276,
+      "sha256": "116a978dfeec455addfea5ec01a4976d64e41676d838b763b868f6e4f37a312c"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_6_samabhirudh/chapter_042_samabhirudhanaya_gu.md",
+      "bytes": 11462,
+      "sha256": "0303b5fb91b39c20f91e0cf37b9c9362877a0b8a0f8ed1f9452412c56f6cb9a5"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_6_samabhirudh/chapter_101_samabhirudhanayaparyayarthika_pratipadaka_vyavahara_gu.md",
+      "bytes": 11905,
+      "sha256": "1f5616224663a255d7e4f26c96e854b07014d4a74199bc8a6a005774ad30e8c7"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_6_samabhirudh/chapter_160_astitva_nastitva_avaktavyanaya_gu.md",
+      "bytes": 12436,
+      "sha256": "6d2c6e71be0244a3ffb6ecddda009202dd805189bee140f1b6a31207a2813928"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_6_samabhirudh/chapter_161_vikalpanaya_gu.md",
+      "bytes": 11702,
+      "sha256": "c46f1cf8feb8823212cdf1ca5dd53d9d7f5e89b5b90bd2991bb73b53331eb3f1"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_6_samabhirudh/chapter_162_avikalpanaya_gu.md",
+      "bytes": 12390,
+      "sha256": "646802d63463417ce1cab6f713af912cd643f6013bf1f0aab658f396e943fce8"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_6_samabhirudh/chapter_163_namanaya_gu.md",
+      "bytes": 11424,
+      "sha256": "1c9d13cd926b65eb7e116e0777f27e638c309ec960d1ff7b6d3ac6795f573fa8"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_6_samabhirudh/chapter_164_sthapana_naya_gu.md",
+      "bytes": 11667,
+      "sha256": "03d5b46d83b7c71be2bbd301a4e5f8383464a41408710e310c72abc4a30416d3"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_6_samabhirudh/chapter_165_dravyanaya_gu.md",
+      "bytes": 11850,
+      "sha256": "988cd3e717a9c649ad09b45efb0f170dae14889a41c322a0c71c3537b5e7613f"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_6_samabhirudh/chapter_166_bhavanaya_gu.md",
+      "bytes": 11570,
+      "sha256": "4e4b10fec146ce5d4e3312a2f94effea46a46ffbf01a73ef627d6a3d36920279"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_6_samabhirudh/chapter_167_samanyanaya_gu.md",
+      "bytes": 9813,
+      "sha256": "f13178fe67647afa3df8a7923cafd53f2db0a16ff33cc444f32d3632b51a7443"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_6_samabhirudh/chapter_168_visheshanaya_gu.md",
+      "bytes": 11710,
+      "sha256": "a1a2a55c8e15d646564875fc03232e2f4b859921bd18d1b2cea48c79fd50d4e4"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_7_evambhut/000_khanda_7_evambhut_parichay_gu.md",
+      "bytes": 17435,
+      "sha256": "8c89b66294676a21b00ad5cc63725267ecbe8e7a001751afe828194ff0cff840"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_7_evambhut/chapter_043_evambhutamaya_gu.md",
+      "bytes": 11184,
+      "sha256": "79bd5dfa025b7feaf3850ae6499aa891f9393a3604000a8c7003817dedabe886"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_7_evambhut/chapter_102_evambhutana_paryayarthika_pratipadaka_vyavahara_gu.md",
+      "bytes": 12223,
+      "sha256": "d03226a9b22cc43a4c69733b60d1dcbd3021bc77bb97e752f13c9372de072f3d"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_7_evambhut/chapter_171_sarvagatanaya_gu.md",
+      "bytes": 10886,
+      "sha256": "4b3e588a71b0852ca0590b1d129a7f91e194c928911444e49678af005966dd12"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_7_evambhut/chapter_172_asarvagatanaya_gu.md",
+      "bytes": 11243,
+      "sha256": "0640704a43612a9e62e10d96c09853cca747aacfb7d0f68e4323aadf79c0461d"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_7_evambhut/chapter_173_shunyanaya_gu.md",
+      "bytes": 11264,
+      "sha256": "bcb874fd2a61e09ba924805558566b15ba91b5ec42bfd0c98a1bf92e30d177e1"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_7_evambhut/chapter_174_ashunyanaya_gu.md",
+      "bytes": 10674,
+      "sha256": "390f629aff49b3c39337443197ed0555e9c5b03b918b69bc4119e8238c26da07"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_7_evambhut/chapter_175_jnanajneyadvaitanaya_gu.md",
+      "bytes": 9776,
+      "sha256": "4e51acd260bcd6a498a0685bc9c9290a6ccad936599489ac64db8462c0f825d7"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_7_evambhut/chapter_176_jnanajneya_dvaitanaya_gu.md",
+      "bytes": 10715,
+      "sha256": "ba9f153c9ea9fd616b700574984f925e2003a862aca67b3887bfcc2e685e9d4f"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_7_evambhut/chapter_177_niyatinaya_gu.md",
+      "bytes": 10851,
+      "sha256": "a166ef26dbf8295100ada261390f687db9f213a14411b68b11aebfd86b9a4f2e"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_7_evambhut/chapter_178_aniyatinaya_gu.md",
+      "bytes": 11269,
+      "sha256": "404a47a277e7958281a807cbc89926943ae7e1a841e63620edabeffc66a0f4cb"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_7_evambhut/chapter_179_svabhavanaya_gu.md",
+      "bytes": 10538,
+      "sha256": "734b696c08d70fab9f2de17e813f538bfa058d01cdfd6a5b3f5c533e4b0f55d2"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_7_evambhut/chapter_180_asvabhavanaya_gu.md",
+      "bytes": 9538,
+      "sha256": "856b64a8abd31c522a923a0d2990b1ee235d2c2730c1f432482203a63cb264ad"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_7_evambhut/chapter_181_kalanaya_gu.md",
+      "bytes": 10717,
+      "sha256": "09a30123f37047e9f953e5f40aef4507c704f71ffeadcb59e147bcebc12dd937"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_7_evambhut/chapter_182_akalanaya_gu.md",
+      "bytes": 11189,
+      "sha256": "af4317f847b7ee6b492d2aedad361a8708942386d5d7fab3684e87242a0ba763"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_7_evambhut/chapter_183_purushakaranaya_gu.md",
+      "bytes": 10951,
+      "sha256": "43801b368d82fed59d08f296a30aaa07e8f57e62789b1d81cf680959813e9832"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_7_evambhut/chapter_184_daivanaya_gu.md",
+      "bytes": 10335,
+      "sha256": "5617436d8148940482c92d6ee8d031f9ca7e48b288f4e68a54da47f9804f375a"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_7_evambhut/chapter_185_ishvaranaya_gu.md",
+      "bytes": 11349,
+      "sha256": "e2dc159fc5463435a610785204d7ebfda58df5be542355290b0ef18628c5df8a"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_7_evambhut/chapter_186_anishvaranaya_gu.md",
+      "bytes": 11345,
+      "sha256": "c2adc723e96f13f9c89d0a67e884666b5518542d7b2c39bb1dc4c4125757c818"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_7_evambhut/chapter_187_guninaya_gu.md",
+      "bytes": 10958,
+      "sha256": "583cce827c6d81adea6e53be58593f15290d7f2face9a2c1a362683bfb0d0d0d"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_7_evambhut/chapter_188_aguninaya_gu.md",
+      "bytes": 11288,
+      "sha256": "64bed55b5b974fbf3154a2063c318892a9ff04945644fc9426028b93ccf78beb"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_7_evambhut/chapter_189_kartrunaya_gu.md",
+      "bytes": 11403,
+      "sha256": "04b0e361f3a6912e9d0083c21ce8de978bee742ed6c866fcdbc8e1a1e86320e6"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_7_evambhut/chapter_190_akartrunaya_gu.md",
+      "bytes": 11941,
+      "sha256": "83bbe67631669e6521a7f8d8ea6086c2542139b1f88c367d3d68c61cd42e527e"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_7_evambhut/chapter_191_bhoktanaya_gu.md",
+      "bytes": 11531,
+      "sha256": "c6c4cabdd5750c9d512ea4336f573ee1bf6dc67ccb4bbef270f948e07a5afa65"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_7_evambhut/chapter_192_abhoktanaya_gu.md",
+      "bytes": 11371,
+      "sha256": "90b7bcb32afe50ecf17602895eb5ac6fcac9e63bfc4702cd71e716f5b07707d6"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_7_evambhut/chapter_193_kriyanaya_gu.md",
+      "bytes": 11038,
+      "sha256": "cf06114fdbb6a32105cdbd5510806d6b58833be0e9b975710eb1d395732bcb23"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_7_evambhut/chapter_194_jnananaya_gu.md",
+      "bytes": 11404,
+      "sha256": "b020c5782bda024313e17ddafae7e04b537821ca2caf0265f67d1a5400767e27"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_7_evambhut/chapter_195_vyavaharanaya_gu.md",
+      "bytes": 11384,
+      "sha256": "33eede968a8f033c6e9c922a973233883ff16838b79c06a4e5603ee4f79193f1"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_7_evambhut/chapter_196_nishchayanaya_gu.md",
+      "bytes": 12010,
+      "sha256": "f4e4e3f31200ba41dd6c840568e48887b56fa4be338b2b79ad480a3e9118e2be"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_7_evambhut/chapter_197_ashuddhanaya_gu.md",
+      "bytes": 11406,
+      "sha256": "55fde4c888e60b2b078476498b7e9b264f373414be4c46fc3ce85a0c9584d3d7"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_7_evambhut/chapter_198_shuddhanaya_gu.md",
+      "bytes": 11102,
+      "sha256": "5455b08b5501ca1cc4098ba02fe0f9c227b8f400860fd41f66141ef04f482c53"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_7_evambhut/chapter_199_urdhvatasamanyanaya_gu.md",
+      "bytes": 11605,
+      "sha256": "084d62412475133c409051fb049f931859ae9f58d6cead1f914853358b0c9a5b"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_7_evambhut/chapter_200_urdhvatavisheshanaya_gu.md",
+      "bytes": 11753,
+      "sha256": "c894d339de0a086ee64f9beb838b461d8574774ddc26b17676f93f11cc7e9e77"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_7_evambhut/chapter_201_nimittatvanimittadrishti_gu.md",
+      "bytes": 11873,
+      "sha256": "089d0aa41f52a4df00256fe7c87869ce314e1ff92f6048fa531a46877b1454f6"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_7_evambhut/chapter_202_sadrishyanaya_gu.md",
+      "bytes": 11402,
+      "sha256": "c7808886d40f816d39305d6632da48ae96585dcc8425c87eb04072cba3ba1483"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/khanda_7_evambhut/chapter_203_vailakshanyanaya_gu.md",
+      "bytes": 11677,
+      "sha256": "20504881cd669d050c4a7d1d98aedcf3e0675990b39d41b3cbb2fa12b9b80de1"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/parishishta/00_parishishta_prastavana.md",
+      "bytes": 8189,
+      "sha256": "168fc2c255c4d016b786d033fe916095260a2976d13439faf539c1b09d878759"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/parishishta/01_darshana_samanvaya_matrix.md",
+      "bytes": 34977,
+      "sha256": "9ffaa9ee580fe556114d0141e3a206454f1fd181a948e44a0bc1b7694d5bb5ee"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/parishishta/02_canonical_sutra_index.md",
+      "bytes": 14921,
+      "sha256": "a316b8f1a85b5541dcd4c4e19ce58e6f82a6a01ded066ddda5db3269e31d7744"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/parishishta/03_taxonomical_classification_matrix.md",
+      "bytes": 14722,
+      "sha256": "7affe7e7cd533ea1b47e436fa7e9e04aae2e51008e178964bcb1ab3e0bf376b9"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/parishishta/04_life_application_conflict_resolution.md",
+      "bytes": 12797,
+      "sha256": "3ef4d34dd15bcb0ca2beb2b3888c965725d1e5c9ad0de453643e83be1cbd82c2"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/parishishta/05_spiritual_sadhana_experiential_directory.md",
+      "bytes": 9936,
+      "sha256": "3adf5f8f3de68e0f848f1fbe71a90e4cb398356a560504a18eef669eebbbef09"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/parishishta/06_parables_metaphors_narrative_index.md",
+      "bytes": 9075,
+      "sha256": "d3060df0e9ee8ed9667103583ce0cf49898ae4f980db60a3d71f2a6ae86a2d2d"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/parishishta/07_fallacy_vs_harmony_guide.md",
+      "bytes": 10850,
+      "sha256": "2379c25bdf19c900100a44cf7309ce43dac3c0e3284e92f9767e1c55b5fe4138"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/parishishta/08_alphabetical_master_index_glossary.md",
+      "bytes": 13632,
+      "sha256": "e952ada408c5024d0e43584ac07a86b6aee79212861866eb487803e3ac85718a"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/preface/01_prastavana_gu.md",
+      "bytes": 23928,
+      "sha256": "cdcee64533ddd8c53ca5dc2003c4bf43efe12701be6df17de832ee1039752414"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/preface/02_nayachakshu_parichay_gu.md",
+      "bytes": 21814,
+      "sha256": "4fe5c3771b691b1bbe46ce16b758f984b279934d21f4cf41cf1c0411a5a9dfd1"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/samanya_prakaran/prakaran_01_naya_etle_shu_gu.md",
+      "bytes": 19643,
+      "sha256": "65eed1515675d4e594814a9755027d209c54bebdd858f391edccc4697872937e"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/samanya_prakaran/prakaran_02_naya_jannvu_kem_jaroori_gu.md",
+      "bytes": 19642,
+      "sha256": "c9a82e2d3750e4ab4b54140c2a632773a735c934011736d166677d916795a102"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/samanya_prakaran/prakaran_03_naya_na_prakar_naksho_gu.md",
+      "bytes": 21051,
+      "sha256": "ac25cbceb334ff9375b46beac7526e0a45f7ca135abadf22a4059319d18cacb4"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/samanya_prakaran/prakaran_04_dravyarthik_ane_paryayarthik_naya_gu.md",
+      "bytes": 27462,
+      "sha256": "7d237db7305581d9db7acb782722bbc1a71ffa2cbf7c3b2bf34c62fce1f37473"
+    },
+    {
+      "path": "sankshipt/output/full_book/r01/source_snapshot/samanya_prakaran/prakaran_05_jnan_artha_shabda_naya_gu.md",
+      "bytes": 25073,
+      "sha256": "314d08f227fa0ff68970cfcad80bd6b06f9187c16a552dc9caaa840a688a92e1"
+    }
+  ],
+  "production_tools": [
+    {
+      "path": "sankshipt/production/book.css",
+      "sha256": "851de76fcae5bcc850164c68de7dd48e47734f334c1d97a8441228473c0f5205"
+    },
+    {
+      "path": "sankshipt/production/build_book.py",
+      "sha256": "fc97dc2b208ee63a8d63e11793b70d78e67e898a607d88c09ed15def850b5f19"
+    },
+    {
+      "path": "sankshipt/production/chapter_paginate.js",
+      "sha256": "f8c14b81da54e3dd54e0379087d0edf39dda67b2ab33a37d6f0229f29d645022"
+    },
+    {
+      "path": "sankshipt/production/chapter_renderer.py",
+      "sha256": "f89b49510033bb1e7d2b7adbe1df3a76cb393dd51a1d622e8303f2e99bff3edb"
+    },
+    {
+      "path": "sankshipt/production/export_book.cjs",
+      "sha256": "822386cb8d768f95d64da96e1a883025019caebf57a3d633d788cc5ac730f829"
+    },
+    {
+      "path": "sankshipt/production/frontmatter_renderer.py",
+      "sha256": "a1db8a5f063b7c581e9c645115d3e57700b92870e166fe5ad5e993e0b75069bf"
+    },
+    {
+      "path": "sankshipt/production/monochrome_symbols.cjs",
+      "sha256": "4abf590826ac73825d05951698653a3fd0f9426600e548ad21463abb31568735"
+    },
+    {
+      "path": "sankshipt/production/paginate.js",
+      "sha256": "392748c74b847f02039da406b9eb9e9a82c439ee5a2ccf6f8cd322e5e34fd4b3"
+    },
+    {
+      "path": "sankshipt/production/pdf_qa.py",
+      "sha256": "4c627bcd24301176425c6d460ca580867c2077b6e572038d3792760cc060ae2a"
+    },
+    {
+      "path": "sankshipt/production/polish_book.cjs",
+      "sha256": "b9eb9aea5aae92fbbbd65a7ab04cd75de04a007b9e7d84552c2fc31bc2eed4d2"
+    },
+    {
+      "path": "sankshipt/production/README.md",
+      "sha256": "adfd3e3897ca943cc1b18c13cf77deefabf10c5c62c82c5df25276e226c7b7e4"
+    },
+    {
+      "path": "sankshipt/production/release_report.py",
+      "sha256": "473bc842d5f6cd9b0120b97f06b71c2d4310afd3ee8043f18cdcaa8d276b4cbe"
+    }
+  ],
+  "documentation_updates": [
+    {
+      "path": "README.md",
+      "sha256": "ae352b13abbe08f767b203990304bb25731ba43a14ffdd2287d0890af1537d0c"
+    },
+    {
+      "path": "sankshipt\\README.md",
+      "sha256": "5ab64209356111d5f0c3d78b2b02075f6af76d933ff73b7f43d7247a3ebbd4ae"
+    }
+  ]
+}

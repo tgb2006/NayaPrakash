@@ -1,0 +1,189 @@
+[
+  {
+    "key": "K01_C001",
+    "page": 58,
+    "widthMM": 147.10419921874998,
+    "heightMM": 23.46936848958333,
+    "ratio": 6.267923198872644,
+    "file": "K01_C001.png",
+    "placedWidthMM": 147.10419921874998,
+    "placedHeightMM": 23.46936848958333,
+    "pixels": [
+      2172,
+      724
+    ],
+    "dpi": 375,
+    "artGap": 16.78125,
+    "footerGap": 9.234375
+  },
+  {
+    "key": "K01_C002",
+    "page": 60,
+    "widthMM": 147.10419921874998,
+    "heightMM": 27.971419270833334,
+    "ratio": 5.259089565474431,
+    "file": "K01_C002.png",
+    "placedWidthMM": 147.10419921874998,
+    "placedHeightMM": 27.971419270833334,
+    "pixels": [
+      2172,
+      724
+    ],
+    "dpi": 375,
+    "artGap": 16.78125,
+    "footerGap": 9.234375
+  },
+  {
+    "key": "K01_C005",
+    "page": 66,
+    "widthMM": 147.10419921874998,
+    "heightMM": 33.7095703125,
+    "ratio": 4.363870493009566,
+    "file": "K01_C005.png",
+    "placedWidthMM": 147.10419921874998,
+    "placedHeightMM": 33.7095703125,
+    "pixels": [
+      2172,
+      724
+    ],
+    "dpi": 375,
+    "artGap": 16.78125,
+    "footerGap": 9.234375
+  },
+  {
+    "key": "K01_C006",
+    "page": 68,
+    "widthMM": 147.10419921874998,
+    "heightMM": 38.21162109375,
+    "ratio": 3.8497241155469,
+    "file": "K01_C006.png",
+    "placedWidthMM": 147.10419921874998,
+    "placedHeightMM": 38.21162109375,
+    "pixels": [
+      2172,
+      724
+    ],
+    "dpi": 375,
+    "artGap": 16.78125,
+    "footerGap": 9.234375
+  },
+  {
+    "key": "K02_C001",
+    "page": 74,
+    "widthMM": 147.10419921874998,
+    "heightMM": 27.971419270833334,
+    "ratio": 5.259089565474431,
+    "file": "K02_C001.png",
+    "placedWidthMM": 147.10419921874998,
+    "placedHeightMM": 27.971419270833334,
+    "pixels": [
+      2172,
+      724
+    ],
+    "dpi": 375,
+    "artGap": 16.78125,
+    "footerGap": 9.234375
+  },
+  {
+    "key": "K02_C004",
+    "page": 80,
+    "widthMM": 147.10419921874998,
+    "heightMM": 29.20751953125,
+    "ratio": 5.03651804670913,
+    "file": "K02_C004.png",
+    "placedWidthMM": 147.10419921874998,
+    "placedHeightMM": 29.20751953125,
+    "pixels": [
+      2172,
+      724
+    ],
+    "dpi": 375,
+    "artGap": 16.78125,
+    "footerGap": 9.234375
+  },
+  {
+    "key": "K03_C026",
+    "page": 156,
+    "widthMM": 147.10419921874998,
+    "heightMM": 36.97552083333333,
+    "ratio": 3.978421288014311,
+    "file": "K03_C026.png",
+    "placedWidthMM": 147.10419921874998,
+    "placedHeightMM": 36.97552083333333,
+    "pixels": [
+      2172,
+      724
+    ],
+    "dpi": 375,
+    "artGap": 16.78125,
+    "footerGap": 9.234375
+  },
+  {
+    "key": "K03_C027",
+    "page": 158,
+    "widthMM": 147.10419921874998,
+    "heightMM": 32.473470052083336,
+    "ratio": 4.529980903882877,
+    "file": "K03_C027.png",
+    "placedWidthMM": 147.10419921874998,
+    "placedHeightMM": 32.473470052083336,
+    "pixels": [
+      2172,
+      724
+    ],
+    "dpi": 375,
+    "artGap": 16.78125,
+    "footerGap": 9.234375
+  },
+  {
+    "key": "K03_C028",
+    "page": 160,
+    "widthMM": 147.10419921874998,
+    "heightMM": 32.473470052083336,
+    "ratio": 4.529980903882877,
+    "file": "K03_C028.png",
+    "placedWidthMM": 147.10419921874998,
+    "placedHeightMM": 32.473470052083336,
+    "pixels": [
+      2172,
+      724
+    ],
+    "dpi": 375,
+    "artGap": 16.78125,
+    "footerGap": 9.234375
+  },
+  {
+    "key": "K03_C029",
+    "page": 162,
+    "widthMM": 147.10419921874998,
+    "heightMM": 27.971419270833334,
+    "ratio": 5.259089565474431,
+    "file": "K03_C029.png",
+    "placedWidthMM": 147.10419921874998,
+    "placedHeightMM": 27.971419270833334,
+    "pixels": [
+      2172,
+      724
+    ],
+    "dpi": 375,
+    "artGap": 16.78125,
+    "footerGap": 9.234375
+  },
+  {
+    "key": "K06_C010",
+    "page": 454,
+    "widthMM": 147.10419921874998,
+    "heightMM": 38.20748697916667,
+    "ratio": 3.85014066219433,
+    "file": "K06_C010.png",
+    "placedWidthMM": 147.10419921874998,
+    "placedHeightMM": 38.20748697916667,
+    "pixels": [
+      2172,
+      724
+    ],
+    "dpi": 375,
+    "artGap": 16.8125,
+    "footerGap": 9.21875
+  }
+]

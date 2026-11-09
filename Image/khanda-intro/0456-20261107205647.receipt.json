@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "created_local": "2026-11-07T20:56:47.072835+05:30",
+  "printed_page": 456,
+  "original": {
+    "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\khanda-intro\\0456-20261107205646.png",
+    "sha256": "0cb31c119a1d7f2a49e722eff16c15b6e5647512d729ea4daacb8870e5a69068",
+    "role": "original"
+  },
+  "normalized": {
+    "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\khanda-intro\\0456-20261107205647.png",
+    "sha256": "589449226aa8d0dd424dc1c933212cdf7d2c30038da16319ff7c722c1bd3acf8",
+    "role": "normalized"
+  },
+  "normalization": {
+    "grayscale": true,
+    "autocontrast": true,
+    "threshold": 205,
+    "padding_px": 16,
+    "canvas_size_px": [
+      1254,
+      1254
+    ]
+  }
+}

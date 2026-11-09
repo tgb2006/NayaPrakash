@@ -80,7 +80,7 @@
   - [x] **પ્રકરણ 23**: [परद्रव्यादिग्राहक द्रव्यार्थिकનય](khanda_3_vyavahar/chapter_029_paradravyadigrahaka_dravyarthika_naya_gu.md) — *નવલિકા: કલંકનો ભય અને જ્ઞાનીનો અભયબોધ* `(707 શબ્દો / ૨ પાના)`
   - [x] **પ્રકરણ 24**: [परमभावग्राहक द्रव्यार्थिकनय](khanda_3_vyavahar/chapter_030_paramabhavagrahaka_dravyarthika_naya_gu.md) — *નવલિકા: વાવાઝોડું અને સ્થિર દીવાદાંડી* `(743 શબ્દો / ૨ પાના)`
   - [x] **પ્રકરણ 25**: [शुद्धपारिणामिक परमभावग्राहक शुद्धद्रव्यार्थिकनय](khanda_3_vyavahar/chapter_030_1_shuddhaparinamika_paramabhavagrahaka_shuddha_dravyarthika_naya_gu.md) — *નવલિકા: પંડિતોનો વિવાદ અને સંતનું મહામૌન* `(770 શબ્દો / ૨ પાના)`
-  - [x] **પ્રકરણ 26**: [अखंड परमशुद्धनिश्चयनય](khanda_3_vyavahar/chapter_044_akhanda_paramashuddha_nishchayanaya_gu.md) — *નવલિકા: ભિખારી બનેલો રાજકુંવર અને સદ્ગુરુની દ્રષ્ટિ* `(663 શબ્દો / ૨ પાના)`
+  - [x] **પ્રકરણ 26**: [अखंड परमशुद्धनिश्चयनય](khanda_3_vyavahar/chapter_044_akhanda_paramashuddha_nishchayanaya_gu.md) — *નવલિકા: ભિખારી બનેલો રાજકુંવર અને સદ્ગુરૂની દ્રષ્ટિ* `(663 શબ્દો / ૨ પાના)`
   - [x] **પ્રકરણ 27**: [शक्तिबोधक परमशुद्धनिश्चयनय](khanda_3_vyavahar/chapter_045_shaktibodhaka_paramashuddha_nishchayanaya_gu.md) — *નવલિકા: સિંહનું બચ્ચું અને ગર્જનાનો સાક્ષાત્કાર* `(680 શબ્દો / ૨ પાના)`
   - [x] **પ્રકરણ 28**: [शुद्धनिश्चयनय](khanda_3_vyavahar/chapter_046_shuddha_nishchayanaya_gu.md) — *નવલિકા: અંધારી ગુફા અને સાક્ષાત્ પ્રકાશ* `(668 શબ્દો / ૨ પાના)`
   - [x] **પ્રકરણ 29**: [सभेद शुद्धनिश्चयनय](khanda_3_vyavahar/chapter_046_1_sabheda_shuddha_nishchayanaya_gu.md) — *નવલિકા: શુષ્ક જ્ઞાન અને અમૃતરસની શોધ* `(694 શબ્દો / ૨ પાના)`
@@ -290,12 +290,14 @@
   - [x] **પ્રકરણ 35**: [વૈલક્ષણ્યનય](khanda_7_evambhut/chapter_203_vailakshanyanaya_gu.md) — *નવલિકા: કાદવમાંથી પગથિયાં અને મંદિરનું શિખર* `(764 શબ્દો / ૨ પાના)`
 
 ## પરિશિષ્ટ વિભાગ: સંદર્ભ, વિશ્લેષણ અને સમન્વય દર્શન
-  - 📖 **[પરિશિષ્ટ વિભાગ : સંદર્ભ, વિશ્લેષણ અને સમન્વય દર્શન](parishishta/00_parishishta_prastavana.md)** `(517 શબ્દો)`
-  - 📖 **[પરિશિષ્ટ ૧: દર્શન-મહાસમન્વય કોષ્ટક અને તુલનાત્મક જ્ઞાનમીમાંસા](parishishta/01_darshana_samanvaya_matrix.md)** `(12159 શબ્દો)`
-  - 📖 **[પરિશિષ્ટ ૨: આગમિક મૂળ સંસ્કૃત-પ્રાકૃત વ્યાખ્યા-સૂત્રાનુક્રમણી](parishishta/02_canonical_sutra_index.md)** `(4923 શબ્દો)`
-  - 📖 **[પરિશિષ્ટ ૩: સપ્તનય અને ૨૦૩ નયોનું પારિભાષિક વર્ગીકરણ મેટ્રિક્સ](parishishta/03_taxonomical_classification_matrix.md)** `(5375 શબ્દો)`
-  - 📖 **[પરિશિષ્ટ ૪: વ્યવહારિક જીવન, મનોવિજ્ઞાન અને સંઘર્ષ-નિવારણ વિનિયોગ સૂચિ](parishishta/04_life_application_conflict_resolution.md)** `(784 શબ્દો)`
-  - 📖 **[પરિશિષ્ટ ૫: સાધનાધારા અને આધ્યાત્મિક સ્વાનુભૂતિ નિર્દેશિકા](parishishta/05_spiritual_sadhana_experiential_directory.md)** `(8892 શબ્દો)`
-  - 📖 **[પરિશિષ્ટ ૬: રૂપક, દૃષ્ટાંત અને નવલિકા કથાસૂચિ](parishishta/06_parables_metaphors_narrative_index.md)** `(6622 શબ્દો)`
-  - 📖 **[પરિશિષ્ટ ૭: વિવેકધારા — નયાભાસ (એકાંત દોષ) અને અનેકાંત સમાધાન માર્ગદર્શિકા](parishishta/07_fallacy_vs_harmony_guide.md)** `(10619 શબ્દો)`
-  - 📖 **[પરિશિષ્ટ ૮: ૨૦૩ નય અકારાદિ માસ્ટર ઇન્ડેક્સ અને પારિભાષિક શબ્દકોશ](parishishta/08_alphabetical_master_index_glossary.md)** `(5698 શબ્દો)`
+  - 📖 **[પરિશિષ્ટ વિભાગ : સંદર્ભ, વિશ્લેષણ અને સમન્વય દર્શન](../parishishta/00_parishishta_prastavana.md)** `(532 શબ્દો)`
+  - 📖 **[પરિશિષ્ટ ૧: દર્શન-મહાસમન્વય કોષ્ટક અને તુલનાત્મક જ્ઞાનમીમાંસા](../parishishta/01_darshana_samanvaya_matrix.md)** `(12159 શબ્દો)`
+  - 📖 **[પરિશિષ્ટ ૨: આગમિક મૂળ સંસ્કૃત-પ્રાકૃત વ્યાખ્યા-સૂત્રાનુક્રમણી](../parishishta/02_canonical_sutra_index.md)** `(4923 શબ્દો)`
+  - 📖 **[પરિશિષ્ટ ૩: સપ્તનય અને ૨૦૩ નયોનું પારિભાષિક વર્ગીકરણ મેટ્રિક્સ](../parishishta/03_taxonomical_classification_matrix.md)** `(5375 શબ્દો)`
+  - 📖 **[પરિશિષ્ટ ૪: વ્યવહારિક જીવન, મનોવિજ્ઞાન અને સંઘર્ષ-નિવારણ વિનિયોગ સૂચિ](../parishishta/04_life_application_conflict_resolution.md)** `(784 શબ્દો)`
+  - 📖 **[પરિશિષ્ટ ૫: સાધનાધારા અને આધ્યાત્મિક સ્વાનુભૂતિ નિર્દેશિકા](../parishishta/05_spiritual_sadhana_experiential_directory.md)** `(8892 શબ્દો)`
+  - 📖 **[પરિશિષ્ટ ૬: રૂપક, દૃષ્ટાંત અને નવલિકા કથાસૂચિ](../parishishta/06_parables_metaphors_narrative_index.md)** `(6622 શબ્દો)`
+  - 📖 **[પરિશિષ્ટ ૭: વિવેકધારા — નયાભાસ (એકાંત દોષ) અને અનેકાંત સમાધાન માર્ગદર્શિકા](../parishishta/07_fallacy_vs_harmony_guide.md)** `(10619 શબ્દો)`
+  - 📖 **[પરિશિષ્ટ ૮: ૨૦૩ નય અકારાદિ માસ્ટર ઇન્ડેક્સ અને પારિભાષિક શબ્દકોશ](../parishishta/08_alphabetical_master_index_glossary.md)** `(5698 શબ્દો)`
+  - 📖 **[પરિશિષ્ટ ૯: નય-ચક્ષુ સજ્ઝાય](../parishishta/09_nay_chakshu_sajay_gu.md)** `(6227 શબ્દો)`
+  - 📖 **[પરિશિષ્ટ ૧૦: સંદર્ભ ગ્રંથ સૂચિ](../parishishta/10_sandarbh_granth_suchi_gu.md)** `(748 શબ્દો)`

@@ -1,0 +1,18 @@
+{
+  "image": "assets/images/closing-naya-in-life.png",
+  "sha256": "bdc2d6586d9caa376514144167e7ed5493cf6a38f7b0defa134226380291d65d",
+  "generator": "built-in ImageGen",
+  "prompt": "Use case: photorealistic-natural. Generate one new photorealistic monochrome editorial photograph for the closing interior of a Gujarati philosophy book about naya, the practice of seeing life from more than one standpoint. Wide horizontal panorama, ideally near 3.4:1. On the lower left, a plain closed clothbound book rests on a rough waist-high stone ledge, its pale page edges catching the light. Beyond the ledge a single real footpath curves between small weathered rocks and sparse grasses and recedes towards a light dawn horizon in a quiet dry western Indian landscape. The nearby rocks are lit from the side, showing an illuminated face and a face in shadow: one object seen in different aspects, expressed through natural optics. Eye-level photograph, believable scale, tactile stone, cloth and paper, a light mist in the distance, restrained high-key black and white with printable neutral greys, legible midtones, no crushed blacks. Keep both the closed book and the curving path in the middle horizontal band so the upper and lower edges are safe to crop. Quiet, contemplative, unposed. No people, text, lettering, logos, watermarks, glow effects, surreal morphing, or decorative borders.",
+  "page": 582,
+  "pixels": [
+    2172,
+    724
+  ],
+  "printedMM": [
+    113.77083333333333,
+    37.91809895833333
+  ],
+  "footerGapMM": 3.7537760416666663,
+  "textGapMM": 2.993098958333333,
+  "dpi": 484.9116279069767
+}

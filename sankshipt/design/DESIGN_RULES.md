@@ -23,9 +23,10 @@
 | Main inset | ઉપર 17 mm; nominal નીચે 17 mm; binding તરફ 14 mm, બહાર 12.5 mm; સામેના પાને mirror |
 | Footer | bottom 8 mm; મુખ્ય લખાણ કરતાં અલગ absolute area; ઉપર .55 pt rule અને 2 mm inner top padding |
 | Text/footer clearance | auditમાં ઓછામાં ઓછું લગભગ **2.1 mm**; actual glyphs, table border અને footerમાં overlap નહીં |
-| Chapter | બે સામસામે પાનાં; આખું source જરૂરી. ન ફિટ થાય તો reflow અને exception review; body ઘટાડવું, crop કરવું કે text hide કરવું નહીં |
+| પ્રકરણ | બરાબર બે સામસામે પાનાં. ડાબું પાનું સમ ક્રમાંકે શરૂ થાય. |
+| ખંડ પ્રવેશ | બરાબર ચાર પાનાં. |
 
-ડાબે: chapter masthead, લક્ષણ સૂત્ર, તત્વધારાના ચાર ક્રમબદ્ધ full-width blocks; નીચે કાવ્યધારા અને સાધનાધારા બાજુબાજુમાં. જમણે: કથાધારા અને તેનું ચિત્ર, વિવેકધારાની બે બાજુબાજુની columns; પછી દર્શનધારા. Sourceમાંના sections અને તેમનો ક્રમ જાળવવા. પ્રકરણ/ખંડની સંખ્યા source catalogueથી લેવી; જૂના READMEના fixed totalsથી page count ન કાઢવો.
+ડાબે: chapter masthead, મૂળ લક્ષણ સૂત્ર, તત્વધારાના ચાર ક્રમબદ્ધ full-width blocks; નીચે કાવ્યધારા અને સાધનાધારા બાજુબાજુમાં. જમણે: કથાધારા અને તેનું ચિત્ર, વિવેકધારાની બે બાજુબાજુની columns; પછી દર્શનધારા. Sourceમાંના sections અને તેમનો ક્રમ જાળવવા. પ્રકરણ/ખંડની સંખ્યા source catalogueથી લેવી; જૂના READMEના fixed totalsથી page count ન કાઢવો.
 
 ## 2. સમાન typography અને ચોક્કસ labels
 
@@ -43,12 +44,13 @@
 English dhara label: 7.5 pt serif, weight 400, line-height 1.15, letter spacing .35 pt, gray #777. હાલના pilotમાં Georgia/generic serif fallback છે; final PDFમાં actual English font અને embedding તપાસવા. Machine font મળ્યું એટલે portable English font નક્કી થઈ ગયું એમ માનવું નહીં.
 
 - મુખ્ય chapter title: Anek Gujarati 28 pt / weight 800 / line-height 1.1. English concept અલગ lineમાં 8 pt. Chapter title વારંવાર ન દોહરાવવો.
+- સામાન્ય પ્રકરણ કે પરિશિષ્ટના મુખ્ય શીર્ષકના અંતે કૌંસમાં સમરી હોય તો તેને નીચેની અલગ લાઇનમાં Anek Gujarati 13 pt / weight 600માં રાખવી. મૂળ શબ્દો અને કૌંસ જાળવવા.
 - રૂપક-દ્રષ્ટિ, સ્વરૂપ-સૃષ્ટિ, વ્યવહાર-પૃષ્ટિ, મર્મ-તુષ્ટિ; પિપાસા, પાન; એકાંત/અનેકાંત દર્શન; દર્શનધારાના ઉપશીર્ષકો: **Anek Gujarati 13 pt / weight 700 / line-height 1.15**. કથાનું પોતાનું title પણ 13 pt છે.
 - તત્વના વર્ણનાત્મક secondary subhead: 10.5 pt / weight 600. આ secondary levelને મુખ્ય subsection સાથે ગૂંચવવો નહીં.
 - સામાન્ય body અને table body: **Noto Sans Gujarati 11 pt / line-height 1.38**, body color neutral black/gray. સામાન્ય paragraph spacing લગભગ 6.5 ptને આધાર માની measured fit કરવું; દરેક નાના semantic block પર મોટો margin ફરજિયાત લાદવો નહીં.
 - બધા prose paragraphs, examples/list items, સાધના, કથા, વિવેક તથા દર્શન table text **justify**. `text-align-last: start`, `text-justify: inter-word`; છેલ્લી lineને ખેંચવી નહીં. શબ્દો વચ્ચે અસ્વાભાવિક ખાલી જગ્યા renderમાં તપાસવી.
 - કાવ્ય prose નથી: મૂળ line breaks સાથે **left aligned**, Anek Gujarati 12 pt / weight 600 / line-height 1.45. Headingને justify ન કરવું.
-- સૂત્ર પહેલાં માત્ર **“લક્ષણ સૂત્ર”**. “મૂળ આગમિક લક્ષણ-સૂત્ર” અથવા બીજા લાંબા prefix પાછા ન મૂકવા. સૂત્રના મૂળ શબ્દો બદલવા નહીં; Noto Sans Devanagari 10.5 pt / line-height 1.35. Ellipsis, `nowrap`થી કપાત કે hidden text નહીં.
+- સૂત્ર પહેલાં માત્ર **“મૂળ લક્ષણ સૂત્ર”**. “મૂળ આગમિક લક્ષણ-સૂત્ર” અથવા બીજા લાંબા prefix પાછા ન મૂકવા. સૂત્રના મૂળ શબ્દો બદલવા નહીં; Noto Sans Devanagari 10.5 pt / line-height 1.35. Ellipsis, `nowrap`થી કપાત કે hidden text નહીં.
 - Gujarati તથા Sanskrit fonts projectના local assetsમાંથી relative URLથી load કરવા; PDFમાં embedding ચકાસવું.
 
 ## 3. પસંદ કરેલી દર્શનધારા: A, joined ૧–૨–૧
@@ -67,16 +69,16 @@ English dhara label: 7.5 pt serif, weight 400, line-height 1.15, letter spacing 
 - **A પસંદ કરેલી grayscale**: ઉપર અને નીચે #eaeaea; વચ્ચેની બંને cells #ffffff. B/C alternatives મંજૂર default નથી.
 - Top અને bottom full-width; middle columns સરખી width અને height, divider બરાબર centerમાં. `repeat(2,minmax(0,1fr))`, stretch alignment.
 - **બોક્સ વચ્ચે row/column gap શૂન્ય**. એક બહારની border, બે horizontal dividers અને માત્ર middle pairમાં એક vertical divider. Double border નહીં. બધી table rules **.55 pt solid #aaa**.
-- દરેક cellમાં inner padding **1.2 mm ઉપર/નીચે, 2 mm ડાબે/જમણે**. બોક્સ જોડવા માટે આ internal padding દૂર ન કરવું.
+- દરેક cellમાં inner padding **1.45 mm ઉપર, 1.3 mm નીચે અને 2 mm ડાબે/જમણે**. બોક્સ જોડવા માટે આ internal padding દૂર ન કરવું.
 - નંબરો ચોક્કસ **૦૧, ૦૨, ૦૩, ૦૪**, પછી dot નહીં. તત્વધારા જેવા **Anek Gujarati 16 pt / weight 700 / gray #888 / line-height 1**.
-- **Hanging layout**: દરેક cellની અંદર નંબર માટે 6.5 mmની અલગ column, પછી 1.2 mm gap અને `minmax(0,1fr)` text column. `.row-copy` block છે. Heading અને body પછીની બધી lines text columnની શરૂઆતથી આવે; નંબરની નીચે નહીં.
+- **Hanging layout**: દરેક cellની અંદર નંબર માટે 6.5 mmની અલગ column, પછી 1.8 mm gap અને `minmax(0,1fr)` text column. `.row-copy` block છે. Heading અને body પછીની બધી lines text columnની શરૂઆતથી આવે; નંબરની નીચે નહીં. ઉપશીર્ષકના વિરામચિહ્ન પછી 0.5 mm વધારાનું અંતર.
 - Number અને textની વચ્ચે line તૂટે કે બંને અડે નહીં. છેલ્લાં paragraph-શૈલીવાળા મોટા inline numbers અથવા dotted numbering પાછી ન લાવવી.
 
 ## 4. વિવેકધારા અને સંબંધિત spacing
 
 - પાનના લખાણ પછી વિવેકધારાના heading સુધી **લગભગ 4.5 mm** સ્પષ્ટ અંતર. હાલ 1 mm parent gap + 3.5 mm section marginથી મળે છે; બે વખત 4.5 mm ઉમેરવું નહીં.
 - વિવેકધારામાં એકાંત અને અનેકાંતની બે columns; વચ્ચે 5.8 mm gap.
-- અનેકાંતના gray box (#f2f2f2)માં padding **ઉપર/નીચે 1.8 mm, ડાબે/જમણે 2.5 mm**. 1 mm / 1.5 mmની તંગ જૂની padding પાછી ન કરવી. Larger paddingથી fit બદલાય તો measured reflow કરવો.
+- એકાંતમાં ઉપર **2 mm** અને અનેકાંતના gray box (#f2f2f2)માં ઉપર **2.4 mm**, નીચે **1.8 mm** અને બાજુઓમાં **2.5 mm** પેડિંગ. બંને ઉપશીર્ષકો પછી **1.9 mm** અંતર. દર્શનધારાની ઉપરની રેખા પછી **2.4 mm** અંદરનું અંતર રાખવું.
 - સામાન્ય paired panels/columnsમાં આશરે 5.8 mm gap; દર્શનધારાના joined gridમાં આ gap લાગુ નહીં પડે.
 
 ## 5. Headers અને અંતિમ footer ગોઠવણી
@@ -90,11 +92,19 @@ English dhara label: 7.5 pt serif, weight 400, line-height 1.15, letter spacing 
 
 Book name અને subtitle વચ્ચે દેખાતી vertical separator line `|` રાખવી. Subtitleને chapter titleથી બદલવો નહીં. Right-page footerમાં chapter name, જેમ કે “ભૂતનૈગમ નય”, પાછું મૂકવું નહીં. ખંડનો footer દરેક ખંડના actual metadataથી લેવાનો છે; “પ્રથમ ખંડ” બધે hardcode કરવું નહીં.
 
-Footer text Anek Gujarati 8.5 pt, book/khanda emphasis weight 600; folio 12 pt / weight 700. Main text સાથે footer જોડાય નહીં. પ્રસ્તાવના/અનુક્રમણિકામાં running header/footer/page number ન રાખવાના અગાઉના નિયમો યથાવત્. અંતિમ assembled PDFમાં સાચી physical parity તપાસવી; pilotનાં ૨–૩ labels standalone PDFનાં 1–2 સ્થાનનો પુરાવો નથી.
+Footer text Anek Gujarati 8.5 pt, book/khanda emphasis weight 600; folio 10 pt / weight 400. Main text સાથે footer જોડાય નહીં. પ્રસ્તાવના/અનુક્રમણિકામાં running header/footer/page number ન રાખવાના અગાઉના નિયમો યથાવત્. અંતિમ assembled PDFમાં સાચી physical parity તપાસવી; pilotનાં ૨–૩ labels standalone PDFનાં 1–2 સ્થાનનો પુરાવો નથી.
 
 ## 6. ચિત્રો, source અને portability
 
 દરેક કથાનું પોતાનું square black/white અથવા grayscale clipart `Image/chapter-image-map.json`ના keyથી લેવું. Press asset પસંદ કરવો; filename અનુમાનથી નહીં. હાલના pilotમાં 32 × 32 mm placement અને `object-fit:contain` છે; બદલાવ measured fit અને print-resolution reviewથી કરવો. એક જ ચિત્ર અલગ chaptersમાં ફરી નહીં વાપરવું. Original assets જાળવવા; existing human religious/iconographic review statusને pass માનવું નહીં.
+
+કાવ્યધારા અને સાધનાધારાનો સંયુક્ત પટ્ટો ફૂટર પહેલાંના લખાણ વિસ્તારની નીચે ગોઠવવો. વ્યવહાર-પૃષ્ટિ પાસે પૂરતી જગ્યા હોય ત્યારે દૃષ્ટાંતમાંથી આવતું વસ્તુરૂપક મૂકવું. વ્યક્તિગત મુખચિત્રો ટાળવા. અર્થ સમજાવવા અનિવાર્ય હોય ત્યારે પુરુષનું ચિત્ર લઈ શકાય. જમણા પાને વધુ જગ્યા હોય અને બંને પાઠ ફિટ થાય ત્યારે મોટું કથાચિત્ર પિપાસા અને પાનની બાજુમાં ગોઠવવું.
+
+## ખંડ પરિચયની ગોઠવણી
+
+દરેક ખંડ પરિચય બરાબર ચાર પાનાંનો રાખવો. પહેલાં પાને ખંડનું નામ અને વિષયને અનુરૂપ એક અલગ કાળું-સફેદ વસ્તુરૂપક રાખવું. વિભાગના નંબર અને શીર્ષક વચ્ચે અંતર રાખવું. મૂળ લક્ષણ સૂત્ર અને સૂત્ર-સારને અલગ ગ્રે પટ્ટામાં અને ચાર્ટને વાંચી શકાય એવી પહોળાઈમાં ગોઠવવો. લખાણ અને ચાર્ટનો ક્રમ સાચવીને ચાર પાનાં વચ્ચે માપીને વહેંચવું.
+
+બીજા પાને તત્ત્વ-વિસ્તાર પછીની માપેલી જગ્યામાં તેના વિચારને અનુરૂપ, વ્યક્તિઓ વિનાનું ગ્રેસ્કેલ ફોટોગ્રાફિક રૂપક મૂકવું. ફોટો લખાણની પહોળાઈ અને ફૂટર પહેલાંની માપેલી ઊંચાઈમાં બેસાડવો. મુખ્ય વસ્તુ ક્રોપમાં પૂરી દેખાય અને અસરકારક સ્પષ્ટતા ઓછામાં ઓછી ૩૦૦ DPI રહે તે તપાસવું. શાખા-પ્રસારનું મથાળું, શરૂઆતનો ફકરો અને આખો ચાર્ટ ત્રીજા પાને સાથે રાખવા.
 
 Current sourceના દરેક semantic blockને ID આપી મૂળ શબ્દો/ક્રમ સરખાવવા. દેખાવ માટે sourceમાં ફેરફાર નહીં. **હાલના pilot અને current output વચ્ચે અગાઉ નોંધાયેલ content તફાવત છે**: design style પસંદ થયેલી છે, content sync અથવા આખા પુસ્તકની source audit પૂર્ણ નથી. Latest source sync કર્યા પછી ફરી layout audit કરવી. આ documentationથી નવા chapters બની ગયાનો દાવો નથી.
 
@@ -105,7 +115,7 @@ Current sourceના દરેક semantic blockને ID આપી મૂળ �
 3. અલગ `revisions/<revision>/`માં review copy, previews અને QA રાખવા. Relative assetsને revisionના સ્થાન પ્રમાણે સુધારવા. જૂની copies production input ન બને.
 4. આ નિયમો, tokens અને checklist પછી જ CSS/data ફેરફાર. Overrideથી ભૂલ થાય તે માટે computed styleનું audit કરવું; CSSમાં છેલ્લે લાગુ પડતો selector ચકાસવો.
 5. Fonts ready અને image decode પછી HTML audit, પછી PDF proof. HTML audit, human design review, PDF proof અને press certification અલગ statuses છે.
-6. Source લાંબું હોય તો heading wrapping, sensible spacing અને image placementથી reflow. Body font ઘટાડવું, clipping/ellipsis, અણધાર્યું zoom અથવા શબ્દો કાપવા નહીં. Exception સ્પષ્ટ નોંધવી.
+6. જગ્યા ઓછી હોય તો heading wrapping, spacing અને image placementથી ફરી ગોઠવવું. જે વિભાગ ફિટ થતો નથી અને પોતાની દસ્તાવેજિત શબ્દમર્યાદા વટાવે છે ત્યાં જ અર્થ જાળવીને જરૂરી એટલું ટૂંકાવવું. સમજાવટ, એકાંત અને અનેકાંતમાં વર્તમાન વિસ્તાર જાળવવો. 11 pt body અને પાનાંની ફરજિયાત સંખ્યા ચકાસવી.
 7. PDF export: Chromium print media, `printBackground:true`, `preferCSSPageSize:true`; default browser margins/extra scaling નહીં. સ્વતંત્ર PDF inspection/renderથી માપ, fonts, images, nonblank pages અને footer parity તપાસવી.
 
 છેલ્લો visual આધાર: `pilot_chapter_001/revisions/hanging_20261106_r11/`. પસંદ કરેલી શૈલીનો આધાર આ નિયમો છે; આ pointer ઐતિહાસિક proof છે. નવી આવૃત્તિના auditનો receipt અલગ રાખવો.

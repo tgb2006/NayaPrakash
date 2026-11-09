@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\khanda-intro\\0410-20261107205625.png",
+  "sha256": "40c3b2df652a21665f32851eca0bd3e91fd64a420f0487603be2628afaf485ec",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.12768836692281668,
+  "white_fraction": 0.8723116330771833,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 692.3968858704654,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": []
+}

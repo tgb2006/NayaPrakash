@@ -49,7 +49,7 @@
 | 43 | 3 / 23 | ૨૩. પરદ્રવ્યાદિગ્રાહક દ્રવ્યાર્થિકનય | કલંકનો ભય અને જ્ઞાનીનો અભયબોધ | press/K03_C023_chapter_029_paradravyadigrahaka_dravyarthika_naya_katha_r01_press.png | press_pixels_validated_review_pending |
 | 44 | 3 / 24 | ૨૪. પરમભાવગ્રાહક દ્રવ્યાર્થિકનય | વાવાઝોડું અને સ્થિર દીવાદાંડી | press/K03_C024_chapter_030_paramabhavagrahaka_dravyarthika_naya_katha_r01_press.png | press_pixels_validated_review_pending |
 | 45 | 3 / 25 | ૨૫. શુદ્ધપારિણામિક પરમભાવગ્રાહક શુદ્ધ દ્રવ્યાર્થિકનય | પંડિતોનો વિવાદ અને સંતનું મહામૌન | press/K03_C025_chapter_030_1_shuddhaparinamika_paramabhavagrahaka_shuddha_dravyarthika_naya_katha_r01_press.png | press_pixels_validated_review_pending |
-| 46 | 3 / 26 | ૨૬. અખંડ પરમશુદ્ધ નિશ્ચયનય | ભિખારી બનેલો રાજકુંવર અને સદ્ગુરુની દ્રષ્ટિ | press/K03_C026_chapter_044_akhanda_paramashuddha_nishchayanaya_katha_r01_press.png | press_pixels_validated_review_pending |
+| 46 | 3 / 26 | ૨૬. અખંડ પરમશુદ્ધ નિશ્ચયનય | ભિખારી બનેલો રાજકુંવર અને સદ્ગુરૂની દ્રષ્ટિ | press/K03_C026_chapter_044_akhanda_paramashuddha_nishchayanaya_katha_r01_press.png | press_pixels_validated_review_pending |
 | 47 | 3 / 27 | ૨૭. શક્તિબોધક પરમશુદ્ધ નિશ્ચયનય | સિંહનું બચ્ચું અને ગર્જનાનો સાક્ષાત્કાર | press/K03_C027_chapter_045_shaktibodhaka_paramashuddha_nishchayanaya_katha_r01_press.png | press_pixels_validated_review_pending |
 | 48 | 3 / 28 | ૨૮. શુદ્ધ નિશ્ચયનય | અંધારી ગુફા અને સાક્ષાત્ પ્રકાશ | press/K03_C028_chapter_046_shuddha_nishchayanaya_katha_r01_press.png | press_pixels_validated_review_pending |
 | 49 | 3 / 29 | ૨૯. સભેદ શુદ્ધ નિશ્ચયનય | શુષ્ક જ્ઞાન અને અમૃતરસની શોધ | press/K03_C029_chapter_046_1_sabheda_shuddha_nishchayanaya_katha_r01_press.png | press_pixels_validated_review_pending |
@@ -226,6 +226,6 @@
 | 220 | 7 / 30 | ૩૦. શુદ્ધનય | કાદવનું સરોવર અને પૂર્ણિમાનો ચંદ્ર | press/K07_C030_chapter_198_shuddhanaya_katha_r01_press.png | press_pixels_validated_review_pending |
 | 221 | 7 / 31 | ૩૧. ઊર્ધ્વતાસામાન્યનય | માટીનો વારસો અને ત્રણ પેઢીઓ | press/K07_C031_chapter_199_urdhvatasamanyanaya_katha_r01_press.png | press_pixels_validated_review_pending |
 | 222 | 7 / 32 | ૩૨. ઊર્ધ્વતાવિશેષનય | રાજકુમારનું ચિત્ર અને વૃદ્ધ રાજા | press/K07_C032_chapter_200_urdhvatavisheshanaya_katha_r01_press.png | press_pixels_validated_review_pending |
-| 223 | 7 / 33 | ૩૩. નિમિત્તત્વ-નિમિત્તદ્રષ્ટિ | તોફાની સાગર અને વહાણનું છિદ્ર | press/K07_C033_chapter_201_nimittatvanimittadrishti_katha_r01_press.png | press_pixels_validated_review_pending |
+| 223 | 7 / 33 | ૩૩. નિમિત્તત્ત્વ-નિમિત્તદ્રષ્ટિ | તોફાની સાગર અને વહાણનું છિદ્ર | press/K07_C033_chapter_201_nimittatvanimittadrishti_katha_r01_press.png | press_pixels_validated_review_pending |
 | 224 | 7 / 34 | ૩૪. સાદૃશ્યનય | સોનાનું પાંજરું અને બે પોપટ | press/K07_C034_chapter_202_sadrishyanaya_katha_r01_press.png | press_pixels_validated_review_pending |
 | 225 | 7 / 35 | ૩૫. વૈલક્ષણ્યનય | કાદવમાંથી પગથિયાં અને મંદિરનું શિખર | press/K07_C035_chapter_203_vailakshanyanaya_katha_r01_press.png | press_pixels_validated_review_pending |

@@ -1,0 +1,17 @@
+{
+  "image": "assets/images/sajay-another-view.png",
+  "sha256": "4bb6a881d1e8ead5d55b1d3eda3a0cdc0d01739ca794663ffeeae3073b51b594",
+  "generator": "built-in ImageGen",
+  "prompt": "Use case: photorealistic-natural. A single quiet fine-art black-and-white editorial photograph for the closing of a Gujarati Jain book's poetry appendix. The reader has just been asked: “What could I look at from another point of view today?” Show one distinctive naturally faceted rock on a low stone shelf at the edge of a perfectly still shallow pool. Photograph near the waterline. The dry sunlit upper facets are visible directly while the dark underside and a visually different contour of the SAME rock are visible in its single physically plausible inverted reflection in the water. The rock and its reflection must clearly connect at the water edge, neither duplicated as separate rocks nor perfectly symmetrical silhouettes. Natural softly raking morning light, real basalt texture, restrained shadows, gentle water tones, real outdoor setting, neutral black and white with generous clean midtones for print. Calm, lucid, and visually spare. Landscape 4:3 with safe margins around the rock and reflection. One uninterrupted photograph. No distant path, no books, no people, no captions, no letters, no logos, no border, no fantasy effects.",
+  "page": 579,
+  "pixels": [
+    1448,
+    1086
+  ],
+  "printedMM": [
+    119.99680989583332,
+    89.99140625
+  ],
+  "footerGapMM": 34.213932291666666,
+  "dpi": 306.5014814304417
+}

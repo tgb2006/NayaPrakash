@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\vyavahar-preview\\0056-20261107195358.png",
+  "sha256": "5b2ec5dca720d477f74de7e95f288753429ca7319faf002e50aac82f44ff3ce6",
+  "width_px": 1254,
+  "height_px": 1254,
+  "dark_fraction": 0.35023045870439473,
+  "white_fraction": 0.6497695412956053,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 936.5197908887229,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": []
+}

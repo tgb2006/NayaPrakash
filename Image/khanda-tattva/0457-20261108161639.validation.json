@@ -1,0 +1,15 @@
+{
+  "valid": true,
+  "mode": "8-bit grayscale",
+  "pixel_size": [
+    1556,
+    1011
+  ],
+  "frame_mm": [
+    131.3,
+    84.31
+  ],
+  "effective_cover_dpi": 301.0,
+  "tonal_levels": 256,
+  "sha256": "dafa329becd16c3913292dd10a93180d0b2f7e26c042354163e52ce1899b97f3"
+}

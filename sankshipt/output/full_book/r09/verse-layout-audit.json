@@ -1,0 +1,77 @@
+{
+  "checked": {
+    "poems": 225,
+    "authoredVerseLines": 43,
+    "chapterSutras": 225,
+    "khandaSutraLines": 9,
+    "quotedSutraRuns": 18
+  },
+  "changes": [
+    {
+      "page": 39,
+      "type": "sutra_breaks",
+      "lines": 2
+    },
+    {
+      "page": 46,
+      "type": "sutra_breaks",
+      "lines": 3
+    },
+    {
+      "page": 140,
+      "type": "poem_column",
+      "lines": 2
+    },
+    {
+      "page": 168,
+      "type": "poem_column",
+      "lines": 4
+    },
+    {
+      "page": 208,
+      "type": "poem_column",
+      "lines": 4
+    },
+    {
+      "page": 310,
+      "type": "poem_column",
+      "lines": 4
+    },
+    {
+      "page": 378,
+      "type": "poem_column",
+      "lines": 4
+    },
+    {
+      "page": 398,
+      "type": "poem_column",
+      "lines": 4
+    },
+    {
+      "page": 464,
+      "type": "poem_column",
+      "lines": 4
+    },
+    {
+      "page": 486,
+      "type": "poem_column",
+      "lines": 4
+    },
+    {
+      "page": 510,
+      "type": "poem_column",
+      "lines": 4
+    },
+    {
+      "page": 518,
+      "type": "poem_column",
+      "lines": 4
+    },
+    {
+      "page": 284,
+      "type": "sutra_full_width",
+      "lines": 1
+    }
+  ],
+  "issues": []
+}

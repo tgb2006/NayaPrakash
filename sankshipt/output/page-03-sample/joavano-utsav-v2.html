@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="gu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>જોવાનો ઉત્સવ</title>
+<style>
+@font-face {
+  font-family: Anek;
+  src: url("../full_book/r14/assets/fonts/AnekGujarati-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: Noto;
+  src: url("../full_book/r14/assets/fonts/NotoSansGujarati-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: Noto;
+  src: url("../full_book/r14/assets/fonts/NotoSansGujarati-Bold.ttf");
+  font-weight: 700;
+}
+@page { size: 6.5in 9.5in; margin: 0; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #fff; color: #000; }
+.page {
+  width: 6.5in;
+  height: 9.5in;
+  margin: auto;
+  padding: 68px 55px 55px 63px;
+  font: 17.5px/1.6 Noto, sans-serif;
+}
+h1 {
+  margin: 0 0 25px;
+  font: 700 54px/1.12 Anek, sans-serif;
+}
+h1::before {
+  content: "";
+  display: block;
+  width: 29px;
+  height: 4px;
+  margin-bottom: 19px;
+  background: #000;
+}
+p { margin: 0; }
+.opening { display: grid; grid-template-columns: 1fr 178px; align-items: center; }
+.opening p + p { margin-top: 23px; }
+.flower { width: 158px; justify-self: end; margin: 4px 3px 0 0; }
+.middle {
+  display: grid;
+  grid-template-columns: 238px 1fr;
+  align-items: center;
+  gap: 14px;
+  margin-top: 42px;
+}
+.vessels { width: 228px; justify-self: start; }
+.ending { margin: 40px 0 0 119px; }
+.close { display: inline-block; margin-top: 6px; }
+.line-art {
+  fill: none;
+  stroke: #000;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.solid { fill: #000; stroke: none; }
+.engraving { display: block; height: auto; filter: grayscale(1) brightness(1.025); }
+.flower { width: 174px; }
+.vessels { width: 238px; margin-top: -11px; }
+</style>
+</head>
+<body>
+<main class="page">
+  <h1>જોવાનો ઉત્સવ</h1>
+  <div class="opening">
+    <div>
+      <p>આ સંસારમાં કોઈ ખોટું નથી —<br>
+        ભૂલ ત્યારે થઈ જ્યારે<br>
+        <em>જોવાનું</em> ભૂલ્યા ને <em>ઠેરવવાનું</em> શીખ્યા.</p>
+      <p>ફૂલ ખીલ્યું — કહ્યું <em>'ક્ષણિક છે'</em>,<br>
+        ન જોયું કે ખૂબ ખીલ્યું.<br>
+        ફૂલ ઝર્યું — કહ્યું <em>'ખોવાઈ ગયું'</em>,<br>
+        ન જોયું કે ખૂબ ઝર્યું.</p>
+    </div>
+    <img class="flower engraving" src="flower-engraving.png" alt="ખીલેલું ફૂલ અને ખરતી પાંખડીઓ">
+  </div>
+  <div class="middle">
+    <img class="vessels engraving" src="vessels-engraving.png" alt="હાથમાં ધરેલાં ખાલી માટીનું ભિક્ષાપાત્ર અને નકશીવાળી થાળ">
+    <p>ભૂખ્યો ભિખારી — કહ્યું <em>'ભાગ્યહીન'</em>,<br>
+      ન જોઈ ભૂખ.<br>
+      સોનાની થાળ પકડેલો — કહ્યું <em>'ધન્ય'</em>,<br>
+      ન જોઈ ભૂખ.<br>
+      ઓઢણ જ જુદી — ભૂખ એક!</p>
+  </div>
+  <p class="ending">સત્ય ક્યાંય છુપાયેલું નથી,<br>
+    ચારે કોર ઊઘડ્યું જ છે —<br>
+    <em>કહેવાની</em> ટેવ ઓગળે ત્યારે<br>
+    <strong>જોવાનો ઉત્સવ</strong> ઊઘડે,<br>
+    <strong class="close">એ ઉત્સવ એટલે જ નય-ચક્ષુ.</strong></p>
+</main>
+</body>
+</html>

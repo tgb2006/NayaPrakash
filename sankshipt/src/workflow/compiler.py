@@ -124,7 +124,7 @@ class BookCompiler:
                     pf_content = pf.read_text(encoding="utf-8")
                     words = self.validator.count_words(pf_content)
                     first_line = pf_content.strip().split("\n")[0].replace("#", "").strip()
-                    toc_lines.append(f"  - 📖 **[{first_line}](parishishta/{pf.name})** `({words} શબ્દો)`")
+                    toc_lines.append(f"  - 📖 **[{first_line}](../parishishta/{pf.name})** `({words} શબ્દો)`")
                 toc_lines.append("")
 
         toc_content = "\n".join(toc_lines)
@@ -220,6 +220,8 @@ class BookCompiler:
             for pf in parish_files:
                 pf_text = pf.read_text(encoding="utf-8")
                 total_words_compiled += self.validator.count_words(pf_text)
+                for target in parish_files:
+                    pf_text = pf_text.replace(f"]({target.name})", f"](../parishishta/{target.name})")
                 book_lines.append(pf_text)
                 book_lines.append("\n\n---\n")
 

@@ -4,6 +4,8 @@
 
 ### Autonomous Agentic Book Writing Workflow for 203 Jain Nayas
 
+**નય-ચક્ષુ r02:** 574 પાનાં. દરેક પ્રકરણ બે સામસામે પાનાં અને દરેક ખંડ પ્રવેશ ચાર પાનાં. [PDF](sankshipt/output/full_book/r02/naya_chakshu_book.pdf) · [HTML](sankshipt/output/full_book/r02/naya_chakshu_book.html) · [ઉત્પાદન નિયમો](sankshipt/production/README.md)
+
 જૈન દર્શનના નય રહસ્ય (Epistemological Perspectives & Standpoints) પર આધારિત ૨૦૩ નયોનો ૭ ખંડોમાં સંપૂર્ણ ૧૦૦% અણીશુદ્ધ સાહિત્યિક ગુજરાતી ભાષામાં પ્રમાણભૂત મહાગ્રંથ નિર્માણ તંત્ર.
 
 ---

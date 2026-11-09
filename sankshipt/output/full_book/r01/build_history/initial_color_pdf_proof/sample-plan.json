@@ -1,0 +1,871 @@
+{
+  "expected_pages": 1022,
+  "samples": [
+    {
+      "page": 1,
+      "reason": "title",
+      "map": {
+        "physicalPage": 1,
+        "type": "title",
+        "key": "TITLE",
+        "khanda": "નય-ચક્ષુ",
+        "sourceIds": []
+      }
+    },
+    {
+      "page": 2,
+      "reason": "mangal",
+      "map": {
+        "physicalPage": 2,
+        "type": "mangal",
+        "key": "MANGAL",
+        "khanda": "નય-ચક્ષુ",
+        "sourceIds": []
+      }
+    },
+    {
+      "page": 3,
+      "reason": "preface",
+      "map": {
+        "physicalPage": 3,
+        "type": "preface",
+        "key": "D001",
+        "khanda": "પ્રસ્તાવના : નયચક્ષુ",
+        "sourceIds": [
+          "D001-b0001",
+          "D001-b0002",
+          "D001-b0003",
+          "D001-b0004",
+          "D001-b0005",
+          "D001-b0006",
+          "D001-b0007",
+          "D001-b0008",
+          "D001-b0009",
+          "D001-b0010",
+          "D001-b0011"
+        ]
+      }
+    },
+    {
+      "page": 12,
+      "reason": "contents",
+      "map": {
+        "physicalPage": 12,
+        "type": "toc",
+        "key": "CONTENTS",
+        "khanda": "નય-ચક્ષુ",
+        "sourceIds": []
+      }
+    },
+    {
+      "page": 21,
+      "reason": "contents-end",
+      "map": {
+        "physicalPage": 21,
+        "type": "toc",
+        "key": "CONTENTS",
+        "khanda": "નય-ચક્ષુ",
+        "sourceIds": []
+      }
+    },
+    {
+      "page": 22,
+      "reason": "general1",
+      "map": {
+        "physicalPage": 22,
+        "type": "general",
+        "key": "D003",
+        "khanda": "પ્રકરણ ૧: નય એટલે શું? (નયનું સ્વરૂપ, વ્યાખ્યા અને સર્વાંગી વિશ્લેષણ)",
+        "sourceIds": [
+          "D003-b0001",
+          "D003-b0002",
+          "D003-b0003",
+          "D003-b0004",
+          "D003-b0005",
+          "D003-b0006",
+          "D003-b0007",
+          "D003-b0008",
+          "D003-b0009",
+          "D003-b0010",
+          "D003-b0011",
+          "D003-b0012",
+          "D003-b0013"
+        ]
+      }
+    },
+    {
+      "page": 24,
+      "reason": "general1-chart",
+      "map": {
+        "physicalPage": 24,
+        "type": "general",
+        "key": "D003",
+        "khanda": "પ્રકરણ ૧: નય એટલે શું? (નયનું સ્વરૂપ, વ્યાખ્યા અને સર્વાંગી વિશ્લેષણ)",
+        "sourceIds": [
+          "D003-b0026",
+          "D003-b0027",
+          "D003-b0028",
+          "D003-b0029",
+          "D003-b0030",
+          "D003-b0031",
+          "D003-b0032",
+          "D003-b0033"
+        ]
+      }
+    },
+    {
+      "page": 32,
+      "reason": "general3",
+      "map": {
+        "physicalPage": 32,
+        "type": "general",
+        "key": "D005",
+        "khanda": "પ્રકરણ ૩: નયના પ્રકાર (સંક્ષિપ્ત પરિચય, અવાંતર નામો અને સપ્ત નયોનો નકશો)",
+        "sourceIds": [
+          "D005-b0001",
+          "D005-b0002",
+          "D005-b0003",
+          "D005-b0004",
+          "D005-b0005",
+          "D005-b0006",
+          "D005-b0007",
+          "D005-b0008",
+          "D005-b0009",
+          "D005-b0010",
+          "D005-b0011",
+          "D005-b0012"
+        ]
+      }
+    },
+    {
+      "page": 35,
+      "reason": "general3-chart",
+      "map": {
+        "physicalPage": 35,
+        "type": "general",
+        "key": "D005",
+        "khanda": "પ્રકરણ ૩: નયના પ્રકાર (સંક્ષિપ્ત પરિચય, અવાંતર નામો અને સપ્ત નયોનો નકશો)",
+        "sourceIds": [
+          "D005-b0049",
+          "D005-b0050",
+          "D005-b0051",
+          "D005-b0052",
+          "D005-b0053",
+          "D005-b0054",
+          "D005-b0055",
+          "D005-b0056",
+          "D005-b0057",
+          "D005-b0058",
+          "D005-b0059",
+          "D005-b0060",
+          "D005-b0061",
+          "D005-b0062",
+          "D005-b0063",
+          "D005-b0064",
+          "D005-b0065",
+          "D005-b0066",
+          "D005-b0067"
+        ]
+      }
+    },
+    {
+      "page": 38,
+      "reason": "general4",
+      "map": {
+        "physicalPage": 38,
+        "type": "general",
+        "key": "D006",
+        "khanda": "પ્રકરણ ૪: દ્રવ્યાર્થિક નય અને પર્યાયાર્થિક નય (ગહન ખંડશૈલી વિશ્લેષણ)",
+        "sourceIds": [
+          "D006-b0001",
+          "D006-b0002",
+          "D006-b0003",
+          "D006-b0004",
+          "D006-b0005",
+          "D006-b0006",
+          "D006-b0007",
+          "D006-b0008"
+        ]
+      }
+    },
+    {
+      "page": 45,
+      "reason": "general5",
+      "map": {
+        "physicalPage": 45,
+        "type": "general",
+        "key": "D007",
+        "khanda": "પ્રકરણ ૫: જ્ઞાન નય, અર્થ નય અને શબ્દ નય (ગહન ખંડશૈલી વિશ્લેષણ)",
+        "sourceIds": [
+          "D007-b0001",
+          "D007-b0002",
+          "D007-b0003",
+          "D007-b0004",
+          "D007-b0005",
+          "D007-b0006",
+          "D007-b0007",
+          "D007-b0008",
+          "D007-b0009",
+          "D007-b0010"
+        ]
+      }
+    },
+    {
+      "page": 52,
+      "reason": "general5-end",
+      "map": {
+        "physicalPage": 52,
+        "type": "general",
+        "key": "D007",
+        "khanda": "પ્રકરણ ૫: જ્ઞાન નય, અર્થ નય અને શબ્દ નય (ગહન ખંડશૈલી વિશ્લેષણ)",
+        "sourceIds": [
+          "D007-b0092",
+          "D007-b0093",
+          "D007-b0094",
+          "D007-b0095",
+          "D007-b0096",
+          "D007-b0097",
+          "D007-b0098"
+        ]
+      }
+    },
+    {
+      "page": 53,
+      "reason": "khanda1-intro",
+      "map": {
+        "physicalPage": 53,
+        "type": "khanda_intro",
+        "key": "D008",
+        "khanda": "પ્રથમ ખંડ: નૈગમ નય",
+        "sourceIds": [
+          "D008-b0001",
+          "D008-b0002",
+          "D008-b0003",
+          "D008-b0004",
+          "D008-b0005",
+          "D008-b0006",
+          "D008-b0007",
+          "D008-b0008"
+        ]
+      }
+    },
+    {
+      "page": 57,
+      "reason": "navigation",
+      "map": {
+        "physicalPage": 57,
+        "type": "navigation",
+        "key": "NAV-K01_C001",
+        "khanda": "પ્રથમ ખંડ: નૈગમ નય",
+        "sourceIds": []
+      }
+    },
+    {
+      "page": 58,
+      "reason": "chapter1-even",
+      "map": {
+        "physicalPage": 58,
+        "type": "chapter",
+        "key": "K01_C001",
+        "khanda": "પ્રથમ ખંડ: નૈગમ નય",
+        "sourceIds": [
+          "K01_C001-meta-category",
+          "K01_C001-title",
+          "K01_C001-meta-original",
+          "K01_C001-sutra",
+          "K01_C001-tattva-1-heading",
+          "K01_C001-tattva-1-subtitle",
+          "K01_C001-tattva-1-body-1",
+          "K01_C001-tattva-2-heading",
+          "K01_C001-tattva-2-subtitle",
+          "K01_C001-tattva-2-body-1",
+          "K01_C001-tattva-3-heading",
+          "K01_C001-tattva-3-subtitle",
+          "K01_C001-tattva-3-body-1",
+          "K01_C001-tattva-3-body-2",
+          "K01_C001-tattva-3-body-3",
+          "K01_C001-tattva-4-heading",
+          "K01_C001-tattva-4-subtitle",
+          "K01_C001-tattva-4-body-1",
+          "K01_C001-poem",
+          "K01_C001-practice"
+        ]
+      }
+    },
+    {
+      "page": 59,
+      "reason": "chapter1-odd",
+      "map": {
+        "physicalPage": 59,
+        "type": "chapter",
+        "key": "K01_C001",
+        "khanda": "પ્રથમ ખંડ: નૈગમ નય",
+        "sourceIds": [
+          "K01_C001-story-title",
+          "K01_C001-pipasa-1",
+          "K01_C001-paan-1",
+          "K01_C001-ekant-1",
+          "K01_C001-anekant-1",
+          "K01_C001-darshan-1-heading",
+          "K01_C001-darshan-1-body",
+          "K01_C001-darshan-2-heading",
+          "K01_C001-darshan-2-body",
+          "K01_C001-darshan-3-heading",
+          "K01_C001-darshan-3-body",
+          "K01_C001-darshan-4-heading",
+          "K01_C001-darshan-4-body"
+        ]
+      }
+    },
+    {
+      "page": 60,
+      "reason": "chapter1-continuation",
+      "map": {
+        "physicalPage": 60,
+        "type": "chapter",
+        "key": "K01_C002",
+        "khanda": "પ્રથમ ખંડ: નૈગમ નય",
+        "sourceIds": [
+          "K01_C002-meta-category",
+          "K01_C002-title",
+          "K01_C002-meta-original",
+          "K01_C002-sutra",
+          "K01_C002-tattva-1-heading",
+          "K01_C002-tattva-1-subtitle",
+          "K01_C002-tattva-1-body-1",
+          "K01_C002-tattva-2-heading",
+          "K01_C002-tattva-2-subtitle",
+          "K01_C002-tattva-2-body-1"
+        ]
+      }
+    },
+    {
+      "page": 80,
+      "reason": "khanda2-intro",
+      "map": {
+        "physicalPage": 80,
+        "type": "khanda_intro",
+        "key": "D009",
+        "khanda": "દ્વિતીય ખંડ: સંગ્રહ નય",
+        "sourceIds": [
+          "D009-b0001",
+          "D009-b0002",
+          "D009-b0003",
+          "D009-b0004",
+          "D009-b0005",
+          "D009-b0006",
+          "D009-b0007",
+          "D009-b0008"
+        ]
+      }
+    },
+    {
+      "page": 140,
+      "reason": "khanda3-intro",
+      "map": {
+        "physicalPage": 140,
+        "type": "khanda_intro",
+        "key": "D010",
+        "khanda": "તૃતીય ખંડ: વ્યવહાર નય",
+        "sourceIds": [
+          "D010-b0001",
+          "D010-b0002",
+          "D010-b0003",
+          "D010-b0004",
+          "D010-b0005",
+          "D010-b0006",
+          "D010-b0007",
+          "D010-b0008"
+        ]
+      }
+    },
+    {
+      "page": 620,
+      "reason": "longtitle-even",
+      "map": {
+        "physicalPage": 620,
+        "type": "chapter",
+        "key": "K03_C120",
+        "khanda": "તૃતીય ખંડ: વ્યવહાર નય",
+        "sourceIds": [
+          "K03_C120-meta-category",
+          "K03_C120-title",
+          "K03_C120-meta-original",
+          "K03_C120-sutra",
+          "K03_C120-tattva-1-heading",
+          "K03_C120-tattva-1-subtitle",
+          "K03_C120-tattva-1-body-1"
+        ]
+      }
+    },
+    {
+      "page": 621,
+      "reason": "longtitle-odd",
+      "map": {
+        "physicalPage": 621,
+        "type": "chapter",
+        "key": "K03_C120",
+        "khanda": "તૃતીય ખંડ: વ્યવહાર નય",
+        "sourceIds": [
+          "K03_C120-tattva-2-heading",
+          "K03_C120-tattva-2-subtitle",
+          "K03_C120-tattva-2-body-1",
+          "K03_C120-tattva-3-heading",
+          "K03_C120-tattva-3-subtitle",
+          "K03_C120-tattva-3-body-1",
+          "K03_C120-tattva-3-body-2",
+          "K03_C120-tattva-3-body-3",
+          "K03_C120-tattva-4-heading",
+          "K03_C120-tattva-4-subtitle",
+          "K03_C120-tattva-4-body-1",
+          "K03_C120-poem",
+          "K03_C120-practice"
+        ]
+      }
+    },
+    {
+      "page": 622,
+      "reason": "longtitle-continuation",
+      "map": {
+        "physicalPage": 622,
+        "type": "chapter",
+        "key": "K03_C120",
+        "khanda": "તૃતીય ખંડ: વ્યવહાર નય",
+        "sourceIds": [
+          "K03_C120-story-title",
+          "K03_C120-pipasa-1",
+          "K03_C120-paan-1"
+        ]
+      }
+    },
+    {
+      "page": 674,
+      "reason": "khanda4-intro",
+      "map": {
+        "physicalPage": 674,
+        "type": "khanda_intro",
+        "key": "D011",
+        "khanda": "ચતુર્થ ખંડ: ઋજુસૂત્ર નય",
+        "sourceIds": [
+          "D011-b0001",
+          "D011-b0002",
+          "D011-b0003",
+          "D011-b0004",
+          "D011-b0005",
+          "D011-b0006",
+          "D011-b0007",
+          "D011-b0008"
+        ]
+      }
+    },
+    {
+      "page": 750,
+      "reason": "khanda5-intro",
+      "map": {
+        "physicalPage": 750,
+        "type": "khanda_intro",
+        "key": "D012",
+        "khanda": "પંચમ ખંડ: શબ્દ નય",
+        "sourceIds": [
+          "D012-b0001",
+          "D012-b0002",
+          "D012-b0003",
+          "D012-b0004",
+          "D012-b0005",
+          "D012-b0006",
+          "D012-b0007",
+          "D012-b0008"
+        ]
+      }
+    },
+    {
+      "page": 752,
+      "reason": "khanda5-balanced",
+      "map": {
+        "physicalPage": 752,
+        "type": "khanda_intro",
+        "key": "D012",
+        "khanda": "પંચમ ખંડ: શબ્દ નય",
+        "sourceIds": [
+          "D012-b0018",
+          "D012-b0019",
+          "D012-b0020",
+          "D012-b0021",
+          "D012-b0022"
+        ]
+      }
+    },
+    {
+      "page": 786,
+      "reason": "khanda6-intro",
+      "map": {
+        "physicalPage": 786,
+        "type": "khanda_intro",
+        "key": "D013",
+        "khanda": "ષષ્ઠ ખંડ: સમભિરૂઢ નય",
+        "sourceIds": [
+          "D013-b0001",
+          "D013-b0002",
+          "D013-b0003",
+          "D013-b0004",
+          "D013-b0005",
+          "D013-b0006",
+          "D013-b0007",
+          "D013-b0008",
+          "D013-b0009"
+        ]
+      }
+    },
+    {
+      "page": 834,
+      "reason": "khanda7-intro",
+      "map": {
+        "physicalPage": 834,
+        "type": "khanda_intro",
+        "key": "D014",
+        "khanda": "સપ્તમ ખંડ: એવંભૂત નય",
+        "sourceIds": [
+          "D014-b0001",
+          "D014-b0002",
+          "D014-b0003",
+          "D014-b0004",
+          "D014-b0005",
+          "D014-b0006",
+          "D014-b0007",
+          "D014-b0008"
+        ]
+      }
+    },
+    {
+      "page": 839,
+      "reason": "navigation",
+      "map": {
+        "physicalPage": 839,
+        "type": "navigation",
+        "key": "NAV-K07_C001",
+        "khanda": "સપ્તમ ખંડ: એવંભૂત નય",
+        "sourceIds": []
+      }
+    },
+    {
+      "page": 980,
+      "reason": "appendix-intro",
+      "map": {
+        "physicalPage": 980,
+        "type": "appendix",
+        "key": "D015",
+        "khanda": "પરિશિષ્ટ વિભાગ : સંદર્ભ, વિશ્લેષણ અને સમન્વય દર્શન",
+        "sourceIds": [
+          "D015-b0001",
+          "D015-b0002",
+          "D015-b0003",
+          "D015-b0004",
+          "D015-b0005",
+          "D015-b0006",
+          "D015-b0007",
+          "D015-b0008"
+        ]
+      }
+    },
+    {
+      "page": 983,
+      "reason": "appendix1-table",
+      "map": {
+        "physicalPage": 983,
+        "type": "appendix",
+        "key": "D016",
+        "khanda": "પરિશિષ્ટ ૧: દર્શન-મહાસમન્વય કોષ્ટક અને તુલનાત્મક જ્ઞાનમીમાંસા",
+        "sourceIds": [
+          "D016-b0001",
+          "D016-b0002",
+          "D016-b0003",
+          "D016-b0004",
+          "D016-b0005",
+          "D016-b0006",
+          "D016-b0007",
+          "D016-b0008",
+          "D016-b0009"
+        ]
+      }
+    },
+    {
+      "page": 995,
+      "reason": "appendix2",
+      "map": {
+        "physicalPage": 995,
+        "type": "appendix",
+        "key": "D017",
+        "khanda": "પરિશિષ્ટ ૨: આગમિક મૂળ આધાર-સૂત્રો અને શાસ્ત્રીય પરિભાષા",
+        "sourceIds": [
+          "D017-b0001",
+          "D017-b0002",
+          "D017-b0003",
+          "D017-b0004",
+          "D017-b0005",
+          "D017-b0006",
+          "D017-b0007",
+          "D017-b0008",
+          "D017-b0009",
+          "D017-b0010",
+          "D017-b0011",
+          "D017-b0012",
+          "D017-b0013",
+          "D017-b0014",
+          "D017-b0015"
+        ]
+      }
+    },
+    {
+      "page": 1000,
+      "reason": "appendix3-table",
+      "map": {
+        "physicalPage": 1000,
+        "type": "appendix",
+        "key": "D018",
+        "khanda": "પરિશિષ્ટ ૩: સપ્તનય અને ૨૦૩ નયોનું પારિભાષિક વર્ગીકરણ (પારિવારિક માળખું)",
+        "sourceIds": [
+          "D018-b0001",
+          "D018-b0002",
+          "D018-b0003",
+          "D018-b0004",
+          "D018-b0005",
+          "D018-b0006",
+          "D018-b0007",
+          "D018-b0008",
+          "D018-b0009"
+        ]
+      }
+    },
+    {
+      "page": 1005,
+      "reason": "appendix4-table",
+      "map": {
+        "physicalPage": 1005,
+        "type": "appendix",
+        "key": "D019",
+        "khanda": "પરિશિષ્ટ ૪: વ્યવહારિક જીવન, મનોવિજ્ઞાન અને સંઘર્ષ-નિવારણ વિનિયોગ સૂચિ",
+        "sourceIds": [
+          "D019-b0001",
+          "D019-b0002",
+          "D019-b0003",
+          "D019-b0004",
+          "D019-b0005",
+          "D019-b0006",
+          "D019-b0007",
+          "D019-b0008",
+          "D019-b0009",
+          "D019-b0010",
+          "D019-b0011",
+          "D019-b0012",
+          "D019-b0013",
+          "D019-b0014"
+        ]
+      }
+    },
+    {
+      "page": 1009,
+      "reason": "appendix5",
+      "map": {
+        "physicalPage": 1009,
+        "type": "appendix",
+        "key": "D020",
+        "khanda": "પરિશિષ્ટ ૫: સાધનાધારા અને આધ્યાત્મિક સ્વાનુભૂતિ નિર્દેશિકા",
+        "sourceIds": [
+          "D020-b0001",
+          "D020-b0002",
+          "D020-b0003",
+          "D020-b0004",
+          "D020-b0005",
+          "D020-b0006",
+          "D020-b0007"
+        ]
+      }
+    },
+    {
+      "page": 1012,
+      "reason": "appendix6",
+      "map": {
+        "physicalPage": 1012,
+        "type": "appendix",
+        "key": "D021",
+        "khanda": "પરિશિષ્ટ ૬: રૂપક, દૃષ્ટાંત અને નવલિકા પ્રતીક-સૂચિ",
+        "sourceIds": [
+          "D021-b0001",
+          "D021-b0002",
+          "D021-b0003",
+          "D021-b0004",
+          "D021-b0005",
+          "D021-b0006",
+          "D021-b0007",
+          "D021-b0008",
+          "D021-b0009"
+        ]
+      }
+    },
+    {
+      "page": 1015,
+      "reason": "appendix7",
+      "map": {
+        "physicalPage": 1015,
+        "type": "appendix",
+        "key": "D022",
+        "khanda": "પરિશિષ્ટ ૭: વિવેકધારા — સપ્ત નયાભાસ અને અનેકાંત સમાધાન માર્ગદર્શિકા",
+        "sourceIds": [
+          "D022-b0001",
+          "D022-b0002",
+          "D022-b0003",
+          "D022-b0004",
+          "D022-b0005",
+          "D022-b0006",
+          "D022-b0007",
+          "D022-b0008"
+        ]
+      }
+    },
+    {
+      "page": 1019,
+      "reason": "appendix8",
+      "map": {
+        "physicalPage": 1019,
+        "type": "appendix",
+        "key": "D023",
+        "khanda": "પરિશિષ્ટ ૮: જૈન જ્ઞાનમીમાંસા અને નયશાસ્ત્રનો પારિભાષિક શબ્દકોશ",
+        "sourceIds": [
+          "D023-b0001",
+          "D023-b0002",
+          "D023-b0003",
+          "D023-b0004",
+          "D023-b0005",
+          "D023-b0006",
+          "D023-b0007",
+          "D023-b0008",
+          "D023-b0009",
+          "D023-b0010",
+          "D023-b0011",
+          "D023-b0012",
+          "D023-b0013"
+        ]
+      }
+    },
+    {
+      "page": 1021,
+      "reason": "penultimate",
+      "map": {
+        "physicalPage": 1021,
+        "type": "appendix",
+        "key": "D023",
+        "khanda": "પરિશિષ્ટ ૮: જૈન જ્ઞાનમીમાંસા અને નયશાસ્ત્રનો પારિભાષિક શબ્દકોશ",
+        "sourceIds": [
+          "D023-b0030",
+          "D023-b0031",
+          "D023-b0032",
+          "D023-b0033",
+          "D023-b0034",
+          "D023-b0035",
+          "D023-b0036",
+          "D023-b0037",
+          "D023-b0038",
+          "D023-b0039",
+          "D023-b0040",
+          "D023-b0041",
+          "D023-b0042",
+          "D023-b0043",
+          "D023-b0044",
+          "D023-b0045",
+          "D023-b0046",
+          "D023-b0047",
+          "D023-b0048"
+        ]
+      }
+    },
+    {
+      "page": 1022,
+      "reason": "last",
+      "map": {
+        "physicalPage": 1022,
+        "type": "appendix",
+        "key": "D023",
+        "khanda": "પરિશિષ્ટ ૮: જૈન જ્ઞાનમીમાંસા અને નયશાસ્ત્રનો પારિભાષિક શબ્દકોશ",
+        "sourceIds": [
+          "D023-b0049",
+          "D023-b0050",
+          "D023-b0051",
+          "D023-b0052",
+          "D023-b0053",
+          "D023-b0054",
+          "D023-b0055"
+        ]
+      }
+    }
+  ],
+  "all_chart_pages": [
+    24,
+    37,
+    38,
+    41,
+    45,
+    48,
+    50,
+    54,
+    81,
+    141,
+    675,
+    751,
+    787,
+    836,
+    1000,
+    1009
+  ],
+  "render_pages": [
+    1,
+    2,
+    3,
+    12,
+    21,
+    22,
+    24,
+    32,
+    35,
+    37,
+    38,
+    41,
+    45,
+    48,
+    50,
+    52,
+    53,
+    54,
+    57,
+    58,
+    59,
+    60,
+    80,
+    81,
+    140,
+    141,
+    620,
+    621,
+    622,
+    674,
+    675,
+    750,
+    751,
+    752,
+    786,
+    787,
+    834,
+    836,
+    839,
+    980,
+    983,
+    995,
+    1000,
+    1005,
+    1009,
+    1012,
+    1015,
+    1019,
+    1021,
+    1022
+  ]
+}

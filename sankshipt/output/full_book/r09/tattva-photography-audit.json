@@ -1,0 +1,65 @@
+[
+  {
+    "page": 53,
+    "fit": "cover",
+    "dpi": 370,
+    "widthMm": 138.6,
+    "heightMm": 52,
+    "frameHeightMm": 52,
+    "footerGapMm": 3.89
+  },
+  {
+    "page": 69,
+    "fit": "cover",
+    "dpi": 301,
+    "widthMm": 124.64,
+    "heightMm": 88.12,
+    "frameHeightMm": 98,
+    "footerGapMm": 8.76
+  },
+  {
+    "page": 101,
+    "fit": "cover",
+    "dpi": 301,
+    "widthMm": 118.31,
+    "heightMm": 93.89,
+    "frameHeightMm": 110,
+    "footerGapMm": 12.13
+  },
+  {
+    "page": 371,
+    "fit": "cover",
+    "dpi": 352,
+    "widthMm": 138.6,
+    "heightMm": 58,
+    "frameHeightMm": 58,
+    "footerGapMm": 3.6
+  },
+  {
+    "page": 411,
+    "fit": "cover",
+    "dpi": 334,
+    "widthMm": 138.6,
+    "heightMm": 63,
+    "frameHeightMm": 63,
+    "footerGapMm": 4.31
+  },
+  {
+    "page": 431,
+    "fit": "cover",
+    "dpi": 301,
+    "widthMm": 132.65,
+    "heightMm": 84.22,
+    "frameHeightMm": 88,
+    "footerGapMm": 5.65
+  },
+  {
+    "page": 457,
+    "fit": "cover",
+    "dpi": 301,
+    "widthMm": 131.3,
+    "heightMm": 84.31,
+    "frameHeightMm": 89,
+    "footerGapMm": 6.33
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "valid": true,
+  "path": "D:\\PROJECT_WORK\\NayaPrakash_Book\\Image\\khanda-tattva\\0053-20261108144630.png",
+  "sha256": "adbc369e5d6a077577f2f7a0ad551a267384939685e52a6b78e1041d70574fe3",
+  "width_px": 1983,
+  "height_px": 793,
+  "dark_fraction": 0.0582142409726051,
+  "white_fraction": 0.9417857590273949,
+  "corner_values": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "effective_dpi": 373.09777777777776,
+  "exact_duplicates": [],
+  "likely_perceptual_duplicates": [],
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,81 @@
+{
+  "titleAndMangalFlexComposition": true,
+  "changes": [
+    {
+      "key": "D008",
+      "pages": [
+        53,
+        54,
+        55
+      ],
+      "before": [
+        0.9115347798340778,
+        0.9016632099553287,
+        0.17481652839821316
+      ],
+      "after": [
+        0.6974912252712189,
+        0.6630504148053605,
+        0.6274728781110402
+      ],
+      "reason": "Balanced source blocks across existing last three intro pages; keeps even chapter start without blank padding"
+    },
+    {
+      "key": "D009",
+      "pages": [
+        69,
+        70,
+        71
+      ],
+      "before": [
+        0.972220006381621,
+        0.9127512763241863,
+        0.17481652839821316
+      ],
+      "after": [
+        0.7729140076579452,
+        0.685226547543076,
+        0.6016472559029994
+      ],
+      "reason": "Balanced source blocks across existing last three intro pages; keeps even chapter start without blank padding"
+    },
+    {
+      "key": "D011",
+      "pages": [
+        371,
+        372,
+        373
+      ],
+      "before": [
+        0.960314294830887,
+        0.8500319081046586,
+        0.17481652839821316
+      ],
+      "after": [
+        0.7610082961072112,
+        0.6225271218889598,
+        0.601667198468411
+      ],
+      "reason": "Balanced source blocks across existing last three intro pages; keeps even chapter start without blank padding"
+    },
+    {
+      "key": "D013",
+      "pages": [
+        431,
+        432,
+        433
+      ],
+      "before": [
+        0.9753509891512444,
+        0.9718410976388002,
+        0.17481652839821316
+      ],
+      "after": [
+        0.9014837268666241,
+        0.6446633694958519,
+        0.5758216336949585
+      ],
+      "reason": "Balanced source blocks across existing last three intro pages; keeps even chapter start without blank padding"
+    }
+  ]
+}
